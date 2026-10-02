@@ -1,0 +1,4 @@
+backbone,input_width,raw_tokens,adapter_parameters,scorer_frozen,same_scorer,N,accuracy_pct,zero_visual,random_adapter,linear_adapter,semantic_pair,source,source_sha256
+SigLIP2,768,196,3418112,True,True,80,86.25,,,,,experiments/results/backbone_generality/siglip2/results.json,bdd0e272ebbed0f34e221870c99efcbcdf6d62dee088643a622c16ee0f43fe60
+InternVL3.5,1024,1025,3680768,True,True,80,88.75,,,,,experiments/results/backbone_generality/internvl/results.json,d291e5694b2d1d8f04e566f2bc3575b180dd133bdee7ab4a58e817ca2e3c9073
+LLaVA-OneVision,1152,1458/2187/3645,3812096,True,True,80,87.5,,,,,experiments/results/backbone_generality/llava/results.json,7a5d6f5637cbfc7ce10112ea6a27fd36d6f834ad7b26018ced1a8e41ee3b96b3

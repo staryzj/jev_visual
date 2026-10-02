@@ -13,9 +13,23 @@ Visual-JEV is a research extension of [Open-Jev](https://github.com/Zefan-Cai/Op
 
 See [BENCHMARK_PROTOCOL.md](BENCHMARK_PROTOCOL.md) and [backbone protocol/next steps](reports/backbone-adaptation-v6/PROTOCOL_AND_NEXT_STEPS.md).
 
-The research claim is an explicit, inspectable visual-to-decision interface. The present records do not establish leaderboard superiority, universal backbone compatibility, matched end-to-end speedups, or beneficial visual dependence for the target-adapter study.
+The primary research question is whether different frozen visual backbones, through their own small adapters, can drive **the same frozen external JEV scorer**. The present records establish recorded functional reuse, not leaderboard superiority, universal backbone compatibility, matched end-to-end speedups, or beneficial visual dependence. Official Visual Jev has a different head/training protocol and is a background reference system, not the primary performance opponent.
 
-## Recorded complete-split results
+## Primary experiment: adapter-only reuse of one frozen scorer
+
+| Target visual encoder | Custom held-out N | Original accuracy (%) | Blank-image accuracy (%) |
+|---|---:|---:|---:|
+| SigLIP2 | 80 | 86.25 | 86.25 |
+| InternVL3.5 | 80 | 88.75 | 90.00 |
+| LLaVA-OneVision | 80 | 87.50 | 88.75 |
+
+Only the target alignment adapter is trained; the external scorer and cached Qwen text path are fixed. Original images do not outperform blank controls in any row. These custom subset results are preliminary functional-reuse evidence, not official full-test performance. The source scorer SHA256 is `8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad`.
+
+The V7 manuscript allocates evidence to (1) cross-backbone adaptation, (2) adapter controls, (3) visual dependence across backbones, and (4) secondary dataset transfer. Its complete Official Visual Jev matched comparison belongs only in Supplement Table S1. Historical official/custom records remain in this repository for inspection, without merging them into the primary experiment.
+
+See [V7 core table CSV](reports/frozen-scorer-v7/core_backbone_table.csv), [table summary](reports/frozen-scorer-v7/core_backbone_table.md), [source hashes](reports/frozen-scorer-v7/table_sources.json), and [revision/evidence audit](reports/frozen-scorer-v7/REVISION_AUDIT.md). Qwen accuracy on the identical 80-example subset, zero aligned tokens, random adapters, trained linear adapters and verified target-backbone semantic pairs are unmeasured; their table cells stay `--` (empty fields in CSV exports). Blank photographs are not zero-token controls. Source hashes in this V7 report identify original local result files; the aggregate exports expose those identities in `public_export_metadata`, while `PUBLICATION_MANIFEST.json` also identifies the exported bytes.
+
+## Secondary evidence: recorded complete-split results
 
 These scores are rounded from each dataset's actual `experiments/results/submission_full/<dataset>/result.json`. They use the fixed controlled-COCO checkpoint with SHA256:
 
@@ -34,21 +48,7 @@ The total is 21,742 task instances, not a pooled accuracy denominator. SugarCrep
 
 Incomplete GQA, SNLI-VE, TextVQA, TallyQA, NLVR2 and Winoground measurements are not reported as completed results. Current resource/status records and exact follow-up commands belong in the engineering inventory, not a performance claim.
 
-## Recorded target-backbone study
-
-Base scorer checkpoint SHA256:
-
-`8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad`
-
-| Target visual encoder | Custom held-out N | Original accuracy (%) | Blank-image accuracy (%) |
-|---|---:|---:|---:|
-| SigLIP2 | 80 | 86.25 | 86.25 |
-| InternVL3.5 | 80 | 88.75 | 90.00 |
-| LLaVA-OneVision | 80 | 87.50 | 88.75 |
-
-Only the target alignment adapter is trained; the external scorer and cached Qwen text path are fixed. The original image does not outperform blank controls in any row. Consequently these results establish recorded execution/reuse, not useful visual contribution. Historical wrong-image shifts are not verified semantic counterfactuals. Same-protocol Qwen, zero-token, random-adapter and trained-linear baseline scores are unmeasured.
-
-See `reports/backbone-adaptation-v6/audit.json`, `backbone_tables.csv`, and the original `experiments/results/backbone_generality/<backbone>/results.json`. The audit does not invent a post-training scorer snapshot or claim historical prediction-level IDs were saved.
+The frozen-head identity audit remains in `reports/backbone-adaptation-v6/audit.json`; target records are at `experiments/results/backbone_generality/<backbone>/results.json`. Historical wrong-image shifts are not verified semantic counterfactuals. The audit does not invent a post-training scorer snapshot or claim historical prediction-level IDs were saved.
 
 ## Code map
 
@@ -66,6 +66,8 @@ See `reports/backbone-adaptation-v6/audit.json`, `backbone_tables.csv`, and the 
 | `scripts/audit_backbone_adaptation.py` | Existing checkpoint/adapter provenance audit |
 | `scripts/generate_submission_tables.py` | Result-backed CSV, Markdown and LaTeX benchmark/diagnostic tables |
 | `scripts/build_backbone_paper_tables.py` | Two target-backbone tables from audited real result records |
+| `scripts/build_frozen_scorer_paper_tables.py` | V7 primary/control tables from the three real target-backbone results; unmeasured controls remain missing |
+| `scripts/verify_publication.py` | Read-only publication hashes, full-split prediction coverage and V7 source/score consistency |
 | `tests/test_submission_benchmarks.py` | Protocol guards, official scoring and complete-denominator tests |
 
 ## Environment and installation
@@ -117,7 +119,7 @@ Original benchmark images, question/answer corpora, candidate caches, feature te
 
 Historical matched/custom logs containing source examples are published only as explicit aggregate exports: each file's `public_export_metadata` lists omitted fields and the original file SHA256. Retained metric fields are unchanged; exported file bytes/hashes are different from the originals and must not be confused with them. `PUBLICATION_MANIFEST.json` maps the source and export hashes separately. These historical aggregates cannot reconstruct deleted examples or repair absent historical prediction-level provenance. Dataset metadata snapshots are under `release_metadata/benchmarks/`; they document acquisition status and source identities, not redistributed datasets. Table regeneration still needs the original local candidate manifests to verify their hashes.
 
-See [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) for the exact publication boundary. A 37-test protocol/scorer/history/statistics smoke suite passed in the clean publication checkout; it does not rerun the benchmark inference or validate scientific superiority.
+See [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) for the exact publication boundary. A 39-test protocol/scorer/history/statistics/table-export smoke suite passed in the clean publication checkout; it does not rerun the benchmark inference or validate scientific superiority.
 
 ## Tests and result generation
 
@@ -125,9 +127,11 @@ See [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) for the exact publication bound
 .venv/bin/python -m pytest -q tests/test_submission_benchmarks.py
 .venv/bin/python scripts/audit_backbone_adaptation.py
 .venv/bin/python scripts/build_backbone_paper_tables.py --paper /path/to/paper
+.venv/bin/python scripts/build_frozen_scorer_paper_tables.py --paper /path/to/paper
+.venv/bin/python scripts/verify_publication.py
 ```
 
-The audit needs the exact local checkpoint/adapter tensors and manifest files. The table builder uses existing result JSON, not synthetic data. Unmeasured cells remain `--`.
+The checkpoint audit needs exact local checkpoint/adapter tensors and manifest files. Table builders need an existing paper directory with `tables/submission/`; they use existing result JSON, not synthetic data. Unmeasured cells remain `--`. Publication verification needs neither model weights nor GPU inference. Rebuilding V7 tables from public aggregate exports preserves the original-source identities declared in their embedded metadata; exported byte hashes remain separately recorded in the publication manifest.
 
 ## Attribution and licenses
 

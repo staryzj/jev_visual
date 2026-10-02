@@ -110,10 +110,10 @@ def main():
     for path in sorted((ROOT / 'jev').glob('*.py')):
         copy(path.relative_to(ROOT).as_posix())
     for path in sorted((ROOT / 'scripts').iterdir()):
-        if path.is_file() and path.suffix in ('.py', '.sh') and (SCRIPT_PATTERN.search(path.name) or path.name in ('diagnose_jev_text.py', 'make_server_bundle.py', 'verify_publication.py')):
+        if path.is_file() and path.suffix in ('.py', '.sh') and (SCRIPT_PATTERN.search(path.name) or path.name in ('diagnose_jev_text.py', 'make_server_bundle.py', 'verify_publication.py', 'build_frozen_scorer_paper_tables.py')):
             copy(path.relative_to(ROOT).as_posix())
     for path in sorted((ROOT / 'tests').glob('test_*.py')):
-        if re.search(r'visual|vl_|benchmark_feature|calibration|conversation|hf_vision|independent|multidomain|vision_backend|submission|serving', path.name):
+        if re.search(r'visual|vl_|benchmark_feature|calibration|conversation|hf_vision|independent|multidomain|vision_backend|submission|serving|frozen_scorer', path.name):
             copy(path.relative_to(ROOT).as_posix())
     for name in ('visual_jev_v3_paper.json', 'vl-research-matrix.json', 'vl-test-request.json'):
         copy('configs/' + name)
@@ -154,6 +154,8 @@ def main():
         copy('reports/backbone-adaptation-v6/' + name)
     for name in ('REFERENCE_ALIGNMENT.md', 'additional_references.bib'):
         copy('reports/reference-alignment-v6/' + name)
+    for name in ('core_backbone_table.csv', 'core_backbone_table.md', 'table_sources.json', 'REVISION_AUDIT.md', 'qa_v7.py'):
+        copy('reports/frozen-scorer-v7/' + name)
     for path in sorted((ROOT / 'data/submission_benchmarks').glob('*/manifest.json')):
         relative = path.relative_to(ROOT).as_posix()
         copy(relative, 'release_metadata/benchmarks/' + path.parent.name + '/manifest.json')

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "experiments/results/backbone_generality/siglip2/results.json",
+    "sha256": "bdd0e272ebbed0f34e221870c99efcbcdf6d62dee088643a622c16ee0f43fe60",
+    "base_checkpoint_sha256": "8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad"
+  },
+  {
+    "path": "experiments/results/backbone_generality/internvl/results.json",
+    "sha256": "d291e5694b2d1d8f04e566f2bc3575b180dd133bdee7ab4a58e817ca2e3c9073",
+    "base_checkpoint_sha256": "8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad"
+  },
+  {
+    "path": "experiments/results/backbone_generality/llava/results.json",
+    "sha256": "7a5d6f5637cbfc7ce10112ea6a27fd36d6f834ad7b26018ced1a8e41ee3b96b3",
+    "base_checkpoint_sha256": "8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad"
+  }
+]

@@ -14,18 +14,18 @@
     {
       "path": "README.md",
       "source_path": "README_VISUAL_JEV.md",
-      "source_sha256": "fab2277eadea67c1e011dc1294934a04e3bf2d4c18dfea73ce6bdba24c652b4c",
-      "exported_sha256": "fab2277eadea67c1e011dc1294934a04e3bf2d4c18dfea73ce6bdba24c652b4c",
-      "bytes": 11679,
+      "source_sha256": "49730596c1d910b6c65f6e054d2b3db546c0fa99cf40ba152a064387fd0aa980",
+      "exported_sha256": "49730596c1d910b6c65f6e054d2b3db546c0fa99cf40ba152a064387fd0aa980",
+      "bytes": 13804,
       "mode": "byte-identical",
       "omitted_fields": []
     },
     {
       "path": "README_VISUAL_JEV.md",
       "source_path": "README_VISUAL_JEV.md",
-      "source_sha256": "fab2277eadea67c1e011dc1294934a04e3bf2d4c18dfea73ce6bdba24c652b4c",
-      "exported_sha256": "fab2277eadea67c1e011dc1294934a04e3bf2d4c18dfea73ce6bdba24c652b4c",
-      "bytes": 11679,
+      "source_sha256": "49730596c1d910b6c65f6e054d2b3db546c0fa99cf40ba152a064387fd0aa980",
+      "exported_sha256": "49730596c1d910b6c65f6e054d2b3db546c0fa99cf40ba152a064387fd0aa980",
+      "bytes": 13804,
       "mode": "byte-identical",
       "omitted_fields": []
     },
@@ -921,6 +921,15 @@
       "omitted_fields": []
     },
     {
+      "path": "scripts/build_frozen_scorer_paper_tables.py",
+      "source_path": "scripts/build_frozen_scorer_paper_tables.py",
+      "source_sha256": "b18533f225d1c418c825cdcfd319d993fd10d1e92a5e4916edce4db3c17e2d22",
+      "exported_sha256": "b18533f225d1c418c825cdcfd319d993fd10d1e92a5e4916edce4db3c17e2d22",
+      "bytes": 5634,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
       "path": "scripts/continue_visual_jev_independent_full.sh",
       "source_path": "scripts/continue_visual_jev_independent_full.sh",
       "source_sha256": "749eb263a9fc72f269ca752ff73bf18b6e73ad2b386d560b802e9fdb323c5957",
@@ -959,9 +968,9 @@
     {
       "path": "scripts/export_github_release.py",
       "source_path": "scripts/export_github_release.py",
-      "source_sha256": "68eaf8d63a80a03ec265273cd4a5111e3c7460b0ecd7dc2b8b4eab530a110017",
-      "exported_sha256": "68eaf8d63a80a03ec265273cd4a5111e3c7460b0ecd7dc2b8b4eab530a110017",
-      "bytes": 10083,
+      "source_sha256": "8741806170851fdaf2d07ee5a9b1f49feb6f61ecfbf290e5d8e5ba0bc0f61624",
+      "exported_sha256": "8741806170851fdaf2d07ee5a9b1f49feb6f61ecfbf290e5d8e5ba0bc0f61624",
+      "bytes": 10311,
       "mode": "byte-identical",
       "omitted_fields": []
     },
@@ -1229,9 +1238,9 @@
     {
       "path": "scripts/verify_publication.py",
       "source_path": "scripts/verify_publication.py",
-      "source_sha256": "0634070fea3d1d66502c243005e54bbaddb5d1fe7f835bffff8bd670dd2223c7",
-      "exported_sha256": "0634070fea3d1d66502c243005e54bbaddb5d1fe7f835bffff8bd670dd2223c7",
-      "bytes": 2162,
+      "source_sha256": "a7098267a5b4306dccc0a8e1c302524610ab89f7c302ce8a003d8f13fa21accd",
+      "exported_sha256": "a7098267a5b4306dccc0a8e1c302524610ab89f7c302ce8a003d8f13fa21accd",
+      "bytes": 3571,
       "mode": "byte-identical",
       "omitted_fields": []
     },
@@ -1277,6 +1286,15 @@
       "source_sha256": "07721f22385af0f570153cc6a3f68fdd81475013e830f679307584188f2c7fb2",
       "exported_sha256": "07721f22385af0f570153cc6a3f68fdd81475013e830f679307584188f2c7fb2",
       "bytes": 4575,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
+      "path": "tests/test_frozen_scorer_tables.py",
+      "source_path": "tests/test_frozen_scorer_tables.py",
+      "source_sha256": "b84e94bbde8e2611f2fd09f1baee7180f8fe9c8da24fd7e4e8cbf22a2b9e4383",
+      "exported_sha256": "b84e94bbde8e2611f2fd09f1baee7180f8fe9c8da24fd7e4e8cbf22a2b9e4383",
+      "bytes": 2752,
       "mode": "byte-identical",
       "omitted_fields": []
     },
@@ -2270,6 +2288,51 @@
       "source_sha256": "55ba29061ba0c064cd3843db1617e8419a317ace86d1be5eaa93a036787c8a52",
       "exported_sha256": "55ba29061ba0c064cd3843db1617e8419a317ace86d1be5eaa93a036787c8a52",
       "bytes": 261,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
+      "path": "reports/frozen-scorer-v7/core_backbone_table.csv",
+      "source_path": "reports/frozen-scorer-v7/core_backbone_table.csv",
+      "source_sha256": "00016a153cd834279538f0da9c9f17f199c21170f678cb8e4d96437ebe1cdf3f",
+      "exported_sha256": "00016a153cd834279538f0da9c9f17f199c21170f678cb8e4d96437ebe1cdf3f",
+      "bytes": 716,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
+      "path": "reports/frozen-scorer-v7/core_backbone_table.md",
+      "source_path": "reports/frozen-scorer-v7/core_backbone_table.md",
+      "source_sha256": "88eca03446e9150954ef948c0c7cb3a77d1d64f1f4bbca4252054cd2355d1447",
+      "exported_sha256": "88eca03446e9150954ef948c0c7cb3a77d1d64f1f4bbca4252054cd2355d1447",
+      "bytes": 348,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
+      "path": "reports/frozen-scorer-v7/table_sources.json",
+      "source_path": "reports/frozen-scorer-v7/table_sources.json",
+      "source_sha256": "e6f988c3c144e84b87633b40379fec6d94d045db77189f1ec88878bfd61f9fad",
+      "exported_sha256": "e6f988c3c144e84b87633b40379fec6d94d045db77189f1ec88878bfd61f9fad",
+      "bytes": 811,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
+      "path": "reports/frozen-scorer-v7/REVISION_AUDIT.md",
+      "source_path": "reports/frozen-scorer-v7/REVISION_AUDIT.md",
+      "source_sha256": "23e0352ea6ee666ce64c002100d58264b6fcbe3713ef0e06a97c5f06c2fd3f48",
+      "exported_sha256": "23e0352ea6ee666ce64c002100d58264b6fcbe3713ef0e06a97c5f06c2fd3f48",
+      "bytes": 4856,
+      "mode": "byte-identical",
+      "omitted_fields": []
+    },
+    {
+      "path": "reports/frozen-scorer-v7/qa_v7.py",
+      "source_path": "reports/frozen-scorer-v7/qa_v7.py",
+      "source_sha256": "4ab658e068d0a180583aa35df0b4943e994de66d543c732822b009e7c81b8e49",
+      "exported_sha256": "4ab658e068d0a180583aa35df0b4943e994de66d543c732822b009e7c81b8e49",
+      "bytes": 5084,
       "mode": "byte-identical",
       "omitted_fields": []
     },

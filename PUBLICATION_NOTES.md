@@ -23,11 +23,34 @@ Exact checkpoint-dependent inference reproduction remains incomplete without the
 
 SugarCrepe++ is a released evaluation suite stored under the HF `train` split, not a true test split. A-OKVQA is validation. IconQA covers its native text-choice test task, not all IconQA tasks. No pooled accuracy is calculated across these tasks. Missing/gated datasets are metadata gaps, not completed measurements.
 
-## Verification performed on this checkout
+## V7 evidence-allocation update
+
+The refreshed README leads with backbone-specific adapters driving the same
+frozen external scorer. Dataset transfer remains secondary and uses its own
+checkpoint. Official Visual Jev matched comparisons remain historical
+reference records; the V7 manuscript locates their complete table in a separate
+Supplement. They are not primary cross-backbone evidence.
+
+The update adds `scripts/build_frozen_scorer_paper_tables.py` and
+`reports/frozen-scorer-v7/`: numeric source CSV/Markdown, original result
+hashes, revision audit and manuscript QA source. The QA source requires the
+separate V6/V7 manuscript directories and compiled PDFs; this code/results
+repository does not include those manuscript assets. The original-source
+hashes in the V7 reports match aggregate-export metadata, not exported JSON
+bytes. The publication validator checks both identities and recorded scores.
+Zero/random/linear/semantic-pair controls remain unmeasured. Existing six
+complete-split prediction files and numerical results are unchanged.
+
+This refresh reruns publication validation and unit checks, not training or
+benchmark inference. It updates corresponding files by a normal Git commit,
+preserving previous published history. No force push, raw-data release or
+checkpoint redistribution is involved.
+
+## Release validation
 
 The export checked full prediction SHA256, unique UIDs and complete counts, allowed field names, credential-pattern matches and file-size limits. This is a bounded release preflight, not an absolute security/privacy certification or a journal-submission compliance certificate.
 
-37 unit tests passed for complete-split protocol guards, VisualJEVV3 scorer/pipeline, conversation routing and independent-statistics helpers. GPU benchmark inference and training were not rerun during publication.
+39 unit tests passed for complete-split protocol guards, VisualJEVV3 scorer/pipeline, conversation routing, independent-statistics helpers and canonical-source identity/missing-control table exports. GPU benchmark inference and training were not rerun during publication.
 
 Run `python scripts/verify_publication.py` for the standalone read-only checksum, prediction-count and table-denominator audit; no GPU, checkpoints or source benchmark images are needed for that audit.
 
