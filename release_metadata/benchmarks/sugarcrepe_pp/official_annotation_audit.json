@@ -1,0 +1,35 @@
+{
+  "repository_revision": "c083bbf039a5ca215acaf25e7ee736d2ea6f3864",
+  "files": [
+    {
+      "source": "https://raw.githubusercontent.com/Sri-Harsha/scpp/c083bbf039a5ca215acaf25e7ee736d2ea6f3864/data/replace_att.json",
+      "N": 788,
+      "sha256": "6826413592894754eeca02aeebbcbbc8b95a7456998abcc714e71c033ce6fe87"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Sri-Harsha/scpp/c083bbf039a5ca215acaf25e7ee736d2ea6f3864/data/replace_obj.json",
+      "N": 1652,
+      "sha256": "5c6dc499ec8f511a8aa4ec1b7b5eb0eca90317488abe36ec39573355e2d361ab"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Sri-Harsha/scpp/c083bbf039a5ca215acaf25e7ee736d2ea6f3864/data/replace_rel.json",
+      "N": 1406,
+      "sha256": "040fb95d3f0619bf515db60879e99709a87a5e9b4f524ec3403b127243480fd4"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Sri-Harsha/scpp/c083bbf039a5ca215acaf25e7ee736d2ea6f3864/data/swap_att.json",
+      "N": 666,
+      "sha256": "450d0fd9fcad3e6f44950dc634e7f901ab1c6d9c60a569ade5ae8ffb3d203ad8"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Sri-Harsha/scpp/c083bbf039a5ca215acaf25e7ee736d2ea6f3864/data/swap_obj.json",
+      "N": 245,
+      "sha256": "5f33cae824de431a7ecd3c5de6301f689815f9497aa36d96b154bbaf117b201b"
+    }
+  ],
+  "official_suite_count": 4757,
+  "mirror_count": 4757,
+  "complete_annotation_multiset_matches": true,
+  "missing_triplet_count": 0,
+  "additional_triplet_count": 0
+}

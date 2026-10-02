@@ -1,0 +1,22 @@
+{
+  "dataset": "aokvqa",
+  "manifest": "/home/jiezuo/projects/Open-Jev/data/independent_datasets/full/aokvqa/test.jsonl",
+  "metrics": {
+    "count": 390,
+    "accuracy": 0.8615384615384616,
+    "macro_f1": 0.8598928366931466,
+    "nll": 0.47963293032111076,
+    "brier": 0.21128175347225348,
+    "ece": 0.07422705124586054
+  },
+  "mean_model_seconds": 0.15643107584037352,
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/official_visual_jev_matched/seed-2/aokvqa.json",
+    "source_sha256": "082a17ef066400eff56a54e08adf79e60f706bf668a99738edbf9d4e189e563a",
+    "omitted_fields": [
+      "/records"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

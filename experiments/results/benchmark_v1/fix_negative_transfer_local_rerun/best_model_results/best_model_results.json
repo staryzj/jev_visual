@@ -1,0 +1,146 @@
+{
+  "selected_experiment": "E6R",
+  "selection_rule": "validation-only: overall + 0.5*macro-domain + 0.5*worst-domain + 0.5*Pair-both + 0.25*Pair-flip",
+  "validation_selection_scores": {
+    "E1": 1.1828124999999998,
+    "E2": 1.2140625,
+    "S2": 1.3046875,
+    "E3": 1.2609375,
+    "E4": 1.3453125000000001,
+    "E5": 1.3453125000000001,
+    "E6": 1.3796875,
+    "E5R": 1.40625,
+    "E6R": 1.4265625
+  },
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt",
+  "checkpoint_sha256": "8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad",
+  "metrics": {
+    "overall": {
+      "accuracy": 0.578125,
+      "macro_f1": 0.44404761904761897,
+      "nll": 0.9219599548650876,
+      "brier": 0.5137467117171326,
+      "ece": 0.08563162712380289,
+      "mean_correct_probability": 0.4919461988611147,
+      "mean_margin": 0.5945117026567459,
+      "mean_entropy": 0.8858987215498928,
+      "mean_uniform_kl": 0.29385615688814504,
+      "count": 64
+    },
+    "aokvqa": {
+      "accuracy": 0.375,
+      "macro_f1": 0.37896825396825395,
+      "nll": 1.383317019790411,
+      "brier": 0.7675812300294638,
+      "ece": 0.25987329706549644,
+      "mean_correct_probability": 0.29788338020443916,
+      "mean_margin": -0.38934648036956787,
+      "mean_entropy": 1.1671890411525965,
+      "mean_uniform_kl": 0.2191053199672941,
+      "count": 16
+    },
+    "coco_hard_negative": {
+      "accuracy": 0.875,
+      "macro_f1": 0.8783068783068783,
+      "nll": 0.3820405231017503,
+      "brier": 0.22037558246910294,
+      "ece": 0.15089727193117142,
+      "mean_correct_probability": 0.725173095241189,
+      "mean_margin": 1.9945483207702637,
+      "mean_entropy": 0.5619153991574422,
+      "mean_uniform_kl": 0.5366968895106676,
+      "count": 16
+    },
+    "iconqa_choice": {
+      "accuracy": 0.3125,
+      "macro_f1": 0.2662337662337662,
+      "nll": 1.279167431872338,
+      "brier": 0.7086794143542647,
+      "ece": 0.26142764277756214,
+      "mean_correct_probability": 0.351077722851187,
+      "mean_margin": -0.2686660587787628,
+      "mean_entropy": 1.0277023389935493,
+      "mean_uniform_kl": 0.11926386568835143,
+      "count": 16
+    },
+    "scienceqa_image_only": {
+      "accuracy": 0.75,
+      "macro_f1": 0.7475490196078431,
+      "nll": 0.6433148446958512,
+      "brier": 0.35835062001569895,
+      "ece": 0.23851433396339417,
+      "mean_correct_probability": 0.5936505971476436,
+      "mean_margin": 1.0415110290050507,
+      "mean_entropy": 0.7867881068959832,
+      "mean_uniform_kl": 0.3003585523862669,
+      "count": 16
+    }
+  },
+  "semantic_counterfactual": {
+    "pair_count": 48,
+    "source_accuracy": 0.6666666666666666,
+    "counterfactual_accuracy": 0.6458333333333334,
+    "both_directions_accuracy": 0.4583333333333333,
+    "prediction_flip_rate": 0.6041666666666666,
+    "source_target_margin": 0.7900569836298624,
+    "counterfactual_target_margin": 0.774034172296524
+  },
+  "visual_dependency": {
+    "original": {
+      "mean_correct_probability": 0.4919461988611147,
+      "mean_margin": 0.5945117026567459,
+      "mean_uniform_kl": 0.29385616909712553,
+      "mean_js_from_original": 0.0,
+      "prediction_flip_rate_vs_original": 0.0
+    },
+    "blank": {
+      "mean_correct_probability": 0.34034339198842645,
+      "mean_margin": 0.03012867271900177,
+      "mean_uniform_kl": 0.00797207374125719,
+      "mean_js_from_original": 0.06444924844254274,
+      "prediction_flip_rate_vs_original": 0.359375
+    },
+    "noise": {
+      "mean_correct_probability": 0.33124988549388945,
+      "mean_margin": 0.007616296410560608,
+      "mean_uniform_kl": 0.004754967056214809,
+      "mean_js_from_original": 0.07032035958764027,
+      "prediction_flip_rate_vs_original": 0.578125
+    },
+    "wrong": {
+      "mean_correct_probability": 0.46770004578866065,
+      "mean_margin": 0.42889194190502167,
+      "mean_uniform_kl": 0.32277874648571014,
+      "mean_js_from_original": 0.020380504202307748,
+      "prediction_flip_rate_vs_original": 0.1875
+    },
+    "swap": {
+      "mean_correct_probability": 0.47129837912507355,
+      "mean_margin": 0.4480474665760994,
+      "mean_uniform_kl": 0.3227002648636699,
+      "mean_js_from_original": 0.019059706149505473,
+      "prediction_flip_rate_vs_original": 0.171875
+    },
+    "summary": {
+      "invalid_confidence_drop": 0.15614956011995673,
+      "invalid_mean_kl_u": 0.006363520398736,
+      "wrong_js": 0.020380504202307748,
+      "swap_js": 0.019059706149505473
+    }
+  },
+  "old_coco_reference": {
+    "accuracy": 0.8828125,
+    "macro_f1": 0.8834,
+    "pair_both": 0.5625,
+    "pair_flip": 0.6041666666666666
+  },
+  "controlled_subset": true,
+  "full_scale_pending": true,
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/best_model_results.json",
+    "source_sha256": "aeb3ccdd3ba0637f4d8c9a6d178cfc40307e2084bc074733f4000278a84c8dba",
+    "omitted_fields": [],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

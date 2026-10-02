@@ -1,0 +1,13 @@
+{
+  "source": "https://raw.githubusercontent.com/manoja328/TallyQA_dataset/46cdc649ec79c3dcc2720ff227ad07d7ee51da6f/tallyqa.zip",
+  "repository_revision": "46cdc649ec79c3dcc2720ff227ad07d7ee51da6f",
+  "zip_sha256": "e805199fa25c91d2f9df964920c6c36ce8d6cb941c970176f38a92f971bab5ea",
+  "official_test_count": 38589,
+  "mirror_image_groups": 26451,
+  "mirror_question_count": 38589,
+  "simple_count": 22991,
+  "complex_count": 15598,
+  "complete_annotation_multiset_matches": true,
+  "missing_question_count": 0,
+  "additional_question_count": 0
+}

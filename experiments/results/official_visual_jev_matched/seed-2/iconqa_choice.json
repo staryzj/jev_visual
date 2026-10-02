@@ -1,0 +1,22 @@
+{
+  "dataset": "iconqa_choice",
+  "manifest": "/home/jiezuo/projects/Open-Jev/data/independent_datasets/full/iconqa_choice/test.jsonl",
+  "metrics": {
+    "count": 1838,
+    "accuracy": 0.8536452665941241,
+    "macro_f1": 0.8643143672752809,
+    "nll": 0.33445823927102386,
+    "brier": 0.1996741878976629,
+    "ece": 0.040159074198434355
+  },
+  "mean_model_seconds": 0.10593503054565957,
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/official_visual_jev_matched/seed-2/iconqa_choice.json",
+    "source_sha256": "9a719277b3cb43fcee0158676c7927e1f7a6f8f9e8bbfae229c6a275e6981e38",
+    "omitted_fields": [
+      "/records"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

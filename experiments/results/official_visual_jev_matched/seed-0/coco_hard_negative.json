@@ -1,0 +1,22 @@
+{
+  "dataset": "coco_hard_negative",
+  "manifest": "/home/jiezuo/projects/Open-Jev/data/independent_datasets/full/coco_hard_negative/test.jsonl",
+  "metrics": {
+    "count": 83,
+    "accuracy": 0.9879518072289156,
+    "macro_f1": 0.9876500857632933,
+    "nll": 0.010398654773667866,
+    "brier": 0.0061606926155895235,
+    "ece": 0.008018159004579105
+  },
+  "mean_model_seconds": 0.19999858172132118,
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/official_visual_jev_matched/seed-0/coco_hard_negative.json",
+    "source_sha256": "966176599c5a40484043710ffed0de4d575c7d7428fcc33dce1919731d3a262c",
+    "omitted_fields": [
+      "/records"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "dataset": "scienceqa_image_only",
+  "display_name": "ScienceQA visual-only",
+  "profile": "full_independent",
+  "pending_full_scale": false,
+  "split_sizes": {
+    "train": 7411,
+    "validation": 984,
+    "calibration": 953,
+    "test": 984
+  },
+  "trainable_parameters": 4512129,
+  "metrics": {
+    "accuracy": 0.774390243902439,
+    "macro_f1": 0.6323540985494092,
+    "nll": 0.8540134721370458,
+    "brier": 0.32009135328348054,
+    "ece": 0.12906311358499334,
+    "mean_correct_probability": 0.7765983817333235,
+    "mean_margin": 21.978160447948348,
+    "entropy": 0.20228182523254554,
+    "normalized_entropy": 0.2004164985013224,
+    "count": 984
+  },
+  "calibration": {
+    "calibration_partition": "this dataset only",
+    "test_used_for_fit": false,
+    "methods": {
+      "none": {
+        "accuracy": 0.774390243902439,
+        "macro_f1": 0.6323540985494092,
+        "nll": 0.8540134721370458,
+        "brier": 0.32009135328348054,
+        "ece": 0.12906311358499334,
+        "mean_correct_probability": 0.7765983817333235,
+        "mean_margin": 21.978160447948348,
+        "entropy": 0.20228182523254554,
+        "normalized_entropy": 0.2004164985013224,
+        "count": 984
+      },
+      "global_temperature_scaling": {
+        "accuracy": 0.774390243902439,
+        "macro_f1": 0.6323540985494092,
+        "nll": 0.4694233963101686,
+        "brier": 0.2659926839429246,
+        "ece": 0.031437634255706816,
+        "mean_correct_probability": 0.7162820152628532,
+        "mean_margin": 3.7060311890502526,
+        "entropy": 0.5163910634715562,
+        "normalized_entropy": 0.46625991924780497,
+        "count": 984
+      }
+    },
+    "temperature_fit": {
+      "temperature": 5.93037668509296,
+      "calibration_nll_before": 1.2269789347139983,
+      "calibration_nll_after": 0.5434917164417814,
+      "sample_count": 953,
+      "optimizer": "LBFGS"
+    },
+    "argmax_invariant": true,
+    "accuracy_invariant": true,
+    "macro_f1_invariant": true
+  },
+  "visual_dependency": {
+    "dataset": "scienceqa_image_only",
+    "overall": {
+      "count": 984,
+      "original": {
+        "accuracy": 0.774390243902439,
+        "mean_correct_probability": 0.7765983817333235,
+        "kl_uniform": 0.9692598154539193
+      },
+      "blank": {
+        "accuracy": 0.34552845528455284,
+        "mean_correct_probability": 0.3243730945467222,
+        "confidence_drop": 0.4522252871866013,
+        "flip_rate": 0.5853658536585366,
+        "kl_uniform": 0.0012564101991220569,
+        "js_from_original": 0.26833379066623064
+      },
+      "noise": {
+        "accuracy": 0.24390243902439024,
+        "mean_correct_probability": 0.31853691998838896,
+        "confidence_drop": 0.45806146174493456,
+        "flip_rate": 0.7317073170731707,
+        "kl_uniform": 0.0006276169958728466,
+        "js_from_original": 0.274167142052211
+      },
+      "wrong": {
+        "accuracy": 0.6382113821138211,
+        "mean_correct_probability": 0.6276138091043174,
+        "confidence_drop": 0.14898457262900608,
+        "flip_rate": 0.2774390243902439,
+        "kl_uniform": 0.9373245292738298,
+        "js_from_original": NaN
+      }
+    },
+    "test_used_for_threshold_fit": false,
+    "visual_required_subset": {
+      "count": 783,
+      "original": {
+        "accuracy": 0.9719029374201787,
+        "mean_correct_probability": 0.9344390113463347,
+        "kl_uniform": 1.0716790645701992
+      },
+      "blank": {
+        "accuracy": 0.37037037037037035,
+        "mean_correct_probability": 0.3172084222123084,
+        "confidence_drop": 0.6172305891340263,
+        "flip_rate": 0.6168582375478927,
+        "kl_uniform": 0.0009605720172379404,
+        "js_from_original": 0.2975674490961764
+      },
+      "noise": {
+        "accuracy": 0.23499361430395913,
+        "mean_correct_probability": 0.3089442200587627,
+        "confidence_drop": 0.625494791287572,
+        "flip_rate": 0.7637292464878672,
+        "kl_uniform": 0.0006890680645100198,
+        "js_from_original": 0.3031133234519916
+      },
+      "wrong": {
+        "accuracy": 0.7509578544061303,
+        "mean_correct_probability": 0.7289628081460566,
+        "confidence_drop": 0.20547620320027798,
+        "flip_rate": 0.2388250319284802,
+        "kl_uniform": 0.9955378370241726,
+        "js_from_original": NaN
+      }
+    },
+    "semantic_counterfactual": {
+      "reported": false,
+      "reason": "no verified semantic image pair in this dataset manifest"
+    }
+  },
+  "training_time_seconds": 2188.172345161438,
+  "gpu": {
+    "torch_device": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda_available": true,
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "memory_mib": 16311
+  },
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/scienceqa/checkpoint/visual_jev_v3.pt",
+  "initial_state_sha256": "76d6f6c00d011717b62e5eb7cf6d55e535741e122732cfddac200fb2d0ccca3a",
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/independent_datasets_full/scienceqa/result.json",
+    "source_sha256": "c81e26e57b9351985dc28816daf2e774d69b6f8fe4eef1278b9bbb136e00825b",
+    "omitted_fields": [
+      "/visual_dependency/records",
+      "/failure_cases"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

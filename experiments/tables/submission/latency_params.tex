@@ -1,0 +1,36 @@
+\begin{table*}[t]
+\centering
+\caption{Parameter and timing values from recorded result.json/provenance only. Different timing boundaries are disclosed and must not be pooled into a speed comparison; controls and warm-cache policies are named explicitly. Recorded row timings exclude subsequent wrong-control repair passes. B0: parameter provenance only; matched live timing unmeasured. B1: official model-run, group preparation excluded. B2: full decision with diagnostic control passes and repeated-image caching; no speed comparison across boundaries.}
+\label{tab:submission-latency}
+\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllll}
+\toprule
+Model & Protocol/dataset & Trainable params & Measured mean ms & Timing boundary \\
+\midrule
+Visual-JEV V3 & controlled checkpoint & 4512129 & -- & B0 \\
+Official Jev SFT seed0 & controlled & -- & 199.91 & B1 \\
+Official Jev SFT seed0 & aokvqa & -- & 197.90 & B1 \\
+Official Jev SFT seed0 & ScienceQA image & -- & 175.18 & B1 \\
+Official Jev SFT seed0 & IconQA choice & -- & 144.54 & B1 \\
+Official Jev SFT seed0 & COCO hard-neg & -- & 200.00 & B1 \\
+Official Jev SFT seed1 & controlled & -- & 204.55 & B1 \\
+Official Jev SFT seed1 & aokvqa & -- & 202.31 & B1 \\
+Official Jev SFT seed1 & ScienceQA image & -- & 174.39 & B1 \\
+Official Jev SFT seed1 & IconQA choice & -- & 135.44 & B1 \\
+Official Jev SFT seed1 & COCO hard-neg & -- & 160.30 & B1 \\
+Official Jev SFT seed2 & controlled & -- & 213.61 & B1 \\
+Official Jev SFT seed2 & aokvqa & -- & 156.43 & B1 \\
+Official Jev SFT seed2 & ScienceQA image & -- & 137.31 & B1 \\
+Official Jev SFT seed2 & IconQA choice & -- & 105.94 & B1 \\
+Official Jev SFT seed2 & COCO hard-neg & -- & 155.02 & B1 \\
+Fixed Visual-JEV & scienceqa & 4512129 & 165.58 & B2 \\
+Fixed Visual-JEV & aokvqa & 4512129 & 210.71 & B2 \\
+Fixed Visual-JEV & iconqa & 4512129 & 164.35 & B2 \\
+Fixed Visual-JEV & ai2d & 4512129 & 180.27 & B2 \\
+Fixed Visual-JEV & vsr & 4512129 & 182.29 & B2 \\
+Fixed Visual-JEV & SugarCrepe++ ITT & 4512129 & 189.71 & B2 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

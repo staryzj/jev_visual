@@ -1,0 +1,2 @@
+# Preserve recorded file bytes/hashes on Windows and Linux; no EOL conversion.
+* -text whitespace=-blank-at-eof,cr-at-eol

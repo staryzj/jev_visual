@@ -1,0 +1,130 @@
+[
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_multiseed_full/scienceqa/seed_20260929/result.json",
+    "sha256": "01c7ad32355723d20515d10a01cdf17d6561336c92256e49926d5ed9a28ee172",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_multiseed_full/scienceqa/seed_20260930/result.json",
+    "sha256": "1068693397cbb5c6305adcf4da217e66ade83aab7420c48c2704cf8e8b76572e",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_multiseed_full/aokvqa/seed_20260929/result.json",
+    "sha256": "85efd92b76210f9320b1b42ec544efc541fbf8446dfbf557e7248d8c87a3c72b",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_multiseed_full/aokvqa/seed_20260930/result.json",
+    "sha256": "f1b46d074a32d5d24f9cc588951f7bf675254ad3574a2a3baaff4a853650e20b",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_multiseed_full/iconqa/seed_20260929/result.json",
+    "sha256": "c547dcf3c89d2b00bb7f88ea978122b03544c30c8921917abcb57a28741bdacf",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_multiseed_full/iconqa/seed_20260930/result.json",
+    "sha256": "f6ccc18242ec35a92e41984205375e05e4538f0d38b63425f03e802f9aae321f",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets/coco_hard_negative/result.json",
+    "sha256": "554bc19c2828142cd7811d7604834ee88c05e76d5421cb03ba1c987f1b7ee5cc",
+    "profile": "fixed_controlled_subset",
+    "protocol": "debug/controlled/unclassified",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets/scienceqa_image_only/result.json",
+    "sha256": "9cc4e510cba03d4228ac150a7c7868dd83f6403d6503f8c285c4c07105ee18f3",
+    "profile": "fixed_controlled_subset",
+    "protocol": "debug/controlled/unclassified",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets/aokvqa/result.json",
+    "sha256": "7b48cddf3905da8fa155d3e682c4d629d8b8442f5bbcc74d5aa007635563f0b2",
+    "profile": "fixed_controlled_subset",
+    "protocol": "debug/controlled/unclassified",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets/iconqa_choice/result.json",
+    "sha256": "b94a033b9590b4ac7943a1ec4fbc08ecc470f93d9b8eb78f6c3cca33e19b4716",
+    "profile": "fixed_controlled_subset",
+    "protocol": "debug/controlled/unclassified",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/coco_multiseed_full/seed_20260929/result.json",
+    "sha256": "dd86a47763e9688b260df63aa670bd123135a65152b44eaf4ae7c1da5084a5ec",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/coco_multiseed_full/seed_20260930/result.json",
+    "sha256": "ff9a5e3a1809060524d346f91fed7cb4010cce3d24e3b820aeb5bc8fa00afdf6",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/scienceqa/result.json",
+    "sha256": "c81e26e57b9351985dc28816daf2e774d69b6f8fe4eef1278b9bbb136e00825b",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/aokvqa/result.json",
+    "sha256": "a26d1a1513647e1c8b026701db95c19d958dddab087905438e279d2c9bf78c1e",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/coco/result.json",
+    "sha256": "f7eea016221e9b5596c8d866d51547ad0742c404862285766f3c9426c907cad4",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  },
+  {
+    "path": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/iconqa/result.json",
+    "sha256": "7363a1b471df6dc47d1468e2419c51593d171c5682657dfa36ceade7bcbe153e",
+    "profile": "full_independent",
+    "protocol": "custom_heldout",
+    "eligible_for_main": false,
+    "reason": "No full official split manifest matching this result"
+  }
+]

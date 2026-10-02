@@ -1,0 +1,170 @@
+[
+  {
+    "table": "main_full_benchmark",
+    "dataset": "scienceqa",
+    "result": "/home/jiezuo/projects/Open-Jev/experiments/results/submission_full/scienceqa/result.json",
+    "sha256": "6fe9eb114ec7bd9255ee39f6654561ed9a888b5882a0008b146064a35d9b8630",
+    "json_pointer": "/metrics",
+    "manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/scienceqa/manifest.json"
+  },
+  {
+    "table": "main_full_benchmark",
+    "dataset": "aokvqa",
+    "result": "/home/jiezuo/projects/Open-Jev/experiments/results/submission_full/aokvqa/result.json",
+    "sha256": "dff5b4b737381315f8ca9c1728a359812944979e08073514c47c1db722e0ae2a",
+    "json_pointer": "/metrics",
+    "manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/aokvqa/manifest.json"
+  },
+  {
+    "table": "main_full_benchmark",
+    "dataset": "iconqa",
+    "result": "/home/jiezuo/projects/Open-Jev/experiments/results/submission_full/iconqa/result.json",
+    "sha256": "6abd913febb403e666a34e4794946e9b046c192403d603a21cadeb78654ab8b6",
+    "json_pointer": "/metrics",
+    "manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/iconqa/manifest.json"
+  },
+  {
+    "table": "main_full_benchmark",
+    "dataset": "ai2d",
+    "result": "/home/jiezuo/projects/Open-Jev/experiments/results/submission_full/ai2d/result.json",
+    "sha256": "ceb24e42cbff454d2d0e7efe01a1a34d018bf8379c87b80d5a3643171f8507cf",
+    "json_pointer": "/metrics",
+    "manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/ai2d/manifest.json"
+  },
+  {
+    "table": "main_full_benchmark",
+    "dataset": "vsr",
+    "result": "/home/jiezuo/projects/Open-Jev/experiments/results/submission_full/vsr/result.json",
+    "sha256": "af557f04c9f0d1ef3710201fdb7e3bdab9b7e14436ab580558c57a8c95ce7fba",
+    "json_pointer": "/metrics",
+    "manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/vsr/manifest.json"
+  },
+  {
+    "table": "main_full_benchmark",
+    "dataset": "sugarcrepe_pp",
+    "result": "/home/jiezuo/projects/Open-Jev/experiments/results/submission_full/sugarcrepe_pp/result.json",
+    "sha256": "876f4742f1abb2b10a5afd37597854686901437d6e729a83ff94cb453027f6fd",
+    "json_pointer": "/metrics",
+    "manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/sugarcrepe_pp/manifest.json"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/controlled_multiseed/seed-20260928/results/metrics.json",
+    "sha256": "3ae263c280bcd9cc4d3d36c43170ca3bd1900a90918ffc93133687edb99961d2",
+    "protocol": "matched_controlled"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/coco/result.json",
+    "sha256": "f7eea016221e9b5596c8d866d51547ad0742c404862285766f3c9426c907cad4",
+    "protocol": "matched_custom_independent"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/aokvqa/result.json",
+    "sha256": "a26d1a1513647e1c8b026701db95c19d958dddab087905438e279d2c9bf78c1e",
+    "protocol": "matched_custom_independent"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/scienceqa/result.json",
+    "sha256": "c81e26e57b9351985dc28816daf2e774d69b6f8fe4eef1278b9bbb136e00825b",
+    "protocol": "matched_custom_independent"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/iconqa/result.json",
+    "sha256": "7363a1b471df6dc47d1468e2419c51593d171c5682657dfa36ceade7bcbe153e",
+    "protocol": "matched_custom_independent"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-0/controlled.json",
+    "sha256": "79428892553b5f209ae2fa41be1740f0ad6196a57e5418e3064cdd78daab072d",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-0/aokvqa.json",
+    "sha256": "34ee74fe02c05f49c1cba3aa1f325a081e223dd9bc9868326e703d28e4c05c5a",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-0/scienceqa_image_only.json",
+    "sha256": "798c0cd012e1c612eb2a08e81afc6acf1d522eb9619bf56c523edfadb4e5ca96",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-0/iconqa_choice.json",
+    "sha256": "e3205880b2ff9a057e4f8ad0a0d13f720352231feb0ebd1401460a0c63f5dcc8",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-0/coco_hard_negative.json",
+    "sha256": "966176599c5a40484043710ffed0de4d575c7d7428fcc33dce1919731d3a262c",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-1/controlled.json",
+    "sha256": "e1521a46de6c58ce08c0372a15dd1fdc0bab76e2427490823a4c9e8b28b292e9",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-1/aokvqa.json",
+    "sha256": "4b7b64d9d24c7dd3709a2c5a32872979b2955c129e80151a2cc69f60c26858aa",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-1/scienceqa_image_only.json",
+    "sha256": "6c3902a7b8482ac3becfac2ad6f3e0df33e900b57d9421bd154ac9bd99abb1c6",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-1/iconqa_choice.json",
+    "sha256": "99d017a288b97075f2f03074d46a26ca7f5f0afbf037a75626c5579acc0f1782",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-1/coco_hard_negative.json",
+    "sha256": "b02f4b874f76730bdf1e35fe6842a3376f1584d6af21d2b21d3f456440b4ddaa",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-2/controlled.json",
+    "sha256": "410e1ac5f6d68c47a6096dc6c338c78cadc3b8ed8e9ead518f2c116b08a773c4",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-2/aokvqa.json",
+    "sha256": "082a17ef066400eff56a54e08adf79e60f706bf668a99738edbf9d4e189e563a",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-2/scienceqa_image_only.json",
+    "sha256": "a8caff05fcac8e28baf3da4dddb98f6a409a102cc879251f660d7e60791f23b7",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-2/iconqa_choice.json",
+    "sha256": "9a719277b3cb43fcee0158676c7927e1f7a6f8f9e8bbfae229c6a275e6981e38",
+    "protocol": "matched_visual_jev"
+  },
+  {
+    "table": "legacy matched/ablation/dependency",
+    "source": "/home/jiezuo/projects/Open-Jev/experiments/results/official_visual_jev_matched/seed-2/coco_hard_negative.json",
+    "sha256": "6f6cc91837cef0605e5d770d5d5e27825630d6d016de6fc6ed75a0935c8012ab",
+    "protocol": "matched_visual_jev"
+  }
+]

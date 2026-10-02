@@ -1,0 +1,107 @@
+{
+  "schema": "visual-jev-result-v1",
+  "status": "complete",
+  "protocol": "full_benchmark",
+  "dataset_name": "iconqa",
+  "split": "test",
+  "is_true_test": true,
+  "public_labels": true,
+  "N": 6316,
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/visual_jev_v3_paper/checkpoints/v3_full.pt",
+  "checkpoint_sha256": "b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493",
+  "checkpoint_metadata": {
+    "best_epoch": 4,
+    "alignment_finetuned": true,
+    "initialized_from": "v3_without_stage_c.pt"
+  },
+  "seed": 20260928,
+  "revision": "94f9ba83a935851992dfa0e9b66b7ba2aba4cb7e",
+  "fingerprint": "45a815bee14dfec0",
+  "candidate_manifest_sha256": "cd62d1df87477fbf7942918e5eb6053c0fc2be2b25b04332bf7801c50c130596",
+  "predictions_sha256": "1879c8dc2b0fd0a6c678d76256b84c4195badad87df51847bc60fd29a73a8307",
+  "manifest": {
+    "schema": "visual-jev-benchmark-manifest-v1",
+    "dataset_name": "iconqa",
+    "repo": "lmms-lab-encoder/ICON-QA",
+    "source": "https://iconqa.github.io/",
+    "split": "test",
+    "N": 6316,
+    "N_source": 21489,
+    "revision": "94f9ba83a935851992dfa0e9b66b7ba2aba4cb7e",
+    "fingerprint": "45a815bee14dfec0",
+    "is_true_test": true,
+    "public_labels": true,
+    "seed": 20260928,
+    "checkpoint_sha256": "b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493",
+    "protocol": "full_benchmark",
+    "sampling": "none; complete declared official split/task",
+    "note": "Official test select_txt task (all native text-choice items). select_img and fill_in are separate tasks, not silently relabelled.",
+    "status": "ready",
+    "excluded": {
+      "outside_native_select_txt_task": 15173
+    },
+    "created_at": "2026-10-01T10:53:48Z",
+    "gated": false,
+    "license": "not declared by mirror; see original source",
+    "intrinsic_no_image_count": 0,
+    "missing_image_count": 0,
+    "invalid_count": 0,
+    "candidate_manifest": "/home/jiezuo/projects/Open-Jev/data/submission_benchmarks/iconqa/candidates.jsonl",
+    "candidate_manifest_sha256": "cd62d1df87477fbf7942918e5eb6053c0fc2be2b25b04332bf7801c50c130596",
+    "complete_split": true,
+    "missing_image_examples": [],
+    "invalid_examples": [],
+    "task": "select_txt",
+    "followup_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets iconqa --refresh --fetch-images"
+  },
+  "metrics": {
+    "count": 6316,
+    "accuracy": 0.301931602279924,
+    "macro_f1": 0.23259806662552135,
+    "nll": 1.0996714694126413,
+    "brier": 0.6566770776499952,
+    "ece": 0.12180196973504034
+  },
+  "trainable_parameters": 4512129,
+  "backbone": "/home/jiezuo/projects/Open-Jev/models/Qwen3-VL-4B-Instruct",
+  "latency_boundary": "full decision; includes control passes when enabled; repeated-image visual cache disclosed; not a controlled latency benchmark",
+  "latency_ms": {
+    "mean": 164.34557684908071
+  },
+  "comparison_scope": "single fixed checkpoint; native multiple-choice or explicitly named candidate-constrained task; no evaluation tuning",
+  "visual_dependency": {
+    "original": {
+      "count": 6316,
+      "accuracy": 0.301931602279924,
+      "macro_f1": 0.23259806662552135,
+      "nll": 1.0996714694126413,
+      "brier": 0.6566770776499952,
+      "ece": 0.12180196973504034
+    },
+    "blank": {
+      "count": 6316,
+      "accuracy": 0.3239392020265991,
+      "macro_f1": 0.2627849827974732,
+      "nll": 1.0606824691571102,
+      "brier": 0.6324529476591195,
+      "ece": 0.055083359329193865,
+      "flip_rate": 0.4444268524382521
+    },
+    "wrong": {
+      "count": 6316,
+      "accuracy": 0.3174477517416086,
+      "macro_f1": 0.24015095398746955,
+      "nll": 1.0868857514849466,
+      "brier": 0.6475210650691301,
+      "ece": 0.09866295776378889,
+      "flip_rate": 0.3016149461684611
+    },
+    "semantic_counterfactual": null,
+    "pair_both": null,
+    "flip": null,
+    "reason": "Verified semantic counterfactual pairs not provided for this official split; generic wrong-image shifts are diagnostic."
+  },
+  "wrong_control_verified": true,
+  "wrong_control_repair_count": 1,
+  "wrong_image_policy": "cyclic shift to a different image SHA256, not merely a different filename"
+}

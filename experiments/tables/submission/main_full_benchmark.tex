@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\caption{Complete declared official splits/tasks, evaluated with the same fixed COCO checkpoint. Validation and test-dev are named explicitly. Open-answer and multi-image tasks use the disclosed candidate adaptation; these scores are not interchangeable with unrestricted leaderboard metrics. -- means no completed real result.json.}
+\label{tab:submission-full}
+\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lp{4cm}rrrrl}
+\toprule
+Dataset/task & Official split & N & Primary score (\%) & Macro-F1 (\%) & NLL & Status \\
+\midrule
+GQA balanced & testdev & 12578 & -- & -- & -- & queued \\
+SNLI-VE & test & 17901 & -- & -- & -- & blocked \\
+TextVQA (OCR-constrained) & validation & 5000 & -- & -- & -- & failed \\
+TallyQA (0--15) & test & 38589 & -- & -- & -- & failed \\
+ScienceQA (all) & test & 4241 & 28.13 & 23.95 & 0.9940 & complete \\
+A-OKVQA & validation & 1145 & 36.33 & 36.34 & 1.3317 & complete \\
+IconQA select-txt & test & 6316 & 30.19 & 23.26 & 1.0997 & complete \\
+AI2D & test & 3088 & 26.55 & 26.53 & 1.4336 & complete \\
+NLVR2 test-P & unbalanced\_test\_public & -- & -- & -- & -- & blocked \\
+VSR random & test & 2195 & 53.53 & 40.25 & 0.6979 & complete \\
+Winoground (group) & test & -- & -- & -- & -- & blocked \\
+SugarCrepe++ (strict ITT) & released suite (HF train) & 4757 & 43.77 & -- & -- & complete \\
+\bottomrule
+\end{tabular}}
+\end{table*}

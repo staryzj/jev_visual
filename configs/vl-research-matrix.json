@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "base_model": "models/Qwen3-VL-4B-Instruct",
+  "architecture": "qwen3_vl_decision",
+  "common": {
+    "max_length": 2048,
+    "min_pixels": 200704,
+    "max_pixels": 401408,
+    "brier_weight": 0.1,
+    "seeds": [42, 43, 44]
+  },
+  "experiments": [
+    {
+      "id": "E1-head",
+      "vl_tuning": "head",
+      "lora_rank": 0,
+      "purpose": "Frozen multimodal representation plus a newly trained JEV decision head"
+    },
+    {
+      "id": "E2-language-lora",
+      "vl_tuning": "language-lora",
+      "lora_rank": 8,
+      "purpose": "Adapt language attention and the decision head while keeping the visual tower frozen"
+    },
+    {
+      "id": "E3-vision-language-lora",
+      "vl_tuning": "vision-language-lora",
+      "lora_rank": 8,
+      "purpose": "Adapt visual qkv, language attention and the decision head"
+    }
+  ],
+  "report_metrics": [
+    "accuracy",
+    "nll",
+    "brier",
+    "multiclass_ece",
+    "coverage",
+    "mean_latency_seconds",
+    "peak_memory_gib"
+  ],
+  "evidence_boundary": "data/vl-smoke and runs/vl-smoke-* are wiring checks, not paper evidence"
+}

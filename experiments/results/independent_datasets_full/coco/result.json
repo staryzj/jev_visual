@@ -1,0 +1,138 @@
+{
+  "dataset": "coco_hard_negative",
+  "display_name": "COCO hard-negative",
+  "profile": "full_independent",
+  "pending_full_scale": false,
+  "split_sizes": {
+    "train": 2048,
+    "validation": 91,
+    "calibration": 82,
+    "test": 83
+  },
+  "trainable_parameters": 4512129,
+  "metrics": {
+    "accuracy": 0.9156626506024096,
+    "macro_f1": 0.9163462865479781,
+    "nll": 0.7583643578055225,
+    "brier": 0.14698026823026014,
+    "ece": 0.07132620912000363,
+    "mean_correct_probability": 0.9088313036121759,
+    "mean_margin": 22.09244867692511,
+    "entropy": 0.059628309754976384,
+    "normalized_entropy": 0.0542760265564352,
+    "count": 83
+  },
+  "calibration": {
+    "calibration_partition": "this dataset only",
+    "test_used_for_fit": false,
+    "methods": {
+      "none": {
+        "accuracy": 0.9156626506024096,
+        "macro_f1": 0.9163462865479781,
+        "nll": 0.7583643578055225,
+        "brier": 0.14698026823026014,
+        "ece": 0.07132620912000363,
+        "mean_correct_probability": 0.9088313036121759,
+        "mean_margin": 22.09244867692511,
+        "entropy": 0.059628309754976384,
+        "normalized_entropy": 0.0542760265564352,
+        "count": 83
+      },
+      "global_temperature_scaling": {
+        "accuracy": 0.9156626506024096,
+        "macro_f1": 0.9163462865479781,
+        "nll": 0.28282830608619364,
+        "brier": 0.141415781270444,
+        "ece": 0.044234967375376126,
+        "mean_correct_probability": 0.8476711475200592,
+        "mean_margin": 4.209880629217769,
+        "entropy": 0.2868296091893796,
+        "normalized_entropy": 0.26108356164221885,
+        "count": 83
+      }
+    },
+    "temperature_fit": {
+      "temperature": 5.24776113897104,
+      "calibration_nll_before": 0.6975934321614121,
+      "calibration_nll_after": 0.2597100951543849,
+      "sample_count": 82,
+      "optimizer": "LBFGS"
+    },
+    "argmax_invariant": true,
+    "accuracy_invariant": true,
+    "macro_f1_invariant": true
+  },
+  "visual_dependency": {
+    "dataset": "coco_hard_negative",
+    "overall": {
+      "count": 83,
+      "original": {
+        "accuracy": 0.9156626506024096,
+        "mean_correct_probability": 0.9088313036121759,
+        "kl_uniform": 1.0389839789131334
+      },
+      "blank": {
+        "accuracy": 0.1566265060240964,
+        "mean_correct_probability": 0.3328245379120471,
+        "confidence_drop": 0.5760067657001289,
+        "flip_rate": 0.8072289156626506,
+        "kl_uniform": 6.082430004793511e-05,
+        "js_from_original": 0.30066538285688466
+      },
+      "noise": {
+        "accuracy": 0.6385542168674698,
+        "mean_correct_probability": 0.3351398688482951,
+        "confidence_drop": 0.5736914347638807,
+        "flip_rate": 0.3493975903614458,
+        "kl_uniform": 2.569633855597116e-05,
+        "js_from_original": 0.29908436265246696
+      },
+      "wrong": {
+        "accuracy": 0.891566265060241,
+        "mean_correct_probability": 0.8861045972055804,
+        "confidence_drop": 0.022726706406595406,
+        "flip_rate": 0.12048192771084337,
+        "kl_uniform": 1.0128865994326717,
+        "js_from_original": 0.061508014167902504
+      }
+    },
+    "test_used_for_threshold_fit": false,
+    "semantic_counterfactual": {
+      "pair_count": 48,
+      "source_accuracy": 0.9583333333333334,
+      "counterfactual_accuracy": 0.9166666666666666,
+      "both_directions_accuracy": 0.875,
+      "prediction_flip_rate": 0.875,
+      "source_target_margin": 20.739688177903492,
+      "counterfactual_target_margin": 21.31138088305791
+    },
+    "swap": {
+      "pair_count": 48,
+      "source_accuracy": 0.9583333333333334,
+      "counterfactual_accuracy": 0.9166666666666666,
+      "both_directions_accuracy": 0.875,
+      "prediction_flip_rate": 0.875,
+      "source_target_margin": 20.739688177903492,
+      "counterfactual_target_margin": 21.31138088305791
+    }
+  },
+  "training_time_seconds": 908.0939939022064,
+  "gpu": {
+    "torch_device": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda_available": true,
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "memory_mib": 16311
+  },
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/coco/checkpoint/visual_jev_v3.pt",
+  "initial_state_sha256": "76d6f6c00d011717b62e5eb7cf6d55e535741e122732cfddac200fb2d0ccca3a",
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/independent_datasets_full/coco/result.json",
+    "source_sha256": "f7eea016221e9b5596c8d866d51547ad0742c404862285766f3c9426c907cad4",
+    "omitted_fields": [
+      "/visual_dependency/records",
+      "/failure_cases"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

@@ -1,0 +1,14 @@
+# Ablation
+
+Recorded controlled COCO ablation, one seed. It assesses training-stage effects on the custom diagnostic and supplies no full official benchmark ablation claim.
+
+| Variant | Protocol | N | Accuracy (%) | Macro-F1 (%) | NLL | Pair-both (%) | Pair flip (%) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| random_untrained_head | controlled COCO | 128 | 12.50 | 12.37 | 1.1409 | -- | -- |
+| meanpool_mlp_jev | controlled COCO | 128 | 83.59 | 83.51 | 0.8162 | -- | -- |
+| v2_candidate_aware | controlled COCO | 128 | 88.28 | 88.32 | 0.3491 | 0.00 | 0.00 |
+| v3_simple_postmerger | controlled COCO | 128 | 88.28 | 88.31 | 0.6376 | 43.75 | 56.25 |
+| v3_without_stage_a | controlled COCO | 128 | 86.72 | 86.64 | 0.6756 | 41.67 | 47.92 |
+| v3_without_stage_c | controlled COCO | 128 | 87.50 | 87.49 | 0.4632 | 2.08 | 2.08 |
+| v3_full | controlled COCO | 128 | 88.28 | 88.34 | 0.6697 | 56.25 | 60.42 |
+| v3_stage_a_only | controlled COCO | 128 | 9.38 | 9.41 | 1.1678 | 0.00 | 2.08 |

@@ -1,0 +1,124 @@
+{
+  "dataset": "iconqa_choice",
+  "display_name": "IconQA choice",
+  "profile": "full_independent",
+  "pending_full_scale": false,
+  "split_sizes": {
+    "train": 7095,
+    "validation": 1841,
+    "calibration": 1858,
+    "test": 1838
+  },
+  "trainable_parameters": 4512129,
+  "metrics": {
+    "accuracy": 0.7573449401523396,
+    "macro_f1": 0.772759351607966,
+    "nll": 1.2584397855467016,
+    "brier": 0.40703003724211967,
+    "ece": 0.1822534827140521,
+    "mean_correct_probability": 0.7534003387531636,
+    "mean_margin": 9.027705047024217,
+    "entropy": 0.14577012607689685,
+    "normalized_entropy": 0.13772915418929765,
+    "count": 1838
+  },
+  "calibration": {
+    "calibration_partition": "this dataset only",
+    "test_used_for_fit": false,
+    "methods": {
+      "none": {
+        "accuracy": 0.7573449401523396,
+        "macro_f1": 0.772759351607966,
+        "nll": 1.2584397855467016,
+        "brier": 0.40703003724211967,
+        "ece": 0.1822534827140521,
+        "mean_correct_probability": 0.7534003387531636,
+        "mean_margin": 9.027705047024217,
+        "entropy": 0.14577012607689685,
+        "normalized_entropy": 0.13772915418929765,
+        "count": 1838
+      },
+      "global_temperature_scaling": {
+        "accuracy": 0.7573449401523396,
+        "macro_f1": 0.772759351607966,
+        "nll": 0.5362384619219306,
+        "brier": 0.3141705201232049,
+        "ece": 0.023712394854319387,
+        "mean_correct_probability": 0.6893823518611844,
+        "mean_margin": 1.7976161179145933,
+        "entropy": 0.5264170860460562,
+        "normalized_entropy": 0.4961783949542267,
+        "count": 1838
+      }
+    },
+    "temperature_fit": {
+      "temperature": 5.022042927432795,
+      "calibration_nll_before": 1.233803300787378,
+      "calibration_nll_after": 0.5386769099150168,
+      "sample_count": 1858,
+      "optimizer": "LBFGS"
+    },
+    "argmax_invariant": true,
+    "accuracy_invariant": true,
+    "macro_f1_invariant": true
+  },
+  "visual_dependency": {
+    "dataset": "iconqa_choice",
+    "overall": {
+      "count": 1838,
+      "original": {
+        "accuracy": 0.7573449401523396,
+        "mean_correct_probability": 0.7534003387531636,
+        "kl_uniform": 0.9582755363269649
+      },
+      "blank": {
+        "accuracy": 0.33569096844396085,
+        "mean_correct_probability": 0.35294058725999927,
+        "confidence_drop": 0.40045975149316415,
+        "flip_rate": 0.6550598476605005,
+        "kl_uniform": 2.2068168940755878e-05,
+        "js_from_original": 0.26907232665543984
+      },
+      "noise": {
+        "accuracy": 0.36507072905331883,
+        "mean_correct_probability": 0.35310370393981094,
+        "confidence_drop": 0.40029663481335254,
+        "flip_rate": 0.6164309031556039,
+        "kl_uniform": 1.887769899138849e-05,
+        "js_from_original": 0.26891557369708013
+      },
+      "wrong": {
+        "accuracy": 0.39227421109902066,
+        "mean_correct_probability": 0.3924941442263387,
+        "confidence_drop": 0.3609061945268248,
+        "flip_rate": 0.5462459194776932,
+        "kl_uniform": 0.8918330196396126,
+        "js_from_original": 0.3260932600537215
+      }
+    },
+    "test_used_for_threshold_fit": false,
+    "semantic_counterfactual": {
+      "reported": false,
+      "reason": "no verified semantic image pair in this dataset manifest"
+    }
+  },
+  "training_time_seconds": 2561.186650276184,
+  "gpu": {
+    "torch_device": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda_available": true,
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "memory_mib": 16311
+  },
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/iconqa/checkpoint/visual_jev_v3.pt",
+  "initial_state_sha256": "76d6f6c00d011717b62e5eb7cf6d55e535741e122732cfddac200fb2d0ccca3a",
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/independent_datasets_full/iconqa/result.json",
+    "source_sha256": "7363a1b471df6dc47d1468e2419c51593d171c5682657dfa36ceade7bcbe153e",
+    "omitted_fields": [
+      "/visual_dependency/records",
+      "/failure_cases"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

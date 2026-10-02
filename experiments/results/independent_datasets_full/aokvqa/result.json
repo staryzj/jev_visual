@@ -1,0 +1,124 @@
+{
+  "dataset": "aokvqa",
+  "display_name": "A-OKVQA",
+  "profile": "full_independent",
+  "pending_full_scale": false,
+  "split_sizes": {
+    "train": 17055,
+    "validation": 390,
+    "calibration": 365,
+    "test": 390
+  },
+  "trainable_parameters": 4512129,
+  "metrics": {
+    "accuracy": 0.47435897435897434,
+    "macro_f1": 0.4702393893842292,
+    "nll": 1.6469459300128788,
+    "brier": 0.7255781755211749,
+    "ece": 0.21327677048169655,
+    "mean_correct_probability": 0.4334641945907631,
+    "mean_margin": -0.04195918104587457,
+    "entropy": 0.7364609628859025,
+    "normalized_entropy": 0.5317741560228656,
+    "count": 390
+  },
+  "calibration": {
+    "calibration_partition": "this dataset only",
+    "test_used_for_fit": false,
+    "methods": {
+      "none": {
+        "accuracy": 0.47435897435897434,
+        "macro_f1": 0.4702393893842292,
+        "nll": 1.6469459300128788,
+        "brier": 0.7255781755211749,
+        "ece": 0.21327677048169655,
+        "mean_correct_probability": 0.4334641945907631,
+        "mean_margin": -0.04195918104587457,
+        "entropy": 0.7364609628859025,
+        "normalized_entropy": 0.5317741560228656,
+        "count": 390
+      },
+      "global_temperature_scaling": {
+        "accuracy": 0.47435897435897434,
+        "macro_f1": 0.4702393893842292,
+        "nll": 1.2162545840777335,
+        "brier": 0.6513714278457113,
+        "ece": 0.0546503144961137,
+        "mean_correct_probability": 0.34914053541799195,
+        "mean_margin": -0.012746220941726978,
+        "entropy": 1.1970113890293317,
+        "normalized_entropy": 0.8639930839094075,
+        "count": 390
+      }
+    },
+    "temperature_fit": {
+      "temperature": 3.291890510008534,
+      "calibration_nll_before": 1.5942087536123424,
+      "calibration_nll_after": 1.1751940735193735,
+      "sample_count": 365,
+      "optimizer": "LBFGS"
+    },
+    "argmax_invariant": true,
+    "accuracy_invariant": true,
+    "macro_f1_invariant": true
+  },
+  "visual_dependency": {
+    "dataset": "aokvqa",
+    "overall": {
+      "count": 390,
+      "original": {
+        "accuracy": 0.47435897435897434,
+        "mean_correct_probability": 0.4334641945907631,
+        "kl_uniform": 0.6490957518943682
+      },
+      "blank": {
+        "accuracy": 0.28717948717948716,
+        "mean_correct_probability": 0.25110689164736333,
+        "confidence_drop": 0.18235730294339975,
+        "flip_rate": 0.6615384615384615,
+        "kl_uniform": 0.0003304308509837627,
+        "js_from_original": 0.1731388108440651
+      },
+      "noise": {
+        "accuracy": 0.2512820512820513,
+        "mean_correct_probability": 0.2512137076793573,
+        "confidence_drop": 0.1822504869114058,
+        "flip_rate": 0.6564102564102564,
+        "kl_uniform": 0.00034904767403345476,
+        "js_from_original": 0.1727364792631796
+      },
+      "wrong": {
+        "accuracy": 0.44871794871794873,
+        "mean_correct_probability": 0.42120005358155116,
+        "confidence_drop": 0.012264141009211917,
+        "flip_rate": 0.20256410256410257,
+        "kl_uniform": 0.6314558431388476,
+        "js_from_original": 0.040123125272457406
+      }
+    },
+    "test_used_for_threshold_fit": false,
+    "semantic_counterfactual": {
+      "reported": false,
+      "reason": "no verified semantic image pair in this dataset manifest"
+    }
+  },
+  "training_time_seconds": 4555.782465219498,
+  "gpu": {
+    "torch_device": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda_available": true,
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "memory_mib": 16311
+  },
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/results/independent_datasets_full/aokvqa/checkpoint/visual_jev_v3.pt",
+  "initial_state_sha256": "76d6f6c00d011717b62e5eb7cf6d55e535741e122732cfddac200fb2d0ccca3a",
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/independent_datasets_full/aokvqa/result.json",
+    "source_sha256": "a26d1a1513647e1c8b026701db95c19d958dddab087905438e279d2c9bf78c1e",
+    "omitted_fields": [
+      "/visual_dependency/records",
+      "/failure_cases"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

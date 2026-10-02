@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493",
+  "candidate_manifest_sha256": "667474938a9aba8af603cb27d9f19fd52ed66d8055dc4cc2198afd70df0be8df",
+  "backbone": "/home/jiezuo/projects/Open-Jev/models/Qwen3-VL-4B-Instruct",
+  "controls": true
+}

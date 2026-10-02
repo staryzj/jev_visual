@@ -1,0 +1,22 @@
+{
+  "dataset": "scienceqa_image_only",
+  "manifest": "/home/jiezuo/projects/Open-Jev/data/independent_datasets/full/scienceqa_image_only/test.jsonl",
+  "metrics": {
+    "count": 984,
+    "accuracy": 0.8841463414634146,
+    "macro_f1": 0.714548118298991,
+    "nll": 0.29531496652617445,
+    "brier": 0.17419425584766945,
+    "ece": 0.05384053801739118
+  },
+  "mean_model_seconds": 0.13730562411122568,
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/official_visual_jev_matched/seed-2/scienceqa_image_only.json",
+    "source_sha256": "a8caff05fcac8e28baf3da4dddb98f6a409a102cc879251f660d7e60791f23b7",
+    "omitted_fields": [
+      "/records"
+    ],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

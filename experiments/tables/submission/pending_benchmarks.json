@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "gqa",
+    "status": "queued",
+    "N": 12578,
+    "reason": "complete split evaluation not yet finished",
+    "command": ".venv/bin/python scripts/evaluate_submission_benchmarks.py --datasets gqa --controls",
+    "prepare_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets gqa --refresh --fetch-images"
+  },
+  {
+    "dataset": "snli_ve",
+    "status": "blocked",
+    "N": 17901,
+    "reason": "Missing image resources; whole declared split blocked, no reduced subset",
+    "command": ".venv/bin/python scripts/evaluate_submission_benchmarks.py --datasets snli_ve --controls",
+    "prepare_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets snli_ve --refresh --fetch-images --flickr30k-root data/flickr30k-images"
+  },
+  {
+    "dataset": "textvqa",
+    "status": "failed",
+    "N": 5000,
+    "reason": "complete split evaluation not yet finished",
+    "command": ".venv/bin/python scripts/evaluate_submission_benchmarks.py --datasets textvqa --controls",
+    "prepare_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets textvqa --refresh --fetch-images"
+  },
+  {
+    "dataset": "tallyqa",
+    "status": "failed",
+    "N": 38589,
+    "reason": "complete split evaluation not yet finished",
+    "command": ".venv/bin/python scripts/evaluate_submission_benchmarks.py --datasets tallyqa --controls",
+    "prepare_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets tallyqa --refresh --fetch-images"
+  },
+  {
+    "dataset": "nlvr2",
+    "status": "blocked",
+    "N": null,
+    "reason": "Official NLVR2 image terms require researcher registration/permission; public mirror does not prove authorization.",
+    "command": ".venv/bin/python scripts/evaluate_submission_benchmarks.py --datasets nlvr2 --controls",
+    "prepare_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets nlvr2 --refresh --nlvr2-authorized"
+  },
+  {
+    "dataset": "winoground",
+    "status": "blocked",
+    "N": null,
+    "reason": "GatedRepoError: 401 Client Error. (Request ID: Root=1-6abe4875-713f11c9642a46895e055849;0e644b70-c74b-465f-8875-3158b3826328)\n\nCannot access gated repo for url https://huggingface.co/datasets/facebook/winoground/resolve/b400e173549071916ad1b3d449293bc8d8b4b763/data/test-00000-of-00001.parquet.\nAccess to dataset facebook/winoground is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "command": ".venv/bin/python scripts/evaluate_submission_benchmarks.py --datasets winoground --controls",
+    "prepare_command": ".venv/bin/python scripts/submission_benchmarks.py prepare --datasets winoground --refresh --fetch-images"
+  }
+]

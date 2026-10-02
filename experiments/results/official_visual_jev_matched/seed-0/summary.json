@@ -1,0 +1,56 @@
+{
+  "official_repo": "/home/jiezuo/projects/Visual-Jev-official",
+  "official_commit": "a392eaedfa41adae348f9767b55c0f54b3a13b57",
+  "adapter": "guanxuyu/visual-jev-4b-answer-sft",
+  "seed_index": 0,
+  "fixed_eval_seed": 20260928,
+  "results": {
+    "controlled": {
+      "count": 128,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "nll": 0.004590674608678964,
+      "brier": 0.0016535950645900164,
+      "ece": 0.004061138723045575
+    },
+    "aokvqa": {
+      "count": 390,
+      "accuracy": 0.8512820512820513,
+      "macro_f1": 0.8491060529778924,
+      "nll": 0.4868415054185472,
+      "brier": 0.22920386305178514,
+      "ece": 0.08740559755227505
+    },
+    "scienceqa_image_only": {
+      "count": 984,
+      "accuracy": 0.8770325203252033,
+      "macro_f1": 0.7083675187415045,
+      "nll": 0.3044222147783845,
+      "brier": 0.17642768370611964,
+      "ece": 0.049574104539020315
+    },
+    "iconqa_choice": {
+      "count": 1838,
+      "accuracy": 0.8297062023939065,
+      "macro_f1": 0.8233589227593626,
+      "nll": 0.4325691143135551,
+      "brier": 0.2525199657397398,
+      "ece": 0.07433251765788702
+    },
+    "coco_hard_negative": {
+      "count": 83,
+      "accuracy": 0.9879518072289156,
+      "macro_f1": 0.9876500857632933,
+      "nll": 0.010398654773667866,
+      "brier": 0.0061606926155895235,
+      "ece": 0.008018159004579105
+    }
+  },
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/official_visual_jev_matched/seed-0/summary.json",
+    "source_sha256": "f0e6351f0c521d039027c92efa5c43059b16901ab24e90fbdaeba87ec1923dac",
+    "omitted_fields": [],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

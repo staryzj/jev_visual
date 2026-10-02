@@ -1,0 +1,181 @@
+{
+  "status": "success",
+  "backbone": "internvl",
+  "seed": 20260928,
+  "dataset_filter": "coco",
+  "split_counts": {
+    "train": 512,
+    "validation": 80,
+    "calibration": 80,
+    "test": 80
+  },
+  "selection_policy": "validation accuracy, then validation NLL; test reporting only",
+  "fixed_decision_head": true,
+  "base_checkpoint_stage": "best-negative-transfer-fix",
+  "base_checkpoint_sha256": "8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad",
+  "adapter_trainable_parameters": 3680768,
+  "best_epoch": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4263559854880441,
+      "accuracy": 0.8125,
+      "macro_f1": 0.8109090909090909,
+      "nll": 0.35594440194217897,
+      "brier": 0.20414998399911327,
+      "ece": 0.10379308909177781,
+      "mean_correct_probability": 0.7626736212521792,
+      "mean_margin": 2.5464525043964388,
+      "mean_entropy": 0.4740332508343272,
+      "mean_uniform_kl": 0.6245790378337827
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4367830589180812,
+      "accuracy": 0.8125,
+      "macro_f1": 0.8109090909090909,
+      "nll": 0.36380105369571536,
+      "brier": 0.2079867916314811,
+      "ece": 0.09344704896211624,
+      "mean_correct_probability": 0.7577931987121701,
+      "mean_margin": 2.4750412583351133,
+      "mean_entropy": 0.48493569149286486,
+      "mean_uniform_kl": 0.6136765971752449
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4098066602018662,
+      "accuracy": 0.825,
+      "macro_f1": 0.824400871459695,
+      "nll": 0.3615022591118759,
+      "brier": 0.20845405994182098,
+      "ece": 0.08552480526268486,
+      "mean_correct_probability": 0.7620071427896619,
+      "mean_margin": 2.5799429386854174,
+      "mean_entropy": 0.4688687572168419,
+      "mean_uniform_kl": 0.6297435314512679
+    }
+  ],
+  "temperature": 0.8472325801849365,
+  "test_uncalibrated": {
+    "accuracy": 0.8875,
+    "macro_f1": 0.8870557029177718,
+    "nll": 0.34649457885486756,
+    "brier": 0.19184323800223196,
+    "ece": 0.1261956211179495,
+    "mean_correct_probability": 0.7652588298544287,
+    "mean_margin": 2.5378024607896803,
+    "mean_entropy": 0.48542393443240145,
+    "mean_uniform_kl": 0.6131883542357084
+  },
+  "test_calibrated": {
+    "accuracy": 0.8875,
+    "macro_f1": 0.8870557029177718,
+    "nll": 0.3269039681760034,
+    "brier": 0.18417446688644765,
+    "ece": 0.0969178143888712,
+    "mean_correct_probability": 0.7864663084968925,
+    "mean_margin": 2.995402401685715,
+    "mean_entropy": 0.42401535526369116,
+    "mean_uniform_kl": 0.6745969334044186
+  },
+  "visual_dependency": {
+    "original": {
+      "accuracy": 0.8875,
+      "macro_f1": 0.8870557029177718,
+      "nll": 0.34649457885486756,
+      "brier": 0.19184323800223196,
+      "ece": 0.1261956211179495,
+      "mean_correct_probability": 0.7652588298544287,
+      "mean_margin": 2.5378024607896803,
+      "mean_entropy": 0.48542393443240145,
+      "mean_uniform_kl": 0.6131883542357084,
+      "js_from_original": 0.0,
+      "flip_rate_from_original": 0.0
+    },
+    "blank": {
+      "accuracy": 0.9,
+      "macro_f1": 0.8996189568944987,
+      "nll": 0.5948542301775888,
+      "brier": 0.3209796140741673,
+      "ece": 0.3153227031230927,
+      "mean_correct_probability": 0.5753342341631651,
+      "mean_margin": 0.871313500404358,
+      "mean_entropy": 0.8928795540705323,
+      "mean_uniform_kl": 0.20573273459757752,
+      "js_from_original": 0.05170813202857971,
+      "flip_rate_from_original": 0.03750000149011612
+    },
+    "noise": {
+      "accuracy": 0.9,
+      "macro_f1": 0.8996189568944987,
+      "nll": 0.5902874609688297,
+      "brier": 0.3181454435660271,
+      "ece": 0.3123850829899311,
+      "mean_correct_probability": 0.5781022679060698,
+      "mean_margin": 0.8824938207864761,
+      "mean_entropy": 0.8886583089828491,
+      "mean_uniform_kl": 0.2099539796852607,
+      "js_from_original": 0.05074335262179375,
+      "flip_rate_from_original": 0.03750000149011612
+    },
+    "wrong_image": {
+      "accuracy": 0.8875,
+      "macro_f1": 0.8870557029177718,
+      "nll": 0.34030856300214507,
+      "brier": 0.1893490382875343,
+      "ece": 0.12488447315990923,
+      "mean_correct_probability": 0.7659640984609724,
+      "mean_margin": 2.540140464901924,
+      "mean_entropy": 0.48695587975562377,
+      "mean_uniform_kl": 0.6116564089124861,
+      "js_from_original": 0.00038743362529203296,
+      "flip_rate_from_original": 0.0
+    }
+  },
+  "latency": {
+    "adapter_mean_ms": 0.35267661995021626,
+    "adapter_p95_ms": 0.40533755163778523,
+    "jev_mean_ms": 1.1704767997434828,
+    "jev_p95_ms": 1.1483113004942422,
+    "adapter_plus_jev_mean_ms": 1.523153419693699,
+    "adapter_plus_jev_p95_ms": 1.4690187024825716
+  },
+  "backbone_extraction": {
+    "backbone": "internvl",
+    "model_path": "/home/jiezuo/projects/Open-Jev/models/InternVL3_5-1B-HF",
+    "parameter_count": 1060897792,
+    "token_count": 196,
+    "hidden_dim": 1024,
+    "native_shapes": [
+      [
+        1025,
+        1024
+      ]
+    ],
+    "counts": {
+      "train": 512,
+      "validation": 80,
+      "calibration": 80,
+      "test": 80
+    },
+    "mean_extraction_ms": 23.837267659502608,
+    "p50_extraction_ms": 23.136813499149866,
+    "p95_extraction_ms": 24.96190489910077,
+    "total_extraction_seconds": 23.77149240700237,
+    "peak_gpu_memory_gib": 2.03676176071167
+  },
+  "training_seconds": 6.466969847002474,
+  "runtime_seconds": 32.20266722700035,
+  "checkpoint": "/home/jiezuo/projects/Open-Jev/experiments/results/backbone_generality/internvl/adapter.pt",
+  "checkpoint_sha256": "01108b757d009afcaa63ab305485dcdb5fee1663404ca14e3bca573bb871065e",
+  "device": "NVIDIA GeForce RTX 5060 Ti",
+  "claim_boundary": "fast controlled COCO-hard-negative subset; the visual backbone and JEV head are frozen, only the backbone-specific alignment adapter is trained",
+  "public_export_metadata": {
+    "kind": "aggregate export",
+    "source_path": "experiments/results/backbone_generality/internvl/results.json",
+    "source_sha256": "d291e5694b2d1d8f04e566f2bc3575b180dd133bdee7ab4a58e817ca2e3c9073",
+    "omitted_fields": [],
+    "note": "Retained fields are unchanged; source questions/images and example logs omitted. This file is not the byte-identical original."
+  }
+}

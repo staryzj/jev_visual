@@ -1,0 +1,14 @@
+{
+  "state": "Inspect the attached image.",
+  "images": ["test.jpg"],
+  "questions": {
+    "content": {
+      "type": "choice",
+      "instructions": "Which description best matches the image?",
+      "criteria": {
+        "interface": "A software interface or presentation frame is visible.",
+        "animal": "An animal is the main subject."
+      }
+    }
+  }
+}

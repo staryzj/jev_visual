@@ -1,0 +1,4 @@
+backbone,N,input_dim,native_tokens,pooled_tokens,adapter_parameters,same_frozen_head,accuracy,blank_accuracy,noise_accuracy,wrong_accuracy,wrong_flip,wrong_js,extract_ms,adapter_jev_ms,result_path
+SigLIP2,80,768,196,196,3418112,True,0.8625,0.8625,0.8625,0.85,0.012500000186264515,0.0009725997224450111,9.25109123144021,1.5328783204313368,/home/jiezuo/projects/Open-Jev/experiments/results/backbone_generality/siglip2/results.json
+InternVL3.5,80,1024,1025,196,3680768,True,0.8875,0.9,0.9,0.8875,0.0,0.00038743362529203296,23.837267659502608,1.523153419693699,/home/jiezuo/projects/Open-Jev/experiments/results/backbone_generality/internvl/results.json
+LLaVA-OneVision,80,1152,1458/2187/3645,196,3812096,True,0.875,0.8875,0.8875,0.875,0.0,1.2750225323543418e-05,99.94612657464073,1.4799194200895727,/home/jiezuo/projects/Open-Jev/experiments/results/backbone_generality/llava/results.json
