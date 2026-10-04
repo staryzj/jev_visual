@@ -1,4 +1,4 @@
-from scripts.summarize_independent_statistics import wilson
+from scripts.evaluation.summarize_independent_statistics import wilson
 
 
 def test_wilson_interval_contains_observed_proportion() -> None:

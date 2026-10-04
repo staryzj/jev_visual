@@ -1,138 +1,117 @@
-# Visual-JEV: a visual interface for bounded JEV decisions
+# Visual-JEV: adapting visual backbones to one fixed JEV scorer
 
-Visual-JEV is a research extension of [Open-Jev](https://github.com/Zefan-Cai/Open-Jev), not an official release of TypeSafe's Jev or the concurrent Visual Jev answer-SFT model. It maps frozen visual representations through an alignment adapter to an external candidate-conditioned scorer. One selected visual encoder is used per run; alternative encoders are not an ensemble.
+A selected frozen visual backbone maps through its own trainable adapter into the **same frozen external JEV decision scorer**. Alternative backbones are replaceable choices, not parallel ensemble branches. This research project builds on [Open-Jev](https://github.com/Zefan-Cai/Open-Jev); it is not an official Jev release.
 
-中文说明：本工程严格区分完整公开 benchmark、matched 自定义对照和 sample/debug；没有结果的项目不填造数值。代码与结果仓库为 [staryzj/jev_visual](https://github.com/staryzj/jev_visual)。
+中文：代码按功能归入文件夹，根目录只保留说明、依赖和许可证。完整 benchmark、自定义 held-out 实验和 debug 结果严格分开。
 
-## Evidence boundaries
+## Repository layout
 
-- **Full benchmark protocol:** every example in the explicitly named official split/native task, with public labels. Official validation is called validation, never test accuracy.
-- **Matched protocol:** identical custom held-out examples and candidate order for our model and the official Visual Jev comparator. These are not full official test results.
-- **Controlled backbone adaptation:** three recorded adapter-only runs with the same frozen external scorer, each on 512/80/80/80 custom COCO train/validation/calibration/held-out examples. These 80-example results are preliminary, not full benchmark evidence.
-- **Debug:** smoke tests and capped runs remain separate and never replace declared full splits.
+| Folder | Contents |
+|---|---|
+| `visualjev/` | Models, adapters, pipeline and shared metrics |
+| `jev/` | Required Open-Jev components only |
+| `scripts/training/` | Training and custom-set experiments |
+| `scripts/evaluation/` | Full-split evaluation and diagnostics |
+| `scripts/data/` | Dataset preparation and source audits |
+| `scripts/backbones/` | Adapter-only backbone transfer and audits |
+| `scripts/tables/` | CSV, Markdown and LaTeX table generation |
+| `scripts/demo/` | Prediction and demonstrations |
+| `scripts/workflows/` | Multi-step shell workflows |
+| `scripts/maintenance/` | Read-only release verification |
+| `configs/`, `tests/` | Configurations and regression tests |
+| `experiments/` | Real results, complete predictions and table exports |
+| `reports/`, `docs/` | Evidence audits and protocols |
+| `release_metadata/` | File hashes and migration provenance |
 
-See [BENCHMARK_PROTOCOL.md](BENCHMARK_PROTOCOL.md) and [backbone protocol/next steps](reports/backbone-adaptation-v6/PROTOCOL_AND_NEXT_STEPS.md).
+No Python files remain at the root. Old prototypes, unrelated upstream tasks, comparator-specific artifacts and duplicated documentation were removed from this compact tree. Previous commits preserve them; history was not rewritten.
 
-The primary research question is whether different frozen visual backbones, through their own small adapters, can drive **the same frozen external JEV scorer**. The present records establish recorded functional reuse, not leaderboard superiority, universal backbone compatibility, matched end-to-end speedups, or beneficial visual dependence. Official Visual Jev has a different head/training protocol and is a background reference system, not the primary performance opponent.
+## Installation and checks
 
-## Primary experiment: adapter-only reuse of one frozen scorer
+Linux/WSL and Python 3.10+ are the experiment baseline. Run commands from the repository root with a compatible PyTorch/CUDA installation.
 
-| Target visual encoder | Custom held-out N | Original accuracy (%) | Blank-image accuracy (%) |
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ".[train,vl,test]"
+python -m pytest -q
+python -m scripts.maintenance.verify_publication
+```
+
+Weights, feature caches and raw benchmark images are **not distributed here**. Exact historical reproduction requires the recorded checkpoint bytes and original data/model resources. Users must obtain gated access themselves; the workflow does not bypass restrictions or accept licenses.
+
+## Primary evidence: adapter-only backbone transfer
+
+The external scorer and common cached Qwen text features are fixed. Only the target adapter is trained. Each run uses custom COCO partitions of 512/80/80/80 train/validation/calibration/held-out instances, not official full tests.
+
+| Target backbone | Held-out N | Original accuracy (%) | Blank-image accuracy (%) |
 |---|---:|---:|---:|
 | SigLIP2 | 80 | 86.25 | 86.25 |
 | InternVL3.5 | 80 | 88.75 | 90.00 |
 | LLaVA-OneVision | 80 | 87.50 | 88.75 |
 
-Only the target alignment adapter is trained; the external scorer and cached Qwen text path are fixed. Original images do not outperform blank controls in any row. These custom subset results are preliminary functional-reuse evidence, not official full-test performance. The source scorer SHA256 is `8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad`.
+Source scorer SHA256: `8e4f9703d4629e222fbdb2e6007c43ae224e7e64137ce8e880ea2ecf39e366ad`.
 
-The V7 manuscript allocates evidence to (1) cross-backbone adaptation, (2) adapter controls, (3) visual dependence across backbones, and (4) secondary dataset transfer. Its complete Official Visual Jev matched comparison belongs only in Supplement Table S1. Historical official/custom records remain in this repository for inspection, without merging them into the primary experiment.
+These records show functional reuse, not leaderboard superiority or beneficial visual dependence: no target row outperforms its blank control. Zero aligned tokens, random adapters, trained linear adapters and verified target-backbone semantic pairs are unmeasured.
 
-See [V7 core table CSV](reports/frozen-scorer-v7/core_backbone_table.csv), [table summary](reports/frozen-scorer-v7/core_backbone_table.md), [source hashes](reports/frozen-scorer-v7/table_sources.json), and [revision/evidence audit](reports/frozen-scorer-v7/REVISION_AUDIT.md). Qwen accuracy on the identical 80-example subset, zero aligned tokens, random adapters, trained linear adapters and verified target-backbone semantic pairs are unmeasured; their table cells stay `--` (empty fields in CSV exports). Blank photographs are not zero-token controls. Source hashes in this V7 report identify original local result files; the aggregate exports expose those identities in `public_export_metadata`, while `PUBLICATION_MANIFEST.json` also identifies the exported bytes.
+See [core table](reports/frozen-scorer-v7/core_backbone_table.csv), [source identities](reports/frozen-scorer-v7/table_sources.json), [checkpoint audit](reports/backbone-adaptation-v6/audit.json) and [continuation protocol](reports/backbone-adaptation-v6/PROTOCOL_AND_NEXT_STEPS.md).
 
-## Secondary evidence: recorded complete-split results
+Plan full custom-manifest transfer without reducing coverage:
 
-These scores are rounded from each dataset's actual `experiments/results/submission_full/<dataset>/result.json`. They use the fixed controlled-COCO checkpoint with SHA256:
+```bash
+python -m scripts.backbones.run_backbone_adapter_full \
+  --backbone siglip2 --model /path/to/SigLIP2 \
+  --base-checkpoint /path/to/recorded-source-scorer.pt \
+  --manifest-root /path/to/custom/manifests \
+  --qwen-feature-root /path/to/qwen/features \
+  --output experiments/reproduction/siglip2 --plan-only
+```
 
-`b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493`
+Remove `--plan-only` only when resources are available and full training is intended. This remains custom-manifest transfer, not official benchmark evaluation.
 
-| Dataset/task | Evaluated split | N | Primary score (%) |
+## Secondary evidence: complete declared benchmark splits
+
+These use a separate fixed controlled-COCO checkpoint with SHA256 `b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493`, not the target-backbone study checkpoint.
+
+| Dataset/task | Declared split | N | Primary score (%) |
 |---|---|---:|---:|
 | ScienceQA, all items | official test | 4241 | 28.13 |
-| A-OKVQA, native four-choice | official validation | 1145 | 36.33 |
-| IconQA, native select-txt task | official test task | 6316 | 30.19 |
+| A-OKVQA, four-choice | official validation | 1145 | 36.33 |
+| IconQA, select-txt task | official test task | 6316 | 30.19 |
 | AI2D | official test | 3088 | 26.55 |
 | VSR, random split | official test | 2195 | 53.53 |
-| SugarCrepe++, strict ITT | released evaluation suite, HF storage split `train` | 4757 | 43.77 |
+| SugarCrepe++, strict ITT | released evaluation suite; HF storage split `train` | 4757 | 43.77 |
 
-The total is 21,742 task instances, not a pooled accuracy denominator. SugarCrepe++ uses strict two-positive-over-negative ranking, not ordinary choice accuracy. ScienceQA includes source-defined text-only items; IconQA selects a declared native task, not a random sample. These runs have a different checkpoint from the target-backbone study.
+The six tasks contain 21,742 unique per-task prediction records: a coverage total, **not pooled accuracy**. SugarCrepe++ uses strict two-positive-over-negative ranking. ScienceQA includes intrinsic text-only items; IconQA covers a declared native task.
 
-Incomplete GQA, SNLI-VE, TextVQA, TallyQA, NLVR2 and Winoground measurements are not reported as completed results. Current resource/status records and exact follow-up commands belong in the engineering inventory, not a performance claim.
+Values come from [real result files](experiments/results/submission_full). GQA, SNLI-VE, TextVQA, TallyQA, NLVR2 and Winoground are incomplete here. [Pending commands](experiments/tables/submission/pending_benchmarks.json) are an engineering inventory, not scores. TextVQA must use labelled **validation**, never hidden-test accuracy.
 
-The frozen-head identity audit remains in `reports/backbone-adaptation-v6/audit.json`; target records are at `experiments/results/backbone_generality/<backbone>/results.json`. Historical wrong-image shifts are not verified semantic counterfactuals. The audit does not invent a post-training scorer snapshot or claim historical prediction-level IDs were saved.
-
-## Code map
-
-| Path | Function |
-|---|---|
-| `visual_jev_v3.py`, `visual_jev_v3_pipeline.py` | Candidate scorer and adapter/pipeline modules |
-| `train_visual_jev_v3.py`, `scripts/run_visual_jev_v3_experiment.py` | Source-model training and controlled diagnostics |
-| `scripts/submission_benchmarks.py` | Twelve-dataset registry, labelled full-split preparation and candidate manifests |
-| `scripts/evaluate_submission_benchmarks.py` | Complete-split evaluation, coverage/identity guards, resumable predictions |
-| `scripts/vqa_official_scoring.py` | VQA answer normalization/consensus scoring |
-| `scripts/audit_submission_sources.py` | Annotation/source integrity audit |
-| `scripts/run_official_visual_jev_matched.py` | Official Visual Jev comparison on custom matched sets |
-| `scripts/run_backbone_adapter_fast.py` | Historical capped target-adapter protocol, NOT official full evaluation |
-| `scripts/run_backbone_adapter_full.py` | All-row custom-manifest continuation, with `--plan-only` |
-| `scripts/audit_backbone_adaptation.py` | Existing checkpoint/adapter provenance audit |
-| `scripts/generate_submission_tables.py` | Result-backed CSV, Markdown and LaTeX benchmark/diagnostic tables |
-| `scripts/build_backbone_paper_tables.py` | Two target-backbone tables from audited real result records |
-| `scripts/build_frozen_scorer_paper_tables.py` | V7 primary/control tables from the three real target-backbone results; unmeasured controls remain missing |
-| `scripts/verify_publication.py` | Read-only publication hashes, full-split prediction coverage and V7 source/score consistency |
-| `tests/test_submission_benchmarks.py` | Protocol guards, official scoring and complete-denominator tests |
-
-## Environment and installation
-
-Linux/WSL with Python 3.10+ is the project baseline. GPU feature extraction/evaluation requires compatible PyTorch/CUDA, enough memory, model weights and the declared dataset resources. A code checkout does not contain those resources.
+## Common commands
 
 ```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install --upgrade pip
-.venv/bin/python -m pip install -e '.[train,vl]' pytest pyarrow huggingface_hub
-```
-
-Use `pyproject.toml` and `requirements.txt` for declared dependency versions. Model/checkpoint files are intentionally not part of this source publication; the recorded SHA256 identifies the files used locally, but is not itself a downloadable checkpoint. Reproducing exact checkpoint-dependent scores requires obtaining those exact weights through a separately authorized release. Without them, the repository supplies code, measured-result records and provenance, not turnkey exact inference reproduction.
-
-## Complete-split evaluation
-
-After the exact checkpoint and frozen Qwen3-VL-4B-Instruct model are present, prepare the declared full resources and evaluate without a sample cap:
-
-```bash
-.venv/bin/python scripts/submission_benchmarks.py prepare \
-  --datasets scienceqa aokvqa iconqa ai2d vsr sugarcrepe_pp --fetch-images
-.venv/bin/python scripts/evaluate_submission_benchmarks.py \
+python -m scripts.data.submission_benchmarks prepare \
   --datasets scienceqa aokvqa iconqa ai2d vsr sugarcrepe_pp \
-  --checkpoint experiments/visual_jev_v3_paper/checkpoints/v3_full.pt \
-  --model models/Qwen3-VL-4B-Instruct --controls
-.venv/bin/python scripts/generate_submission_tables.py
+  --checkpoint /path/to/recorded-full-evaluation.pt --fetch-images
+
+python -m scripts.evaluation.evaluate_submission_benchmarks \
+  --datasets scienceqa aokvqa iconqa ai2d vsr sugarcrepe_pp \
+  --checkpoint /path/to/recorded-full-evaluation.pt \
+  --model /path/to/Qwen3-VL-4B-Instruct --controls
+
+python -m scripts.tables.generate_submission_tables
 ```
 
-Any missing required image, duplicate identity, invalid label or incomplete prediction coverage blocks the declared full split. Partial progress is not a `complete` score. Do not shrink data to finish a run. Table regeneration requires local candidate manifests/prediction files and their hashes; an aggregate-only publication cannot satisfy that verification by itself.
+Table regeneration requires complete matching local data manifests; exported results do not replace coverage checks. Use a fresh result root for changed checkpoints/protocols. Published results are evidence snapshots, not output folders to overwrite casually.
 
-## Manual access and expensive follow-up work
-
-Winoground requires access approval; SNLI-VE needs authorized Flickr30K images; NLVR2 needs its original image-use authorization. Authentication and accepting terms remain the user's actions. Public mirrors do not grant new image rights.
+After satisfying manual access/image prerequisites:
 
 ```bash
-.venv/bin/python scripts/resume_submission_benchmark.py snli_ve \
-  --flickr30k-root data/flickr30k-images
-.venv/bin/python scripts/resume_submission_benchmark.py winoground
-.venv/bin/python scripts/resume_submission_benchmark.py nlvr2 --nlvr2-authorized
+python -m scripts.data.resume_submission_benchmark snli_ve --flickr30k-root data/flickr30k-images
+python -m scripts.data.resume_submission_benchmark winoground
+python -m scripts.data.resume_submission_benchmark nlvr2 --nlvr2-authorized
+python -m scripts.training.train_visual_jev_v3 --help
+python -m scripts.demo.predict_visual_jev_v3 --help
 ```
 
-These recovery commands are to be run only after the corresponding access prerequisites are satisfied. GQA/TextVQA vocabulary preparation and full-custom target training commands are in the protocol files. They preserve full declared membership; training is not triggered by generating tables or reviewing records.
+Recovery commands default to recorded checkpoint/model locations; `--checkpoint` overrides the checkpoint. To use another model location, run the evaluator directly with `--model`. A missing image blocks the declared split rather than reducing its denominator.
 
-## Data availability and release scope
-
-This source-and-results deposit includes experimental source, tests, configuration, aggregate `result.json` records, source/checkpoint hashes, benchmark protocol and generated numerical tables. The six complete-split `result.json` and `predictions.jsonl` files are byte-identical to the local records after SHA256 and unique-UID/count checks (21,742 predictions in total). The prediction exports contain numeric scores, label indices, dataset UIDs and measured timing, not source question/caption/image content. `result.json` embeds dataset revision/fingerprint, named split, sample count and completeness metadata. Historical records preserve absolute local paths for provenance; those paths are not portable resources.
-
-Original benchmark images, question/answer corpora, candidate caches, feature tensors, gated resources, downloaded model weights, checkpoint tensors and paper illustration photographs are excluded unless a separately verified redistribution route is established. Third-party datasets are retrieved from the sources recorded in the registry/manifests under their own licenses. No blanket data license or access permission is invented by this README. A separate checkpoint distribution route and archival release/DOI remain unresolved; no DOI is claimed.
-
-Historical matched/custom logs containing source examples are published only as explicit aggregate exports: each file's `public_export_metadata` lists omitted fields and the original file SHA256. Retained metric fields are unchanged; exported file bytes/hashes are different from the originals and must not be confused with them. `PUBLICATION_MANIFEST.json` maps the source and export hashes separately. These historical aggregates cannot reconstruct deleted examples or repair absent historical prediction-level provenance. Dataset metadata snapshots are under `release_metadata/benchmarks/`; they document acquisition status and source identities, not redistributed datasets. Table regeneration still needs the original local candidate manifests to verify their hashes.
-
-See [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) for the exact publication boundary. A 39-test protocol/scorer/history/statistics/table-export smoke suite passed in the clean publication checkout; it does not rerun the benchmark inference or validate scientific superiority.
-
-## Tests and result generation
-
-```bash
-.venv/bin/python -m pytest -q tests/test_submission_benchmarks.py
-.venv/bin/python scripts/audit_backbone_adaptation.py
-.venv/bin/python scripts/build_backbone_paper_tables.py --paper /path/to/paper
-.venv/bin/python scripts/build_frozen_scorer_paper_tables.py --paper /path/to/paper
-.venv/bin/python scripts/verify_publication.py
-```
-
-The checkpoint audit needs exact local checkpoint/adapter tensors and manifest files. Table builders need an existing paper directory with `tables/submission/`; they use existing result JSON, not synthetic data. Unmeasured cells remain `--`. Publication verification needs neither model weights nor GPU inference. Rebuilding V7 tables from public aggregate exports preserves the original-source identities declared in their embedded metadata; exported byte hashes remain separately recorded in the publication manifest.
-
-## Attribution and licenses
-
-Open-Jev upstream attribution and its MIT `LICENSE` are retained. The name Visual-JEV here refers to this research extension; official Visual Jev is a separate comparator. Upstream model/dataset licenses remain separate from the software license, and our own generated results do not relicense third-party images or annotations. Authors should add a final manuscript/release citation once a public record exists; none is invented here.
+See [BENCHMARK_PROTOCOL](docs/BENCHMARK_PROTOCOL.md) and [publication notes](docs/PUBLICATION_NOTES.md). The [MIT license](LICENSE) covers repository code; model and dataset licenses remain separate.

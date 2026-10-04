@@ -12,9 +12,9 @@ import pytest
 @pytest.mark.parametrize('public_export', [False, True])
 def test_core_table_preserves_source_identity_and_missing_controls(tmp_path, public_export):
     source_root = Path(__file__).resolve().parents[1]
-    script = tmp_path/'scripts/build_frozen_scorer_paper_tables.py'
-    script.parent.mkdir()
-    shutil.copy2(source_root/'scripts/build_frozen_scorer_paper_tables.py', script)
+    script = tmp_path/'scripts/tables/build_frozen_scorer_paper_tables.py'
+    script.parent.mkdir(parents=True)
+    shutil.copy2(source_root/'scripts/tables/build_frozen_scorer_paper_tables.py', script)
     audit = tmp_path/'reports/backbone-adaptation-v6/audit.json'
     audit.parent.mkdir(parents=True)
     audit.write_text(json.dumps({'base_checkpoint_sha256': 'checkpoint-fixture'}))

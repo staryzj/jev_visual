@@ -1,9 +1,9 @@
 import pytest
 import torch
 
-from scripts.prepare_visual_jev_v3_pairs import build_pairs
-from visual_jev_v2 import VisualJEVV2, VisualJEVV2Config, candidate_pair_loss
-from visual_jev_v3 import (
+from scripts.data.prepare_visual_jev_v3_pairs import build_pairs
+from visualjev.models.visual_jev_v2 import VisualJEVV2, VisualJEVV2Config, candidate_pair_loss
+from visualjev.models.visual_jev_v3 import (
     VisualJEVV3,
     VisualJEVV3Config,
     VisualJEVV3LossWeights,

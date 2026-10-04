@@ -1,6 +1,6 @@
 import torch
 
-from run_vision_backend_pair_proof import pair_metrics
+from scripts.backbones.run_vision_backend_pair_proof import pair_metrics
 
 
 def test_pair_both_requires_opposite_image_conditioned_predictions():

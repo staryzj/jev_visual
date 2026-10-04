@@ -1,6 +1,6 @@
 # Visual-JEV multi-turn image dialogue
 
-`scripts/live_visual_jev_demo.py` supports bounded multi-turn memory while keeping
+`scripts/demo/live_visual_jev_demo.py` supports bounded multi-turn memory while keeping
 Qwen3-VL and VisualJEVV3 resident for the whole interactive session.
 
 ## What is implemented
@@ -28,7 +28,7 @@ Start once:
 
 ```bash
 cd ~/projects/Open-Jev
-.venv/bin/python scripts/live_visual_jev_demo.py --interactive
+.venv/bin/python scripts/demo/live_visual_jev_demo.py --interactive
 ```
 
 At the input menu:
@@ -43,7 +43,7 @@ At the input menu:
 For memory that survives a restart:
 
 ```bash
-.venv/bin/python scripts/live_visual_jev_demo.py \
+.venv/bin/python scripts/demo/live_visual_jev_demo.py \
   --interactive \
   --history-file runs/live_dialog_history.json
 ```

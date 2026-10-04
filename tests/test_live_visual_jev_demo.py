@@ -4,8 +4,8 @@ import torch
 from torch import nn
 
 from jev.conversation_history import VisualConversationHistory
-from scripts.live_visual_jev_demo import cache_validation, input_path, interactive_case
-from visual_jev_v2 import Qwen3VLFeatureExtractor
+from scripts.demo.live_visual_jev_demo import cache_validation, input_path, interactive_case
+from visualjev.models.visual_jev_v2 import Qwen3VLFeatureExtractor
 
 
 class _Processor:

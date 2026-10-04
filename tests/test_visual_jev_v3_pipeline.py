@@ -2,8 +2,8 @@ from pathlib import Path
 
 import torch
 
-from visual_jev_v3 import VisualJEVV3Config
-from visual_jev_v3_pipeline import (
+from visualjev.models.visual_jev_v3 import VisualJEVV3Config
+from visualjev.models.visual_jev_v3_pipeline import (
     AlignmentAdapterConfig,
     MeanPoolJEV,
     ThreeStageVisualJEV,

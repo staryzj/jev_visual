@@ -2,8 +2,8 @@
 from types import SimpleNamespace
 from pathlib import Path
 import pytest
-from scripts.submission_benchmarks import make_row,REGISTRY
-from scripts.evaluate_submission_benchmarks import result_metrics,vqa_score,valid_complete_result,different_image_index
+from scripts.data.submission_benchmarks import make_row,REGISTRY
+from scripts.evaluation.evaluate_submission_benchmarks import result_metrics,vqa_score,valid_complete_result,different_image_index
 
 def test_test_labels_hidden_are_validation_named():
     for name in ['aokvqa','textvqa']:

@@ -44,7 +44,7 @@ The files and checksums are in `data/benchmark_v1/manifests/manifest.json`.
 Recreate them with:
 
 ```bash
-uv run --frozen --extra train python prepare_benchmark_v1.py
+uv run --frozen --extra train python scripts/data/prepare_benchmark_v1.py
 ```
 
 When all main datasets are available, their adapters should yield
@@ -67,7 +67,7 @@ during fitting. The implementation supports fixed or variable candidate counts.
 Run all existing checkpoints with:
 
 ```bash
-uv run --frozen --extra train python calibrate_visual_jev_v3.py
+uv run --frozen --extra train python scripts/evaluation/calibrate_visual_jev_v3.py
 ```
 
 Outputs:

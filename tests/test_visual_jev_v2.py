@@ -2,12 +2,12 @@ import json
 
 import torch
 
-from scripts.run_visual_jev_v2_experiment import (
+from scripts.training.run_visual_jev_v2_experiment import (
     DiskFeatureDataset,
     open_cached_dataset,
 )
-from train_visual_jev_v2 import load_records
-from visual_jev_v2 import (
+from scripts.training.train_visual_jev_v2 import load_records
+from visualjev.models.visual_jev_v2 import (
     VisualJEVV2,
     VisualJEVV2Config,
     candidate_pair_loss,

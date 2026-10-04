@@ -170,10 +170,10 @@ Full V3 的条件诊断：
 
 关键文件：
 
-- `train_visual_jev_v3.py`：缓存生成与 Stage A/B/C、MeanPool、消融训练；
-- `eval_visual_jev_v3.py`：主指标、baseline、native generative baseline；
-- `diagnostic_visual_dependency.py`：Original/Blank/Noise/Wrong/Swap 与缓存审计；
-- `visual_jev_v3_pipeline.py`：Stage-A adapter、三阶段 wrapper、MeanPool baseline；
+- `scripts/training/train_visual_jev_v3.py`：缓存生成与 Stage A/B/C、MeanPool、消融训练；
+- `scripts/evaluation/eval_visual_jev_v3.py`：主指标、baseline、native generative baseline；
+- `scripts/evaluation/diagnostic_visual_dependency.py`：Original/Blank/Noise/Wrong/Swap 与缓存审计；
+- `visualjev/models/visual_jev_v3_pipeline.py`：Stage-A adapter、三阶段 wrapper、MeanPool baseline；
 - `configs/visual_jev_v3_paper.json`：全部超参；
 - `experiments/results/metrics.json` / `metrics.csv`：论文表格源数据；
 - `experiments/results/visual_dependency.json`：视觉依赖验收报告；
@@ -184,14 +184,14 @@ Full V3 的条件诊断：
 
 ```bash
 cd /home/jiezuo/projects/Open-Jev
-bash scripts/run_visual_jev_v3_paper.sh
+bash scripts/workflows/run_visual_jev_v3_paper.sh
 ```
 
 已有缓存时单独评测：
 
 ```bash
-.venv/bin/python eval_visual_jev_v3.py --native
-.venv/bin/python diagnostic_visual_dependency.py
+.venv/bin/python scripts/evaluation/eval_visual_jev_v3.py --native
+.venv/bin/python scripts/evaluation/diagnostic_visual_dependency.py
 ```
 
 ## 9. 失败案例与限制

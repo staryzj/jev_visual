@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import torch
 
-from run_benchmark_v1_experiment import _cache_valid, _write_feature_manifest
+from scripts.training.run_benchmark_v1_experiment import _cache_valid, _write_feature_manifest
 
 
 def test_feature_cache_rejects_zero_byte_interrupted_shard(tmp_path) -> None:

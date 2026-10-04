@@ -5,8 +5,8 @@ from jev.vision_backends import (
     TextOnlyCandidateScorer,
     batched_candidate_scores,
 )
-from run_vision_backend_compatibility import cache_is_valid, sha256, write_json
-from visual_jev_v3 import VisualJEVV3, VisualJEVV3Config
+from scripts.backbones.run_vision_backend_compatibility import cache_is_valid, sha256, write_json
+from visualjev.models.visual_jev_v3 import VisualJEVV3, VisualJEVV3Config
 
 
 @pytest.mark.parametrize("vision_dim,token_count", [(64, 49), (96, 196)])

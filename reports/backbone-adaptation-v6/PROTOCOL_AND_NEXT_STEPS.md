@@ -19,9 +19,9 @@ The source head's preparation archive uses a separate 64-example mixed-domain di
 From `/home/jiezuo/projects/Open-Jev`:
 
 ```bash
-.venv/bin/python scripts/run_backbone_adapter_full.py --backbone siglip2 --model models/SigLIP2-Base-Patch16-224 --base-checkpoint experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt --output experiments/results/backbone_generality_full_v6/siglip2 --plan-only
-.venv/bin/python scripts/run_backbone_adapter_full.py --backbone internvl --model models/InternVL3_5-1B-HF --base-checkpoint experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt --output experiments/results/backbone_generality_full_v6/internvl --plan-only
-.venv/bin/python scripts/run_backbone_adapter_full.py --backbone llava --model models/LLaVA-OneVision-0.5B --base-checkpoint experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt --output experiments/results/backbone_generality_full_v6/llava --plan-only
+.venv/bin/python scripts/backbones/run_backbone_adapter_full.py --backbone siglip2 --model models/SigLIP2-Base-Patch16-224 --base-checkpoint experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt --output experiments/results/backbone_generality_full_v6/siglip2 --plan-only
+.venv/bin/python scripts/backbones/run_backbone_adapter_full.py --backbone internvl --model models/InternVL3_5-1B-HF --base-checkpoint experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt --output experiments/results/backbone_generality_full_v6/internvl --plan-only
+.venv/bin/python scripts/backbones/run_backbone_adapter_full.py --backbone llava --model models/LLaVA-OneVision-0.5B --base-checkpoint experiments/results/benchmark_v1/fix_negative_transfer_local_rerun/best_model_results/visual_jev_v3_best.pt --output experiments/results/backbone_generality_full_v6/llava --plan-only
 ```
 
 Remove `--plan-only` only when authorizing these new full-custom-manifest training runs. The wrapper reuses the historical adapter recipe; it does not implement or claim completed random/linear/zero-token baselines. Source model files and text features must already be present. Native official benchmark training/evaluation is a different protocol and must preserve its declared full membership.

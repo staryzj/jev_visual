@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import torch
 
-from run_independent_datasets import DATASETS, extended_metrics, passes_regression_floor
+from scripts.training.run_independent_datasets import DATASETS, extended_metrics, passes_regression_floor
 
 
 def test_independent_dataset_list_has_no_duplicate_or_mixed_alias() -> None:
