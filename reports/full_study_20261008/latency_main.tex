@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.10}
+\caption{H100 cached adapter-plus-scorer time (ms/example): MLP+Null mean $\pm$ between-seed SD. Encoder time is excluded.}
+\label{tab:latency-main}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Task & SigLIP2 & InternVL & LLaVA \\
+\midrule
+ScienceQA & 0.94\,$\pm$\,0.01 & 0.99\,$\pm$\,0.00 & 0.95\,$\pm$\,0.00 \\
+TextVQA & 1.87\,$\pm$\,0.01 & 1.84\,$\pm$\,0.01 & 1.97\,$\pm$\,0.01 \\
+IconQA fill & 9.76\,$\pm$\,0.05 & 10.35\,$\pm$\,0.04 & 10.10\,$\pm$\,0.04 \\
+GQA & 40.82\,$\pm$\,0.58 & 40.51\,$\pm$\,0.58 & 42.72\,$\pm$\,0.66 \\
+\bottomrule
+\end{tabular}
+\end{table}

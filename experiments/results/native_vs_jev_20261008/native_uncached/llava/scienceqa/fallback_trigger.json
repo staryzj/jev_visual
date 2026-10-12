@@ -1,0 +1,10 @@
+{
+  "kind": "cached_uncached_numerical_mismatch",
+  "difference": 0.04239845275878906,
+  "tolerance": 0.02,
+  "reason": "Native cached/uncached score difference 0.04239845275878906 exceeds tolerance",
+  "policy": "Re-evaluate entire full case with uncached forward; no mixed-score prefix",
+  "rejected_cached_directory": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/native_vs_jev_20261008/native/llava/scienceqa",
+  "legacy_identity_sha256": "5f90ce9df8459309e9d180a8b2128bd74075375d870e8bc1a4f664c9813786d2",
+  "fallback_code_sha256": "c3958cb3aedde5c811950e4752d8e3bdbf0b5fbf286748c4eb18f03f08f97386"
+}

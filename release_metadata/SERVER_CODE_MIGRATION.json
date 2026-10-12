@@ -1,0 +1,185 @@
+{
+  "files": [
+    {
+      "path": "jev/adapter_study.py",
+      "server_source_sha256": "c204b1ab20a26d13cb252b3183c72a67171a76d114fc16526af2c04ed09a891f",
+      "published_sha256": "2ce72631d4f651976c75c29f47acd07aeb1f9a383c00b085e510ee80be882513",
+      "change": "Import paths only"
+    },
+    {
+      "path": "jev/native_visual_baselines.py",
+      "server_source_sha256": "a3dde9661d3959ec29a1b5fc9e64cd41733ca1e4fd80c761843e89975eb239ff",
+      "published_sha256": "a3dde9661d3959ec29a1b5fc9e64cd41733ca1e4fd80c761843e89975eb239ff",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/data/audit_full_images.py",
+      "server_source_sha256": "74311920bd5223f269bccbfb07e97d0eeaffab5879dcaef9fd080bec0c8287b6",
+      "published_sha256": "c557f4c3efc4fac6a2c3cc7db1a095b7272b4ca252979c504cfd2a54d876eb97",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/data/prepare_adapter_study_training.py",
+      "server_source_sha256": "a583ae05724f3402a303c76f5dce28843f41cfee20d2a389e9c2da10422d2a80",
+      "published_sha256": "a583ae05724f3402a303c76f5dce28843f41cfee20d2a389e9c2da10422d2a80",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/data/prepare_iconqa_remaining.py",
+      "server_source_sha256": "f882cece9554415da8119c0499a0b45ddb7705e92de6b8dacae886a5ceaac1dd",
+      "published_sha256": "0207edd6557eb56534ffa63a3ad616af70efb4c29656310ae07b82f278ae51c1",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/build_adapter_study_tables.py",
+      "server_source_sha256": "5c420c7b7b7ecab620a7cfa3ee0b40d91a325aeea44ca6a9d5e5ef6c2bf78ccb",
+      "published_sha256": "5c420c7b7b7ecab620a7cfa3ee0b40d91a325aeea44ca6a9d5e5ef6c2bf78ccb",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/evaluation/build_full_comparison.py",
+      "server_source_sha256": "ac5b4282639adc8bbc8fb238fb099b147506bd56400c7188a2d72c6616d80dae",
+      "published_sha256": "85bb835aa324aa6966bf155746011c8a3969426773aa410fd416d15defee812a",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/cached_candidate_features.py",
+      "server_source_sha256": "a9c258cb9c9ed47b950cdb79547331954ef13ce2b7f09191af47da308968cfbb",
+      "published_sha256": "bf67cdd3a7df6acaedc57043c264328605835fd829a011203661843f989fa3a3",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/evaluate_adapter_study_matrix.py",
+      "server_source_sha256": "87dfa29fab93bb56ed4d3fef0d66b8db135f42daabc83f9cb28e99d95f5322fe",
+      "published_sha256": "359614ec0965a026b99b006ecab87d9b79a1b8dd134f2e0c5d4de2fc8f8dd60d",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/jev_pair_protocol.py",
+      "server_source_sha256": "88d92ff690693afd40584947fe67925cee940315f9beb80c9c0158667151701d",
+      "published_sha256": "95388cc74bc1a357738e6d92d8f90dc1031a2c3b301566b44fa8e6a47d92adc6",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/native_jev_comparison.py",
+      "server_source_sha256": "7785dfe25cba2d96b14b67cfe1049f0a7ea0f9c6d4b753afcefed528411e7a28",
+      "published_sha256": "b73be8c643153cd987c46b44b3cc60a85f4534d154420515c8a7422c2de43d4c",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/native_uncached_fallback.py",
+      "server_source_sha256": "c3958cb3aedde5c811950e4752d8e3bdbf0b5fbf286748c4eb18f03f08f97386",
+      "published_sha256": "a6b9014e091f28390a486f5441614fa2d78034c4db61e1befe01ced88cd98799",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/run_full_before_after.py",
+      "server_source_sha256": "f2b46d46bf179269e9c3ec0bd59defea46df1a260ef14005562bcfe93651a325",
+      "published_sha256": "d2fc9a5bf6262920d65f1faf786b525fdf86ec401aa6f4a246c06a0a1dd0b552",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/evaluation/run_jev_checkpoint_comparison.py",
+      "server_source_sha256": "94bc8b01df586886d74a5ab7afe0f21a76b28fab6c2fb8eb2629dc7fb8491f7a",
+      "published_sha256": "4a01068df32555703145c7200a2f1d2daafffaea883fda12b7188ddfe4b9bcbe",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/training/train_adapter_study_matrix.py",
+      "server_source_sha256": "23d3017c78f939728910fda04d385a74f883430f895acf05d6da5df11862c843",
+      "published_sha256": "2d04cebd20882e446d1c22911fc770161f03d8942e324070a06d31e912a7c073",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/workflows/adapter_study_acceleration.py",
+      "server_source_sha256": "96a8cf87e9d311591bf5099b7c7e4fabf5c41efe9d62bea4c044d025142e74f1",
+      "published_sha256": "b7e37897aec8ec51ffc8869559a2f50120c9e226b64d4e88c6c916f179c42f39",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/workflows/adapter_study_cache.py",
+      "server_source_sha256": "173addf7bbdb913053a8bfa0f85822fb84f94dea43b03efa55644b569b5b6cb2",
+      "published_sha256": "398e9adabbe09e7de7debf9aaf3835f9289ead03f771995b3a5c8163f6c0393d",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/workflows/native_overlap_gate.py",
+      "server_source_sha256": "1912f9ae8eaf1dc78d0ba59738acbbc19543c74175a6ab6c8a8f671113d68562",
+      "published_sha256": "1912f9ae8eaf1dc78d0ba59738acbbc19543c74175a6ab6c8a8f671113d68562",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/workflows/progress_eta.py",
+      "server_source_sha256": "0c6b5905e153b0ed76048e9da74c460b60c930b40ff16b354fb26e9a82a53a85",
+      "published_sha256": "0c6b5905e153b0ed76048e9da74c460b60c930b40ff16b354fb26e9a82a53a85",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/workflows/run_adapter_study.py",
+      "server_source_sha256": "2b3ac2020fbc10248a8bb5ed24bde49984b4b84799e1f51ef467df62fa58c61f",
+      "published_sha256": "5cf04efcaf602536ff89433111a12da42294c98d08346c8cbd2760c1aedc59f7",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/workflows/run_adapter_study_parallel.py",
+      "server_source_sha256": "089b1a7f1662591626a0d948bbb7dca53012b15a158a37cced8dea7b40e30921",
+      "published_sha256": "993174e0e855de5509c099bf8776caf0b0c085a767aed05df9e98f4361e71f4e",
+      "change": "Import paths only"
+    },
+    {
+      "path": "scripts/workflows/run_native_jev_comparison.py",
+      "server_source_sha256": "1bb16ab567a258d95a0691bbe329809435b7ef644b530535ab10a4724f5403ea",
+      "published_sha256": "1bb16ab567a258d95a0691bbe329809435b7ef644b530535ab10a4724f5403ea",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/workflows/run_native_jev_overlap.py",
+      "server_source_sha256": "6afb0ce3e1294788e171930a55079ecfc3869bb3bb97c4c00653af3ce4c9ee45",
+      "published_sha256": "6afb0ce3e1294788e171930a55079ecfc3869bb3bb97c4c00653af3ce4c9ee45",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "scripts/workflows/run_native_jev_verified.py",
+      "server_source_sha256": "f914849928508dc9fea38d288a951d672c348b3741d73c20e860a02cfe1b72a1",
+      "published_sha256": "f914849928508dc9fea38d288a951d672c348b3741d73c20e860a02cfe1b72a1",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "tests/test_adapter_study.py",
+      "server_source_sha256": "87f871e82a509c4908c1f79a8374f0ef52ba44cdfd5ddab65c445f08579c4cd1",
+      "published_sha256": "f570213d8980630068d3b71d3808911b88cc21050ee2c787c0a836b6e97513ae",
+      "change": "Import paths only"
+    },
+    {
+      "path": "tests/test_adapter_study_acceleration.py",
+      "server_source_sha256": "511c81719c14595ab60a3a0cc429fd3daf284c3100e2d62c276492a2a79dbfbf",
+      "published_sha256": "511c81719c14595ab60a3a0cc429fd3daf284c3100e2d62c276492a2a79dbfbf",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "tests/test_native_jev_comparison.py",
+      "server_source_sha256": "2f1d823c792a919464fd052edf48b33bb26e846599cd78da3a3626458703125d",
+      "published_sha256": "2f1d823c792a919464fd052edf48b33bb26e846599cd78da3a3626458703125d",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "tests/test_native_overlap_gate.py",
+      "server_source_sha256": "e360d73c64d8306e94c7d402d5d9797f482a7e594d028422fd47036330630b42",
+      "published_sha256": "e360d73c64d8306e94c7d402d5d9797f482a7e594d028422fd47036330630b42",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "tests/test_native_status_snapshot.py",
+      "server_source_sha256": "bdf0adb1238fb1d449449589800b9aefa658e0eb6ad54f1d667b2945d07fcccd",
+      "published_sha256": "bdf0adb1238fb1d449449589800b9aefa658e0eb6ad54f1d667b2945d07fcccd",
+      "change": "Byte-identical"
+    },
+    {
+      "path": "tests/test_native_uncached_fallback.py",
+      "server_source_sha256": "0118f57c31e4cae545836818b8ea93818b5ba1d1d75ce0790b37fad6bb830094",
+      "published_sha256": "0118f57c31e4cae545836818b8ea93818b5ba1d1d75ce0790b37fad6bb830094",
+      "change": "Byte-identical"
+    }
+  ],
+  "note": "Import-path migration from author local server workflow sources; results untouched. Recorded execution hashes remain historical."
+}

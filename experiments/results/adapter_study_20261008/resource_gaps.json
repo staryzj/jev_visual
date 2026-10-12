@@ -1,0 +1,4 @@
+{
+  "winoground": "GatedRepoError: 401 Client Error. (Request ID: Root=1-6ac5b8ad-21a37a283956ff9044a02dd2;400c0c43-8e4a-47e9-861c-5242d6626e0f)\n\nCannot access gated repo for url https://huggingface.co/datasets/facebook/winoground/resolve/b400e173549071916ad1b3d449293bc8d8b4b763/data/test-00000-of-00001.parquet.\nAccess to dataset facebook/winoground is restricted. You must have access to it and be authenticated to access it. Please log in.",
+  "nlvr2": "Resource recovery still in progress at transfer snapshot time; no partial data declared complete"
+}

@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.10}
+\caption{All-task cached adapter-plus-scorer latency (ms/example): MLP+Null mean $\pm$ between-seed SD.}
+\label{tab:latency-all}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Task & SigLIP2 & InternVL & LLaVA \\
+\midrule
+A-OKVQA & 0.93\,$\pm$\,0.00 & 0.95\,$\pm$\,0.00 & 0.95\,$\pm$\,0.00 \\
+ScienceQA (all) & 0.94\,$\pm$\,0.01 & 0.99\,$\pm$\,0.00 & 0.95\,$\pm$\,0.00 \\
+IconQA text & 0.95\,$\pm$\,0.00 & 0.96\,$\pm$\,0.01 & 0.97\,$\pm$\,0.01 \\
+IconQA image & 0.94\,$\pm$\,0.00 & 0.96\,$\pm$\,0.00 & 0.97\,$\pm$\,0.01 \\
+IconQA fill & 9.76\,$\pm$\,0.05 & 10.35\,$\pm$\,0.04 & 10.10\,$\pm$\,0.04 \\
+AI2D & 0.96\,$\pm$\,0.00 & 0.93\,$\pm$\,0.01 & 0.99\,$\pm$\,0.01 \\
+VSR random & 0.95\,$\pm$\,0.00 & 0.96\,$\pm$\,0.00 & 0.98\,$\pm$\,0.01 \\
+SugarCrepe++ & 0.93\,$\pm$\,0.01 & 0.97\,$\pm$\,0.01 & 0.94\,$\pm$\,0.01 \\
+TextVQA & 1.87\,$\pm$\,0.01 & 1.84\,$\pm$\,0.01 & 1.97\,$\pm$\,0.01 \\
+TallyQA & 0.99\,$\pm$\,0.00 & 0.97\,$\pm$\,0.00 & 1.01\,$\pm$\,0.00 \\
+GQA balanced & 40.82\,$\pm$\,0.58 & 40.51\,$\pm$\,0.58 & 42.72\,$\pm$\,0.66 \\
+SNLI-VE & 0.97\,$\pm$\,0.01 & 0.93\,$\pm$\,0.00 & 0.94\,$\pm$\,0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

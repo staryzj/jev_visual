@@ -1,0 +1,42 @@
+{
+  "status": "checked_not_trained",
+  "training_N": 94244,
+  "backbones": [
+    "siglip2",
+    "internvl",
+    "llava"
+  ],
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "arms": [
+    "linear_ce",
+    "mlp_ce",
+    "mlp_invalid"
+  ],
+  "checkpoints_planned": 27,
+  "training_visits_per_arm": 282732,
+  "full_evaluation_tasks": {
+    "aokvqa": 1145,
+    "ai2d": 3088,
+    "scienceqa": 4241,
+    "vsr": 2195,
+    "sugarcrepe_pp": 4757,
+    "iconqa": 6316,
+    "iconqa_choose_img": 11535,
+    "iconqa_fill_in_blank": 3638,
+    "textvqa": 5000,
+    "tallyqa": 38589,
+    "gqa": 12578,
+    "snli_ve": 17901
+  },
+  "evaluation_access_gaps": {
+    "winoground": "GatedRepoError: 401 Client Error. (Request ID: Root=1-6ac5b8ad-21a37a283956ff9044a02dd2;400c0c43-8e4a-47e9-861c-5242d6626e0f)\n\nCannot access gated repo for url https://huggingface.co/datasets/facebook/winoground/resolve/b400e173549071916ad1b3d449293bc8d8b4b763/data/test-00000-of-00001.parquet.\nAccess to dataset facebook/winoground is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "nlvr2": "Resource recovery still in progress at transfer snapshot time; no partial data declared complete"
+  },
+  "free_disk_gib": 52485.63776397705,
+  "source_checkpoint_sha256": "b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493",
+  "training_scope": "Whole A-OKVQA + ScienceQA + all three IconQA TRAIN tasks; each trained adapter is frozen across all declared full evaluations"
+}

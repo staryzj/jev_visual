@@ -1,0 +1,179 @@
+{
+  "schema": "native-to-jev-full-comparison-v1",
+  "status": "complete",
+  "backbone": "llava",
+  "dataset_name": "iconqa",
+  "split": "test",
+  "N": 6316,
+  "is_true_test": true,
+  "metric": "accuracy",
+  "candidate_manifest_sha256": "cd62d1df87477fbf7942918e5eb6053c0fc2be2b25b04332bf7801c50c130596",
+  "native": 0.5843888537048765,
+  "seeds": {
+    "20260928": {
+      "linear_ce": {
+        "after": 0.5565231158961368,
+        "delta_pp": -2.786573780873969,
+        "improved": 1179,
+        "worsened": 1355,
+        "unchanged": 3782
+      },
+      "mlp_ce": {
+        "after": 0.5907219759341356,
+        "delta_pp": 0.633312222925908,
+        "improved": 1371,
+        "worsened": 1331,
+        "unchanged": 3614
+      },
+      "mlp_invalid": {
+        "after": 0.6166877770740975,
+        "delta_pp": 3.229892336922102,
+        "improved": 1518,
+        "worsened": 1314,
+        "unchanged": 3484
+      }
+    },
+    "20260929": {
+      "linear_ce": {
+        "after": 0.5365737808739709,
+        "delta_pp": -4.7815072830905585,
+        "improved": 1106,
+        "worsened": 1408,
+        "unchanged": 3802
+      },
+      "mlp_ce": {
+        "after": 0.6162127929069031,
+        "delta_pp": 3.182393920202664,
+        "improved": 1385,
+        "worsened": 1184,
+        "unchanged": 3747
+      },
+      "mlp_invalid": {
+        "after": 0.5864471184293857,
+        "delta_pp": 0.20582647245092067,
+        "improved": 1391,
+        "worsened": 1378,
+        "unchanged": 3547
+      }
+    },
+    "20260930": {
+      "linear_ce": {
+        "after": 0.5213742875237493,
+        "delta_pp": -6.301456618112722,
+        "improved": 1065,
+        "worsened": 1463,
+        "unchanged": 3788
+      },
+      "mlp_ce": {
+        "after": 0.5726725775807473,
+        "delta_pp": -1.1716276124129177,
+        "improved": 1276,
+        "worsened": 1350,
+        "unchanged": 3690
+      },
+      "mlp_invalid": {
+        "after": 0.61051298290057,
+        "delta_pp": 2.6124129195693513,
+        "improved": 1379,
+        "worsened": 1214,
+        "unchanged": 3723
+      }
+    }
+  },
+  "native_protocol": {
+    "name": "native_conditional_mean_answer_log_likelihood",
+    "prompt_suffix": "\nAnswer the question with a short answer.",
+    "answer_tokens": "Tokenizer encode(add_special_tokens=False); empty answer=EOS; no answer truncation",
+    "cached_prefix_check": "First row: up to 8 candidates compared with uncached full forward, absolute tolerance 0.02; numerical fixture only",
+    "note": "Released native LM head; no JEV features/head; candidate-constrained, not unconstrained generation"
+  },
+  "native_training": "Released pretrained model only; no adapter/JEV training",
+  "adapted_training": "Adapters trained on complete A-OKVQA/ScienceQA/IconQA train corpus; same fixed JEV scorer",
+  "inference_scope": "System comparison; released native zero-shot vs trained adapter+fixed JEV. Adapter-only causal contrast remains in matched three-arm study.",
+  "source_results": [
+    {
+      "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/native_vs_jev_20261008/native/llava/iconqa/result.json",
+      "sha256": "15c0dd8b30af50a37df2b94b8b0ba3e7e467f33fabb1227c7e5349dfc95305f3",
+      "predictions_sha256": "ffa9f0822361c5ed092111bb677b2c2aec591b0e76d1f7249633cbe62d6c6796"
+    },
+    {
+      "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/evaluation/llava/iconqa/result.json",
+      "sha256": "b52f2d8284ed7720567fd32025e0202a44247540cca836e3ccfddf14d73e5813",
+      "predictions_sha256": "72c0adcf61e59b1df3165659bafc556bcfd2124f032b29f40b17c00f5e285c53"
+    }
+  ],
+  "checkpoint_sha256": {
+    "20260928": {
+      "linear_ce": "44702b5a3ebf2b4a8af0a191d57e90655e92672bed6414938af9ccc171eb0fb6",
+      "mlp_ce": "80a2fd11b1d3a7929a87deb38d0cee538fc01a86f49185f09c16cad788ef87e2",
+      "mlp_invalid": "9cdfb0f2f3ade3f049145885c104256c09c1cb2da0bca4a999acf9f17b7d9bb1"
+    },
+    "20260929": {
+      "linear_ce": "9422f4e9ffae9fa2b21d4ea04c4926c26df8a220010ba5fd13008f7abbddf85d",
+      "mlp_ce": "d982ebfa743d42a2b0523268688991d86175587b74dd501a52684e334a3ae49b",
+      "mlp_invalid": "7d6585cd27907df6d343ef3c96a8f272517d57b6603c5a45ee76eb7d11e99a7f"
+    },
+    "20260930": {
+      "linear_ce": "8c63e4576095185e3794637adbac8857ba6a74ca6c76df21b775b5878e8794b8",
+      "mlp_ce": "79a98c578728fe48ee7ec249712bf3136bcf297caef38b9e37f551efb8acb50c",
+      "mlp_invalid": "2b64cae0614882782cfcb6edfa3e79ab0521aa12f75fbaa49a7d3b601ac21854"
+    }
+  },
+  "checkpoints": {
+    "20260928": {
+      "linear_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260928/linear_ce/model.pt",
+        "sha256": "44702b5a3ebf2b4a8af0a191d57e90655e92672bed6414938af9ccc171eb0fb6",
+        "adapter_parameters": 2953984
+      },
+      "mlp_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260928/mlp_ce/model.pt",
+        "sha256": "80a2fd11b1d3a7929a87deb38d0cee538fc01a86f49185f09c16cad788ef87e2",
+        "adapter_parameters": 3812096
+      },
+      "mlp_invalid": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260928/mlp_invalid/model.pt",
+        "sha256": "9cdfb0f2f3ade3f049145885c104256c09c1cb2da0bca4a999acf9f17b7d9bb1",
+        "adapter_parameters": 3812096
+      }
+    },
+    "20260929": {
+      "linear_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260929/linear_ce/model.pt",
+        "sha256": "9422f4e9ffae9fa2b21d4ea04c4926c26df8a220010ba5fd13008f7abbddf85d",
+        "adapter_parameters": 2953984
+      },
+      "mlp_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260929/mlp_ce/model.pt",
+        "sha256": "d982ebfa743d42a2b0523268688991d86175587b74dd501a52684e334a3ae49b",
+        "adapter_parameters": 3812096
+      },
+      "mlp_invalid": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260929/mlp_invalid/model.pt",
+        "sha256": "7d6585cd27907df6d343ef3c96a8f272517d57b6603c5a45ee76eb7d11e99a7f",
+        "adapter_parameters": 3812096
+      }
+    },
+    "20260930": {
+      "linear_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260930/linear_ce/model.pt",
+        "sha256": "8c63e4576095185e3794637adbac8857ba6a74ca6c76df21b775b5878e8794b8",
+        "adapter_parameters": 2953984
+      },
+      "mlp_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260930/mlp_ce/model.pt",
+        "sha256": "79a98c578728fe48ee7ec249712bf3136bcf297caef38b9e37f551efb8acb50c",
+        "adapter_parameters": 3812096
+      },
+      "mlp_invalid": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/llava/seed_20260930/mlp_invalid/model.pt",
+        "sha256": "2b64cae0614882782cfcb6edfa3e79ab0521aa12f75fbaa49a7d3b601ac21854",
+        "adapter_parameters": 3812096
+      }
+    }
+  },
+  "scorer_state_sha256": "80e230c5e5cc1afffb47d78ec9025870fcd391ea605f6ab18db155296bc1086c",
+  "paired_changes_sha256": "beea36a22783e366e74c39589397978ff8c9df0fa2040984c3166c716f507c91",
+  "comparison_code_sha256": "7785dfe25cba2d96b14b67cfe1049f0a7ea0f9c6d4b753afcefed528411e7a28",
+  "sampling": "none"
+}

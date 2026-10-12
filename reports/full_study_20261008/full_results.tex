@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.10}
+\caption{Full twelve-task Native/JEV record (\%). JEV is mean $\pm$ three-seed SD; -- marks four incomplete native runs.}
+\label{tab:full-results}
+\begin{tabular}{@{}llrrr@{\hspace{6pt}}rr@{\hspace{6pt}}rr@{}}
+\toprule
+Task & Split & $N$ & \multicolumn{2}{c}{SigLIP2} & \multicolumn{2}{c}{InternVL} & \multicolumn{2}{c}{LLaVA} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(l){8-9}
+ & & & Native & JEV & Native & JEV & Native & JEV \\
+\midrule
+A-OKVQA & val. & 1,145 & 31.53 & \textbf{43.41}\,$\pm$\,0.98 & \textbf{59.56} & 44.37\,$\pm$\,1.22 & \textbf{63.93} & 44.37\,$\pm$\,0.09 \\
+ScienceQA (all) & test & 4,241 & 39.54 & \textbf{76.29}\,$\pm$\,0.66 & 61.26 & \textbf{77.01}\,$\pm$\,0.45 & 56.17 & \textbf{78.06}\,$\pm$\,0.21 \\
+IconQA text & test & 6,316 & 39.27 & \textbf{54.35}\,$\pm$\,2.26 & 51.69 & \textbf{58.23}\,$\pm$\,0.72 & 58.44 & \textbf{60.45}\,$\pm$\,1.60 \\
+IconQA image & test & 11,535 & 41.53 & \textbf{42.80}\,$\pm$\,0.85 & 46.18 & \textbf{48.75}\,$\pm$\,6.76 & 43.26 & \textbf{44.28}\,$\pm$\,1.63 \\
+IconQA fill & test & 3,638 & 2.12 & \textbf{32.73}\,$\pm$\,0.52 & -- & 39.38\,$\pm$\,2.28 & -- & 39.50\,$\pm$\,1.98 \\
+AI2D & test & 3,088 & 25.32 & \textbf{45.42}\,$\pm$\,3.59 & \textbf{52.10} & 45.47\,$\pm$\,1.83 & 42.07 & \textbf{48.69}\,$\pm$\,1.33 \\
+VSR random & test & 2,195 & 48.02 & \textbf{52.59}\,$\pm$\,0.76 & \textbf{63.74} & 52.47\,$\pm$\,0.23 & \textbf{61.37} & 50.31\,$\pm$\,1.13 \\
+SugarCrepe++ & suite & 4,757 & 35.90 & \textbf{44.15}\,$\pm$\,2.17 & \textbf{62.94} & 44.54\,$\pm$\,0.82 & \textbf{62.27} & 45.55\,$\pm$\,1.06 \\
+TextVQA & val. & 5,000 & 1.49 & \textbf{7.30}\,$\pm$\,1.73 & \textbf{35.40} & 8.15\,$\pm$\,0.68 & \textbf{32.75} & 7.99\,$\pm$\,0.14 \\
+TallyQA & test & 38,589 & 2.72 & \textbf{35.63}\,$\pm$\,7.15 & \textbf{69.42} & 32.59\,$\pm$\,3.17 & \textbf{68.69} & 30.69\,$\pm$\,0.74 \\
+GQA balanced & test-dev & 12,578 & 0.10 & \textbf{7.05}\,$\pm$\,2.03 & -- & 5.45\,$\pm$\,1.66 & -- & 8.10\,$\pm$\,1.19 \\
+SNLI-VE & test & 17,901 & 34.15 & \textbf{40.65}\,$\pm$\,2.06 & 34.00 & \textbf{39.26}\,$\pm$\,1.60 & 33.34 & \textbf{41.30}\,$\pm$\,1.24 \\
+\bottomrule
+\end{tabular}
+\end{table*}

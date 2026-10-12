@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "protocol": "full_native_without_jev_v1",
+    "backbone": "internvl",
+    "dataset": "textvqa",
+    "N": 5000,
+    "split": "validation",
+    "candidate_manifest_sha256": "f7c2e82975bb73a12dbe188711256f3a520c8bb48dcaab72766cad4ff9147a99",
+    "model_files": {
+      "added_tokens.json": "21d196327bf587cb24ec39db1dbe52cd68d243fdde8bc60dff2c867261b703fe",
+      "chat_template.jinja": "b3e3fa7cdeceec1d3dfe0d17b77724baf3857714e688f3a700261567e96140eb",
+      "config.json": "ec595fbe2a2f2d3dfb8f9b59ae77240b2c3a2ff36480a3959c18021c5c5f8a31",
+      "generation_config.json": "b17e2c6813e1f5e4de267a4c7697b46f69ba7ba95643c8253ad671fab7d7271c",
+      "model.safetensors": "11effd1da2fc0929957d56de4129d1e7d2aed044ea878d40bf83e95b63d38b39",
+      "preprocessor_config.json": "af09ffbe57900d5ae07f93f4c20693559a272e32fa6c5f816132cb71985aac98",
+      "processor_config.json": "3511f4ae65c2fa5c1ab6a0fb2bb2fe767d6f0ee53ba412953b33acc892327c2a",
+      "special_tokens_map.json": "e847a86633f2470a0d9fed41b5a36ff1f4435050929aa80b28c41d28420501b2",
+      "tokenizer.json": "7b9d18660f656ae5a87df2d5d6ed990e80f292d3473c1a35cae8259a5d28cd67",
+      "tokenizer_config.json": "5d109a013cdc2b9b5914dbd9564e8e1ef591b91c4d5d5584a00b1f01f28c0749",
+      "video_preprocessor_config.json": "b7f9c784a27f30ddb3fc78fca353ab6ce982c2a263b702e2547302e8c1e0087a",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "evaluator_sha256": "7785dfe25cba2d96b14b67cfe1049f0a7ea0f9c6d4b753afcefed528411e7a28",
+    "baseline_sha256": "a3dde9661d3959ec29a1b5fc9e64cd41733ca1e4fd80c761843e89975eb239ff",
+    "metric_code_sha256": "a95a5dc84c1fd2c190245ba4ebc43f9585996c9f3c51b121826c1c02145a3cce",
+    "torch_version": "2.14.1+cu130",
+    "transformers_version": "5.10.2",
+    "native_batch_size": 32,
+    "labels_used_for_inference": false
+  },
+  "repo": "lmms-lab-encoder/TextVQA",
+  "revision": "9c0699cd19768ac5ab97568f6b3cbac4c0062884",
+  "fingerprint": "a182096259e7e329",
+  "N": 5000,
+  "split": "validation",
+  "is_true_test": false,
+  "public_labels": true,
+  "checkpoint_files_sha256": {
+    "added_tokens.json": "21d196327bf587cb24ec39db1dbe52cd68d243fdde8bc60dff2c867261b703fe",
+    "chat_template.jinja": "b3e3fa7cdeceec1d3dfe0d17b77724baf3857714e688f3a700261567e96140eb",
+    "config.json": "ec595fbe2a2f2d3dfb8f9b59ae77240b2c3a2ff36480a3959c18021c5c5f8a31",
+    "generation_config.json": "b17e2c6813e1f5e4de267a4c7697b46f69ba7ba95643c8253ad671fab7d7271c",
+    "model.safetensors": "11effd1da2fc0929957d56de4129d1e7d2aed044ea878d40bf83e95b63d38b39",
+    "preprocessor_config.json": "af09ffbe57900d5ae07f93f4c20693559a272e32fa6c5f816132cb71985aac98",
+    "processor_config.json": "3511f4ae65c2fa5c1ab6a0fb2bb2fe767d6f0ee53ba412953b33acc892327c2a",
+    "special_tokens_map.json": "e847a86633f2470a0d9fed41b5a36ff1f4435050929aa80b28c41d28420501b2",
+    "tokenizer.json": "7b9d18660f656ae5a87df2d5d6ed990e80f292d3473c1a35cae8259a5d28cd67",
+    "tokenizer_config.json": "5d109a013cdc2b9b5914dbd9564e8e1ef591b91c4d5d5584a00b1f01f28c0749",
+    "video_preprocessor_config.json": "b7f9c784a27f30ddb3fc78fca353ab6ce982c2a263b702e2547302e8c1e0087a",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "sampling": "none",
+  "native_protocol": {
+    "name": "native_conditional_mean_answer_log_likelihood",
+    "prompt_suffix": "\nAnswer the question with a short answer.",
+    "answer_tokens": "Tokenizer encode(add_special_tokens=False); empty answer=EOS; no answer truncation",
+    "cached_prefix_check": "First row: up to 8 candidates compared with uncached full forward, absolute tolerance 0.02; numerical fixture only",
+    "note": "Released native LM head; no JEV features/head; candidate-constrained, not unconstrained generation"
+  }
+}

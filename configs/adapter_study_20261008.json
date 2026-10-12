@@ -1,0 +1,29 @@
+{
+  "protocol": "full_cross_backbone_matched_adapter_study",
+  "training_inventory": "study_sources/source_inventory.json",
+  "training_root": "data/adapter_study_training",
+  "evaluation_root": "data/submission_benchmarks",
+  "output": "experiments/results/adapter_study_20261008",
+  "reports": "reports/adapter_study_20261008",
+  "feature_cache": "experiments/adapter_study_features_20261008",
+  "source_checkpoint": "experiments/visual_jev_v3_paper/checkpoints/v3_full.pt",
+  "text_model": "models/Qwen3-VL-4B-Instruct",
+  "visual_models": {
+    "siglip2": "models/SigLIP2-Base-Patch16-224",
+    "internvl": "models/InternVL3_5-1B-HF",
+    "llava": "models/LLaVA-OneVision-0.5B"
+  },
+  "backbones": ["siglip2", "internvl", "llava"],
+  "seeds": [20260928, 20260929, 20260930],
+  "datasets": ["aokvqa", "ai2d", "scienceqa", "vsr", "sugarcrepe_pp", "iconqa", "iconqa_choose_img", "iconqa_fill_in_blank", "textvqa", "tallyqa", "gqa", "snli_ve", "winoground", "nlvr2"],
+  "epochs": 3,
+  "learning_rate": 0.0003,
+  "invalid_weight": 0.1,
+  "gradient_accumulation": 8,
+  "candidate_batch": 32,
+  "head_batch": 32,
+  "token_count": 196,
+  "resume_every_updates": 500,
+  "controls": true,
+  "minimum_free_gib": 384
+}

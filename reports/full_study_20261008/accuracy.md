@@ -1,0 +1,39 @@
+# Native / adapted JEV complete-split scores
+| Backbone | Task | N | Native (%) | JEV (%) | Delta (pp) |
+|---|---|---:|---:|---:|---:|
+| siglip2 | aokvqa | 1145 | 31.53 | 43.41 ± 0.98 | +11.88 |
+| internvl | aokvqa | 1145 | 59.56 | 44.37 ± 1.22 | -15.20 |
+| llava | aokvqa | 1145 | 63.93 | 44.37 ± 0.09 | -19.56 |
+| siglip2 | scienceqa | 4241 | 39.54 | 76.29 ± 0.66 | +36.75 |
+| internvl | scienceqa | 4241 | 61.26 | 77.01 ± 0.45 | +15.75 |
+| llava | scienceqa | 4241 | 56.17 | 78.06 ± 0.21 | +21.90 |
+| siglip2 | iconqa | 6316 | 39.27 | 54.35 ± 2.26 | +15.09 |
+| internvl | iconqa | 6316 | 51.69 | 58.23 ± 0.72 | +6.53 |
+| llava | iconqa | 6316 | 58.44 | 60.45 ± 1.60 | +2.02 |
+| siglip2 | iconqa_choose_img | 11535 | 41.53 | 42.80 ± 0.85 | +1.27 |
+| internvl | iconqa_choose_img | 11535 | 46.18 | 48.75 ± 6.76 | +2.57 |
+| llava | iconqa_choose_img | 11535 | 43.26 | 44.28 ± 1.63 | +1.02 |
+| siglip2 | iconqa_fill_in_blank | 3638 | 2.12 | 32.73 ± 0.52 | +30.61 |
+| internvl | iconqa_fill_in_blank | 3638 | -- | 39.38 ± 2.28 | -- |
+| llava | iconqa_fill_in_blank | 3638 | -- | 39.50 ± 1.98 | -- |
+| siglip2 | ai2d | 3088 | 25.32 | 45.42 ± 3.59 | +20.10 |
+| internvl | ai2d | 3088 | 52.10 | 45.47 ± 1.83 | -6.64 |
+| llava | ai2d | 3088 | 42.07 | 48.69 ± 1.33 | +6.63 |
+| siglip2 | vsr | 2195 | 48.02 | 52.59 ± 0.76 | +4.57 |
+| internvl | vsr | 2195 | 63.74 | 52.47 ± 0.23 | -11.27 |
+| llava | vsr | 2195 | 61.37 | 50.31 ± 1.13 | -11.06 |
+| siglip2 | sugarcrepe_pp | 4757 | 35.90 | 44.15 ± 2.17 | +8.24 |
+| internvl | sugarcrepe_pp | 4757 | 62.94 | 44.54 ± 0.82 | -18.39 |
+| llava | sugarcrepe_pp | 4757 | 62.27 | 45.55 ± 1.06 | -16.72 |
+| siglip2 | textvqa | 5000 | 1.49 | 7.30 ± 1.73 | +5.81 |
+| internvl | textvqa | 5000 | 35.40 | 8.15 ± 0.68 | -27.25 |
+| llava | textvqa | 5000 | 32.75 | 7.99 ± 0.14 | -24.76 |
+| siglip2 | tallyqa | 38589 | 2.72 | 35.63 ± 7.15 | +32.91 |
+| internvl | tallyqa | 38589 | 69.42 | 32.59 ± 3.17 | -36.84 |
+| llava | tallyqa | 38589 | 68.69 | 30.69 ± 0.74 | -38.00 |
+| siglip2 | gqa | 12578 | 0.10 | 7.05 ± 2.03 | +6.95 |
+| internvl | gqa | 12578 | -- | 5.45 ± 1.66 | -- |
+| llava | gqa | 12578 | -- | 8.10 ± 1.19 | -- |
+| siglip2 | snli_ve | 17901 | 34.15 | 40.65 ± 2.06 | +6.50 |
+| internvl | snli_ve | 17901 | 34.00 | 39.26 ± 1.60 | +5.25 |
+| llava | snli_ve | 17901 | 33.34 | 41.30 ± 1.24 | +7.95 |

@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "protocol": "full_native_without_jev_v1",
+    "backbone": "siglip2",
+    "dataset": "iconqa_fill_in_blank",
+    "N": 3638,
+    "split": "test",
+    "candidate_manifest_sha256": "2b056f9f582cf3804f35be8938a38f1d0b30e6d472095599855a1bb605db47f1",
+    "model_files": {
+      "config.json": "fe8b5fe6d5734360678fd71c11c21e1ea3364bd8598d34295d9206335973ffd7",
+      "model.safetensors": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+      "preprocessor_config.json": "9b36b57ebaf20f09bf4c22100ccc21877ea6bfe5aead0c00c59f8af8ccefacfc",
+      "special_tokens_map.json": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+      "tokenizer.json": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322",
+      "tokenizer_config.json": "14afe629fe4959b9e0d51e1852b8d9f7ad074f90a1a7125a4fcdd17f06e78fc8"
+    },
+    "evaluator_sha256": "7785dfe25cba2d96b14b67cfe1049f0a7ea0f9c6d4b753afcefed528411e7a28",
+    "baseline_sha256": "a3dde9661d3959ec29a1b5fc9e64cd41733ca1e4fd80c761843e89975eb239ff",
+    "metric_code_sha256": "a95a5dc84c1fd2c190245ba4ebc43f9585996c9f3c51b121826c1c02145a3cce",
+    "torch_version": "2.14.1+cu130",
+    "transformers_version": "5.10.2",
+    "native_batch_size": 32,
+    "labels_used_for_inference": false
+  },
+  "repo": "lupantech/IconQA",
+  "revision": "official ZIP SHA256:475f7651d9e2a86dee340e8b8b1d07b3d34abc7279c08bc7391196b49d4d348b",
+  "fingerprint": "87e9098770ae93e341ebc19a9b495908f01b12a0f3e860ec552d9371af85cc06",
+  "N": 3638,
+  "split": "test",
+  "is_true_test": true,
+  "public_labels": true,
+  "checkpoint_files_sha256": {
+    "config.json": "fe8b5fe6d5734360678fd71c11c21e1ea3364bd8598d34295d9206335973ffd7",
+    "model.safetensors": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+    "preprocessor_config.json": "9b36b57ebaf20f09bf4c22100ccc21877ea6bfe5aead0c00c59f8af8ccefacfc",
+    "special_tokens_map.json": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+    "tokenizer.json": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322",
+    "tokenizer_config.json": "14afe629fe4959b9e0d51e1852b8d9f7ad074f90a1a7125a4fcdd17f06e78fc8"
+  },
+  "sampling": "none",
+  "native_protocol": {
+    "name": "native_siglip_image_text_candidate_similarity",
+    "prompt": "Question: {question}\nCandidate: {candidate}",
+    "max_text_tokens": 64,
+    "long_text_policy": "All text tokens retained in consecutive body+EOS windows; token-count-weighted mean native text embedding then normalize",
+    "note": "Retrieval/candidate-ranking baseline, not a generative VQA model; multiwindow aggregation is explicit"
+  }
+}

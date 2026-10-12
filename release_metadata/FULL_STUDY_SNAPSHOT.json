@@ -1,0 +1,1028 @@
+{
+  "schema": "full-study-snapshot-v1",
+  "archive_sha256": "16cde8092f8d1222bdf9ca7aa32e80b73b490ba7c6c1c7c455b48796e537c646",
+  "files": [
+    {
+      "path": "experiments/results/adapter_study_20261008/parallel_execution_plan.json",
+      "sha256": "2566da3948bbde309640d830bf7ecd0c8ad10ff937f33a5386f4d0f53fb37b75",
+      "bytes": 13266
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/study_identity.json",
+      "sha256": "ce2710f72664f32a1d419fc8a34ea06db722efbb7e8631aca1371b92a743199c",
+      "bytes": 1597
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "b1e140a4d4b355916d251acb5ffd020136d851757ae6aeabb330f8588289e3db",
+      "bytes": 1684
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa_fill_in_blank/result.json",
+      "sha256": "5ef5d64e9d7ae212396f4e71df4423e15cfcea3d83aad7e2a457915d645d9db4",
+      "bytes": 14104
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/scienceqa/run_manifest.json",
+      "sha256": "a06abc6276da8271d7affdaa48c24631c1f1c7128f5cafbc84763f11fb33316b",
+      "bytes": 1587
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/scienceqa/result.json",
+      "sha256": "a26c4bf647518aaf099ad49fdebf879b306eba4171d92fa48ee0483db07c2e1a",
+      "bytes": 14007
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/sugarcrepe_pp/run_manifest.json",
+      "sha256": "8efad5b3c7a01f17c42fbde61a87d0abc426b4282a39b11002a1c933349a6d0b",
+      "bytes": 1621
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/sugarcrepe_pp/result.json",
+      "sha256": "9b70ac82ae039e750bda684fa903adaad037bf4ea8ee5ed6900c4122f28dcf76",
+      "bytes": 14065
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/aokvqa/run_manifest.json",
+      "sha256": "ba13b0dce66ec10a6d4636d7f5bd1d31fe758bdb91b89c6501cb1262ec2e1bfb",
+      "bytes": 1590
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/aokvqa/result.json",
+      "sha256": "d2ea02233af847b3dafdfe8c82f4040f037a0e12576197fdc57a0d0b43f7e74e",
+      "bytes": 14005
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/ai2d/run_manifest.json",
+      "sha256": "55bc35271b7374d43b83017455c51ce28d4b78821efa20e7e50c1b7f762a6107",
+      "bytes": 1581
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/ai2d/result.json",
+      "sha256": "f7321525fd4b41d2bff2c21b86232b25b9a628d9cd45de55aefaa9ddbc31041d",
+      "bytes": 14004
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa/run_manifest.json",
+      "sha256": "a149cc731250c54a7ef380dd98461c3fd03be9169bb899d4bb0aeaa7c2c081c6",
+      "bytes": 1586
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa/result.json",
+      "sha256": "0e16408b0d213bc13ff6d2de0ac0df4db82d4bf6bfb0c9931a0a1031e21f9dc4",
+      "bytes": 13999
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/vsr/run_manifest.json",
+      "sha256": "57100e481bba5f29c7cfab4e26aa8c9b964e217e123418117eee3634a1ce3d2c",
+      "bytes": 1582
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/vsr/result.json",
+      "sha256": "9a0868a75cfb69c8a59012d180adba1f5b2f47851f320363408f4eb8cd0e584a",
+      "bytes": 13991
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa_choose_img/run_manifest.json",
+      "sha256": "cc8933e575ce372867789620c8912016e19fc2135552ad48e30c28ac5c98eff2",
+      "bytes": 1682
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa_choose_img/result.json",
+      "sha256": "2444511f8be9dd2b11126592993366953fe7eb88b9668e5ac36c40b7a6a7335b",
+      "bytes": 14122
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/gqa/run_manifest.json",
+      "sha256": "9b442fd3d1a763fc685d464f95b1de7d0bee388f07118e30ede3531e22a10c71",
+      "bytes": 1584
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/gqa/result.json",
+      "sha256": "076e6d8b62dc18ceab43b1b8e4366f45c7a222848e6e024dd27daa4969068839",
+      "bytes": 14021
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/textvqa/run_manifest.json",
+      "sha256": "ffa4d307dc3c333750a043cc544e66a4b03db7e85c1abbff1549ff55080fa93f",
+      "bytes": 1594
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/textvqa/result.json",
+      "sha256": "a4ab42f2494d5cbdbe1999adde3928a3689fa6d1c4861f7529c87199f7277e6f",
+      "bytes": 13807
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/tallyqa/run_manifest.json",
+      "sha256": "390d196e02e0baacb3f71ad15aa3ac1d0f89c334111cd1a378371caafc41fd53",
+      "bytes": 1585
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/tallyqa/result.json",
+      "sha256": "67a95e78209721915b9fd5ca7f054dbee00e9fa193754a991128e13135c154aa",
+      "bytes": 14021
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/snli_ve/run_manifest.json",
+      "sha256": "d8f1752b1e2cc24f67465afd7d898ca7efda6b31bd1c567caf5659ae9edf91fb",
+      "bytes": 1585
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/snli_ve/result.json",
+      "sha256": "be79ee89ec0f1c3c0fe1226b8d7c86d4320e5bfbb95e8e6af40d5fc52ec86819",
+      "bytes": 14030
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "d6274230f6a0b2e243f22fae8bbf5415a9542503bf854557bee1be2e8c9cc522",
+      "bytes": 1682
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa_fill_in_blank/result.json",
+      "sha256": "59e30fc2a160ece37734cb445e7586ff130716932cf91faaecc5e84c10bfe5f8",
+      "bytes": 14095
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/scienceqa/run_manifest.json",
+      "sha256": "e6de585c3e88da436bb91dada66b324b66648235351f0e2a5b91ac2d49b8d28b",
+      "bytes": 1585
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/scienceqa/result.json",
+      "sha256": "f0084bbcaf46115fec6f3ca7addc410012161e74168ffe5cc179d79582baf199",
+      "bytes": 13982
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/sugarcrepe_pp/run_manifest.json",
+      "sha256": "d0bc31e87fa47ce37c68cccb082328dc2968061e8bbd685b742276433ed8b8c7",
+      "bytes": 1619
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/sugarcrepe_pp/result.json",
+      "sha256": "a2d95e680804295101af7cf6d65b0f04a51601efe0afd6d3b581d2b83e556d63",
+      "bytes": 14033
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/aokvqa/run_manifest.json",
+      "sha256": "b4fb0c2a14a02af8bf627bc14e4a4b781638d9e7c058cb960e7c24a03ffdda2e",
+      "bytes": 1588
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/aokvqa/result.json",
+      "sha256": "cd148121f9585cf514879f5b67e739e8efee7715654c0c9952b785337732132e",
+      "bytes": 13992
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/ai2d/run_manifest.json",
+      "sha256": "80cc8cb82eab97abc8a01e13f63edc1a59562b233943ff02c397f7ced33e141c",
+      "bytes": 1579
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/ai2d/result.json",
+      "sha256": "1bca85b70c212c01fafe21da5983002d4766dd8ebab4eb2aefb1b751f3cadfbf",
+      "bytes": 13986
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa/run_manifest.json",
+      "sha256": "0f594f58fcced8bf683fa7383c78b42945fe6ae29fcacb884d2645bffdf468e4",
+      "bytes": 1584
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa/result.json",
+      "sha256": "b52f2d8284ed7720567fd32025e0202a44247540cca836e3ccfddf14d73e5813",
+      "bytes": 13977
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/vsr/run_manifest.json",
+      "sha256": "bc0da3c7c5e9d2c92587af6d80dacadb41291cda3489ec4cf8ef689e1c6a5fcc",
+      "bytes": 1580
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/vsr/result.json",
+      "sha256": "bfbd2e3513aa24e6d0ebc2b55c8c4e1d0c9d12827f8f6825d34ec6dcc5e09795",
+      "bytes": 13957
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa_choose_img/run_manifest.json",
+      "sha256": "93f9325952b61d7ed25926fd09b3604b0a0c7ce3e4fa3f7072f0ee7036daf489",
+      "bytes": 1680
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa_choose_img/result.json",
+      "sha256": "a254fbd4520afa8ea354acaf489d3e7ca3f905a812c580018d142f7c5593edbd",
+      "bytes": 14092
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/gqa/run_manifest.json",
+      "sha256": "cb81082b6839e12113631443b21ca777bc064cc653ebf8d84717a45307588ce1",
+      "bytes": 1582
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/gqa/result.json",
+      "sha256": "4bc815009223ea04d1f7521a1615752db87ecaf3ccc3f798530d0dfeb0320f14",
+      "bytes": 14000
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/textvqa/run_manifest.json",
+      "sha256": "6844895bb7c3b0097ab813b906879e2439dd418d70a92407a8323e6672eabfee",
+      "bytes": 1592
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/textvqa/result.json",
+      "sha256": "8e71ac281ac21bc52645d66d724fa82051f6b0650fdd319bf444174eeda14a6f",
+      "bytes": 13793
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/tallyqa/run_manifest.json",
+      "sha256": "5b70e45627a2323205cb75746bb59de42979c754d103a5a7b4f7e81f0bc2ad3c",
+      "bytes": 1583
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/tallyqa/result.json",
+      "sha256": "d2247efafea7a36caab41304965ab9b76db678543ca6cdbceb885dbdbe504362",
+      "bytes": 13991
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/snli_ve/run_manifest.json",
+      "sha256": "42eb3e573f61ec76e97168e41f69625c54f21c70d1000e3a09ef658d1a4f924a",
+      "bytes": 1583
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/snli_ve/result.json",
+      "sha256": "dfd84b918dc88b5fae1a7dc738f50ef9c68f7f3d20a00175f994a57423a05538",
+      "bytes": 14008
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "b3f3ace92cb0cbb6bdee131741ced2d0e638955531123036a880f7ebd77e8f4e",
+      "bytes": 1685
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa_fill_in_blank/result.json",
+      "sha256": "e9546c2177237ef65b37478343040e043d9c93066d5be94cf235614d630673df",
+      "bytes": 14129
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/scienceqa/run_manifest.json",
+      "sha256": "7ab1e203a85157c4951b101bfa4da45657c376bff4dd77311a26f2444e87e4c7",
+      "bytes": 1588
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/scienceqa/result.json",
+      "sha256": "3e8081cf0088c5ba9d40a8530bb388c37fdcc71736063d77899933b4985662ec",
+      "bytes": 14005
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/sugarcrepe_pp/run_manifest.json",
+      "sha256": "be4ff49413d05c5e7fec50b6be4dc1e8a372aa0468558e0a7a76bb875ff0f9cb",
+      "bytes": 1622
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/sugarcrepe_pp/result.json",
+      "sha256": "1888604b34dbeaa911de8856fe05d3ccaaa73a2cea316a7bff6fca41dda5a155",
+      "bytes": 14075
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/aokvqa/run_manifest.json",
+      "sha256": "1599100d0952c0d907c24df5b80c3c79a0d82e536f04bcd1e0158874d1f3b21d",
+      "bytes": 1591
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/aokvqa/result.json",
+      "sha256": "35499095c124447a047e3cbeb27611ed2e8cbea789db69fc933127b0f19e08bc",
+      "bytes": 14018
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/ai2d/run_manifest.json",
+      "sha256": "f9386cb00de0d05dcc7c01afff1771c0061b4208fe7c5f943fe3f42c2d43d96f",
+      "bytes": 1582
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/ai2d/result.json",
+      "sha256": "1d908e672b2889b33a840d017b3c25f29083f71c888bb4305bb065d2553a234d",
+      "bytes": 14020
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa/run_manifest.json",
+      "sha256": "be82a754b06705d17be166c8fbe19facf5dee8f708347fd1e33dacb91734f052",
+      "bytes": 1587
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa/result.json",
+      "sha256": "6e7341df92003ea95b4e89e0466a0eeb47fc8f52ae07870116a8c50f43bbb4fd",
+      "bytes": 14007
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/vsr/run_manifest.json",
+      "sha256": "7dd387ae0a96746041fe78856e75d84dd3dd474853e1944175c4f2b68606950b",
+      "bytes": 1583
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/vsr/result.json",
+      "sha256": "1e6c8330f3bf04b4cf9e0290b7048fada200a58f601e43d63dd81694cf7da28c",
+      "bytes": 14005
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa_choose_img/run_manifest.json",
+      "sha256": "068d7b207f337e3b25d00514e05db756022943dd80e421b62bb8505abd69de3a",
+      "bytes": 1683
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa_choose_img/result.json",
+      "sha256": "c3bcf654a1cc76a633133ccf05b3d6f1c85795237386af94693572b1d5617526",
+      "bytes": 14118
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/gqa/run_manifest.json",
+      "sha256": "8a410f02539a4d9ed3c0309b015a0eaaae4ddc9f8b3c09152e0b92ee69ea999e",
+      "bytes": 1585
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/gqa/result.json",
+      "sha256": "31f318af5b02a4e679a140835e2e37e2559858482b2cac6968bd44822ccf1a58",
+      "bytes": 14033
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/textvqa/run_manifest.json",
+      "sha256": "1a37c7240817acd116b8197e56164570f7f2c2e8bf96141ef86a1fbd141f6aa1",
+      "bytes": 1595
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/textvqa/result.json",
+      "sha256": "9b7e0951e0d283e9c3be68689e83ee33df03187aab8999b695a9ca3c82210c46",
+      "bytes": 13805
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/tallyqa/run_manifest.json",
+      "sha256": "b36b8bf2f7846b1d2aa4a0a7692fc6bd5cb265bcaa6870fb0dfb78914a93e5ef",
+      "bytes": 1586
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/tallyqa/result.json",
+      "sha256": "c3020da047eb679a9afa586f000de72ed4f39153e1325e3003a52459906d8e80",
+      "bytes": 14025
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/snli_ve/run_manifest.json",
+      "sha256": "30ce40f393abd5ca78ed8f49f9486783a6b12059e93a753bf9b22fa0cc23ebda",
+      "bytes": 1586
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/snli_ve/result.json",
+      "sha256": "3e950cd53e0cb60c7ebbc881ea420c25c4190ade14fb05b6c1b6b90f34bfbeed",
+      "bytes": 14034
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/execution_plan.json",
+      "sha256": "270f5396272dd1d64f62bb116073bc71cf9a01026e23834a23ecd92ce6381056",
+      "bytes": 1505
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/resource_gaps.json",
+      "sha256": "b27e14dd6b87eb069dd8a24dc2c515a753192d33f948500e347105095299eaa9",
+      "bytes": 561
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/siglip2/seed_20260930/result.json",
+      "sha256": "b4762b5a36fc18f6b4ed63cea67dd457f64a6041e92f5b0c57b65702053b98b9",
+      "bytes": 7678
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/siglip2/seed_20260928/result.json",
+      "sha256": "9296382730ab0f6acf171fb383e8364fba3951c8caf2cf0784ee2ab2b2596bdd",
+      "bytes": 7676
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/siglip2/seed_20260929/result.json",
+      "sha256": "3a9e37f90ce103e26b065e890a930f3f320a0bfb57c5b2b0cde25c21825affbb",
+      "bytes": 7678
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/llava/seed_20260930/result.json",
+      "sha256": "35ece61c469e6161f9e5c301a97d5c82199601ba4b56f6496c3c68b05789cd62",
+      "bytes": 7670
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/llava/seed_20260928/result.json",
+      "sha256": "5ea8fd6bb56c377de32b404e50d320b66964eb259c352175c7673558682368ae",
+      "bytes": 7670
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/llava/seed_20260929/result.json",
+      "sha256": "0239eb5221d98b5f99b2688485ebf92998721c16d844b6ebca69ab6039f8a26b",
+      "bytes": 7669
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/internvl/seed_20260930/result.json",
+      "sha256": "f36ecf074c6ffcf7ac03d221b47f6f7855dd136e4723fc4bf22ffc48612b546a",
+      "bytes": 7682
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/internvl/seed_20260928/result.json",
+      "sha256": "86e43d87c98fec23e8c30507c596c00a12f69076a46236267f643daa56354bf5",
+      "bytes": 7679
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/training/internvl/seed_20260929/result.json",
+      "sha256": "6f26959f4e81c5420b64ce5790ce2c227c2c0b777cb3b2e24bce69151ee001e2",
+      "bytes": 7684
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/llava/iconqa_fill_in_blank/fallback_trigger.json",
+      "sha256": "dc75410d55c3111c8a72bc3912dec78588a550df7f6e148d1c4c38e9a93f7c63",
+      "bytes": 656
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/llava/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "646dced9bafb6fbe059d7b909ab0be4007606e8d205af7cb3a31387b1e26ecc7",
+      "bytes": 4880
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/llava/scienceqa/fallback_trigger.json",
+      "sha256": "b5ff46eb96ddf5c5f0df15a81dc82baab86198a8704e45b7eda0128aa7d1af61",
+      "bytes": 647
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/llava/scienceqa/run_manifest.json",
+      "sha256": "3e2f5c98444250965d0492c249890a836f2beb668a76d514d93b8f081c24addb",
+      "bytes": 4774
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/llava/scienceqa/result.json",
+      "sha256": "4c2888ba357fbe49276abf2bc148775f47fcdf151f64c6fa7893eb2ba2a694dd",
+      "bytes": 3973
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/iconqa_fill_in_blank/fallback_trigger.json",
+      "sha256": "3d9e2b5e938bcbba3c336ae87bdbc19029bec6b416e55f351575e7433831eb0e",
+      "bytes": 661
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "399b2ba05f963b9f8f82d7981666bd837ca6025ab40b929e729c6fdb203dd7f8",
+      "bytes": 4890
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/scienceqa/fallback_trigger.json",
+      "sha256": "69fee580347d28b189fdff81fac3b96863fd054b421d66437d877ea398c45751",
+      "bytes": 650
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/scienceqa/run_manifest.json",
+      "sha256": "e48ed71edd28efa2a6b005255bf502d22ddcbb3845617ae7691b33389c5f09b8",
+      "bytes": 4782
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/scienceqa/result.json",
+      "sha256": "f1404d6b7a1cdc29ab2b78f5703bee36d1df124372f8da4d02c5660b4c53c2a5",
+      "bytes": 3983
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/aokvqa/fallback_trigger.json",
+      "sha256": "fe47d5b0e88efc93a9e3d0d765a42eace64ac2a431f2bb325804d90a23e322a6",
+      "bytes": 647
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/aokvqa/run_manifest.json",
+      "sha256": "1bd9d6978861ae1bc76fb92be8968dd84ebfb1f7b4b5046fbf7485f387ef4810",
+      "bytes": 4788
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/aokvqa/result.json",
+      "sha256": "4762076c1c0f8ceafa833edc78feec60e6c2930e67b5a2b8bc77f811130f704a",
+      "bytes": 3987
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/vsr/fallback_trigger.json",
+      "sha256": "0c3c9f96622b1838f36105c4b726e13accdd5df8a1c569b324d88948d93d11d9",
+      "bytes": 644
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/vsr/run_manifest.json",
+      "sha256": "a0a63205719ef194d916449578ec9fb8cb901924702c148fea9068804ee8c876",
+      "bytes": 4771
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/vsr/result.json",
+      "sha256": "9dbff605bf94a85133a205da261b23351a366a8ed4b4e6e024a80c07417915f1",
+      "bytes": 3965
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/gqa/fallback_trigger.json",
+      "sha256": "69c49cfc6534c202e385071db9c7318c357755f76e2da751f8757edc056b213f",
+      "bytes": 644
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/gqa/run_manifest.json",
+      "sha256": "ff4d19825d25c8e7fe341f74f4eac6b5c8b2ea84ff8eee8862c1bcb56e4dcdbf",
+      "bytes": 4777
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/textvqa/fallback_trigger.json",
+      "sha256": "a8f8ecfe620b427045c1afd01eb9a84482913ab3bdfbf12329d0fdbb3a0d7dc0",
+      "bytes": 648
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/textvqa/run_manifest.json",
+      "sha256": "f6660c639319d459472f8630a346fbda30eaf248d0987fb0ebef5bcd59a20e88",
+      "bytes": 4793
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/textvqa/result.json",
+      "sha256": "9364395fb5f6edc93e69f16568d9a016764cef7f9c7117e4fe7486d64bb65553",
+      "bytes": 3996
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/snli_ve/fallback_trigger.json",
+      "sha256": "b404cb58913cf1f58ae2fc3adc8f9cbe5e57caad829b59738fd623a029588a94",
+      "bytes": 646
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/snli_ve/run_manifest.json",
+      "sha256": "860aebbead9ac6f79e4d944001b5b324b6cd13400c317391a0638f9f2a610d34",
+      "bytes": 4777
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/snli_ve/result.json",
+      "sha256": "949cbc9664a9be5856bacc4ecb6cea74b3effeeb55342f84b39907b8e9cece94",
+      "bytes": 3978
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/iconqa_fill_in_blank/result.json",
+      "sha256": "dc3e488e810ab9fdb3726c25b787858405cc7993ef819ae52db0437668f8c4f1",
+      "bytes": 7912
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/scienceqa/result.json",
+      "sha256": "60bcb4ccb7a683722c89861906c5929979f95e1d8dbed0351291fff371b8e176",
+      "bytes": 7882
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/sugarcrepe_pp/result.json",
+      "sha256": "e4335ca272c517fa7d7ee7da3841e38909bc6f916f5fbfa2226f18cbb69e3cfa",
+      "bytes": 7931
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/aokvqa/result.json",
+      "sha256": "2b7d9ae6602d6749a43443f7413c312d49d9cba15fb9deeca03d0c9b35613795",
+      "bytes": 7871
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/ai2d/result.json",
+      "sha256": "9601f6a7b76cdcc6364f5115ccc2255c5e9042fe12e76b69eddb04d56f49fd3a",
+      "bytes": 7875
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/iconqa/result.json",
+      "sha256": "e0c5e01b80b8a94b70c38b37e9e1fcf0b5b0ff26b99d11ec3e0875be186c0aed",
+      "bytes": 7887
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/vsr/result.json",
+      "sha256": "3852613492366c6bc8eb39f3ee8d6feb8d155b1b4473c3a1595f0e2eb2f7e1b7",
+      "bytes": 7846
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/iconqa_choose_img/result.json",
+      "sha256": "230f11619c789c65dc9a5d50442f8be226f7075de9ebebe1a89949546c396eed",
+      "bytes": 7934
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/gqa/result.json",
+      "sha256": "e8c49f35a2743eb077758839d1570a3be445d4c2a3830dc293c1898f9411ffeb",
+      "bytes": 7868
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/textvqa/result.json",
+      "sha256": "b0c79a322b4e97744e895a8afb16eca61a2a7b2550983354ccbe416000f12f74",
+      "bytes": 7878
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/tallyqa/result.json",
+      "sha256": "5ee2de84022b1201bef0baa7e7e32bbafe3e1d46823f7ccda5bedaf1995e001b",
+      "bytes": 7902
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/siglip2/snli_ve/result.json",
+      "sha256": "e7348758c4addfc1882118119940434224f34da6a215280cad755ccd2847245b",
+      "bytes": 7897
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/scienceqa/result.json",
+      "sha256": "845a389b554ad96251fc3340847dcfae832b27a35c97ea15c18913d9e3c23dc0",
+      "bytes": 8005
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/sugarcrepe_pp/result.json",
+      "sha256": "5a091449a5e8c76e82a5f1c75d15c75a7e532c4f2559947b693969599290b279",
+      "bytes": 7994
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/aokvqa/result.json",
+      "sha256": "895597fbbe0c713f1d85d5011e2b56ed517a0a7a73e0147106326e7577ac2af4",
+      "bytes": 7938
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/ai2d/result.json",
+      "sha256": "9676aa7949990ab02452c5248ce3c702d0ef78ec238441e711e7f8cb8f5e0d4d",
+      "bytes": 7913
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/iconqa/result.json",
+      "sha256": "fc84e65812de8ce21a16c27572b578a12ca73ab5e8bf04d3b12e89e13fd67294",
+      "bytes": 7942
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/vsr/result.json",
+      "sha256": "d495b18c51e56eb9e352b274f6ed06429b8048c61b96605adff51df05974db18",
+      "bytes": 7919
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/iconqa_choose_img/result.json",
+      "sha256": "808e6522385d773d6121c3ce273f2f2df14e79d99b326e19fb9f863935107424",
+      "bytes": 7973
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/textvqa/result.json",
+      "sha256": "ee54154a698711ca96fa1bbe1eddaa590db2ce02224ec39e0b221b989cb204c4",
+      "bytes": 7965
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/tallyqa/result.json",
+      "sha256": "03959bcffc8d3ec503c478c75fc2366d84cb319227aefd317f761a7a6adabc2f",
+      "bytes": 7972
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/llava/snli_ve/result.json",
+      "sha256": "64957fcdf24a35ac68b7223395df88ea938275ec40194e7e7b0780473d781d56",
+      "bytes": 7944
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/scienceqa/result.json",
+      "sha256": "9a827a4efb722fd49cfe63ad6a33bc0f3c2f1fce890743ba186808658ab07be7",
+      "bytes": 8041
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/sugarcrepe_pp/result.json",
+      "sha256": "b473477128a8a8c841303ff7e1d11dfc0c872e03bf942ec2f6be111a041bd2cb",
+      "bytes": 8038
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/aokvqa/result.json",
+      "sha256": "79a7ec24413ede2e15fd28f80a4744f5f07ce175bc948cfd1f77c7731afc34a2",
+      "bytes": 8033
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/ai2d/result.json",
+      "sha256": "a14e656353709afb30942f788a963abd74864af07464935bba60e33c5777a122",
+      "bytes": 7958
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/iconqa/result.json",
+      "sha256": "95d6d24d49203024e88907b58ee61cfb20e518cfb11d3394aef536307cac7d35",
+      "bytes": 7970
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/vsr/result.json",
+      "sha256": "d97ecd233e062c26737acbe3df135693a123e94f4fe8ad69871864c29b043123",
+      "bytes": 8023
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/iconqa_choose_img/result.json",
+      "sha256": "f1ef4f34e85da2fc0f666ab1dd0684143baf624ab079fa2d9ebf49de480f7b8e",
+      "bytes": 8016
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/textvqa/result.json",
+      "sha256": "fde2550b23b8b8c78ec38e3b7b225d9083579463643ae88756b9d2cc3bb36db1",
+      "bytes": 8063
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/tallyqa/result.json",
+      "sha256": "ed4c578b2aa4ee9f8e6770633d4174617f03fdc0c0ae4ae03a448ae63c21b851",
+      "bytes": 8009
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/comparisons/internvl/snli_ve/result.json",
+      "sha256": "962283931e74af29f0668d8ad514eb2504ff9df1254f7197fec3450e1fe732d2",
+      "bytes": 8047
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "2f61dd227337fa5e94330f62f61d858592adaa104988ff6a6576707275684914",
+      "bytes": 2661
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa_fill_in_blank/result.json",
+      "sha256": "7da560a5eb8da08f3137897ad5486da6059342aa54fdafebd4af152f495ca964",
+      "bytes": 2455
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/scienceqa/run_manifest.json",
+      "sha256": "bb2f4ca4d892dd3d3f38657f378c25167ef9473979f11619db6a379172fe72f3",
+      "bytes": 2564
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/scienceqa/result.json",
+      "sha256": "006e97e2519d49059b46d92b9cbeba7f5725bc66505800a5fd3976078497e9f5",
+      "bytes": 2343
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/sugarcrepe_pp/run_manifest.json",
+      "sha256": "1bfd49c4bbd23535ff624e4d0917773185aee7e7355d7461a923e2646889429c",
+      "bytes": 2629
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/sugarcrepe_pp/result.json",
+      "sha256": "9814ec5cd6a5098708b50bd991d6c812ce47ba9011064a8155079ba03b0d16d9",
+      "bytes": 2412
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/aokvqa/run_manifest.json",
+      "sha256": "08dd131a0701565ce8d8e86fc94ac7e27f53a0184e1d6176ffdff61ca659da20",
+      "bytes": 2573
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/aokvqa/result.json",
+      "sha256": "b7b5af8c3292b369a3a14bf0a71fcd338bdf88b4dc4471a021edaaed6911f78f",
+      "bytes": 2347
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/ai2d/run_manifest.json",
+      "sha256": "1e6a0592496183011097b8ccb13c8746eae32d9b3b4db67e70ff7202f27bfc00",
+      "bytes": 2558
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/ai2d/result.json",
+      "sha256": "a69f3e2a898696d57f144414ce43bc391c8a2e90614ab5254ba99c4dbdc31200",
+      "bytes": 2330
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa/run_manifest.json",
+      "sha256": "c415c7f685ec47cfe6cce3370d59293079ad1f5704c62996db5ab8fc45383584",
+      "bytes": 2563
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa/result.json",
+      "sha256": "8169146aa301bf789c2240969d6afa2a74d0e7e5c837c0e20e5ccfa945189126",
+      "bytes": 2334
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/vsr/run_manifest.json",
+      "sha256": "1c153dbb4f2e746ec9a75788ccef2c5ba1dc0bdd5eb9f14f3ac8f4eb36d9f777",
+      "bytes": 2559
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/vsr/result.json",
+      "sha256": "16dd2452656306b35c2045f2980bed995ac9c849b936ed31977be653961ab0aa",
+      "bytes": 2328
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa_choose_img/run_manifest.json",
+      "sha256": "04ee6e810bf575ccb943fc212bfe99e805fc7a934a9eeb41196157cc3c937074",
+      "bytes": 2660
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa_choose_img/result.json",
+      "sha256": "3c67aeb77f76c79146da389466cf2ee173e4fa79befd21075d66c3bbfc725ba2",
+      "bytes": 2451
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/gqa/run_manifest.json",
+      "sha256": "7e01574daa1edddf7a8efc5aac07430bb398e61771cc81879595f4afa9f8edff",
+      "bytes": 2565
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/gqa/result.json",
+      "sha256": "dae81a231bc896cef05f0fa57a3951d5562d82ab4850c468338247d4b02c9e98",
+      "bytes": 2339
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/textvqa/run_manifest.json",
+      "sha256": "a1e8af116a9a984067225e997fe4b6f361766f107a0850bc6d00d07241119cc2",
+      "bytes": 2577
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/textvqa/result.json",
+      "sha256": "008e2912cb5cd63f22254213dba6a8a6d09209a4e0699c3198037f4e7149c845",
+      "bytes": 2355
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/tallyqa/run_manifest.json",
+      "sha256": "c08a657a5855b9e58b5aec88f4442927afad13ff151bea444837a059e1738dbc",
+      "bytes": 2563
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/tallyqa/result.json",
+      "sha256": "caf8c5236b7e56330ac897e848886c1f95302ec387c942b62f1b3b07b4312a7d",
+      "bytes": 2338
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/snli_ve/run_manifest.json",
+      "sha256": "14b9a3b53e47505e14cfcbf269a35139a70cba6b923622d9f23a7b19f4e07358",
+      "bytes": 2563
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/snli_ve/result.json",
+      "sha256": "12f3dcfca8ce9b0e8b42d2e707ba05a65dfb0e2e42169763cf1fab2fe84602e4",
+      "bytes": 2336
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "9ddfe498695e87b81043448328108d8125e1cb65d11577460eb9b7b82f11ee6e",
+      "bytes": 3898
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/scienceqa/run_manifest.json",
+      "sha256": "3f5710d7439f7f633169d07d84f55452f62a51a52bfce8dede11cc495b240470",
+      "bytes": 3801
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/sugarcrepe_pp/run_manifest.json",
+      "sha256": "1d08157842eba62add8d8bee1f6a9f931d71cbcb046727f6fa3ab9aa15357346",
+      "bytes": 3866
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/sugarcrepe_pp/result.json",
+      "sha256": "a54c8bba0b6329da239c37cc8b6b06721c3cf5a0c33f7325c21799514525425e",
+      "bytes": 3073
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/aokvqa/run_manifest.json",
+      "sha256": "f7ea6fac976fca5ec3fa51149392a70f5d3e4485f7a6b045fe9c3836bf115559",
+      "bytes": 3810
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/aokvqa/result.json",
+      "sha256": "d68c210a0bd1ce05e8b0b6845a43ece822684eba45382f7e3583f047ef2d76dd",
+      "bytes": 3007
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/ai2d/run_manifest.json",
+      "sha256": "a1072ba2860a500fbd47a638940e78aec21c3753ac4d50f8c02fc8062719f4da",
+      "bytes": 3795
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/ai2d/result.json",
+      "sha256": "24fb01a328451ea348f1fe58efdf326b8415acc6fb6bf3a8413cc307ba9ab5e6",
+      "bytes": 2989
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa/run_manifest.json",
+      "sha256": "86406febcc7311bdb564adc65f2f702d3b108af8bf402a987e3be0e0ac4475e5",
+      "bytes": 3800
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa/result.json",
+      "sha256": "15c0dd8b30af50a37df2b94b8b0ba3e7e467f33fabb1227c7e5349dfc95305f3",
+      "bytes": 2994
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/vsr/run_manifest.json",
+      "sha256": "54ccb52d5822463f47361a89f048e42e85086950c16b18bda9ebfb87e337b3c9",
+      "bytes": 3796
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/vsr/result.json",
+      "sha256": "b8115889f90155b5a49d21f2b3c936e8f174be29a2a17877d85facdf91fe4233",
+      "bytes": 2988
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa_choose_img/run_manifest.json",
+      "sha256": "c9179d1c129cfec5d26b8ece3c31848be4330f0fce05dfe23c0bfc39d08664d0",
+      "bytes": 3897
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa_choose_img/result.json",
+      "sha256": "2390e58e5c41721cec43d6b3381148d2b642dda4998cfb6feee75c53fc002f5e",
+      "bytes": 3111
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/gqa/run_manifest.json",
+      "sha256": "ccfc5eee450c1da0d0c6129366afebbff8a7017812f3bfe5ef45788562f2d42e",
+      "bytes": 3802
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/textvqa/run_manifest.json",
+      "sha256": "405a821c143101ac730e3cb6d4e729b5560db941c563354cfe9d85384676524d",
+      "bytes": 3814
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/textvqa/result.json",
+      "sha256": "b6db75db69ba93b04041b21ec6cb44bf053abb7ec8253143ad9d02c548efc606",
+      "bytes": 3015
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/tallyqa/run_manifest.json",
+      "sha256": "7551c3711eaa59610b622469c580adb7c3b7c4ced690f2ad498313b811d9eda9",
+      "bytes": 3800
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/tallyqa/result.json",
+      "sha256": "ddba45e2e5797c6548f31dbefbc868ca0e6fae4c953ca6fccf54f37276ac02aa",
+      "bytes": 2998
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/snli_ve/run_manifest.json",
+      "sha256": "b012f12dad4e47aa717da5adffd457409e7833948fd88002df73b2bea3151833",
+      "bytes": 3800
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/snli_ve/result.json",
+      "sha256": "455fb497a4a47ac53a8faea3d2c11c951b498ba17ac9240460e92d86a8fcb02d",
+      "bytes": 2997
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa_fill_in_blank/run_manifest.json",
+      "sha256": "681d545ef431590f4094def28e050249f7c5591384bfa0462c2bd53ea204fd6f",
+      "bytes": 3903
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/scienceqa/run_manifest.json",
+      "sha256": "3ad8632aa5fb0df5c5d44be5d9ea2aa066bcf3ddc927dedaab442b7df4b01527",
+      "bytes": 3806
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/sugarcrepe_pp/run_manifest.json",
+      "sha256": "ebd376880b4d07c635b3bdf599ea897465ed4b0b9dfa80e6870ae01260bc9fe5",
+      "bytes": 3871
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/sugarcrepe_pp/result.json",
+      "sha256": "e52040e409938edbeb5d29f49eced12fa85aa49bd9ba9aa056dc02326a3d64cc",
+      "bytes": 3080
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/aokvqa/run_manifest.json",
+      "sha256": "c80ad203e1e4c26f8015f47df07955484ff5d5cb16afc6f3d1568450dc42cbb2",
+      "bytes": 3815
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/ai2d/run_manifest.json",
+      "sha256": "ff2abe5d0b3d2bb0f6928ae45c8c56281a3550eb522a4eb54b489632b7c3ffbe",
+      "bytes": 3800
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/ai2d/result.json",
+      "sha256": "f9d6a094e3f1d0a548a5df7cad68e34c8fefd829ea37c6e931b8026c41cfef0a",
+      "bytes": 2997
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa/run_manifest.json",
+      "sha256": "f555db195522af9433b127d8d6d986cf31a2a7a31bc41df54457acb106ebaa08",
+      "bytes": 3805
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa/result.json",
+      "sha256": "1fbb9e5ececd613f8bac84b0b4e0849de26fa6bebb89d68ee3e1f0249cf63433",
+      "bytes": 3001
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/vsr/run_manifest.json",
+      "sha256": "85b2848a8334b7813c9c86e3fa5f96bf74bf5195769e25a915ac4d508977b402",
+      "bytes": 3801
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa_choose_img/run_manifest.json",
+      "sha256": "b90890323e6143aef3a73fee3df5bb3657300439bc84b018ace0bbdc5c2079d2",
+      "bytes": 3902
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa_choose_img/result.json",
+      "sha256": "764d6f431bdcb7c8a526a5bb976c16c860a01034e3044e501fc066a8f983d575",
+      "bytes": 3118
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/gqa/run_manifest.json",
+      "sha256": "bc240fe07e31d448ca285de0ebf44732238ad47b33686f9cadf5d67d000700f2",
+      "bytes": 3807
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/textvqa/run_manifest.json",
+      "sha256": "4aeaaf6be76091bdc43441031c785089ffb4d64137650ba0ae0d489471ddfd64",
+      "bytes": 3819
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/tallyqa/run_manifest.json",
+      "sha256": "4cfefeba47f536d2a535c67ad7d543cb52f8675022fe56af7d61f419f7dab9c3",
+      "bytes": 3805
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/tallyqa/result.json",
+      "sha256": "01e162e220568f8936b24b25688dd0d0d4601ed98247073f7bc34e1970612136",
+      "bytes": 3005
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/snli_ve/run_manifest.json",
+      "sha256": "e4ed565fffbb85e0c2e3eaf395991ec0ac1a547e6959f7bd02cfb3bb73f91e91",
+      "bytes": 3805
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/execution_plan.json",
+      "sha256": "f0a2cf29c6ad48fe26cfb8f94389bd578298cbb77326bd6cef08d3e085c70f15",
+      "bytes": 5706
+    }
+  ],
+  "scope": "Exact aggregate result/identity bytes; excludes weights, images and predictions",
+  "provenance": "Server archive supplied by author; no new training or evaluation"
+}

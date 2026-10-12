@@ -1,0 +1,38 @@
+{
+  "schema": "adapter-study-matrix-manifest-v1",
+  "dataset_name": "iconqa_fill_in_blank",
+  "split": "test",
+  "N": 3638,
+  "repo": "lupantech/IconQA",
+  "revision": "official ZIP SHA256:475f7651d9e2a86dee340e8b8b1d07b3d34abc7279c08bc7391196b49d4d348b",
+  "fingerprint": "87e9098770ae93e341ebc19a9b495908f01b12a0f3e860ec552d9371af85cc06",
+  "public_labels": true,
+  "is_true_test": true,
+  "candidate_manifest_sha256": "2b056f9f582cf3804f35be8938a38f1d0b30e6d472095599855a1bb605db47f1",
+  "checkpoint_sha256": {
+    "20260928": {
+      "linear_ce": "44702b5a3ebf2b4a8af0a191d57e90655e92672bed6414938af9ccc171eb0fb6",
+      "mlp_ce": "80a2fd11b1d3a7929a87deb38d0cee538fc01a86f49185f09c16cad788ef87e2",
+      "mlp_invalid": "9cdfb0f2f3ade3f049145885c104256c09c1cb2da0bca4a999acf9f17b7d9bb1"
+    },
+    "20260929": {
+      "linear_ce": "9422f4e9ffae9fa2b21d4ea04c4926c26df8a220010ba5fd13008f7abbddf85d",
+      "mlp_ce": "d982ebfa743d42a2b0523268688991d86175587b74dd501a52684e334a3ae49b",
+      "mlp_invalid": "7d6585cd27907df6d343ef3c96a8f272517d57b6603c5a45ee76eb7d11e99a7f"
+    },
+    "20260930": {
+      "linear_ce": "8c63e4576095185e3794637adbac8857ba6a74ca6c76df21b775b5878e8794b8",
+      "mlp_ce": "79a98c578728fe48ee7ec249712bf3136bcf297caef38b9e37f551efb8acb50c",
+      "mlp_invalid": "2b64cae0614882782cfcb6edfa3e79ab0521aa12f75fbaa49a7d3b601ac21854"
+    }
+  },
+  "scorer_state_sha256": "80e230c5e5cc1afffb47d78ec9025870fcd391ea605f6ab18db155296bc1086c",
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "backbone": "llava",
+  "sampling": "none",
+  "legacy_source_manifest_checkpoint_sha256": "b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493"
+}

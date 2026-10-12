@@ -1,0 +1,38 @@
+{
+  "schema": "adapter-study-matrix-manifest-v1",
+  "dataset_name": "gqa",
+  "split": "testdev",
+  "N": 12578,
+  "repo": "lmms-lab-encoder/GQA",
+  "revision": "a6e72d6e1b912da88af8b2f9eba05d5ea8ec2dd8",
+  "fingerprint": "64e88bfd7750a34c",
+  "public_labels": true,
+  "is_true_test": false,
+  "candidate_manifest_sha256": "78c9ad2ec3c1e0e4c2bac2799c6a1b4df9017334b32b65341b0f88496cc75fe9",
+  "checkpoint_sha256": {
+    "20260928": {
+      "linear_ce": "9c373d835ac832200b385a8fbf0604e87cf687d5dfe565bd2b1cc93c502864f8",
+      "mlp_ce": "dedadcdd84ec30ad5281f3d94ca91ad0ffd8392d433a06e957d5e2a1cd7343ca",
+      "mlp_invalid": "e9af140a1a8802892f84b8f7ab4f093498afed30fa860e4505080935c1a508a0"
+    },
+    "20260929": {
+      "linear_ce": "74835cc5c9eee90e3bd1cb636f0351fed97fa3dfbdb85429b18bdb19fcbf419d",
+      "mlp_ce": "266db55ccf26bef14c43ff6db01ed76fdf927e571f99c11f702e101a3bfcc062",
+      "mlp_invalid": "d23cca8300ca91c652f116320e392913373fa86a9ef83d670dab14c900b3fb2b"
+    },
+    "20260930": {
+      "linear_ce": "2f35310562b02c1bd4d576e850d6fe2f607e797212ec6eb69314a4f68feac04b",
+      "mlp_ce": "33f7651946dbd2cbf4d8cd3456bb7821cdfa2764a17cea589be36955979c0c62",
+      "mlp_invalid": "09eb0809ff3b48af01e45c211b783f9bb5d988406779d467693c3fe6b287f852"
+    }
+  },
+  "scorer_state_sha256": "80e230c5e5cc1afffb47d78ec9025870fcd391ea605f6ab18db155296bc1086c",
+  "seeds": [
+    20260928,
+    20260929,
+    20260930
+  ],
+  "backbone": "internvl",
+  "sampling": "none",
+  "legacy_source_manifest_checkpoint_sha256": "b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493"
+}

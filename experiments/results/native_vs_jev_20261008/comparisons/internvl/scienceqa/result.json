@@ -1,0 +1,180 @@
+{
+  "schema": "native-to-jev-full-comparison-v1",
+  "status": "complete",
+  "backbone": "internvl",
+  "dataset_name": "scienceqa",
+  "split": "test",
+  "N": 4241,
+  "is_true_test": true,
+  "metric": "accuracy",
+  "candidate_manifest_sha256": "e10c82fc7d6f1db39b1134d8194980d4f1c456e030325121ccfeb6f123e017dd",
+  "native": 0.6125913699599151,
+  "seeds": {
+    "20260928": {
+      "linear_ce": {
+        "after": 0.7644423485027116,
+        "delta_pp": 15.18509785427965,
+        "improved": 1115,
+        "worsened": 471,
+        "unchanged": 2655
+      },
+      "mlp_ce": {
+        "after": 0.7759962273048809,
+        "delta_pp": 16.34048573449658,
+        "improved": 1132,
+        "worsened": 439,
+        "unchanged": 2670
+      },
+      "mlp_invalid": {
+        "after": 0.7670360763970762,
+        "delta_pp": 15.444470643716102,
+        "improved": 1109,
+        "worsened": 454,
+        "unchanged": 2678
+      }
+    },
+    "20260929": {
+      "linear_ce": {
+        "after": 0.7649139353925961,
+        "delta_pp": 15.232256543268097,
+        "improved": 1150,
+        "worsened": 504,
+        "unchanged": 2587
+      },
+      "mlp_ce": {
+        "after": 0.769865597736383,
+        "delta_pp": 15.727422777646783,
+        "improved": 1158,
+        "worsened": 491,
+        "unchanged": 2592
+      },
+      "mlp_invalid": {
+        "after": 0.7679792501768451,
+        "delta_pp": 15.538788021692994,
+        "improved": 1164,
+        "worsened": 505,
+        "unchanged": 2572
+      }
+    },
+    "20260930": {
+      "linear_ce": {
+        "after": 0.7712803584060363,
+        "delta_pp": 15.868898844612112,
+        "improved": 1112,
+        "worsened": 439,
+        "unchanged": 2690
+      },
+      "mlp_ce": {
+        "after": 0.7722235321858052,
+        "delta_pp": 15.963216222589004,
+        "improved": 1121,
+        "worsened": 444,
+        "unchanged": 2676
+      },
+      "mlp_invalid": {
+        "after": 0.7752888469700542,
+        "delta_pp": 16.269747701013905,
+        "improved": 1142,
+        "worsened": 452,
+        "unchanged": 2647
+      }
+    }
+  },
+  "native_protocol": {
+    "name": "native_conditional_mean_answer_log_likelihood",
+    "prompt_suffix": "\nAnswer the question with a short answer.",
+    "answer_tokens": "Tokenizer encode(add_special_tokens=False); empty answer=EOS; no answer truncation",
+    "inference_path": "Full uncached forward for EVERY candidate on EVERY example in this case",
+    "cached_prefix_check": "Cached numerical guard failed; cached scores rejected, not tolerance-relaxed",
+    "note": "Released native LM head; same mean-token likelihood, images, questions and full candidate sets"
+  },
+  "native_training": "Released pretrained model only; no adapter/JEV training",
+  "adapted_training": "Adapters trained on complete A-OKVQA/ScienceQA/IconQA train corpus; same fixed JEV scorer",
+  "inference_scope": "System comparison; released native zero-shot vs trained adapter+fixed JEV. Adapter-only causal contrast remains in matched three-arm study.",
+  "source_results": [
+    {
+      "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/native_vs_jev_20261008/native_uncached/internvl/scienceqa/result.json",
+      "sha256": "f1404d6b7a1cdc29ab2b78f5703bee36d1df124372f8da4d02c5660b4c53c2a5",
+      "predictions_sha256": "53e8f75cf5f6d836b457f864176993e8465a1d1bee61c2ac56b4f062a1936ebb"
+    },
+    {
+      "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/evaluation/internvl/scienceqa/result.json",
+      "sha256": "3e8081cf0088c5ba9d40a8530bb388c37fdcc71736063d77899933b4985662ec",
+      "predictions_sha256": "7417d027c595bc8a3189f94ac194d4db53c4f04b7d773d68bb110ae485506a5e"
+    }
+  ],
+  "checkpoint_sha256": {
+    "20260928": {
+      "linear_ce": "9c373d835ac832200b385a8fbf0604e87cf687d5dfe565bd2b1cc93c502864f8",
+      "mlp_ce": "dedadcdd84ec30ad5281f3d94ca91ad0ffd8392d433a06e957d5e2a1cd7343ca",
+      "mlp_invalid": "e9af140a1a8802892f84b8f7ab4f093498afed30fa860e4505080935c1a508a0"
+    },
+    "20260929": {
+      "linear_ce": "74835cc5c9eee90e3bd1cb636f0351fed97fa3dfbdb85429b18bdb19fcbf419d",
+      "mlp_ce": "266db55ccf26bef14c43ff6db01ed76fdf927e571f99c11f702e101a3bfcc062",
+      "mlp_invalid": "d23cca8300ca91c652f116320e392913373fa86a9ef83d670dab14c900b3fb2b"
+    },
+    "20260930": {
+      "linear_ce": "2f35310562b02c1bd4d576e850d6fe2f607e797212ec6eb69314a4f68feac04b",
+      "mlp_ce": "33f7651946dbd2cbf4d8cd3456bb7821cdfa2764a17cea589be36955979c0c62",
+      "mlp_invalid": "09eb0809ff3b48af01e45c211b783f9bb5d988406779d467693c3fe6b287f852"
+    }
+  },
+  "checkpoints": {
+    "20260928": {
+      "linear_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260928/linear_ce/model.pt",
+        "sha256": "9c373d835ac832200b385a8fbf0604e87cf687d5dfe565bd2b1cc93c502864f8",
+        "adapter_parameters": 2626048
+      },
+      "mlp_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260928/mlp_ce/model.pt",
+        "sha256": "dedadcdd84ec30ad5281f3d94ca91ad0ffd8392d433a06e957d5e2a1cd7343ca",
+        "adapter_parameters": 3680768
+      },
+      "mlp_invalid": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260928/mlp_invalid/model.pt",
+        "sha256": "e9af140a1a8802892f84b8f7ab4f093498afed30fa860e4505080935c1a508a0",
+        "adapter_parameters": 3680768
+      }
+    },
+    "20260929": {
+      "linear_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260929/linear_ce/model.pt",
+        "sha256": "74835cc5c9eee90e3bd1cb636f0351fed97fa3dfbdb85429b18bdb19fcbf419d",
+        "adapter_parameters": 2626048
+      },
+      "mlp_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260929/mlp_ce/model.pt",
+        "sha256": "266db55ccf26bef14c43ff6db01ed76fdf927e571f99c11f702e101a3bfcc062",
+        "adapter_parameters": 3680768
+      },
+      "mlp_invalid": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260929/mlp_invalid/model.pt",
+        "sha256": "d23cca8300ca91c652f116320e392913373fa86a9ef83d670dab14c900b3fb2b",
+        "adapter_parameters": 3680768
+      }
+    },
+    "20260930": {
+      "linear_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260930/linear_ce/model.pt",
+        "sha256": "2f35310562b02c1bd4d576e850d6fe2f607e797212ec6eb69314a4f68feac04b",
+        "adapter_parameters": 2626048
+      },
+      "mlp_ce": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260930/mlp_ce/model.pt",
+        "sha256": "33f7651946dbd2cbf4d8cd3456bb7821cdfa2764a17cea589be36955979c0c62",
+        "adapter_parameters": 3680768
+      },
+      "mlp_invalid": {
+        "path": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/adapter_study_20261008/training/internvl/seed_20260930/mlp_invalid/model.pt",
+        "sha256": "09eb0809ff3b48af01e45c211b783f9bb5d988406779d467693c3fe6b287f852",
+        "adapter_parameters": 3680768
+      }
+    }
+  },
+  "scorer_state_sha256": "80e230c5e5cc1afffb47d78ec9025870fcd391ea605f6ab18db155296bc1086c",
+  "paired_changes_sha256": "5f78555bff72d8dd426439afd639fd2d79d0222ac08da022ccea9089fbd2ba60",
+  "comparison_code_sha256": "7785dfe25cba2d96b14b67cfe1049f0a7ea0f9c6d4b753afcefed528411e7a28",
+  "sampling": "none"
+}

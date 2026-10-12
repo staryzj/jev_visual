@@ -1,0 +1,10 @@
+{
+  "kind": "cached_uncached_numerical_mismatch",
+  "difference": 0.03845252990722603,
+  "tolerance": 0.02,
+  "reason": "Native cached/uncached score difference 0.03845252990722603 exceeds tolerance",
+  "policy": "Re-evaluate entire full case with uncached forward; no mixed-score prefix",
+  "rejected_cached_directory": "/datastore/zzj/visual-jev-server-20261008/visual-jev-h100/runtime/experiments/results/native_vs_jev_20261008/native/internvl/iconqa_fill_in_blank",
+  "legacy_identity_sha256": "40299884de597ffb6b5cf11a7baad2cfc1c234796b68b50b67e0d79aaee6cf3c",
+  "fallback_code_sha256": "c3958cb3aedde5c811950e4752d8e3bdbf0b5fbf286748c4eb18f03f08f97386"
+}

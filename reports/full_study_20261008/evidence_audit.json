@@ -1,0 +1,286 @@
+{
+  "archive_sha256": "16cde8092f8d1222bdf9ca7aa32e80b73b490ba7c6c1c7c455b48796e537c646",
+  "jev_complete": 36,
+  "native_complete": 32,
+  "jev_improvements": 21,
+  "main_paired_tasks": 10,
+  "rows_per_backbone": 110983,
+  "scorer_state_sha256": "80e230c5e5cc1afffb47d78ec9025870fcd391ea605f6ab18db155296bc1086c",
+  "sources": [
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/aokvqa/result.json",
+      "sha256": "d2ea02233af847b3dafdfe8c82f4040f037a0e12576197fdc57a0d0b43f7e74e"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/aokvqa/result.json",
+      "sha256": "b7b5af8c3292b369a3a14bf0a71fcd338bdf88b4dc4471a021edaaed6911f78f"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/scienceqa/result.json",
+      "sha256": "a26c4bf647518aaf099ad49fdebf879b306eba4171d92fa48ee0483db07c2e1a"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/scienceqa/result.json",
+      "sha256": "006e97e2519d49059b46d92b9cbeba7f5725bc66505800a5fd3976078497e9f5"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa/result.json",
+      "sha256": "0e16408b0d213bc13ff6d2de0ac0df4db82d4bf6bfb0c9931a0a1031e21f9dc4"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa/result.json",
+      "sha256": "8169146aa301bf789c2240969d6afa2a74d0e7e5c837c0e20e5ccfa945189126"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa_choose_img/result.json",
+      "sha256": "2444511f8be9dd2b11126592993366953fe7eb88b9668e5ac36c40b7a6a7335b"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa_choose_img/result.json",
+      "sha256": "3c67aeb77f76c79146da389466cf2ee173e4fa79befd21075d66c3bbfc725ba2"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/iconqa_fill_in_blank/result.json",
+      "sha256": "5ef5d64e9d7ae212396f4e71df4423e15cfcea3d83aad7e2a457915d645d9db4"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/iconqa_fill_in_blank/result.json",
+      "sha256": "7da560a5eb8da08f3137897ad5486da6059342aa54fdafebd4af152f495ca964"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/ai2d/result.json",
+      "sha256": "f7321525fd4b41d2bff2c21b86232b25b9a628d9cd45de55aefaa9ddbc31041d"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/ai2d/result.json",
+      "sha256": "a69f3e2a898696d57f144414ce43bc391c8a2e90614ab5254ba99c4dbdc31200"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/vsr/result.json",
+      "sha256": "9a0868a75cfb69c8a59012d180adba1f5b2f47851f320363408f4eb8cd0e584a"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/vsr/result.json",
+      "sha256": "16dd2452656306b35c2045f2980bed995ac9c849b936ed31977be653961ab0aa"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/sugarcrepe_pp/result.json",
+      "sha256": "9b70ac82ae039e750bda684fa903adaad037bf4ea8ee5ed6900c4122f28dcf76"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/sugarcrepe_pp/result.json",
+      "sha256": "9814ec5cd6a5098708b50bd991d6c812ce47ba9011064a8155079ba03b0d16d9"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/textvqa/result.json",
+      "sha256": "a4ab42f2494d5cbdbe1999adde3928a3689fa6d1c4861f7529c87199f7277e6f"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/textvqa/result.json",
+      "sha256": "008e2912cb5cd63f22254213dba6a8a6d09209a4e0699c3198037f4e7149c845"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/tallyqa/result.json",
+      "sha256": "67a95e78209721915b9fd5ca7f054dbee00e9fa193754a991128e13135c154aa"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/tallyqa/result.json",
+      "sha256": "caf8c5236b7e56330ac897e848886c1f95302ec387c942b62f1b3b07b4312a7d"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/gqa/result.json",
+      "sha256": "076e6d8b62dc18ceab43b1b8e4366f45c7a222848e6e024dd27daa4969068839"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/gqa/result.json",
+      "sha256": "dae81a231bc896cef05f0fa57a3951d5562d82ab4850c468338247d4b02c9e98"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/siglip2/snli_ve/result.json",
+      "sha256": "be79ee89ec0f1c3c0fe1226b8d7c86d4320e5bfbb95e8e6af40d5fc52ec86819"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/siglip2/snli_ve/result.json",
+      "sha256": "12f3dcfca8ce9b0e8b42d2e707ba05a65dfb0e2e42169763cf1fab2fe84602e4"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/aokvqa/result.json",
+      "sha256": "35499095c124447a047e3cbeb27611ed2e8cbea789db69fc933127b0f19e08bc"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/aokvqa/result.json",
+      "sha256": "4762076c1c0f8ceafa833edc78feec60e6c2930e67b5a2b8bc77f811130f704a"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/scienceqa/result.json",
+      "sha256": "3e8081cf0088c5ba9d40a8530bb388c37fdcc71736063d77899933b4985662ec"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/scienceqa/result.json",
+      "sha256": "f1404d6b7a1cdc29ab2b78f5703bee36d1df124372f8da4d02c5660b4c53c2a5"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa/result.json",
+      "sha256": "6e7341df92003ea95b4e89e0466a0eeb47fc8f52ae07870116a8c50f43bbb4fd"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa/result.json",
+      "sha256": "1fbb9e5ececd613f8bac84b0b4e0849de26fa6bebb89d68ee3e1f0249cf63433"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa_choose_img/result.json",
+      "sha256": "c3bcf654a1cc76a633133ccf05b3d6f1c85795237386af94693572b1d5617526"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/iconqa_choose_img/result.json",
+      "sha256": "764d6f431bdcb7c8a526a5bb976c16c860a01034e3044e501fc066a8f983d575"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/iconqa_fill_in_blank/result.json",
+      "sha256": "e9546c2177237ef65b37478343040e043d9c93066d5be94cf235614d630673df"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/ai2d/result.json",
+      "sha256": "1d908e672b2889b33a840d017b3c25f29083f71c888bb4305bb065d2553a234d"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/ai2d/result.json",
+      "sha256": "f9d6a094e3f1d0a548a5df7cad68e34c8fefd829ea37c6e931b8026c41cfef0a"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/vsr/result.json",
+      "sha256": "1e6c8330f3bf04b4cf9e0290b7048fada200a58f601e43d63dd81694cf7da28c"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/vsr/result.json",
+      "sha256": "9dbff605bf94a85133a205da261b23351a366a8ed4b4e6e024a80c07417915f1"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/sugarcrepe_pp/result.json",
+      "sha256": "1888604b34dbeaa911de8856fe05d3ccaaa73a2cea316a7bff6fca41dda5a155"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/sugarcrepe_pp/result.json",
+      "sha256": "e52040e409938edbeb5d29f49eced12fa85aa49bd9ba9aa056dc02326a3d64cc"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/textvqa/result.json",
+      "sha256": "9b7e0951e0d283e9c3be68689e83ee33df03187aab8999b695a9ca3c82210c46"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/textvqa/result.json",
+      "sha256": "9364395fb5f6edc93e69f16568d9a016764cef7f9c7117e4fe7486d64bb65553"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/tallyqa/result.json",
+      "sha256": "c3020da047eb679a9afa586f000de72ed4f39153e1325e3003a52459906d8e80"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/internvl/tallyqa/result.json",
+      "sha256": "01e162e220568f8936b24b25688dd0d0d4601ed98247073f7bc34e1970612136"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/gqa/result.json",
+      "sha256": "31f318af5b02a4e679a140835e2e37e2559858482b2cac6968bd44822ccf1a58"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/internvl/snli_ve/result.json",
+      "sha256": "3e950cd53e0cb60c7ebbc881ea420c25c4190ade14fb05b6c1b6b90f34bfbeed"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/internvl/snli_ve/result.json",
+      "sha256": "949cbc9664a9be5856bacc4ecb6cea74b3effeeb55342f84b39907b8e9cece94"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/aokvqa/result.json",
+      "sha256": "cd148121f9585cf514879f5b67e739e8efee7715654c0c9952b785337732132e"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/aokvqa/result.json",
+      "sha256": "d68c210a0bd1ce05e8b0b6845a43ece822684eba45382f7e3583f047ef2d76dd"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/scienceqa/result.json",
+      "sha256": "f0084bbcaf46115fec6f3ca7addc410012161e74168ffe5cc179d79582baf199"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native_uncached/llava/scienceqa/result.json",
+      "sha256": "4c2888ba357fbe49276abf2bc148775f47fcdf151f64c6fa7893eb2ba2a694dd"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa/result.json",
+      "sha256": "b52f2d8284ed7720567fd32025e0202a44247540cca836e3ccfddf14d73e5813"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa/result.json",
+      "sha256": "15c0dd8b30af50a37df2b94b8b0ba3e7e467f33fabb1227c7e5349dfc95305f3"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa_choose_img/result.json",
+      "sha256": "a254fbd4520afa8ea354acaf489d3e7ca3f905a812c580018d142f7c5593edbd"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/iconqa_choose_img/result.json",
+      "sha256": "2390e58e5c41721cec43d6b3381148d2b642dda4998cfb6feee75c53fc002f5e"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/iconqa_fill_in_blank/result.json",
+      "sha256": "59e30fc2a160ece37734cb445e7586ff130716932cf91faaecc5e84c10bfe5f8"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/ai2d/result.json",
+      "sha256": "1bca85b70c212c01fafe21da5983002d4766dd8ebab4eb2aefb1b751f3cadfbf"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/ai2d/result.json",
+      "sha256": "24fb01a328451ea348f1fe58efdf326b8415acc6fb6bf3a8413cc307ba9ab5e6"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/vsr/result.json",
+      "sha256": "bfbd2e3513aa24e6d0ebc2b55c8c4e1d0c9d12827f8f6825d34ec6dcc5e09795"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/vsr/result.json",
+      "sha256": "b8115889f90155b5a49d21f2b3c936e8f174be29a2a17877d85facdf91fe4233"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/sugarcrepe_pp/result.json",
+      "sha256": "a2d95e680804295101af7cf6d65b0f04a51601efe0afd6d3b581d2b83e556d63"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/sugarcrepe_pp/result.json",
+      "sha256": "a54c8bba0b6329da239c37cc8b6b06721c3cf5a0c33f7325c21799514525425e"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/textvqa/result.json",
+      "sha256": "8e71ac281ac21bc52645d66d724fa82051f6b0650fdd319bf444174eeda14a6f"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/textvqa/result.json",
+      "sha256": "b6db75db69ba93b04041b21ec6cb44bf053abb7ec8253143ad9d02c548efc606"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/tallyqa/result.json",
+      "sha256": "d2247efafea7a36caab41304965ab9b76db678543ca6cdbceb885dbdbe504362"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/tallyqa/result.json",
+      "sha256": "ddba45e2e5797c6548f31dbefbc868ca0e6fae4c953ca6fccf54f37276ac02aa"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/gqa/result.json",
+      "sha256": "4bc815009223ea04d1f7521a1615752db87ecaf3ccc3f798530d0dfeb0320f14"
+    },
+    {
+      "path": "experiments/results/adapter_study_20261008/evaluation/llava/snli_ve/result.json",
+      "sha256": "dfd84b918dc88b5fae1a7dc738f50ef9c68f7f3d20a00175f994a57423a05538"
+    },
+    {
+      "path": "experiments/results/native_vs_jev_20261008/native/llava/snli_ve/result.json",
+      "sha256": "455fb497a4a47ac53a8faea3d2c11c951b498ba17ac9240460e92d86a8fcb02d"
+    }
+  ],
+  "latency_scope": "Cached stage only; no native end-to-end speedup or generated-token measurement",
+  "seed_uncertainty": "Sample SD over three adapters, not within-run latency variability",
+  "predictions_present": false
+}

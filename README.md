@@ -4,6 +4,47 @@ A selected frozen visual backbone maps through its own trainable adapter into th
 
 中文：代码按功能归入文件夹，根目录只保留说明、依赖和许可证。完整 benchmark、自定义 held-out 实验和 debug 结果严格分开。
 
+## Current primary evidence: complete cross-backbone study
+
+The 2026-10-08 server study trained **27 adapters** (three backbones × three
+seeds × three arms) on all **94,244** declared training rows. Each adapter
+was then fixed across twelve complete evaluation tasks, totaling **110,983
+rows per backbone**. All 36 JEV task records and 32 native comparisons are
+complete; JEV improves in 21/32 system comparisons. Nonlinear+CE exceeds
+Linear+CE in 29/36 matched adapter cells.
+
+| Backbone | ScienceQA native (%) | ScienceQA JEV (%) | IconQA text native (%) | IconQA text JEV (%) | MLP parameters (M) | Cached ScienceQA ms/example |
+|---|---:|---:|---:|---:|---:|---:|
+| SigLIP2 | 39.54 | 76.29 ± 0.66 | 39.27 | 54.35 ± 2.26 | 3.418 | 0.94 |
+| InternVL | 61.26 | 77.01 ± 0.45 | 51.69 | 58.23 ± 0.72 | 3.681 | 0.99 |
+| LLaVA | 56.17 | 78.06 ± 0.21 | 58.44 | 60.45 ± 1.60 | 3.812 | 0.95 |
+
+JEV means/SD use three MLP+Null adapters. Native and JEV share rows, images
+and candidate sets; target supervision and the text encoder differ. Native
+InternVL/LLaVA remain stronger on OCR, counting and several transfer tasks.
+The full gains **and losses** appear in
+[the complete table](reports/full_study_20261008/accuracy.md), with
+[CSV](reports/full_study_20261008/accuracy.csv),
+[cached timing](reports/full_study_20261008/cached_latency.csv) and
+[source/hash audit](reports/full_study_20261008/evidence_audit.json).
+
+Timing covers the synchronized cached adapter/scorer stage, including device
+transfer and host readout. It excludes encoders, cache loading and controls;
+there is **no measured native end-to-end speedup**. The aggregate archive
+excludes target prediction traces, raw benchmark images and weights.
+InternVL/LLaVA GQA and IconQA fill-in-blank native runs remain incomplete.
+
+Regenerate paper tables and verify the exact published aggregate bytes,
+without models or GPU inference:
+
+```bash
+python -m scripts.tables.build_paper_evidence
+```
+
+See [the full-study reproduction protocol](docs/FULL_STUDY_PAPER_EVIDENCE.md).
+The two older sections below are historical experiments with different
+checkpoint/training provenance, not the current cross-backbone main results.
+
 ## Repository layout
 
 | Folder | Contents |
@@ -39,7 +80,7 @@ python -m scripts.maintenance.verify_publication
 
 Weights, feature caches and raw benchmark images are **not distributed here**. Exact historical reproduction requires the recorded checkpoint bytes and original data/model resources. Users must obtain gated access themselves; the workflow does not bypass restrictions or accept licenses.
 
-## Primary evidence: adapter-only backbone transfer
+## Historical pilot: adapter-only backbone transfer
 
 The external scorer and common cached Qwen text features are fixed. Only the target adapter is trained. Each run uses custom COCO partitions of 512/80/80/80 train/validation/calibration/held-out instances, not official full tests.
 
@@ -68,7 +109,7 @@ python -m scripts.backbones.run_backbone_adapter_full \
 
 Remove `--plan-only` only when resources are available and full training is intended. This remains custom-manifest transfer, not official benchmark evaluation.
 
-## Secondary evidence: complete declared benchmark splits
+## Historical source-Qwen transfer: six complete declared splits
 
 These use a separate fixed controlled-COCO checkpoint with SHA256 `b7589ce737351b88beb398b9027075dfc2cdff3fc5ba637a9f78a453dbc58493`, not the target-backbone study checkpoint.
 
