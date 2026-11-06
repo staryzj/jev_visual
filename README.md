@@ -45,6 +45,10 @@ See [the full-study reproduction protocol](docs/FULL_STUDY_PAPER_EVIDENCE.md).
 The two older sections below are historical experiments with different
 checkpoint/training provenance, not the current cross-backbone main results.
 
+## Frozen Open-Jev 27B experiments
+
+The later [Open-Jev 27B protocol](scripts/evaluation/open_jev_27b/README.md) covers four external encoders, full-split paired accuracy, and matched token and latency measurement.
+
 ## Repository layout
 
 | Folder | Contents |
