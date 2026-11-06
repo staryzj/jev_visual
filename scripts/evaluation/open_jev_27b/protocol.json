@@ -1,0 +1,63 @@
+{
+  "receiver": "Open-Jev 27B",
+  "warmup_per_worker": 3,
+  "short_max_new_tokens": 64,
+  "rationale_max_new_tokens": 1024,
+  "tasks": {
+    "aokvqa": 1145,
+    "scienceqa": 4241,
+    "iconqa": 6316,
+    "iconqa_choose_img": 11535,
+    "ai2d": 3088
+  },
+  "methods": {
+    "llava": {
+      "tap": "projected",
+      "loss": "mse_relation",
+      "spec": {
+        "input_dim": 1152,
+        "output_dim": 5120,
+        "arm": "geometric",
+        "width": 512,
+        "backbone": "llava"
+      },
+      "checkpoint_sha256": "2025d3eacf01fd7a70bbc77361878dfd63bd225d8b22a2877fc9009efddd576c"
+    },
+    "internvl": {
+      "tap": "raw",
+      "loss": "mse_relation",
+      "spec": {
+        "input_dim": 4096,
+        "output_dim": 5120,
+        "arm": "geometric",
+        "width": 512,
+        "backbone": "internvl"
+      },
+      "checkpoint_sha256": "045f2b6f308dea7d3e66b082a85d029da52b07a5889826aa6589f287ff1c15f2"
+    },
+    "qwen": {
+      "tap": "native",
+      "loss": "mse",
+      "spec": {
+        "input_dim": 2560,
+        "output_dim": 5120,
+        "arm": "linear",
+        "width": 512
+      },
+      "checkpoint_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e"
+    },
+    "siglip2": {
+      "tap": "raw",
+      "loss": "mse",
+      "spec": {
+        "input_dim": 768,
+        "output_dim": 5120,
+        "arm": "geometric",
+        "width": 512,
+        "backbone": "siglip2",
+        "residual_width": 256
+      },
+      "checkpoint_sha256": "beaecade641b9e504e34a24a8819d19c3c4f026ed0b66990daf59d0f31b41ba7"
+    }
+  }
+}

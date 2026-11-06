@@ -1,0 +1,188 @@
+{
+  "llava": {
+    "backbone": "llava",
+    "image_h": 384,
+    "image_w": 384,
+    "patch_h": 14,
+    "patch_w": 14,
+    "grid_h": 27,
+    "grid_w": 27,
+    "CLS_tokens": 0,
+    "cached_feature_tap": "vision last_hidden_state (before native multimodal projector)",
+    "pinpoints": [
+      [
+        384,
+        384
+      ],
+      [
+        384,
+        768
+      ],
+      [
+        384,
+        1152
+      ],
+      [
+        384,
+        1536
+      ],
+      [
+        384,
+        1920
+      ],
+      [
+        384,
+        2304
+      ],
+      [
+        768,
+        384
+      ],
+      [
+        768,
+        768
+      ],
+      [
+        768,
+        1152
+      ],
+      [
+        768,
+        1536
+      ],
+      [
+        768,
+        1920
+      ],
+      [
+        768,
+        2304
+      ],
+      [
+        1152,
+        384
+      ],
+      [
+        1152,
+        768
+      ],
+      [
+        1152,
+        1152
+      ],
+      [
+        1152,
+        1536
+      ],
+      [
+        1152,
+        1920
+      ],
+      [
+        1152,
+        2304
+      ],
+      [
+        1536,
+        384
+      ],
+      [
+        1536,
+        768
+      ],
+      [
+        1536,
+        1152
+      ],
+      [
+        1536,
+        1536
+      ],
+      [
+        1536,
+        1920
+      ],
+      [
+        1536,
+        2304
+      ],
+      [
+        1920,
+        384
+      ],
+      [
+        1920,
+        768
+      ],
+      [
+        1920,
+        1152
+      ],
+      [
+        1920,
+        1536
+      ],
+      [
+        1920,
+        1920
+      ],
+      [
+        1920,
+        2304
+      ],
+      [
+        2304,
+        384
+      ],
+      [
+        2304,
+        768
+      ],
+      [
+        2304,
+        1152
+      ],
+      [
+        2304,
+        1536
+      ],
+      [
+        2304,
+        1920
+      ],
+      [
+        2304,
+        2304
+      ]
+    ]
+  },
+  "internvl": {
+    "backbone": "internvl",
+    "image_h": 448,
+    "image_w": 448,
+    "patch_h": 14,
+    "patch_w": 14,
+    "grid_h": 32,
+    "grid_w": 32,
+    "CLS_tokens": 1,
+    "cached_feature_tap": "vision last_hidden_state (before native multimodal projector)"
+  },
+  "qwen": {
+    "backbone": "qwen",
+    "patch_h": 16,
+    "patch_w": 16,
+    "merge": 2,
+    "cached_feature_tap": "vision pooler_output (merged sequence)"
+  },
+  "siglip2": {
+    "backbone": "siglip2",
+    "image_h": 224,
+    "image_w": 224,
+    "patch_h": 16,
+    "patch_w": 16,
+    "grid_h": 14,
+    "grid_w": 14,
+    "CLS_tokens": 0,
+    "cached_feature_tap": "vision last_hidden_state (before native multimodal projector)"
+  }
+}
