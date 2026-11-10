@@ -2,7 +2,6 @@
 
 A selected frozen visual backbone maps through its own trainable adapter into the **same frozen external JEV decision scorer**. Alternative backbones are replaceable choices, not parallel ensemble branches. This research project builds on [Open-Jev](https://github.com/Zefan-Cai/Open-Jev); it is not an official Jev release.
 
-中文：代码按功能归入文件夹，根目录只保留说明、依赖和许可证。完整 benchmark、自定义 held-out 实验和 debug 结果严格分开。
 
 ## Current primary evidence: complete cross-backbone study
 
