@@ -1,0 +1,4130 @@
+[
+  {
+    "uid": "confirm:00:equal_area:2",
+    "scene": "confirm:00",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 728,
+    "instance_sizes": [
+      364,
+      364
+    ],
+    "dense": false,
+    "green": [
+      46,
+      126,
+      76
+    ],
+    "box": [
+      85,
+      111,
+      326,
+      348
+    ],
+    "rgb": "0e0a8b2bf8bc3a41d7e5f6a6b67362b44ee3ab66aaca93231266b5c1db5836eb",
+    "file": "ae5a0f76734604480245a99b7383882c790279748c75efe0d807a03c7e42a87a",
+    "row": {
+      "uid": "confirm:00:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "5a1651ceaec6df057cdbc5a965686c5bc341011b09c87e785511ded9c7389ed5.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:00:equal_area:4",
+    "scene": "confirm:00",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 728,
+    "instance_sizes": [
+      182,
+      182,
+      182,
+      182
+    ],
+    "dense": false,
+    "green": [
+      46,
+      126,
+      76
+    ],
+    "box": [
+      85,
+      111,
+      326,
+      348
+    ],
+    "rgb": "84d8446661a40b63dc7035b22d39bff7e1527fa4262bd58b7f8259e63caf7bbb",
+    "file": "c29ddce3549a327ed6b34ac8762ef2e01d667057ea9090223ff646deff3fe47b",
+    "row": {
+      "uid": "confirm:00:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "92f3cf37c22ab0a48c83342be79d538f43a7bd4ffcdeb346995b1d9193cff77c.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:00:same_instance_sizes:2",
+    "scene": "confirm:00",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 343,
+    "instance_sizes": [
+      161,
+      182
+    ],
+    "dense": false,
+    "green": [
+      46,
+      126,
+      76
+    ],
+    "box": [
+      85,
+      111,
+      326,
+      348
+    ],
+    "rgb": "305c6a712cc29301a9e2f4f70b9ef96a54e3252da999bf45f2d6ddc040dac52d",
+    "file": "9cd3cb2f0c8c3eef72f9aad8a56e318c06c6e578aaef0a0febebb58919e9bc3a",
+    "row": {
+      "uid": "confirm:00:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "3440d9686fef8258fcc5388031fbc2ab6d8a68a94eb359bc1aa0bc7fc2f391fb.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:00:same_instance_sizes:4",
+    "scene": "confirm:00",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 717,
+    "instance_sizes": [
+      161,
+      182,
+      132,
+      242
+    ],
+    "dense": false,
+    "green": [
+      46,
+      126,
+      76
+    ],
+    "box": [
+      85,
+      111,
+      326,
+      348
+    ],
+    "rgb": "89064e1df3a61f2f2b7349e77d148cc3d6e3822e8d1af4e373b8d0c41fb6b85f",
+    "file": "ef81729f606bcf0e4e096fdc85455812c31548e28a5f9c6a1d8d34353745ac3f",
+    "row": {
+      "uid": "confirm:00:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "d11cf2a69a3a2708b6554e05c5204a08e28d9e051b75099e86a429767854a5e4.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:01:equal_area:2",
+    "scene": "confirm:01",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      396,
+      396
+    ],
+    "dense": true,
+    "green": [
+      40,
+      131,
+      71
+    ],
+    "box": [
+      273,
+      94,
+      514,
+      331
+    ],
+    "rgb": "308e21ee10976a50307c0f65cfd665b1f38e94214cf9da20b7804472aab5968f",
+    "file": "a4e19444ff1e1b4063d0e33ab7a91dee9ef65630b665021a777c2596ec200b93",
+    "row": {
+      "uid": "confirm:01:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "bec85fe52687e3004f7aa2e2d95b0a80535122fdf8ad7c03a2eb300b4200cf26.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:01:equal_area:4",
+    "scene": "confirm:01",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      198,
+      198,
+      198,
+      198
+    ],
+    "dense": true,
+    "green": [
+      40,
+      131,
+      71
+    ],
+    "box": [
+      273,
+      94,
+      514,
+      331
+    ],
+    "rgb": "a0d18b2d510d181250cfd728b47873e5d73c29bc496c039140d21f79d6aa81c7",
+    "file": "2e40cbe5af3f82e04e0612b199b97ad49abe5f3960004d35964ae0bd53284d47",
+    "row": {
+      "uid": "confirm:01:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "8470c6c5ad440b8ed67bb3adf99bbca00fae8d36c0c6215ece5693d9208ae1e1.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:01:same_instance_sizes:2",
+    "scene": "confirm:01",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 407,
+    "instance_sizes": [
+      163,
+      244
+    ],
+    "dense": true,
+    "green": [
+      40,
+      131,
+      71
+    ],
+    "box": [
+      273,
+      94,
+      514,
+      331
+    ],
+    "rgb": "36e7bc917987fa7edb8e7cffa6f83fa45c858e16efce405eab17b0e4f5d8289e",
+    "file": "4d31463c6eb6dda93a3ace04c3c077ac1cf20507c7df6ef2a1efb6ed01bf61f0",
+    "row": {
+      "uid": "confirm:01:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "423d36339254c111747712531b327fe27aa397ee5fde4db36d98eeb73b06c924.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:01:same_instance_sizes:4",
+    "scene": "confirm:01",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 813,
+    "instance_sizes": [
+      163,
+      244,
+      243,
+      163
+    ],
+    "dense": true,
+    "green": [
+      40,
+      131,
+      71
+    ],
+    "box": [
+      273,
+      94,
+      514,
+      331
+    ],
+    "rgb": "72e418effc8fde42f99b5775a676e9f89ce3bd8340e650b8e86e3e067ebcef94",
+    "file": "915183068716a2d8c9068fd6a175d4f6cf12e0ce007783eec3f739457faa6c3d",
+    "row": {
+      "uid": "confirm:01:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "1fc572f5c9360801715d924f728a319186967415043ac23b5c481cb9588632f2.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:02:equal_area:2",
+    "scene": "confirm:02",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 768,
+    "instance_sizes": [
+      384,
+      384
+    ],
+    "dense": false,
+    "green": [
+      10,
+      108,
+      19
+    ],
+    "box": [
+      97,
+      207,
+      338,
+      444
+    ],
+    "rgb": "c24cd08212f1a93278e8bb0a4a7a8432da29f523307bef565363c54570c0aed6",
+    "file": "4c5a397de5901f430b7acefc9daba42ba57ec140e52d74693950bf62c2028ab7",
+    "row": {
+      "uid": "confirm:02:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "740bb3936895082c579a9756626c6fc513ff68a6fff5e16f7d6ed980f5caf414.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:02:equal_area:4",
+    "scene": "confirm:02",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 768,
+    "instance_sizes": [
+      192,
+      192,
+      192,
+      192
+    ],
+    "dense": false,
+    "green": [
+      10,
+      108,
+      19
+    ],
+    "box": [
+      97,
+      207,
+      338,
+      444
+    ],
+    "rgb": "9db1e7a2bed99bf581c6139d9d2cb3fa12050fabef62e00c7c790cfe0d987d3a",
+    "file": "a582059bf44caffb0ef562717e982575436d04a0c50473ce7728ca9d6049bf9e",
+    "row": {
+      "uid": "confirm:02:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "d3c6ba7487595b3147e328a20774129de5d923dea8150782d45c738f4ab0b47b.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:02:same_instance_sizes:2",
+    "scene": "confirm:02",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 296,
+    "instance_sizes": [
+      147,
+      149
+    ],
+    "dense": false,
+    "green": [
+      10,
+      108,
+      19
+    ],
+    "box": [
+      97,
+      207,
+      338,
+      444
+    ],
+    "rgb": "1423ba1221b627c18a507a103dd665214360306fa375936681f5f7228b93788d",
+    "file": "de8712dd84e974a9f831ac451be12ea13a8cf5313a99e47b383bbc8c210af5cf",
+    "row": {
+      "uid": "confirm:02:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "5183a63a1e170ad9f1489d0dbf66f760e5fe3eb49fcf094284f6f96bc5e1ec7a.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:02:same_instance_sizes:4",
+    "scene": "confirm:02",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 778,
+    "instance_sizes": [
+      147,
+      149,
+      258,
+      224
+    ],
+    "dense": false,
+    "green": [
+      10,
+      108,
+      19
+    ],
+    "box": [
+      97,
+      207,
+      338,
+      444
+    ],
+    "rgb": "a50be655a38deae4ccdf071252acebfd83913c3c7c6b1f20ca8dc2c10c2a1ac3",
+    "file": "8b960cafc8e15f9482a531ecacf26d63c102752603aedc273edee7682dcd4640",
+    "row": {
+      "uid": "confirm:02:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "dfdcd0bdd17221351ac1edf1b049360442de452669b6f35700283d2f10893c61.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:03:equal_area:2",
+    "scene": "confirm:03",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 744,
+    "instance_sizes": [
+      372,
+      372
+    ],
+    "dense": true,
+    "green": [
+      23,
+      139,
+      81
+    ],
+    "box": [
+      85,
+      83,
+      326,
+      320
+    ],
+    "rgb": "c52848d3bac91b259fc0fd55f83017ea16cfd6569c21497b32519f7dfd4c2d46",
+    "file": "0b9ee74b53c347f83dd74214fc8c27fadd0e3c82da0718bb30e674324b3df851",
+    "row": {
+      "uid": "confirm:03:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "4f4dc5e9d8f18939c48bd958cbf7158d53090257ef9bada25599a10ea4f021ba.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:03:equal_area:4",
+    "scene": "confirm:03",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 744,
+    "instance_sizes": [
+      186,
+      186,
+      186,
+      186
+    ],
+    "dense": true,
+    "green": [
+      23,
+      139,
+      81
+    ],
+    "box": [
+      85,
+      83,
+      326,
+      320
+    ],
+    "rgb": "6cef4a3a75144a2f2b20acded632038f62d57800a4ffc71c03868a600feec8cc",
+    "file": "e8e6b3790a6719623f2aaf7d71687c97d97f98e589ff5c8ec8c45941625fe283",
+    "row": {
+      "uid": "confirm:03:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "0711a4e20419e5f250f06a0b8c3b9ca06ec2a7bafd7ff7b343acd3a6b25bad24.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:03:same_instance_sizes:2",
+    "scene": "confirm:03",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 385,
+    "instance_sizes": [
+      131,
+      254
+    ],
+    "dense": true,
+    "green": [
+      23,
+      139,
+      81
+    ],
+    "box": [
+      85,
+      83,
+      326,
+      320
+    ],
+    "rgb": "016393d0f5086f60ef717e9ea2c6588bd1d6d75bed3960375f1777f282fd5b4c",
+    "file": "678c66e407dd9f3ba52de68ebd44130ec37f3fef39bd164b70cd6f274aa79d49",
+    "row": {
+      "uid": "confirm:03:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "fb3cad7133f0ecb0818060c088df45a4028542c16382f645eb606181a11fe89b.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:03:same_instance_sizes:4",
+    "scene": "confirm:03",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 800,
+    "instance_sizes": [
+      131,
+      254,
+      250,
+      165
+    ],
+    "dense": true,
+    "green": [
+      23,
+      139,
+      81
+    ],
+    "box": [
+      85,
+      83,
+      326,
+      320
+    ],
+    "rgb": "ae9a774302179b03d44c9caaf15f6ee32c1262d65ba508700b19d62deea365fa",
+    "file": "7fcd068c7807b07f4288b786f8ad2b103bf19a622a2523c1a6e6ffb458b8bc15",
+    "row": {
+      "uid": "confirm:03:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "bfeab649415e4b12828b4fd7b0bbce5aabecd0d14c97e2e790550637059bd521.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:04:equal_area:2",
+    "scene": "confirm:04",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      396,
+      396
+    ],
+    "dense": false,
+    "green": [
+      46,
+      119,
+      83
+    ],
+    "box": [
+      288,
+      91,
+      529,
+      328
+    ],
+    "rgb": "39745187b716aee3ac16bd3de00cfa4ec9b7c6fa990a8d57b0309b1927d7d333",
+    "file": "c2c89e05aa054a1dd3833aecf0ef0fa10e474ebcc210a5d9c5eebed4ab71a988",
+    "row": {
+      "uid": "confirm:04:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "6b9f212826778ce6ff0c096657ddbe69baf9038b2f5ca3ba14bb29842549f311.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:04:equal_area:4",
+    "scene": "confirm:04",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      198,
+      198,
+      198,
+      198
+    ],
+    "dense": false,
+    "green": [
+      46,
+      119,
+      83
+    ],
+    "box": [
+      288,
+      91,
+      529,
+      328
+    ],
+    "rgb": "95e741cc9f51b40d1db11aad2e79b6fa9a32e1f6e9eda7f58679d73ee184b3f1",
+    "file": "c9262fb39843fdd6decfba3a523db15a67971de63c1d8ffbfb37c4b574884303",
+    "row": {
+      "uid": "confirm:04:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "9e6e95120801583f969c4b0dca66a7dba405f96bfac8fd1f7532e2c10b76ca18.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:04:same_instance_sizes:2",
+    "scene": "confirm:04",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 424,
+    "instance_sizes": [
+      241,
+      183
+    ],
+    "dense": false,
+    "green": [
+      46,
+      119,
+      83
+    ],
+    "box": [
+      288,
+      91,
+      529,
+      328
+    ],
+    "rgb": "f131821fa4db1dc97349a42dae6194dc54ac1df0c062c8dfb220d9a22d98fbd1",
+    "file": "2c4e48d4655351c136babe6400bedd2a6d6e4786164b32fd3e0fcf32a87be136",
+    "row": {
+      "uid": "confirm:04:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "8d13d84ceff46d6a02869b23820e7774a61cde5fe3a776bc8774d148bb0773fd.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:04:same_instance_sizes:4",
+    "scene": "confirm:04",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 823,
+    "instance_sizes": [
+      241,
+      183,
+      243,
+      156
+    ],
+    "dense": false,
+    "green": [
+      46,
+      119,
+      83
+    ],
+    "box": [
+      288,
+      91,
+      529,
+      328
+    ],
+    "rgb": "0452509616f5813bdf10716ab5158d653e23afaef527946678a65ddfee8a883d",
+    "file": "81211058526146eee76066bdf686d8b70282c9a23adf33e082f8fe6b2eedd83b",
+    "row": {
+      "uid": "confirm:04:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "3a46b2c9d597c1a21c92f2880e8b7f685e3596a16b1f35ae4d46b85a31bece6f.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:05:equal_area:2",
+    "scene": "confirm:05",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 808,
+    "instance_sizes": [
+      404,
+      404
+    ],
+    "dense": true,
+    "green": [
+      45,
+      124,
+      67
+    ],
+    "box": [
+      82,
+      224,
+      323,
+      461
+    ],
+    "rgb": "01e6df26ae8dfbb0c230ed4d7e9a408980de541cadb8150167d465b6302912aa",
+    "file": "a183c37eba4b45c0afd9a881690e90d5382e97c486a4c3f9f32b63f2d33ac631",
+    "row": {
+      "uid": "confirm:05:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "151cfdbca9fb094b1bf30d5711d44a0dfce3dbf406f2cf092d68532190ad1b9c.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:05:equal_area:4",
+    "scene": "confirm:05",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 808,
+    "instance_sizes": [
+      202,
+      202,
+      202,
+      202
+    ],
+    "dense": true,
+    "green": [
+      45,
+      124,
+      67
+    ],
+    "box": [
+      82,
+      224,
+      323,
+      461
+    ],
+    "rgb": "c4f35f4c34912357dc60264030ce8e2ea9a18511fd2020adb37a16835a6dce6e",
+    "file": "91bd3d7618ff76fc905948d90593332cd26f11ef7b3825e7949fdca262c61e7e",
+    "row": {
+      "uid": "confirm:05:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "d9325475266637ae3d13fb7a76957659cc375ad5e03dabdda97832746424863e.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:05:same_instance_sizes:2",
+    "scene": "confirm:05",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 460,
+    "instance_sizes": [
+      265,
+      195
+    ],
+    "dense": true,
+    "green": [
+      45,
+      124,
+      67
+    ],
+    "box": [
+      82,
+      224,
+      323,
+      461
+    ],
+    "rgb": "27470256587b3d7e59c5314bc0a8ca6d3bb5825e7dc790b8c3ad5e89ca84cc77",
+    "file": "0e9cc9f3b55e56d88ccebc85ea0d22d207f99784e6ef4ca291bfc5d2acdcb0e0",
+    "row": {
+      "uid": "confirm:05:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "c809e05ab0b1e6fb18f25fcd023e5a4a5b9e77263640b6247333715ad99967db.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:05:same_instance_sizes:4",
+    "scene": "confirm:05",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 972,
+    "instance_sizes": [
+      265,
+      195,
+      256,
+      256
+    ],
+    "dense": true,
+    "green": [
+      45,
+      124,
+      67
+    ],
+    "box": [
+      82,
+      224,
+      323,
+      461
+    ],
+    "rgb": "5ae20c643efa81e71cdab478674a1aec4d8527e506eeb07b38cfdf5c92b7de89",
+    "file": "f0aef78c6e87bb60fc2e5df598ccfc0d2dcbe5a49c0f6407ed3ce44819d501d6",
+    "row": {
+      "uid": "confirm:05:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "992d47aeff8048f7796d25c05621f0593a485dfa378237c4e27e90050cb1edb5.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:06:equal_area:2",
+    "scene": "confirm:06",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 856,
+    "instance_sizes": [
+      428,
+      428
+    ],
+    "dense": false,
+    "green": [
+      40,
+      138,
+      26
+    ],
+    "box": [
+      97,
+      111,
+      338,
+      348
+    ],
+    "rgb": "9f4ed1fff283df546e2f466c6fbec0d11adaef17710f8b981e35d6e25f425820",
+    "file": "6d11cd6c4cc2e4c7df7b5865ba656d9b25c9721d086fc33b7c6dbea2c2f9211d",
+    "row": {
+      "uid": "confirm:06:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "9215919d27fc3d48c104dca5b4b448b8931ed772bdad4abf6e03f40894918eb8.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:06:equal_area:4",
+    "scene": "confirm:06",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 856,
+    "instance_sizes": [
+      214,
+      214,
+      214,
+      214
+    ],
+    "dense": false,
+    "green": [
+      40,
+      138,
+      26
+    ],
+    "box": [
+      97,
+      111,
+      338,
+      348
+    ],
+    "rgb": "d55cb134b6c02608220d6f14f98f9cacc76be1b5858bb112205dce0c8a2fe891",
+    "file": "b0a60054ae10cac0d5b0400dabbc1882bfa85cc3750db676844756cfb0e2197e",
+    "row": {
+      "uid": "confirm:06:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "025b0f719a364487c83d962b32718d7bbe4fa558b252ab1c3c5851809e6b1a7c.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:06:same_instance_sizes:2",
+    "scene": "confirm:06",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 492,
+    "instance_sizes": [
+      251,
+      241
+    ],
+    "dense": false,
+    "green": [
+      40,
+      138,
+      26
+    ],
+    "box": [
+      97,
+      111,
+      338,
+      348
+    ],
+    "rgb": "598d9510475b77df49c8f8a8b04274bc6375c6f0c0390c3b235195607d237158",
+    "file": "fb833070a2eaebe8ae749e3b0a2abbff56c306c43b242ada4f688cbfc6bfb595",
+    "row": {
+      "uid": "confirm:06:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "c1aaa6c1f5533954da60ca8133cca765e43b0f78ec2eb9f50be4f0799f6067d5.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:06:same_instance_sizes:4",
+    "scene": "confirm:06",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 962,
+    "instance_sizes": [
+      251,
+      241,
+      256,
+      214
+    ],
+    "dense": false,
+    "green": [
+      40,
+      138,
+      26
+    ],
+    "box": [
+      97,
+      111,
+      338,
+      348
+    ],
+    "rgb": "6d3faa0fcef653e41a7a4ffa581af9e71a9071712011944f574a096ef8c86e37",
+    "file": "9a402617051cbd1182d953d7afca791f811bf4905fb4ccfc54f1e79236d6a945",
+    "row": {
+      "uid": "confirm:06:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "fca5874ddf21718721325a91f989a16e3ca106f03654e3d1c20858243a3becc8.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:07:equal_area:2",
+    "scene": "confirm:07",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1104,
+    "instance_sizes": [
+      552,
+      552
+    ],
+    "dense": true,
+    "green": [
+      52,
+      167,
+      89
+    ],
+    "box": [
+      265,
+      100,
+      506,
+      337
+    ],
+    "rgb": "6b4c2f368d452fe11f58d01289e226b9e35e0fb80275673e1aa89d2ffedbabfe",
+    "file": "1d0ce8fd510aa7a6b2c34f8bb0f5ac3c86358916ba7ea6fda6868f633850d268",
+    "row": {
+      "uid": "confirm:07:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "d58544fa486826806bca1fc8675d8e3a7ed42c3ff4f0ab71c39d68e0ebc7c20e.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:07:equal_area:4",
+    "scene": "confirm:07",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1104,
+    "instance_sizes": [
+      276,
+      276,
+      276,
+      276
+    ],
+    "dense": true,
+    "green": [
+      52,
+      167,
+      89
+    ],
+    "box": [
+      265,
+      100,
+      506,
+      337
+    ],
+    "rgb": "ed0f163ed4def4bda68dfab97088c44362ecb7dd04b81e69713af245e238d712",
+    "file": "ee6dd7cd4f579002ae8f4359d9f752db53e0f44fb0294d82619b0107363738cd",
+    "row": {
+      "uid": "confirm:07:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "50abc937c4208556e0cb81858e96e30e6f553b27c0f8b583a36e4b52aeb17bb0.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:07:same_instance_sizes:2",
+    "scene": "confirm:07",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 608,
+    "instance_sizes": [
+      329,
+      279
+    ],
+    "dense": true,
+    "green": [
+      52,
+      167,
+      89
+    ],
+    "box": [
+      265,
+      100,
+      506,
+      337
+    ],
+    "rgb": "ea6424fc6125e17d65b37b5465f017879d6c99e7560f645dcf80d6fe248e8c77",
+    "file": "082d53b82e2fe04bc218b36d73de7f2bdf06e5fa44cb60fe62f1451652cd167e",
+    "row": {
+      "uid": "confirm:07:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "76797f6b9e5c7afe89f3e6ce75fe9a895df0958c0a9f51d08b019e63ac400801.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:07:same_instance_sizes:4",
+    "scene": "confirm:07",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 1075,
+    "instance_sizes": [
+      329,
+      279,
+      217,
+      250
+    ],
+    "dense": true,
+    "green": [
+      52,
+      167,
+      89
+    ],
+    "box": [
+      265,
+      100,
+      506,
+      337
+    ],
+    "rgb": "8c67459c21fe41d4ca28f014ac956ccaa1513b97e1aacc02212f02545f1ad55a",
+    "file": "80a32e171ada05d2e5ffcf476448ead303cfa6d06063114239c19cb3ead486f5",
+    "row": {
+      "uid": "confirm:07:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "6496764fc747c92c4c6d37ab9d6c487e5c7cce84cd85443ca44c127467fffd5f.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:08:equal_area:2",
+    "scene": "confirm:08",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 872,
+    "instance_sizes": [
+      436,
+      436
+    ],
+    "dense": false,
+    "green": [
+      25,
+      110,
+      48
+    ],
+    "box": [
+      107,
+      202,
+      348,
+      439
+    ],
+    "rgb": "f2140a33b8a24ca4c51e50028b06d14e26f0da7b45ff3524ab0b293c5be94192",
+    "file": "6bd5c555979dc702a9df608a352600dbc200a014cc527fbbdee921c216bf92af",
+    "row": {
+      "uid": "confirm:08:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "3f942e1d7acc17d22c66b96b317270500e57334f9902e6eba1187820fcdf2339.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:08:equal_area:4",
+    "scene": "confirm:08",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 872,
+    "instance_sizes": [
+      218,
+      218,
+      218,
+      218
+    ],
+    "dense": false,
+    "green": [
+      25,
+      110,
+      48
+    ],
+    "box": [
+      107,
+      202,
+      348,
+      439
+    ],
+    "rgb": "73f97adefea2bb0dc9f847dda6b4ba0954855ac0445719d61a52642df6adc35c",
+    "file": "7ca6b36f6bd703b45ffd1229364d305abe9843c75c4649eb467bfc54f8b5a1db",
+    "row": {
+      "uid": "confirm:08:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "a5b5c0d1c6fccbe861df514bbc92051053e0f5368eb6b90828539b50372585ef.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:08:same_instance_sizes:2",
+    "scene": "confirm:08",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 365,
+    "instance_sizes": [
+      204,
+      161
+    ],
+    "dense": false,
+    "green": [
+      25,
+      110,
+      48
+    ],
+    "box": [
+      107,
+      202,
+      348,
+      439
+    ],
+    "rgb": "791905d2c2b1d5554275846c6e10188d103d49ad2312a071d7c68d27c59dc7a7",
+    "file": "00b45268fd5a9abd585c59d1c6ef0b76295af0270c86f0d65eb2a850deee706e",
+    "row": {
+      "uid": "confirm:08:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "5eee28efac7db5f2393457701c3b4b4456ad13bb47c141bf1c9fd85b4a5d30f1.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:08:same_instance_sizes:4",
+    "scene": "confirm:08",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 903,
+    "instance_sizes": [
+      204,
+      161,
+      274,
+      264
+    ],
+    "dense": false,
+    "green": [
+      25,
+      110,
+      48
+    ],
+    "box": [
+      107,
+      202,
+      348,
+      439
+    ],
+    "rgb": "b7e8bff743cf18e834d3a1ae681e4417c8226823d0aa22b8e07b0b67c243d77f",
+    "file": "fe9f59b45f67aed1649de9ecbc723f16c766ca075183ec399ce32fa9c076b7ac",
+    "row": {
+      "uid": "confirm:08:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "cee0aa453c7a977bb74195ac7f086a432fd597a83d47dee8ede70a597533f251.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:09:equal_area:2",
+    "scene": "confirm:09",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 976,
+    "instance_sizes": [
+      488,
+      488
+    ],
+    "dense": true,
+    "green": [
+      16,
+      120,
+      12
+    ],
+    "box": [
+      90,
+      83,
+      331,
+      320
+    ],
+    "rgb": "55d3e5ab80220f0a59a93f671dc44dbc02e1e9915ccbc71239cff5908627a478",
+    "file": "f541163a4ebcd3b522b04b2ec7fb5f2dada9dfc624683a26ac75b2f2fab6942a",
+    "row": {
+      "uid": "confirm:09:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "d23594b7afa659e1f9de53ca6b2f28e399172477295fadb9043131a6e34b9bf5.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:09:equal_area:4",
+    "scene": "confirm:09",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 976,
+    "instance_sizes": [
+      244,
+      244,
+      244,
+      244
+    ],
+    "dense": true,
+    "green": [
+      16,
+      120,
+      12
+    ],
+    "box": [
+      90,
+      83,
+      331,
+      320
+    ],
+    "rgb": "e0ac72ff5296a2630ef4829ceef817145c9dea69788574a1bd651034a9a99542",
+    "file": "17d1bbab58b66f24c24ce09cc23fe3a86baf3f262254bb236eed4143dd706f90",
+    "row": {
+      "uid": "confirm:09:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "f705f8712ddf91ac853c49bd8e6c40074cca19fdc1cd649797fc3bce360ff70c.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:09:same_instance_sizes:2",
+    "scene": "confirm:09",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 578,
+    "instance_sizes": [
+      309,
+      269
+    ],
+    "dense": true,
+    "green": [
+      16,
+      120,
+      12
+    ],
+    "box": [
+      90,
+      83,
+      331,
+      320
+    ],
+    "rgb": "66eafe4fd7a7fb5014cd4662ee549dfac681203cdfd4e03d881099a8daa69b78",
+    "file": "2fd6b2fe73ed7761af478f235c9a01aea230a6ba28967f89a0f13483d49755bd",
+    "row": {
+      "uid": "confirm:09:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "3d55a4d03786c7554f5ca18bd25d389f757761ebc639ffa59ec2b3f0318c7ebb.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:09:same_instance_sizes:4",
+    "scene": "confirm:09",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 1121,
+    "instance_sizes": [
+      309,
+      269,
+      279,
+      264
+    ],
+    "dense": true,
+    "green": [
+      16,
+      120,
+      12
+    ],
+    "box": [
+      90,
+      83,
+      331,
+      320
+    ],
+    "rgb": "223f59a74372535c1e63227e6067856a3b7c659fd93a3e46b818427cfe568abe",
+    "file": "21cae2b1f8f20e8f243bdaaed2a2a7a5d7b1cf1d8c82fe2427859ad8f60185c9",
+    "row": {
+      "uid": "confirm:09:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "38acc4ab9dc3cb6b37a86d2cc2ed3bdab4690a3f5316ff453c5417119b956c2d.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:10:equal_area:2",
+    "scene": "confirm:10",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1040,
+    "instance_sizes": [
+      520,
+      520
+    ],
+    "dense": false,
+    "green": [
+      31,
+      115,
+      40
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "1c2ebd29989d204f7a58e6d69c73e2f99113028d2d5710b2d3c67e92a5045737",
+    "file": "f6e6c1ff7f86e526b011d361a1cf782cf0f761dbdb5bf13cd0f761c88034c31c",
+    "row": {
+      "uid": "confirm:10:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "a56eb04e8b794e55457ea40e50b46897c5e3150d8b149665067c8e0d90130a27.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:10:equal_area:4",
+    "scene": "confirm:10",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1040,
+    "instance_sizes": [
+      260,
+      260,
+      260,
+      260
+    ],
+    "dense": false,
+    "green": [
+      31,
+      115,
+      40
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "d168afe82229f8282805a4d59ad061546f063d262f36789af5064acb9bd38c76",
+    "file": "a15a7f041d68435a9c7c21bbdd1dd569d2ce2ad94d15a65f51bfb6aedcc7757f",
+    "row": {
+      "uid": "confirm:10:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "da9de8d4a94c925d05d6058639e3a35aa94d9e5d5faf8affdf1accef09bbf711.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:10:same_instance_sizes:2",
+    "scene": "confirm:10",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 502,
+    "instance_sizes": [
+      197,
+      305
+    ],
+    "dense": false,
+    "green": [
+      31,
+      115,
+      40
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "da682fdc4560ba76d82478447c994c3e80ffcfe27b12783bd610bdaba55c2ebc",
+    "file": "1333405445a29b5409d138dced53167f9254a9c7072a70393727197515f947c3",
+    "row": {
+      "uid": "confirm:10:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "63ebabe8cc72be469a5c49c6a4135c3597e48f193ef08eb5de4760dac9c565cd.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:10:same_instance_sizes:4",
+    "scene": "confirm:10",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 996,
+    "instance_sizes": [
+      197,
+      305,
+      264,
+      230
+    ],
+    "dense": false,
+    "green": [
+      31,
+      115,
+      40
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "d5afa2202236f9668ce30abfb3c14767ff0c061f1e990d4d83a69c804d1e7b19",
+    "file": "bb781f202c7a4da6b6b07a8804c5c15376f0e68cad974c09bfe6b59792ffcc05",
+    "row": {
+      "uid": "confirm:10:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "d89b3956f73b19abae28b564e5e3b3670dd1cbfd7312285937948a38a857a1f6.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:11:equal_area:2",
+    "scene": "confirm:11",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      396,
+      396
+    ],
+    "dense": true,
+    "green": [
+      28,
+      121,
+      43
+    ],
+    "box": [
+      90,
+      215,
+      331,
+      452
+    ],
+    "rgb": "42ca7e262320e32852cf69b548ee40de1ff671d32b2a236344db04ded1e3eb6e",
+    "file": "894b4b5ba9fc374f0687a57101d5823aaf89d5870ba86634aebc022ae30c520b",
+    "row": {
+      "uid": "confirm:11:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "60234214d5725661fc493f9e09acefe054bac23f348e4d95e18d1515d9b7ee02.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:11:equal_area:4",
+    "scene": "confirm:11",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      198,
+      198,
+      198,
+      198
+    ],
+    "dense": true,
+    "green": [
+      28,
+      121,
+      43
+    ],
+    "box": [
+      90,
+      215,
+      331,
+      452
+    ],
+    "rgb": "7d3a1fa80c7c05098179ccbc5ca36f4ec00b87a9dbb51cdf2bb0af203ec05306",
+    "file": "bd9109c374275d233701c1265f203093ca69a1958ca7dac04e152310cf622c16",
+    "row": {
+      "uid": "confirm:11:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "2da53ba63a1aaf8b52f3442dba0e47700fbf01d347496f6904f39e34c14a9ea6.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:11:same_instance_sizes:2",
+    "scene": "confirm:11",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 368,
+    "instance_sizes": [
+      221,
+      147
+    ],
+    "dense": true,
+    "green": [
+      28,
+      121,
+      43
+    ],
+    "box": [
+      90,
+      215,
+      331,
+      452
+    ],
+    "rgb": "2763a9d5dd262fbe41eb258aa9339c08747d6c82e0581eaf305e1337a4c1d1b5",
+    "file": "d84a5ea8f9383033064416327569c61fb5a605dc6ca30bd82c5fdc20c0553274",
+    "row": {
+      "uid": "confirm:11:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "8ad2781c32b32f4dcd6806d47d9d42c4a75a437bfc39d2c1120bbcefca80dd01.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:11:same_instance_sizes:4",
+    "scene": "confirm:11",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 822,
+    "instance_sizes": [
+      221,
+      147,
+      237,
+      217
+    ],
+    "dense": true,
+    "green": [
+      28,
+      121,
+      43
+    ],
+    "box": [
+      90,
+      215,
+      331,
+      452
+    ],
+    "rgb": "f9be6752afb2b6beb5035916d3b0e4bf754eab96f8bd8af6f2d98600592880f2",
+    "file": "6cfe06889aaedc677fec388cbaae049b2af6ae168552349c5d35f50800e589bb",
+    "row": {
+      "uid": "confirm:11:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "a5d7d39dfbb8617e0f48e3bfc49bde2bd75f784b1635c1207e0bd9bf2a20a74a.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:12:equal_area:2",
+    "scene": "confirm:12",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 616,
+    "instance_sizes": [
+      308,
+      308
+    ],
+    "dense": false,
+    "green": [
+      51,
+      118,
+      86
+    ],
+    "box": [
+      88,
+      112,
+      329,
+      349
+    ],
+    "rgb": "374d8bb8c4773c299033e4289f5ac0cb89f4e167ca082f1ebbc7e2747afa72fb",
+    "file": "82b5983352892f5029e590769f3d14ea889e9169d07daaeb455bab69c5c81421",
+    "row": {
+      "uid": "confirm:12:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "d278a74ca2a4cfbb2fdbfa5d4d9c76b882b6713d4938be20b41f9a32af4d6e88.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:12:equal_area:4",
+    "scene": "confirm:12",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 616,
+    "instance_sizes": [
+      154,
+      154,
+      154,
+      154
+    ],
+    "dense": false,
+    "green": [
+      51,
+      118,
+      86
+    ],
+    "box": [
+      88,
+      112,
+      329,
+      349
+    ],
+    "rgb": "43d518ed5a0d48ce7e40b53b305caee3cd8ec713d0a23a45a9ca19318b658e87",
+    "file": "6095240f4eae16381c469f3d19a067bc599b4201be755bec2b85a812418a915f",
+    "row": {
+      "uid": "confirm:12:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "b6cd9b544a6c4d45b6bf3bbb28f32aaf9a64e9b89e7434cf83789041429f25d0.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:12:same_instance_sizes:2",
+    "scene": "confirm:12",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 297,
+    "instance_sizes": [
+      140,
+      157
+    ],
+    "dense": false,
+    "green": [
+      51,
+      118,
+      86
+    ],
+    "box": [
+      88,
+      112,
+      329,
+      349
+    ],
+    "rgb": "425fb76d98cdb8d3a6af7ce4cc3f235b23fe4ac9f47860dbcf3fb4d7e11b66bd",
+    "file": "f239dfa2852ae417e47f395a0d8bc597f05a27076344a8fd33dea4c9424d9d83",
+    "row": {
+      "uid": "confirm:12:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "dd2b7a15452618448fa731f42a348109248021932195c874168a67f16a058af5.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:12:same_instance_sizes:4",
+    "scene": "confirm:12",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 639,
+    "instance_sizes": [
+      140,
+      157,
+      121,
+      221
+    ],
+    "dense": false,
+    "green": [
+      51,
+      118,
+      86
+    ],
+    "box": [
+      88,
+      112,
+      329,
+      349
+    ],
+    "rgb": "36b8f9393a837ca447592fe5718dcd9a2a40cf64926f44f3ac048fce2e2f72f6",
+    "file": "dac20963e1d49bd3d65f303f695f201ba86f4d01c4b26f2db6a69424854adba9",
+    "row": {
+      "uid": "confirm:12:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "f6aaec30de46ced28893bcfa0d3e8807c7da126c74920d3137b201d94989cc48.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:13:equal_area:2",
+    "scene": "confirm:13",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1064,
+    "instance_sizes": [
+      532,
+      532
+    ],
+    "dense": true,
+    "green": [
+      4,
+      160,
+      22
+    ],
+    "box": [
+      273,
+      102,
+      514,
+      339
+    ],
+    "rgb": "acd1bc6b9df0f4f2520c0c6cf03f56026825c1ad627d8e180ec43e7507cfac1d",
+    "file": "7b4ff02efd4663e3425ff3adfafafd01cb15fdbd1371c0bcae905e4ffd8d8b4f",
+    "row": {
+      "uid": "confirm:13:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "ca478dc41fd4c6b02d4cd0ee4dbb448172789442548a8cfc9c11e6f4dff03d4d.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:13:equal_area:4",
+    "scene": "confirm:13",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1064,
+    "instance_sizes": [
+      266,
+      266,
+      266,
+      266
+    ],
+    "dense": true,
+    "green": [
+      4,
+      160,
+      22
+    ],
+    "box": [
+      273,
+      102,
+      514,
+      339
+    ],
+    "rgb": "3f978e0ff387016b5095c4ea88befcfb40aa8a71c2c585e69bbbc8541a464898",
+    "file": "9e1c754b911ede6debd512c696f4b021e5c7db2b146922bd9660ea5969cad6d5",
+    "row": {
+      "uid": "confirm:13:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "b91879d7d06d333fd88647bc56e7621aeb7d989feaaef85824d5c2de5af60889.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:13:same_instance_sizes:2",
+    "scene": "confirm:13",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 553,
+    "instance_sizes": [
+      317,
+      236
+    ],
+    "dense": true,
+    "green": [
+      4,
+      160,
+      22
+    ],
+    "box": [
+      273,
+      102,
+      514,
+      339
+    ],
+    "rgb": "dd8b88cef45b21d023a304e3b40c0e8c8c25e6d0f41c49e7753e001e1c9a8caa",
+    "file": "c391b3fefb75cb85f3a2f070c505f985214977a3f7e0b3764fdb76813b162a9a",
+    "row": {
+      "uid": "confirm:13:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "63f540a311d5c4c29cf8f6ae68c524ab290f8c2ab1b18ec0faa7a66472921d0b.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:13:same_instance_sizes:4",
+    "scene": "confirm:13",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 1196,
+    "instance_sizes": [
+      317,
+      236,
+      336,
+      307
+    ],
+    "dense": true,
+    "green": [
+      4,
+      160,
+      22
+    ],
+    "box": [
+      273,
+      102,
+      514,
+      339
+    ],
+    "rgb": "11266a91b563fb199e703c2b57b357a8bc6b695802b800c6092aa12611c2eb5b",
+    "file": "590bce8efc8c0d661e239a25d90e995a79bdb7b789bfd51db6de7c21ee4f1488",
+    "row": {
+      "uid": "confirm:13:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "5803e766d8ab9cc40e8bd768add0a0f37688c6eda6a053679413daee5b8543d3.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:14:equal_area:2",
+    "scene": "confirm:14",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 880,
+    "instance_sizes": [
+      440,
+      440
+    ],
+    "dense": false,
+    "green": [
+      36,
+      169,
+      69
+    ],
+    "box": [
+      104,
+      220,
+      345,
+      457
+    ],
+    "rgb": "9107bb1cb9fdfc75a2d8fc7095d3b5e0f67ae07b4fb71be93669f152d1142e32",
+    "file": "79518c1c7c9e094eb7139cf63de95969bf1ca64574217df189cb231b795ae179",
+    "row": {
+      "uid": "confirm:14:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "30cfd3375e01735fc390c2c6974d2f6552a304bb7524f6dde1f33e944fa7ebcf.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:14:equal_area:4",
+    "scene": "confirm:14",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 880,
+    "instance_sizes": [
+      220,
+      220,
+      220,
+      220
+    ],
+    "dense": false,
+    "green": [
+      36,
+      169,
+      69
+    ],
+    "box": [
+      104,
+      220,
+      345,
+      457
+    ],
+    "rgb": "e6fde089d682e72969065663a626944b17a4719a080b10aaf7e7880533f67504",
+    "file": "9d68e79868b9828865554fbd8bf32df654dc76da4045aed081d37b7b1ae1e0ce",
+    "row": {
+      "uid": "confirm:14:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "3909ba63a512c00e37a3e1d5ce563c6bb33f9975441037587696c18245a08879.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:14:same_instance_sizes:2",
+    "scene": "confirm:14",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 536,
+    "instance_sizes": [
+      252,
+      284
+    ],
+    "dense": false,
+    "green": [
+      36,
+      169,
+      69
+    ],
+    "box": [
+      104,
+      220,
+      345,
+      457
+    ],
+    "rgb": "36fc259d49a776856bfdc5d4fb0b3d6ed235f845f5b9a53d5f34a174d312da90",
+    "file": "1e125795a27a6423e8a9c80b99b9e25c2346670c881da6023c04867adcf2353c",
+    "row": {
+      "uid": "confirm:14:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "5cf2b9260b76612269f1e34c4340514db7f1e3bb1672a9ec28403800baf89f77.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:14:same_instance_sizes:4",
+    "scene": "confirm:14",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 920,
+    "instance_sizes": [
+      252,
+      284,
+      153,
+      231
+    ],
+    "dense": false,
+    "green": [
+      36,
+      169,
+      69
+    ],
+    "box": [
+      104,
+      220,
+      345,
+      457
+    ],
+    "rgb": "5f60851a50af671cb38dc2521393e36a42c28ac4a3add2949b2ad97185a0a45f",
+    "file": "65f8f4486c1a2db56aac5ba9adff5fdb42ba341252a02715213decccef4122a2",
+    "row": {
+      "uid": "confirm:14:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "c6be9e79d6b411b250a9727f1317b99408d4028ab9e733f0b555852836d58fa4.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:15:equal_area:2",
+    "scene": "confirm:15",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1024,
+    "instance_sizes": [
+      512,
+      512
+    ],
+    "dense": true,
+    "green": [
+      34,
+      175,
+      89
+    ],
+    "box": [
+      88,
+      87,
+      329,
+      324
+    ],
+    "rgb": "91df41845279da4ea59141076a76cc00601a0f8ffa0b832e256072348f9a0eee",
+    "file": "7719e8bb5b80c3b46aa52c702020b7f55e89fc2683c534c8c38a5907cf2249f5",
+    "row": {
+      "uid": "confirm:15:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "d1b238e4ddf7f2e95e804ba3f69fa471f70de9af17c3e931292f5bd27d332b08.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:15:equal_area:4",
+    "scene": "confirm:15",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 1024,
+    "instance_sizes": [
+      256,
+      256,
+      256,
+      256
+    ],
+    "dense": true,
+    "green": [
+      34,
+      175,
+      89
+    ],
+    "box": [
+      88,
+      87,
+      329,
+      324
+    ],
+    "rgb": "a2fb11ea0da1fde9da332446568948d70a59f6ce338a00df96c7fe10aeb50340",
+    "file": "421495da8c871ee87451ba63474701b84303a4ac3155f6cfeb2b0e6cac03967c",
+    "row": {
+      "uid": "confirm:15:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "d0ca11016394abe742587d471d57404afd52b159408d05f28eccf18af1cb6d2a.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:15:same_instance_sizes:2",
+    "scene": "confirm:15",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 550,
+    "instance_sizes": [
+      299,
+      251
+    ],
+    "dense": true,
+    "green": [
+      34,
+      175,
+      89
+    ],
+    "box": [
+      88,
+      87,
+      329,
+      324
+    ],
+    "rgb": "94ae2445094a9ab6e7cfc56513f1011d208636f2af9e6cad70e665d472e51a45",
+    "file": "1864eeb2795487e84a77262bbe7ff09edb74e6b1890a997af930286eea1049fd",
+    "row": {
+      "uid": "confirm:15:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "f874d10c96e43fbeff9e1d7769a1d45d6e48ce6418aac90650d1c8b5abaf1284.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:15:same_instance_sizes:4",
+    "scene": "confirm:15",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 1093,
+    "instance_sizes": [
+      299,
+      251,
+      315,
+      228
+    ],
+    "dense": true,
+    "green": [
+      34,
+      175,
+      89
+    ],
+    "box": [
+      88,
+      87,
+      329,
+      324
+    ],
+    "rgb": "b0e0e72f185449eb65627e31cc4757998b1d8e0afcedce35fcf48105e287bf22",
+    "file": "3f47a359f2d992c61e7202426247dfebf70877c8c3531ae81af19ccb7b51ce4c",
+    "row": {
+      "uid": "confirm:15:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "1298c673b8995d9ce3d390acb883395a489ee8a73832132d5d84d4176a67fa5e.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:16:equal_area:2",
+    "scene": "confirm:16",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 808,
+    "instance_sizes": [
+      404,
+      404
+    ],
+    "dense": false,
+    "green": [
+      45,
+      109,
+      86
+    ],
+    "box": [
+      283,
+      113,
+      524,
+      350
+    ],
+    "rgb": "0d4e0b065e9eec60ce7bbbc3592c548a3d44e91e37f756d80af164dabdf96da8",
+    "file": "d46887c11d2c82a72767a478a14bb81a69838f953aa3f169bf0e12e26ca4e948",
+    "row": {
+      "uid": "confirm:16:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "3e00628bfe5c3ac37fcf89495b206f5edb30c2275ac0d7a47e6b2460a905db66.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:16:equal_area:4",
+    "scene": "confirm:16",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 808,
+    "instance_sizes": [
+      202,
+      202,
+      202,
+      202
+    ],
+    "dense": false,
+    "green": [
+      45,
+      109,
+      86
+    ],
+    "box": [
+      283,
+      113,
+      524,
+      350
+    ],
+    "rgb": "bd2a72a315310dabad3463204f6125a3f7b9cc090d38794379e683e69d6ce066",
+    "file": "b841b94a85c15ac4d8386d6c00301ffdfb4f89bc40769962dd5c3a50ca00ce2c",
+    "row": {
+      "uid": "confirm:16:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "a35a3acae010d54dcb5968ed6c84c0ae74e4bbbb09810ad4fd4a0fda7aee6580.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:16:same_instance_sizes:2",
+    "scene": "confirm:16",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 485,
+    "instance_sizes": [
+      236,
+      249
+    ],
+    "dense": false,
+    "green": [
+      45,
+      109,
+      86
+    ],
+    "box": [
+      283,
+      113,
+      524,
+      350
+    ],
+    "rgb": "05dfec3a01aaad5b510c6e9119cfb276104255134263ade9fb1815cab036aedb",
+    "file": "6d76683ea0d274df1d2c2988287ee4a8a05544c9f427b98c9ea16e5b6ad7b88c",
+    "row": {
+      "uid": "confirm:16:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "4c812781ec48cdfc0280e1de703ab2873d1172bd8297ff9e1f80ff99d2a6d017.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:16:same_instance_sizes:4",
+    "scene": "confirm:16",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 1003,
+    "instance_sizes": [
+      236,
+      249,
+      249,
+      269
+    ],
+    "dense": false,
+    "green": [
+      45,
+      109,
+      86
+    ],
+    "box": [
+      283,
+      113,
+      524,
+      350
+    ],
+    "rgb": "c74500b2831b7867c9cab5cae6b5109b6cd102f5fdfa501c17ab1d0fc08d7cb2",
+    "file": "e52f1c725492c7fca5f574a9aaef434118b135c98019697785d1c8b911410fa2",
+    "row": {
+      "uid": "confirm:16:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "a32ffd1438491cd629fc5b85a2557608bb2b16d43ce8470a0f35d3c2542bc981.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:17:equal_area:2",
+    "scene": "confirm:17",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 904,
+    "instance_sizes": [
+      452,
+      452
+    ],
+    "dense": true,
+    "green": [
+      44,
+      171,
+      33
+    ],
+    "box": [
+      84,
+      206,
+      325,
+      443
+    ],
+    "rgb": "db9a040221cc86c5396f2a87bf6b48fabdaa41de5a9b6b4c36bd4c59581497a3",
+    "file": "1b5fe0b2cabbcc8146925a1d20cf66f35250610857743d39f53cd4c918e63977",
+    "row": {
+      "uid": "confirm:17:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "9d0dcaa72b1afc1c3615af0c3e31d03d0c7525cefa52b151f564ba386a2e10d4.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:17:equal_area:4",
+    "scene": "confirm:17",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 904,
+    "instance_sizes": [
+      226,
+      226,
+      226,
+      226
+    ],
+    "dense": true,
+    "green": [
+      44,
+      171,
+      33
+    ],
+    "box": [
+      84,
+      206,
+      325,
+      443
+    ],
+    "rgb": "2901ea1525d1aecf19d9233b0d2db039eec6e213d745d218302c88f04bfaaf40",
+    "file": "f72dd6384ff76325e887798e105812c4d3fdec7eae659865248e9a3b9c5c8e81",
+    "row": {
+      "uid": "confirm:17:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "fe64d6f52d6d322dd40dba14d0e4e41c2548ceb74d9fe6bb4d420f333197525f.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:17:same_instance_sizes:2",
+    "scene": "confirm:17",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 512,
+    "instance_sizes": [
+      248,
+      264
+    ],
+    "dense": true,
+    "green": [
+      44,
+      171,
+      33
+    ],
+    "box": [
+      84,
+      206,
+      325,
+      443
+    ],
+    "rgb": "1b0f2fc8a930a696b5d5deee7fcce4b9bd94a12aac69705c9602de70c915342d",
+    "file": "26bebada327c4c8a23d800f0f7e3ca3e23094d4b95fed76c91b2c3b9be783e9d",
+    "row": {
+      "uid": "confirm:17:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "6a870568d51e234082e4ca8cf4977c4933986804c5d1c52a44c4d226daf53b6c.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:17:same_instance_sizes:4",
+    "scene": "confirm:17",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 893,
+    "instance_sizes": [
+      248,
+      264,
+      204,
+      177
+    ],
+    "dense": true,
+    "green": [
+      44,
+      171,
+      33
+    ],
+    "box": [
+      84,
+      206,
+      325,
+      443
+    ],
+    "rgb": "dc75fa54d4e6c15dee3a471595b2282e1f7ac0fb2f4f55ac4a9bf3dd69baeb43",
+    "file": "6d7c5957a55c8569d6bcecd92d7b3eaf5906bee89d51fafeb91a3d19e88cad6c",
+    "row": {
+      "uid": "confirm:17:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "f78bb9e7cffd7638e41ee289cf9242ce5f60d3a31f1b2a491bf670405c764441.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:18:equal_area:2",
+    "scene": "confirm:18",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      396,
+      396
+    ],
+    "dense": false,
+    "green": [
+      49,
+      133,
+      10
+    ],
+    "box": [
+      86,
+      91,
+      327,
+      328
+    ],
+    "rgb": "3d90c15aa53a45f25b09c3a57d3ad38cfd562442ec63ea109c4569a2eaefa740",
+    "file": "c4d3f5d87b207dafbd3559046b1578b3d2cb52972b50a568ef514a3d73f1b985",
+    "row": {
+      "uid": "confirm:18:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "b014792467b07babf24bacdbff4744d8c302cded8709993ca0d643773d4acbbf.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:18:equal_area:4",
+    "scene": "confirm:18",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 792,
+    "instance_sizes": [
+      198,
+      198,
+      198,
+      198
+    ],
+    "dense": false,
+    "green": [
+      49,
+      133,
+      10
+    ],
+    "box": [
+      86,
+      91,
+      327,
+      328
+    ],
+    "rgb": "35dcedbae6ca69c6ce4de1f4b0db7af9f45c8d2cfec0afabca61def3af5005d9",
+    "file": "bf52ba49748609188e201ea3c18b337962998e26b00595d450646c5888ae26a6",
+    "row": {
+      "uid": "confirm:18:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "ed170a54221b88e888b221afcb32b6f7f4af155a9407118276cc3e1a7f564958.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:18:same_instance_sizes:2",
+    "scene": "confirm:18",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 461,
+    "instance_sizes": [
+      204,
+      257
+    ],
+    "dense": false,
+    "green": [
+      49,
+      133,
+      10
+    ],
+    "box": [
+      86,
+      91,
+      327,
+      328
+    ],
+    "rgb": "7e0510036b34bcfdee2016db2fa3f0dad8c384b5b469df89a34c15fe8f405c07",
+    "file": "2858a74cd032ff9653230a0540418db674bc24bfe3a0087a0ecf84dfb9b76943",
+    "row": {
+      "uid": "confirm:18:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "c6468fdaf849c91b5365ea283a310761b4f80cd48e651b41da00dd7a78933066.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:18:same_instance_sizes:4",
+    "scene": "confirm:18",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 954,
+    "instance_sizes": [
+      204,
+      257,
+      267,
+      226
+    ],
+    "dense": false,
+    "green": [
+      49,
+      133,
+      10
+    ],
+    "box": [
+      86,
+      91,
+      327,
+      328
+    ],
+    "rgb": "790d13fb6bc910a34d7441b09e8db896cd35d0b4a20ec3ed8bd6b74ee1804a02",
+    "file": "cd6bbc378aec1c072c438db7aab90da3a932b12a49d5bc6d2a0e57103d2594eb",
+    "row": {
+      "uid": "confirm:18:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "4872c842f6ed0503a4ba44feace78fb61bb116383c32f0d38aabf67b88e9cca3.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:19:equal_area:2",
+    "scene": "confirm:19",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 720,
+    "instance_sizes": [
+      360,
+      360
+    ],
+    "dense": true,
+    "green": [
+      6,
+      139,
+      45
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "d4185fb2dcd29a0c5d7c4e0732fc55e08dd5a130e68e0e83f125a5ad5f42b81b",
+    "file": "bd759fa5a9bf85398befa08aaf66b48ab258c406592ee2e85193d0a14060a5ed",
+    "row": {
+      "uid": "confirm:19:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "a484529bca921b63b3a432ec4b91e33981afe4b7b3ed252c5e7c7a187b9dfd60.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:19:equal_area:4",
+    "scene": "confirm:19",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 720,
+    "instance_sizes": [
+      180,
+      180,
+      180,
+      180
+    ],
+    "dense": true,
+    "green": [
+      6,
+      139,
+      45
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "79c3addd0698060aac3c7cc30984826c60736117c9c01844b12fe4d98c83a33a",
+    "file": "6ba0ec8d133cb390b1a0c29d4742d4bc439486ddcd4b5d3deb862d912d35d1b8",
+    "row": {
+      "uid": "confirm:19:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "50044870f457e10566a495fc95919f7843ada309dba6122447b54a334d054cca.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:19:same_instance_sizes:2",
+    "scene": "confirm:19",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 376,
+    "instance_sizes": [
+      181,
+      195
+    ],
+    "dense": true,
+    "green": [
+      6,
+      139,
+      45
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "6f92711cfeff49d6bfda908e3692732a9dd6c980c3a934610414446432ed539a",
+    "file": "4f5e9ee48aea0c7fa9557008c7ec819815b341f48203730e3cab69eb2b51e972",
+    "row": {
+      "uid": "confirm:19:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "d0ce5f50b300eb904b88ff7ba980a5eeeabd55d0395bbf29f22842c33a4c72bb.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:19:same_instance_sizes:4",
+    "scene": "confirm:19",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 737,
+    "instance_sizes": [
+      181,
+      195,
+      151,
+      210
+    ],
+    "dense": true,
+    "green": [
+      6,
+      139,
+      45
+    ],
+    "box": [
+      266,
+      94,
+      507,
+      331
+    ],
+    "rgb": "d2b339a62ee99c87f61374a3110db6d1b427f0eb81442ae4fde6ac4fda97a3d8",
+    "file": "b11a045a2807aace869c80f3e361e37ad27a80c5844e8b3eeb3dd5ab7b9e4ec9",
+    "row": {
+      "uid": "confirm:19:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "d21d098ecab4795d462687cb98ed6c76fa8c20a8266c60cf60aa70b29a6cff39.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:20:equal_area:2",
+    "scene": "confirm:20",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 728,
+    "instance_sizes": [
+      364,
+      364
+    ],
+    "dense": false,
+    "green": [
+      31,
+      110,
+      50
+    ],
+    "box": [
+      92,
+      212,
+      333,
+      449
+    ],
+    "rgb": "4a3fea39b7326de6a1dd235f789d22e24d850f95e247b725e224652bded36440",
+    "file": "238504ee7462e84e6b5d56b280e82b5b078316dd0a2b549b71c0feae68a685c5",
+    "row": {
+      "uid": "confirm:20:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "8dbf2e2bae86ce44ec5692f7918a9ce87dcebc5276bb3a64c59e22492de96816.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:20:equal_area:4",
+    "scene": "confirm:20",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 728,
+    "instance_sizes": [
+      182,
+      182,
+      182,
+      182
+    ],
+    "dense": false,
+    "green": [
+      31,
+      110,
+      50
+    ],
+    "box": [
+      92,
+      212,
+      333,
+      449
+    ],
+    "rgb": "354c64a48c508aa400b5fc6a48683f29626e5c57e713cc1fdb1149c364f360ac",
+    "file": "63d16358ad0aa52c5cda8739515bac06b243b5f8b5fc2ab873455319f5c96e7e",
+    "row": {
+      "uid": "confirm:20:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "1c9bd102bb449d03d89765ad93b1176f55ce5f659c5a49ffd9bc27b4ec232fef.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:20:same_instance_sizes:2",
+    "scene": "confirm:20",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 392,
+    "instance_sizes": [
+      204,
+      188
+    ],
+    "dense": false,
+    "green": [
+      31,
+      110,
+      50
+    ],
+    "box": [
+      92,
+      212,
+      333,
+      449
+    ],
+    "rgb": "c29c53176e1b5c06191364cf2a71f9347e50e89b40bbe555b6a9ecff736bba56",
+    "file": "c687c87c36fb9e613a4421d56e0a2d3ffcf44db8085fcb85a04066041a306853",
+    "row": {
+      "uid": "confirm:20:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "f3c5ae1ade4a1787055efe1cededd7e894d5c7eee3e9f7bddc219c7f64a485c1.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:20:same_instance_sizes:4",
+    "scene": "confirm:20",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 694,
+    "instance_sizes": [
+      204,
+      188,
+      173,
+      129
+    ],
+    "dense": false,
+    "green": [
+      31,
+      110,
+      50
+    ],
+    "box": [
+      92,
+      212,
+      333,
+      449
+    ],
+    "rgb": "f4cf1beb2ccf280e8add12c5b953555f8cdafccb40c005188757262cfb3f7cb3",
+    "file": "7c26fd9dd40e0b2668e6ad558fb9575543f3f87937195b573c0594e0cfbad7fa",
+    "row": {
+      "uid": "confirm:20:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "9dd1b6bf62ffe3419a7d858965791a064a2a106361ed51c35247e436d36e637f.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:21:equal_area:2",
+    "scene": "confirm:21",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 776,
+    "instance_sizes": [
+      388,
+      388
+    ],
+    "dense": true,
+    "green": [
+      37,
+      154,
+      38
+    ],
+    "box": [
+      89,
+      87,
+      330,
+      324
+    ],
+    "rgb": "5fe8334d2a30947608c62b33363a749f58fb19033dee0cad31d4ab4a9a1267fd",
+    "file": "af6f2b1b185f3e24ebc2b5839305ce091608bf11d91a7370175901a2ce4e3331",
+    "row": {
+      "uid": "confirm:21:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "2c1190e175b49bce3fe26d9dcb97dacc5357ea71223918ac237b72c9e699a15a.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:21:equal_area:4",
+    "scene": "confirm:21",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 776,
+    "instance_sizes": [
+      194,
+      194,
+      194,
+      194
+    ],
+    "dense": true,
+    "green": [
+      37,
+      154,
+      38
+    ],
+    "box": [
+      89,
+      87,
+      330,
+      324
+    ],
+    "rgb": "6d18d0d6c086c1b83cd7d54e451798731c1fc06bad1283bc0f4302137d595256",
+    "file": "8fafd72a449e9154a7678138ef576bc9e79b73272b7010633573b23b5955ac1b",
+    "row": {
+      "uid": "confirm:21:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "5e73ec9ef0594896e54f9f8ec2d702b5d5fc871a9617b88dccbd0b286ea82f0c.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:21:same_instance_sizes:2",
+    "scene": "confirm:21",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 392,
+    "instance_sizes": [
+      240,
+      152
+    ],
+    "dense": true,
+    "green": [
+      37,
+      154,
+      38
+    ],
+    "box": [
+      89,
+      87,
+      330,
+      324
+    ],
+    "rgb": "38c96554321b6ad153fc073e814171e048c61e9c1ffd5a3ae9c0f3aaf959b88d",
+    "file": "4417b1c1a789e85f72045ab6cb2544600899029853e63628db60a8b2c5f5fc27",
+    "row": {
+      "uid": "confirm:21:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "88eb6a5b920a918ba89eaf5c85e55604a89c80b18175dcb558ec8c8f3ec41599.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:21:same_instance_sizes:4",
+    "scene": "confirm:21",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 878,
+    "instance_sizes": [
+      240,
+      152,
+      241,
+      245
+    ],
+    "dense": true,
+    "green": [
+      37,
+      154,
+      38
+    ],
+    "box": [
+      89,
+      87,
+      330,
+      324
+    ],
+    "rgb": "e9b4c5719cb292d77b94463c5f1696bfec2b77dd4d79938d55126af4b81df1ef",
+    "file": "78b134e1a47888462e33a4b6d52b5c4edb9d3e32b4ef0fb5bb0866c4a629a981",
+    "row": {
+      "uid": "confirm:21:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "6ca9f3acbc16bb0e1b1a0befeb0e8e38f5323051b11f1a59c68563eeff46199b.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:22:equal_area:2",
+    "scene": "confirm:22",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 856,
+    "instance_sizes": [
+      428,
+      428
+    ],
+    "dense": false,
+    "green": [
+      24,
+      132,
+      46
+    ],
+    "box": [
+      269,
+      107,
+      510,
+      344
+    ],
+    "rgb": "59f78fc0ead4ab28083cfff4708e9b3a0be3410a4ed61f45aaeab7f9d0e726f3",
+    "file": "3d48727f570ebe7ce6ec15d17e2965d5b94cba1beb21aa5a2a0f47ac0be908cc",
+    "row": {
+      "uid": "confirm:22:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "0624083fc4a781073665b82e3ed05f7dcaa1658e1c2acbab5b03d10bd7475745.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:22:equal_area:4",
+    "scene": "confirm:22",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 856,
+    "instance_sizes": [
+      214,
+      214,
+      214,
+      214
+    ],
+    "dense": false,
+    "green": [
+      24,
+      132,
+      46
+    ],
+    "box": [
+      269,
+      107,
+      510,
+      344
+    ],
+    "rgb": "9ae0860963746347df479bfbd33401e70824650459b486191c7702338235d4f5",
+    "file": "ddaf02ce60326c30ad2cf345b75ffc1ce6f250b75592825f6d056b6dc82d4814",
+    "row": {
+      "uid": "confirm:22:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "79e7815a1ffe43b46893c89ce60fbd876ccbfb10896dc56bd37e51ff88875815.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:22:same_instance_sizes:2",
+    "scene": "confirm:22",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 378,
+    "instance_sizes": [
+      157,
+      221
+    ],
+    "dense": false,
+    "green": [
+      24,
+      132,
+      46
+    ],
+    "box": [
+      269,
+      107,
+      510,
+      344
+    ],
+    "rgb": "b5ff09f044867f6a0659109bae28a8aff00ce62750ab64203f5b6e3dca767e42",
+    "file": "5b979c849bb16c91f4e254d2db0a636b9b1cd8aeb8664af0484a67dc2c273e6a",
+    "row": {
+      "uid": "confirm:22:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "ffe834163b5ee50957c18b09616efa50c68d97d6d83f2f52c03fa2b70e020975.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:22:same_instance_sizes:4",
+    "scene": "confirm:22",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 798,
+    "instance_sizes": [
+      157,
+      221,
+      182,
+      238
+    ],
+    "dense": false,
+    "green": [
+      24,
+      132,
+      46
+    ],
+    "box": [
+      269,
+      107,
+      510,
+      344
+    ],
+    "rgb": "c530e88093fad5185248ece775f05db408628ed658d7426118c53153ae9d1c01",
+    "file": "510646bc4fa4724708eec0c21e6897239e99497ac676f1f0d5a97c6816bfe8d4",
+    "row": {
+      "uid": "confirm:22:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "41734c6797704f88360ac932f4abc6af9408f1c991399c8fdecc8442b1f5ef54.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:23:equal_area:2",
+    "scene": "confirm:23",
+    "count": 2,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 704,
+    "instance_sizes": [
+      352,
+      352
+    ],
+    "dense": true,
+    "green": [
+      9,
+      170,
+      53
+    ],
+    "box": [
+      98,
+      202,
+      339,
+      439
+    ],
+    "rgb": "9f4fe5ce9e1642a465eff30b2187a725eb091b8fb73939218db4118851da870d",
+    "file": "0e6a552e258311e514ce286a19777cacc5e2543648180ac682b2d5204809eaf8",
+    "row": {
+      "uid": "confirm:23:equal_area:2",
+      "dataset": "r6_count",
+      "images": [
+        "caafe2be14b5e20e9b912743b2ef3ebff88758ef7d202cbe273137a1207ebb32.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:23:equal_area:4",
+    "scene": "confirm:23",
+    "count": 4,
+    "split": "ood",
+    "regime": "equal_area",
+    "area": 704,
+    "instance_sizes": [
+      176,
+      176,
+      176,
+      176
+    ],
+    "dense": true,
+    "green": [
+      9,
+      170,
+      53
+    ],
+    "box": [
+      98,
+      202,
+      339,
+      439
+    ],
+    "rgb": "43fccd16ce6914a857beebc8a0a0cf3d901fb70648ebe4b8a55dc5ee2e9324da",
+    "file": "e32c369bb66c76e301304f9d813bacd217c08cdaa183ef7fc4c559448ff15054",
+    "row": {
+      "uid": "confirm:23:equal_area:4",
+      "dataset": "r6_count",
+      "images": [
+        "29ca9df32433acd1b2fd199ecf6621ab2acfd87769848329c29b0dc2d9c34777.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:23:same_instance_sizes:2",
+    "scene": "confirm:23",
+    "count": 2,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 311,
+    "instance_sizes": [
+      159,
+      152
+    ],
+    "dense": true,
+    "green": [
+      9,
+      170,
+      53
+    ],
+    "box": [
+      98,
+      202,
+      339,
+      439
+    ],
+    "rgb": "fea0628b95322b1a7d129dda18b2077220bbbc79ce4f2c837f79c7666d5e40f9",
+    "file": "83d44fd822d7f8df5550601e6911bd56633e088037495fe36b9ef3ff8d671209",
+    "row": {
+      "uid": "confirm:23:same_instance_sizes:2",
+      "dataset": "r6_count",
+      "images": [
+        "5fb9c784e724024ec5162d5c82441fbf473c8d9d6d25a693fe768e96a119c1aa.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  },
+  {
+    "uid": "confirm:23:same_instance_sizes:4",
+    "scene": "confirm:23",
+    "count": 4,
+    "split": "ood",
+    "regime": "same_instance_sizes",
+    "area": 750,
+    "instance_sizes": [
+      159,
+      152,
+      240,
+      199
+    ],
+    "dense": true,
+    "green": [
+      9,
+      170,
+      53
+    ],
+    "box": [
+      98,
+      202,
+      339,
+      439
+    ],
+    "rgb": "90965d00e29b2b77d6f051cec94c039d55d4461d3511a5d3051548e1e8afd9ba",
+    "file": "a50c30071f5253fdd6da231cc696515657d00f03753059398a43a7dfec72aa5b",
+    "row": {
+      "uid": "confirm:23:same_instance_sizes:4",
+      "dataset": "r6_count",
+      "images": [
+        "d4cc163bbebc91c7a6cc5888fa3318293f8d3a54f4ee18a984e72b8298241d10.png"
+      ],
+      "question": "How many green shapes are inside the black rectangle?",
+      "candidates": [
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "test"
+    }
+  }
+]

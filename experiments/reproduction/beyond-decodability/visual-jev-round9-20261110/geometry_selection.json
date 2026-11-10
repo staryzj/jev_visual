@@ -1,0 +1,4566 @@
+{
+  "routes": {
+    "llava": {
+      "source": {
+        "N": 36,
+        "changed": 28,
+        "frequency": {
+          "attention": 24,
+          "mlp": 7,
+          "linear": 5
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.6614583333333334,
+            "geometry": 0.7204861111111112,
+            "difference": 0.05902777777777779,
+            "CI": [
+              0.014467592592592596,
+              0.10069444444444443
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.6111111111111112,
+            "geometry": 0.6944444444444444,
+            "difference": 0.08333333333333333,
+            "CI": [
+              0.03877314814814815,
+              0.12732928240740723
+            ]
+          }
+        }
+      },
+      "slots": {
+        "N": 36,
+        "changed": 35,
+        "frequency": {
+          "linear": 17,
+          "attention": 9,
+          "kernel": 10
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.6875,
+            "geometry": 0.875,
+            "difference": 0.1875,
+            "CI": [
+              0.10474537037037036,
+              0.27199074074074076
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.7112268518518519,
+            "geometry": 0.8836805555555556,
+            "difference": 0.17245370370370372,
+            "CI": [
+              0.0931568287037037,
+              0.2500144675925924
+            ]
+          }
+        }
+      }
+    },
+    "internvl": {
+      "source": {
+        "N": 36,
+        "changed": 36,
+        "frequency": {
+          "kernel": 4,
+          "linear": 32
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.6157407407407407,
+            "geometry": 0.8599537037037037,
+            "difference": 0.24421296296296294,
+            "CI": [
+              0.19270833333333334,
+              0.29340277777777773
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.609375,
+            "geometry": 0.8483796296296297,
+            "difference": 0.23900462962962962,
+            "CI": [
+              0.18807870370370372,
+              0.28761574074074076
+            ]
+          }
+        }
+      },
+      "slots": {
+        "N": 36,
+        "changed": 30,
+        "frequency": {
+          "linear": 24,
+          "attention": 7,
+          "mlp": 2,
+          "kernel": 3
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.7054398148148148,
+            "geometry": 0.7887731481481481,
+            "difference": 0.08333333333333333,
+            "CI": [
+              0.03125000000000001,
+              0.13368055555555555
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.7135416666666666,
+            "geometry": 0.7818287037037037,
+            "difference": 0.06828703703703703,
+            "CI": [
+              0.024305555555555552,
+              0.11284722222222221
+            ]
+          }
+        }
+      }
+    },
+    "siglip2": {
+      "source": {
+        "N": 36,
+        "changed": 18,
+        "frequency": {
+          "attention": 23,
+          "kernel": 2,
+          "mlp": 10,
+          "linear": 1
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.7876157407407407,
+            "geometry": 0.8130787037037037,
+            "difference": 0.025462962962962965,
+            "CI": [
+              0.011574074074074075,
+              0.03935185185185185
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.7557870370370371,
+            "geometry": 0.7934027777777778,
+            "difference": 0.03761574074074074,
+            "CI": [
+              0.021412037037037035,
+              0.05439814814814815
+            ]
+          }
+        }
+      },
+      "slots": {
+        "N": 36,
+        "changed": 35,
+        "frequency": {
+          "attention": 36
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.6944444444444444,
+            "geometry": 0.8802083333333334,
+            "difference": 0.18576388888888892,
+            "CI": [
+              0.11574074074074074,
+              0.25347222222222227
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.6666666666666666,
+            "geometry": 0.8478009259259259,
+            "difference": 0.18113425925925927,
+            "CI": [
+              0.1105324074074074,
+              0.24479166666666666
+            ]
+          }
+        }
+      }
+    },
+    "qwen": {
+      "source": {
+        "N": 36,
+        "changed": 26,
+        "frequency": {
+          "linear": 19,
+          "attention": 14,
+          "mlp": 3
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.5891203703703703,
+            "geometry": 0.6493055555555556,
+            "difference": 0.06018518518518518,
+            "CI": [
+              0.037037037037037035,
+              0.09027777777777778
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.5920138888888888,
+            "geometry": 0.6423611111111112,
+            "difference": 0.05034722222222223,
+            "CI": [
+              0.028356481481481483,
+              0.07986111111111112
+            ]
+          }
+        }
+      },
+      "slots": {
+        "N": 36,
+        "changed": 9,
+        "frequency": {
+          "mlp": 26,
+          "attention": 7,
+          "linear": 3
+        },
+        "evaluation": {
+          "fresh_equal": {
+            "original": 0.5758101851851852,
+            "geometry": 0.5810185185185185,
+            "difference": 0.005208333333333333,
+            "CI": [
+              -0.009259259259259259,
+              0.02025462962962963
+            ]
+          },
+          "fresh_same_size": {
+            "original": 0.5862268518518519,
+            "geometry": 0.5891203703703703,
+            "difference": 0.002893518518518519,
+            "CI": [
+              -0.008680555555555556,
+              0.015046296296296295
+            ]
+          }
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.53125,
+        "mlp": 0.53125,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5833333333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.6979166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.53125,
+        "mlp": 0.5416666666666666,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5729166666666666,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.5520833333333334,
+        "attention": 0.65625
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5625,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.59375,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.6458333333333334,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.6770833333333334,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.6145833333333334,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.59375,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.59375,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.59375,
+        "mlp": 0.6354166666666666,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.6041666666666666,
+        "mlp": 0.65625,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.65625,
+        "kernel": 0.59375,
+        "mlp": 0.625,
+        "attention": 0.7083333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.53125,
+        "mlp": 0.5625,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.5729166666666666,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7083333333333334,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.59375,
+        "attention": 0.65625
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.59375,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.53125,
+        "mlp": 0.5625,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.5729166666666666,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5625,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.6354166666666666,
+        "attention": 0.7604166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5520833333333334,
+        "mlp": 0.5729166666666666,
+        "attention": 0.6979166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.59375,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5625,
+        "kernel": 0.53125,
+        "mlp": 0.6458333333333334,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.59375,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.6770833333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.59375,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.625,
+        "attention": 0.8125
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.75,
+        "mlp": 0.6770833333333334,
+        "attention": 0.7916666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.6875,
+        "mlp": 0.6354166666666666,
+        "attention": 0.7708333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6354166666666666,
+        "kernel": 0.625,
+        "mlp": 0.6041666666666666,
+        "attention": 0.7604166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.59375,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5729166666666666,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.65625,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.6145833333333334,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.6041666666666666,
+        "mlp": 0.5833333333333334,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.5833333333333334,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5729166666666666,
+        "kernel": 0.5625,
+        "mlp": 0.5833333333333334,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.90625,
+        "kernel": 0.8125,
+        "mlp": 0.7083333333333334,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8854166666666666,
+        "kernel": 0.78125,
+        "mlp": 0.65625,
+        "attention": 0.8125
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8020833333333334,
+        "kernel": 0.8229166666666666,
+        "mlp": 0.7083333333333334,
+        "attention": 0.875
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.90625,
+        "kernel": 0.8020833333333334,
+        "mlp": 0.6770833333333334,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8020833333333334,
+        "kernel": 0.75,
+        "mlp": 0.6458333333333334,
+        "attention": 0.6979166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.6979166666666666,
+        "mlp": 0.6145833333333334,
+        "attention": 0.6458333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.6666666666666666,
+        "attention": 0.6979166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8125,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.6145833333333334,
+        "attention": 0.6770833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9270833333333334,
+        "kernel": 0.8229166666666666,
+        "mlp": 0.6979166666666666,
+        "attention": 0.71875
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.875,
+        "kernel": 0.78125,
+        "mlp": 0.6666666666666666,
+        "attention": 0.7083333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8333333333333334,
+        "kernel": 0.875,
+        "mlp": 0.75,
+        "attention": 0.7291666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8958333333333334,
+        "kernel": 0.8125,
+        "mlp": 0.6770833333333334,
+        "attention": 0.6979166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.9270833333333334,
+        "mlp": 0.8333333333333334,
+        "attention": 0.9791666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.96875,
+        "kernel": 0.9166666666666666,
+        "mlp": 0.7604166666666666,
+        "attention": 0.9791666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.9479166666666666,
+        "kernel": 0.96875,
+        "mlp": 0.8333333333333334,
+        "attention": 0.9791666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.96875,
+        "kernel": 0.9375,
+        "mlp": 0.7916666666666666,
+        "attention": 0.9791666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.8333333333333334,
+        "mlp": 0.7604166666666666,
+        "attention": 0.75
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.90625,
+        "kernel": 0.8541666666666666,
+        "mlp": 0.75,
+        "attention": 0.6770833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.90625,
+        "kernel": 0.9166666666666666,
+        "mlp": 0.7708333333333334,
+        "attention": 0.75
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.8645833333333334,
+        "mlp": 0.75,
+        "attention": 0.71875
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 0.9375,
+        "mlp": 0.7604166666666666,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9583333333333334,
+        "kernel": 0.9166666666666666,
+        "mlp": 0.7708333333333334,
+        "attention": 0.7604166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.9270833333333334,
+        "kernel": 0.9375,
+        "mlp": 0.8020833333333334,
+        "attention": 0.75
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9791666666666666,
+        "kernel": 0.9375,
+        "mlp": 0.7604166666666666,
+        "attention": 0.7395833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8958333333333334,
+        "kernel": 0.9375,
+        "mlp": 0.7916666666666666,
+        "attention": 0.9375
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8645833333333334,
+        "kernel": 0.8958333333333334,
+        "mlp": 0.75,
+        "attention": 0.8958333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.9583333333333334,
+        "mlp": 0.875,
+        "attention": 0.9583333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.9375,
+        "mlp": 0.8333333333333334,
+        "attention": 0.9479166666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.875,
+        "kernel": 0.9375,
+        "mlp": 0.8229166666666666,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.9166666666666666,
+        "mlp": 0.75,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8125,
+        "kernel": 0.9583333333333334,
+        "mlp": 0.8333333333333334,
+        "attention": 0.8541666666666666
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9479166666666666,
+        "kernel": 0.9166666666666666,
+        "mlp": 0.8333333333333334,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8333333333333334,
+        "kernel": 0.9270833333333334,
+        "mlp": 0.7708333333333334,
+        "attention": 0.8958333333333334
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8854166666666666,
+        "kernel": 0.8958333333333334,
+        "mlp": 0.71875,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.9583333333333334,
+        "mlp": 0.8229166666666666,
+        "attention": 0.875
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9583333333333334,
+        "kernel": 0.9375,
+        "mlp": 0.7916666666666666,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.875,
+        "kernel": 0.90625,
+        "mlp": 0.8125,
+        "attention": 0.6875
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8541666666666666,
+        "kernel": 0.90625,
+        "mlp": 0.78125,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8541666666666666,
+        "kernel": 0.8541666666666666,
+        "mlp": 0.8020833333333334,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8958333333333334,
+        "kernel": 0.9166666666666666,
+        "mlp": 0.75,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.6145833333333334,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.6354166666666666,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.90625,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9166666666666666,
+        "kernel": 0.7916666666666666,
+        "mlp": 0.7291666666666666,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8958333333333334,
+        "kernel": 0.78125,
+        "mlp": 0.6458333333333334,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9270833333333334,
+        "kernel": 0.78125,
+        "mlp": 0.6770833333333334,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9166666666666666,
+        "kernel": 0.78125,
+        "mlp": 0.6770833333333334,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.78125,
+        "mlp": 0.7604166666666666,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.6979166666666666,
+        "mlp": 0.7395833333333334,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7604166666666666,
+        "kernel": 0.6875,
+        "mlp": 0.7395833333333334,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8541666666666666,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7395833333333334,
+        "attention": 0.6458333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.90625,
+        "kernel": 0.84375,
+        "mlp": 0.84375,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.875,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7708333333333334,
+        "attention": 0.5729166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.875,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7604166666666666,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9479166666666666,
+        "kernel": 0.8229166666666666,
+        "mlp": 0.7708333333333334,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9583333333333334,
+        "kernel": 0.9270833333333334,
+        "mlp": 0.9166666666666666,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7395833333333334,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9270833333333334,
+        "kernel": 0.8854166666666666,
+        "mlp": 0.7604166666666666,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9375,
+        "kernel": 0.8958333333333334,
+        "mlp": 0.8645833333333334,
+        "attention": 0.6458333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.71875,
+        "mlp": 0.6354166666666666,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.6041666666666666,
+        "mlp": 0.6145833333333334,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.65625,
+        "mlp": 0.625,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6875,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.625,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.75,
+        "mlp": 0.65625,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.6458333333333334,
+        "mlp": 0.625,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.7083333333333334,
+        "mlp": 0.6666666666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7291666666666666,
+        "kernel": 0.6458333333333334,
+        "mlp": 0.59375,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.875,
+        "kernel": 0.8125,
+        "mlp": 0.7083333333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.7291666666666666,
+        "mlp": 0.6354166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8541666666666666,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.65625,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8229166666666666,
+        "kernel": 0.7291666666666666,
+        "mlp": 0.6458333333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.71875,
+        "mlp": 0.6354166666666666,
+        "attention": 0.7395833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.59375,
+        "kernel": 0.625,
+        "mlp": 0.6458333333333334,
+        "attention": 0.7083333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6354166666666666,
+        "kernel": 0.6458333333333334,
+        "mlp": 0.6666666666666666,
+        "attention": 0.7708333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7395833333333334,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.6666666666666666,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.71875,
+        "mlp": 0.6979166666666666,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.6979166666666666,
+        "kernel": 0.6979166666666666,
+        "mlp": 0.6979166666666666,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7291666666666666,
+        "kernel": 0.71875,
+        "mlp": 0.71875,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.6770833333333334,
+        "kernel": 0.7083333333333334,
+        "mlp": 0.71875,
+        "attention": 0.6875
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7604166666666666,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.7395833333333334,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.6979166666666666,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.7291666666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7916666666666666,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7395833333333334,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.7395833333333334,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8854166666666666,
+        "kernel": 0.8125,
+        "mlp": 0.7395833333333334,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9270833333333334,
+        "kernel": 0.7916666666666666,
+        "mlp": 0.71875,
+        "attention": 0.8020833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.9270833333333334,
+        "kernel": 0.7916666666666666,
+        "mlp": 0.71875,
+        "attention": 0.7708333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8333333333333334,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7291666666666666,
+        "attention": 0.7708333333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8645833333333334,
+        "kernel": 0.7916666666666666,
+        "mlp": 0.78125,
+        "attention": 0.65625
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8333333333333334,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.78125,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.78125,
+        "mlp": 0.7708333333333334,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8020833333333334,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.7604166666666666,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.78125,
+        "mlp": 0.71875,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.7291666666666666,
+        "attention": 0.5729166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.6979166666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.71875,
+        "attention": 0.53125
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.65625,
+        "kernel": 0.6770833333333334,
+        "mlp": 0.65625,
+        "attention": 0.8020833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6458333333333334,
+        "kernel": 0.65625,
+        "mlp": 0.6354166666666666,
+        "attention": 0.8125
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.65625,
+        "kernel": 0.6875,
+        "mlp": 0.65625,
+        "attention": 0.7916666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.6770833333333334,
+        "mlp": 0.6666666666666666,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7291666666666666,
+        "kernel": 0.7291666666666666,
+        "mlp": 0.6770833333333334,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.6979166666666666,
+        "kernel": 0.71875,
+        "mlp": 0.6979166666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.6979166666666666,
+        "kernel": 0.71875,
+        "mlp": 0.6979166666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8229166666666666,
+        "kernel": 0.71875,
+        "mlp": 0.71875,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8125,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.6770833333333334,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7604166666666666,
+        "kernel": 0.75,
+        "mlp": 0.6666666666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.7916666666666666,
+        "kernel": 0.75,
+        "mlp": 0.6979166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.7291666666666666,
+        "mlp": 0.6979166666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8229166666666666,
+        "kernel": 0.8541666666666666,
+        "mlp": 0.84375,
+        "attention": 0.8541666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.8645833333333334,
+        "kernel": 0.90625,
+        "mlp": 0.84375,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.84375,
+        "kernel": 0.8229166666666666,
+        "mlp": 0.8854166666666666,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.8958333333333334,
+        "kernel": 0.8958333333333334,
+        "mlp": 0.8958333333333334,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.7604166666666666,
+        "mlp": 0.8541666666666666,
+        "attention": 0.7395833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6875,
+        "kernel": 0.8958333333333334,
+        "mlp": 0.8958333333333334,
+        "attention": 0.9583333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.8645833333333334,
+        "attention": 0.9270833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.8020833333333334,
+        "mlp": 0.875,
+        "attention": 0.7916666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.8020833333333334,
+        "kernel": 0.8333333333333334,
+        "mlp": 0.8541666666666666,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8541666666666666,
+        "kernel": 0.8854166666666666,
+        "mlp": 0.8958333333333334,
+        "attention": 0.9479166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.8125,
+        "kernel": 0.8333333333333334,
+        "mlp": 0.8958333333333334,
+        "attention": 0.875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.8125,
+        "mlp": 0.8541666666666666,
+        "attention": 0.8854166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.53125,
+        "mlp": 0.5729166666666666,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5729166666666666,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5,
+        "mlp": 0.5416666666666666,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5520833333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.7604166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.59375,
+        "attention": 0.8020833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.5625,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5,
+        "mlp": 0.5729166666666666,
+        "attention": 0.6875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5625,
+        "mlp": 0.6145833333333334,
+        "attention": 0.6354166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5625,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7083333333333334,
+        "kernel": 0.78125,
+        "mlp": 0.7291666666666666,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.8333333333333334,
+        "kernel": 0.8229166666666666,
+        "mlp": 0.8541666666666666,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7916666666666666,
+        "kernel": 0.8020833333333334,
+        "mlp": 0.84375,
+        "attention": 0.875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6354166666666666,
+        "kernel": 0.7083333333333334,
+        "mlp": 0.6770833333333334,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6770833333333334,
+        "kernel": 0.75,
+        "mlp": 0.6979166666666666,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "kernel",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.84375,
+        "mlp": 0.7708333333333334,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6875,
+        "kernel": 0.7916666666666666,
+        "mlp": 0.8020833333333334,
+        "attention": 0.8020833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5729166666666666,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.8020833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.8229166666666666,
+        "kernel": 0.8229166666666666,
+        "mlp": 0.6458333333333334,
+        "attention": 0.8125
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8229166666666666,
+        "kernel": 0.8541666666666666,
+        "mlp": 0.7708333333333334,
+        "attention": 0.8541666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8125,
+        "kernel": 0.84375,
+        "mlp": 0.8125,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.6458333333333334,
+        "mlp": 0.6145833333333334,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5729166666666666,
+        "attention": 0.875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.5729166666666666,
+        "attention": 0.7916666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.59375,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5,
+        "mlp": 0.53125,
+        "attention": 0.875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.59375,
+        "mlp": 0.6145833333333334,
+        "attention": 0.96875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.625,
+        "mlp": 0.6875,
+        "attention": 0.9479166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.6666666666666666,
+        "attention": 0.9791666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.59375,
+        "mlp": 0.6041666666666666,
+        "attention": 0.96875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.71875,
+        "attention": 0.9166666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.6770833333333334,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.6145833333333334,
+        "mlp": 0.625,
+        "attention": 0.9895833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.625,
+        "mlp": 0.65625,
+        "attention": 0.9791666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.7083333333333334,
+        "attention": 0.8125
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6354166666666666,
+        "kernel": 0.8020833333333334,
+        "mlp": 0.71875,
+        "attention": 0.8125
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.78125,
+        "mlp": 0.7083333333333334,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8020833333333334,
+        "kernel": 0.7708333333333334,
+        "mlp": 0.6458333333333334,
+        "attention": 0.8020833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.65625,
+        "kernel": 0.6979166666666666,
+        "mlp": 0.65625,
+        "attention": 0.8958333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.65625,
+        "kernel": 0.7395833333333334,
+        "mlp": 0.6770833333333334,
+        "attention": 0.8854166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7291666666666666,
+        "kernel": 0.7291666666666666,
+        "mlp": 0.6979166666666666,
+        "attention": 0.8958333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.78125,
+        "kernel": 0.6354166666666666,
+        "mlp": 0.59375,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7604166666666666,
+        "kernel": 0.7291666666666666,
+        "mlp": 0.625,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.75,
+        "mlp": 0.6458333333333334,
+        "attention": 0.96875
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.7083333333333334,
+        "mlp": 0.6666666666666666,
+        "attention": 0.9479166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8333333333333334,
+        "kernel": 0.6770833333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.5729166666666666,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6979166666666666,
+        "kernel": 0.6458333333333334,
+        "mlp": 0.5520833333333334,
+        "attention": 0.7916666666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7604166666666666,
+        "kernel": 0.625,
+        "mlp": 0.5625,
+        "attention": 0.7708333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5625,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7708333333333334,
+        "kernel": 0.625,
+        "mlp": 0.59375,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6458333333333334,
+        "kernel": 0.6458333333333334,
+        "mlp": 0.5625,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6458333333333334,
+        "kernel": 0.65625,
+        "mlp": 0.5833333333333334,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7604166666666666,
+        "kernel": 0.5625,
+        "mlp": 0.6041666666666666,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.8125,
+        "kernel": 0.6875,
+        "mlp": 0.65625,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.7291666666666666,
+        "kernel": 0.6770833333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.8958333333333334
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.71875,
+        "kernel": 0.6666666666666666,
+        "mlp": 0.6041666666666666,
+        "attention": 0.90625
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.75,
+        "kernel": 0.6875,
+        "mlp": 0.6145833333333334,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6354166666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5,
+        "attention": 0.5729166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5208333333333334,
+        "attention": 0.5729166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6979166666666666,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.59375,
+        "kernel": 0.53125,
+        "mlp": 0.5416666666666666,
+        "attention": 0.5625
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5520833333333334,
+        "attention": 0.6145833333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.625,
+        "kernel": 0.53125,
+        "mlp": 0.5520833333333334,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6354166666666666,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.53125
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5520833333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.53125,
+        "attention": 0.53125
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5416666666666666,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5625,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.53125,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5208333333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.53125,
+        "mlp": 0.5208333333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.59375,
+        "kernel": 0.5625,
+        "mlp": 0.625,
+        "attention": 0.6666666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6145833333333334,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5520833333333334,
+        "attention": 0.5833333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.6770833333333334,
+        "attention": 0.59375
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.6458333333333334,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.6354166666666666,
+        "attention": 0.625
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5520833333333334,
+        "mlp": 0.5625,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5729166666666666,
+        "kernel": 0.53125,
+        "mlp": 0.5416666666666666,
+        "attention": 0.7083333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.8229166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.6666666666666666,
+        "kernel": 0.5833333333333334,
+        "mlp": 0.6145833333333334,
+        "attention": 0.75
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5,
+        "mlp": 0.5104166666666666,
+        "attention": 0.7916666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5416666666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.75
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5625,
+        "kernel": 0.5,
+        "mlp": 0.53125,
+        "attention": 0.78125
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.6458333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.5520833333333334,
+        "mlp": 0.625,
+        "attention": 0.6041666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.625,
+        "attention": 0.5625
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.6041666666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.625,
+        "attention": 0.5416666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 107,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5833333333333334,
+        "attention": 0.5625
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5520833333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.5625
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.6041666666666666,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5729166666666666,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5520833333333334,
+        "attention": 0.5208333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5520833333333334,
+        "mlp": 0.6145833333333334,
+        "attention": 0.4791666666666667
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.53125,
+        "mlp": 0.59375,
+        "attention": 0.4895833333333333
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.6145833333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 107,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5520833333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "original",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.6145833333333334,
+        "attention": 0.8541666666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5625,
+        "attention": 0.84375
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5833333333333334,
+        "attention": 0.8645833333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 211,
+      "partition": "4127",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5625,
+        "attention": 0.8333333333333334
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.59375,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5208333333333334,
+        "mlp": 0.5625,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5625,
+        "kernel": 0.5729166666666666,
+        "mlp": 0.6875,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.53125,
+        "mlp": 0.6770833333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5416666666666666,
+        "mlp": 0.6770833333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 211,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5833333333333334,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5520833333333334,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "1287",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.4791666666666667,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "2399",
+      "original": "attention",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 64,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "attention",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5,
+        "mlp": 0.5,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.53125,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5104166666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 128,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "linear",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "original",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5520833333333334,
+        "attention": 0.5104166666666666
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "1287",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5416666666666666,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "2399",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5104166666666666,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.5625,
+        "attention": 0.5
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "dimension": 256,
+      "seed": 503,
+      "partition": "4127",
+      "original": "mlp",
+      "geometry": "mlp",
+      "geometry_validation_accuracy": {
+        "linear": 0.5208333333333334,
+        "kernel": 0.5104166666666666,
+        "mlp": 0.53125,
+        "attention": 0.5104166666666666
+      }
+    }
+  ],
+  "scope": "Retrospective only. The old shift is repurposed for development and the already reported new shift is used for comparison. Fits and regularizers stay fixed."
+}

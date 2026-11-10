@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "N": 396,
+  "scored": 144,
+  "dimensions": [
+    64,
+    128,
+    256
+  ],
+  "projection_seeds": [
+    107,
+    211,
+    503
+  ],
+  "source_widths": {
+    "source": 4096,
+    "slots": 5120
+  },
+  "checkpoint_sha256": "045f2b6f308dea7d3e66b082a85d029da52b07a5889826aa6589f287ff1c15f2",
+  "optimizer_steps": 0,
+  "receiver": {
+    "live_lora_equal_published": true,
+    "live_head_equal_published": true,
+    "fully_resident": true,
+    "hidden_dim": 5120,
+    "load_seconds": 18.687789366580546,
+    "temperature": 2.5343690298472983,
+    "layers": 64,
+    "model": "27b",
+    "single_resident_language_copy": true,
+    "same_official_language_object": true,
+    "live_vision_equal_base_BF16": true,
+    "vision_tensors_checked": 333,
+    "native_vision_class": "Qwen3_5VisionModel",
+    "published_text_max_length": 4096,
+    "benchmark_total_max_length": 2048,
+    "size": {
+      "shortest_edge": 65536,
+      "longest_edge": 262144
+    },
+    "optimizer_updates": 0
+  }
+}

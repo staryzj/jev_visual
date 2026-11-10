@@ -1,0 +1,413 @@
+{
+  "routes": {
+    "llava": {
+      "stages": {
+        "source": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6782407407407407,
+            "geometry": 0.7725694444444444,
+            "frozen": 0.8541666666666666,
+            "original_sd": 0.07275823680469237,
+            "geometry_sd": 0.07031938899232536,
+            "geometry_minus_original": {
+              "delta": 0.0943287037037037,
+              "CI": [
+                0.052662037037037035,
+                0.1394675925925926
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.08159722222222222,
+              "CI": [
+                -0.21064814814814814,
+                0.06423611111111112
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6134259259259259,
+            "geometry": 0.703125,
+            "frozen": 0.875,
+            "original_sd": 0.05233734355949103,
+            "geometry_sd": 0.08442367055982374,
+            "geometry_minus_original": {
+              "delta": 0.08969907407407407,
+              "CI": [
+                0.05439814814814815,
+                0.12557870370370372
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.171875,
+              "CI": [
+                -0.2829861111111111,
+                -0.05092592592592592
+              ]
+            }
+          }
+        },
+        "slots": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.8107638888888888,
+            "geometry": 0.921875,
+            "frozen": 0.8541666666666666,
+            "original_sd": 0.0585825882225866,
+            "geometry_sd": 0.051122081940241454,
+            "geometry_minus_original": {
+              "delta": 0.1111111111111111,
+              "CI": [
+                0.05902777777777777,
+                0.16610243055555537
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": 0.06770833333333333,
+              "CI": [
+                -0.03877314814814815,
+                0.18344907407407407
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.7997685185185185,
+            "geometry": 0.8744212962962963,
+            "frozen": 0.875,
+            "original_sd": 0.07735678295720769,
+            "geometry_sd": 0.06998549153626908,
+            "geometry_minus_original": {
+              "delta": 0.07465277777777778,
+              "CI": [
+                0.013888888888888888,
+                0.13136574074074073
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.000578703703703704,
+              "CI": [
+                -0.10648148148148147,
+                0.1105324074074074
+              ]
+            }
+          }
+        }
+      },
+      "replay_max": 2.9790761524317588e-08,
+      "replay_argmax_mismatches": 0
+    },
+    "internvl": {
+      "stages": {
+        "source": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.5873842592592593,
+            "geometry": 0.8431712962962963,
+            "frozen": 0.9166666666666666,
+            "original_sd": 0.09769407887245374,
+            "geometry_sd": 0.07626026328129167,
+            "geometry_minus_original": {
+              "delta": 0.25578703703703703,
+              "CI": [
+                0.21585648148148148,
+                0.2928240740740741
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.07349537037037036,
+              "CI": [
+                -0.17129629629629628,
+                0.03645833333333332
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.5792824074074074,
+            "geometry": 0.8472222222222222,
+            "frozen": 0.9791666666666666,
+            "original_sd": 0.0927452032682925,
+            "geometry_sd": 0.08318439070608653,
+            "geometry_minus_original": {
+              "delta": 0.2679398148148148,
+              "CI": [
+                0.22743055555555558,
+                0.3072916666666667
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.13194444444444445,
+              "CI": [
+                -0.20138888888888892,
+                -0.05150462962962963
+              ]
+            }
+          }
+        },
+        "slots": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6967592592592593,
+            "geometry": 0.7604166666666666,
+            "frozen": 0.9166666666666666,
+            "original_sd": 0.07818064596740086,
+            "geometry_sd": 0.0674617763614424,
+            "geometry_minus_original": {
+              "delta": 0.0636574074074074,
+              "CI": [
+                0.0005787037037037028,
+                0.12905092592592593
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.15625,
+              "CI": [
+                -0.25983796296296297,
+                -0.04338831018518539
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6828703703703703,
+            "geometry": 0.75,
+            "frozen": 0.9791666666666666,
+            "original_sd": 0.06665013022422782,
+            "geometry_sd": 0.07268244695411744,
+            "geometry_minus_original": {
+              "delta": 0.06712962962962962,
+              "CI": [
+                0.0011574074074074125,
+                0.13310185185185183
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.22916666666666666,
+              "CI": [
+                -0.296875,
+                -0.15625
+              ]
+            }
+          }
+        }
+      },
+      "replay_max": 2.9798039369310914e-08,
+      "replay_argmax_mismatches": 0
+    },
+    "siglip2": {
+      "stages": {
+        "source": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.7546296296296297,
+            "geometry": 0.7858796296296297,
+            "frozen": 0.9166666666666666,
+            "original_sd": 0.12087551717596627,
+            "geometry_sd": 0.1225565862898992,
+            "geometry_minus_original": {
+              "delta": 0.03125,
+              "CI": [
+                0.015046296296296295,
+                0.046875
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.13078703703703706,
+              "CI": [
+                -0.20486111111111113,
+                -0.049754050925926135
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.7459490740740741,
+            "geometry": 0.7760416666666666,
+            "frozen": 0.9791666666666666,
+            "original_sd": 0.1261671153004821,
+            "geometry_sd": 0.12483868559318832,
+            "geometry_minus_original": {
+              "delta": 0.03009259259259259,
+              "CI": [
+                0.016203703703703703,
+                0.043417245370370165
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.203125,
+              "CI": [
+                -0.25810185185185186,
+                -0.1400318287037039
+              ]
+            }
+          }
+        },
+        "slots": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6840277777777778,
+            "geometry": 0.9016203703703703,
+            "frozen": 0.9166666666666666,
+            "original_sd": 0.08929563436954976,
+            "geometry_sd": 0.05820800974598827,
+            "geometry_minus_original": {
+              "delta": 0.21759259259259264,
+              "CI": [
+                0.15914351851851852,
+                0.27719907407407407
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.015046296296296302,
+              "CI": [
+                -0.09085648148148147,
+                0.07118055555555554
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6759259259259259,
+            "geometry": 0.8628472222222222,
+            "frozen": 0.9791666666666666,
+            "original_sd": 0.10235864774878298,
+            "geometry_sd": 0.07542455891353682,
+            "geometry_minus_original": {
+              "delta": 0.18692129629629628,
+              "CI": [
+                0.11805555555555557,
+                0.2546296296296296
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.11631944444444443,
+              "CI": [
+                -0.17476851851851852,
+                -0.052083333333333336
+              ]
+            }
+          }
+        }
+      },
+      "replay_max": 2.9766536902009477e-08,
+      "replay_argmax_mismatches": 0
+    },
+    "qwen": {
+      "stages": {
+        "source": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.5879629629629629,
+            "geometry": 0.6423611111111112,
+            "frozen": 1.0,
+            "original_sd": 0.11103668142020136,
+            "geometry_sd": 0.1161019495891981,
+            "geometry_minus_original": {
+              "delta": 0.05439814814814815,
+              "CI": [
+                0.03472222222222222,
+                0.07523148148148148
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.35763888888888884,
+              "CI": [
+                -0.40277777777777785,
+                -0.3107638888888889
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.5844907407407407,
+            "geometry": 0.6446759259259259,
+            "frozen": 1.0,
+            "original_sd": 0.12188015805572948,
+            "geometry_sd": 0.12157453748949586,
+            "geometry_minus_original": {
+              "delta": 0.060185185185185175,
+              "CI": [
+                0.03587962962962963,
+                0.08624131944444424
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.3553240740740741,
+              "CI": [
+                -0.39872685185185186,
+                -0.3090277777777778
+              ]
+            }
+          }
+        },
+        "slots": {
+          "equal_area": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6012731481481481,
+            "geometry": 0.6087962962962963,
+            "frozen": 1.0,
+            "original_sd": 0.07876665510728587,
+            "geometry_sd": 0.07780965899880105,
+            "geometry_minus_original": {
+              "delta": 0.0075231481481481495,
+              "CI": [
+                -0.009259259259259257,
+                0.024305555555555556
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.3912037037037037,
+              "CI": [
+                -0.4375,
+                -0.33738425925925924
+              ]
+            }
+          },
+          "same_instance_sizes": {
+            "N": 48,
+            "scenes": 24,
+            "original": 0.6006944444444444,
+            "geometry": 0.6128472222222222,
+            "frozen": 1.0,
+            "original_sd": 0.08690272339422588,
+            "geometry_sd": 0.086884884386875,
+            "geometry_minus_original": {
+              "delta": 0.012152777777777776,
+              "CI": [
+                -0.002893518518518519,
+                0.027199074074074073
+              ]
+            },
+            "geometry_minus_frozen": {
+              "delta": -0.38715277777777785,
+              "CI": [
+                -0.43402777777777785,
+                -0.33449074074074076
+              ]
+            }
+          }
+        }
+      },
+      "replay_max": 5.373054001722721e-08,
+      "replay_argmax_mismatches": 0
+    }
+  },
+  "design": "36 locked choices per stage and encoder. Scene intervals condition on these choices."
+}

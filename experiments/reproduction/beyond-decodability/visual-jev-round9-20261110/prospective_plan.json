@@ -1,0 +1,30 @@
+{
+  "seed": 20261110937,
+  "N": 96,
+  "inputs": {
+    "00_prospective.py": "31f792a943d7664d74acd82ad82649a9d6ab7484de6a7f1a6ba403e98d254b24",
+    "01_prospective_worker.py": "1c64ae1bb10296b3dadb09e9a417b45c4a77be782f8a6a248f89bf314311ba28",
+    "02_prospective.json": "241dbd2898002960d5b6a65ef322e34a134a978fee486358432175ec547b0b72",
+    "03_geometry_selection.json": "3e27041645682484da0964838a6bd91a57f1f46a922e88d1219af7730aa97dc3",
+    "04_fit.py": "9b19b0c407d2fd878db4954c977a1b6eccf40f596b618f3f6374d6c680f29ee7",
+    "05_plan.json": "481e31803f697d7f2e2e19a3c8165d87b68ce2023a94de1c940c016f49a0db8d",
+    "06_probe_results.json": "886576f5e4f2cdb3cd961effc93b59a585badf1754f175ed46a28ef4efb2c8df",
+    "07_probe_scores.npz": "cb2b507c196cf1e2a3386dd672dab737138c77877a3481173459692f8cd4e5dc",
+    "08_source.npy": "6ea5de7771015cd74d952d913e51e126bce376dc4c9697fee8f68c572fccdcd5",
+    "09_slots.npy": "c85c1625e9209e2966cd8065d908adc875f425828d341d51eeaead6d83fcf451",
+    "10_probe_results.json": "fd402060df51601057e8673dcaff8a12d7a13b5b3b875feaca6fe0f7b7042aa4",
+    "11_probe_scores.npz": "aa924d2acda3426652958d23badfd0c56acd22be1c022ba62ab418b8c82ebf58",
+    "12_source.npy": "a2d3aa74d11f7da46c42ba0828e7db3e02ab65e0c5d5b0748fd41647f9711f19",
+    "13_slots.npy": "1e0e80048adf82e0bdda67cf4be31e5c1ea94c939d658f1cdc8bd52ed9a1b60b",
+    "14_probe_results.json": "a21fafe3365e4b5f181be0fffc071ba10079f62f92c63f8fba3827d69aed1f97",
+    "15_probe_scores.npz": "624da70c1a5839950c48de9c652dc612db53ae6c5cad9cd2d393799f4f5db890",
+    "16_source.npy": "8217f943c298073bd893af81944d802f465ae719b7a4be9006a218298c0b5783",
+    "17_slots.npy": "08bdb013c6555becd73105e7e7d7b085f50b73ea7da985c1ab2d6ec70c4ecc20",
+    "18_probe_results.json": "89547f59ca67b5c7cc067f7a5c19d2a835419f36005d14f1db22a73f225f89ba",
+    "19_probe_scores.npz": "2f4b6bb262b32f26be6c342ae108a1e5717fe470cfc4e1c2f96081466caf95cf",
+    "20_source.npy": "d86c29fbf0c5f3077cfa543b39eb33a1e35c917180a5aea9b71c361a7ceae8ba",
+    "21_slots.npy": "4e9f348ad1365f16b5ef1434454cd28a156958da43a54c84b8d2cd629f2d482e"
+  },
+  "decision": "Existing original validation choices vs. geometry-validation choices locked before evaluation. Fit only the recorded families and regularizers on the original training partitions.",
+  "primary": "Accuracy over 24 new scene pairs per regime, averaged over the same 36 configurations per encoder/stage. Frozen scores share the candidate and image protocol."
+}

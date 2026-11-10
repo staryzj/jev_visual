@@ -1,0 +1,2882 @@
+[
+  {
+    "uid": "arrow:00:up",
+    "row": {
+      "uid": "arrow:00:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-00-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:00",
+    "box": [
+      235,
+      258,
+      290,
+      313
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "bc8c21eb14ad31bb5e6c1a5f282387c939e3341efc24525e3f6afdce58d7b46d",
+    "file": "cc507cce0213907bf6a40a19eb4ca9f4c8bfef94ff2d50fdaae1bd8ff13f3503"
+  },
+  {
+    "uid": "arrow:00:down",
+    "row": {
+      "uid": "arrow:00:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-00-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:00",
+    "box": [
+      235,
+      258,
+      290,
+      313
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "c835ad699ab74deb0618f20d1488a8e067a06e03dbcabefdbf59633ae9911142",
+    "file": "f8c7a529ec855672785ac87f4557584dfbd1a644100dd3e3c4057c28febc9fa8"
+  },
+  {
+    "uid": "arrow:01:up",
+    "row": {
+      "uid": "arrow:01:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-01-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:01",
+    "box": [
+      316,
+      114,
+      379,
+      177
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "e9bbd0690e0165d7d4a2d856e95e59a3c8258d6cc2a97531cde9e6b6e962c058",
+    "file": "c8f7700a0773bcd51601d676e4618eefe18d64d2c4ebe63930a2bfe209b1ce16"
+  },
+  {
+    "uid": "arrow:01:down",
+    "row": {
+      "uid": "arrow:01:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-01-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:01",
+    "box": [
+      316,
+      114,
+      379,
+      177
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "9c1e55b7c3cf56781732a330cac2f82124d88c0f4fabc2ff27504678865d4d5c",
+    "file": "d0ce9ef4cd2d36e0bf14085a84cc9f335e8ac27d5e1e46858e74c25a26364bd0"
+  },
+  {
+    "uid": "arrow:02:up",
+    "row": {
+      "uid": "arrow:02:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-02-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:02",
+    "box": [
+      232,
+      289,
+      297,
+      354
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "829f01255932da9311d9bc6c92958ec103da9ac9f76b79e2415adee2f1c78629",
+    "file": "c80d6b7665d72ded73d3729dacc428d39a8afd9d062a856e74819f2a7447a3af"
+  },
+  {
+    "uid": "arrow:02:down",
+    "row": {
+      "uid": "arrow:02:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-02-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:02",
+    "box": [
+      232,
+      289,
+      297,
+      354
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "98db1c600520b37cd4c0ace5ee3d4a2335b04534a9f667171e8bc69ae3d02ff3",
+    "file": "2303156e93e42aa2f45f2a607e84b89468397c3ac7c1fd361bd0379a27c30b21"
+  },
+  {
+    "uid": "arrow:03:up",
+    "row": {
+      "uid": "arrow:03:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-03-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:03",
+    "box": [
+      227,
+      221,
+      281,
+      275
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "edee77bcd9de443f7703d8c754e68879b45327b17dd5bdb578a6fcaeda2955c5",
+    "file": "733e679a74e7884d43d0fb7d84aa4e6fcf87543f3910a71af396e75b23b0e04a"
+  },
+  {
+    "uid": "arrow:03:down",
+    "row": {
+      "uid": "arrow:03:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-03-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:03",
+    "box": [
+      227,
+      221,
+      281,
+      275
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "58a004e27a3dff645d1ba8c7f4ec95e3fd6d880d6997ca163598c52ebc52f412",
+    "file": "7eafe9a216b938834979f7ba7e01692168d1380e0fd64f13fcb3165468a0d6c7"
+  },
+  {
+    "uid": "arrow:04:up",
+    "row": {
+      "uid": "arrow:04:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-04-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:04",
+    "box": [
+      287,
+      242,
+      355,
+      310
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "3e907cae4efc4a30ec9a6d28fce2dafbce7ca47bc5eee74fcefcf246b4563fb5",
+    "file": "385355e0e6b8720508261c911fcf1e945c3b571aa747cf2f8aa1c50239cd73d1"
+  },
+  {
+    "uid": "arrow:04:down",
+    "row": {
+      "uid": "arrow:04:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-04-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:04",
+    "box": [
+      287,
+      242,
+      355,
+      310
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "9c78aa10f8bfc367c3f84a674ba96b737e11368a6de5a4e6613aa588264a4bf5",
+    "file": "263627be1155a73643eb5f8c503f64181daaac9f0005d4342867bfc228eea440"
+  },
+  {
+    "uid": "arrow:05:up",
+    "row": {
+      "uid": "arrow:05:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-05-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:05",
+    "box": [
+      134,
+      301,
+      185,
+      352
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "9e0bbfacba783701332b4f8b31eeb28bccb50de56ec3a06efcfcf9e4c82b6988",
+    "file": "ab9c5e1a661103fbe40df5f98dbfe194eee9fc0413385c03fae3d6c657681e09"
+  },
+  {
+    "uid": "arrow:05:down",
+    "row": {
+      "uid": "arrow:05:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-05-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:05",
+    "box": [
+      134,
+      301,
+      185,
+      352
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "8ed829793a78713d75d753c4ebc7d88756432f0cb11b99a3836c9d6620a1d1ac",
+    "file": "06bc125c36538082a69c02bed99b568e3b62e715ebe82e08ad123767d01b5d08"
+  },
+  {
+    "uid": "arrow:06:up",
+    "row": {
+      "uid": "arrow:06:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-06-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:06",
+    "box": [
+      145,
+      241,
+      196,
+      292
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "a5992d2a2ea7d6d77bb6e12e946f67961d5c38adbfdb99272d6414a301db8794",
+    "file": "f125c42499665be08baa8dca6c3d9a22da489246388292d890f3a01ae079cc80"
+  },
+  {
+    "uid": "arrow:06:down",
+    "row": {
+      "uid": "arrow:06:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-06-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:06",
+    "box": [
+      145,
+      241,
+      196,
+      292
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "ec04b3f121add2f33f6c98e8042fca2347204123ca028c6cba7fdfcb1763c85b",
+    "file": "6f088c2d8ad24cd8c4985e88013de9d03186c3d19e0a203871c86cc1f9aef086"
+  },
+  {
+    "uid": "arrow:07:up",
+    "row": {
+      "uid": "arrow:07:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-07-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:07",
+    "box": [
+      169,
+      155,
+      224,
+      210
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "414b73546a22c753dfe2d62fdcc627fde6edcccaa9218b0dcb68c1f6af7d6f68",
+    "file": "7000a02cb29b5914213bbc37ae39722fbff552ad133442c582d9b2dc1364a623"
+  },
+  {
+    "uid": "arrow:07:down",
+    "row": {
+      "uid": "arrow:07:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-07-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:07",
+    "box": [
+      169,
+      155,
+      224,
+      210
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "35f6fe65cf8029454234df465c8dd447358b5dd9392cd36a161d96257a8c6aa7",
+    "file": "a7d855e45615c1144537c1c6d350585fcb3db70052d8bdd730aeac119ad7d69e"
+  },
+  {
+    "uid": "arrow:08:up",
+    "row": {
+      "uid": "arrow:08:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-08-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:08",
+    "box": [
+      154,
+      278,
+      202,
+      326
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "8557c773839953410bb40f077f9843030cd07857d99e6838b162d6a9371ffac0",
+    "file": "f597d6e285ef459ef835c769a66457772eabb21c33c07bc2b1e43d3d3d8320a7"
+  },
+  {
+    "uid": "arrow:08:down",
+    "row": {
+      "uid": "arrow:08:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-08-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:08",
+    "box": [
+      154,
+      278,
+      202,
+      326
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "193c3877f10b2ce9cb7d03422376bb2713ff68997ebf159ae8debfb5f7e3ab98",
+    "file": "49e1fedab591d40847d104bd66b0def5e85f41a9e19c327e785b3ab8037189b9"
+  },
+  {
+    "uid": "arrow:09:up",
+    "row": {
+      "uid": "arrow:09:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-09-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:09",
+    "box": [
+      121,
+      162,
+      187,
+      228
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "2a5a05ffe3be922df343d123f5c3e328885ba277485d2f29db326428d15e3a36",
+    "file": "9fe1d4a9a1c6f68cdd83ced1f15933cd7a825ef342a3b1eaaa322914508f9e74"
+  },
+  {
+    "uid": "arrow:09:down",
+    "row": {
+      "uid": "arrow:09:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-09-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:09",
+    "box": [
+      121,
+      162,
+      187,
+      228
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "27553fdda737b05133e5090d645164aac5a0dcba4b5cfdb724a00a4e0140362d",
+    "file": "af179e1e0eb6dffcd3584f509f63fa7f6e66077a2a8f360c2048ea92299f7dc2"
+  },
+  {
+    "uid": "arrow:10:up",
+    "row": {
+      "uid": "arrow:10:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-10-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:10",
+    "box": [
+      346,
+      160,
+      411,
+      225
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "622231f65302b9deb9699854d791066b8edaba4d4898d24a9416cbc008380cf0",
+    "file": "7a30159805b70d38258c4ae25b1f5b69490c424f197964671428002609ef324e"
+  },
+  {
+    "uid": "arrow:10:down",
+    "row": {
+      "uid": "arrow:10:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-10-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:10",
+    "box": [
+      346,
+      160,
+      411,
+      225
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "1e705b4d1e29e37f906a454668079b22a422c501771dad7678b6831415d6704f",
+    "file": "3b8287bbe5af633b61b609f67924e533b462617d921a13112df1ed4af711978a"
+  },
+  {
+    "uid": "arrow:11:up",
+    "row": {
+      "uid": "arrow:11:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-11-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:11",
+    "box": [
+      142,
+      183,
+      203,
+      244
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "ea1f16cca4c11be3d1a28d4330f1b2b8c198acf2c564a873d696ef8d51a9e218",
+    "file": "6dc97ac3f54b0d260163e4b64e776c9d9121b72abe759b3f6fc0c14197522dbe"
+  },
+  {
+    "uid": "arrow:11:down",
+    "row": {
+      "uid": "arrow:11:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-11-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:11",
+    "box": [
+      142,
+      183,
+      203,
+      244
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "a3d26718a0d00c68e070fd2f8cf3ff789b630bfcb66792d12c941804db1df830",
+    "file": "b456bddc692fe9bca94de0361472f281b1a2fdb74ea62225a0cc0203579e2aaa"
+  },
+  {
+    "uid": "arrow:12:up",
+    "row": {
+      "uid": "arrow:12:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-12-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:12",
+    "box": [
+      134,
+      152,
+      198,
+      216
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "e5c4e1e48dbc8051bc0d7d7fb5253c2ef627d57c662a17c98a9941c74dff9030",
+    "file": "33672f099ac6340ea463b268a5174e2a15fc41a1748ed094cdaf149dc421e45a"
+  },
+  {
+    "uid": "arrow:12:down",
+    "row": {
+      "uid": "arrow:12:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-12-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:12",
+    "box": [
+      134,
+      152,
+      198,
+      216
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "eda857e82056193fb0e66babd99d40b3a86172b993f32f9fb26c56469be81019",
+    "file": "3e5b0d151bd19d29a9580098e6274c70e57faf032cd638bd71af2f53c159c370"
+  },
+  {
+    "uid": "arrow:13:up",
+    "row": {
+      "uid": "arrow:13:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-13-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:13",
+    "box": [
+      275,
+      199,
+      335,
+      259
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "edd0d8d6397a6b7b6ab658a7161df6d47ac311451ac1c7fd6f2463ba731dcbe2",
+    "file": "0dd5f1c7a61c726a0e87951b5e18d5a0373c23ed9676e0c6504af7243e65ff23"
+  },
+  {
+    "uid": "arrow:13:down",
+    "row": {
+      "uid": "arrow:13:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-13-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:13",
+    "box": [
+      275,
+      199,
+      335,
+      259
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "e12235c5ceea185f28cb2d06160028582f673567f16d71deefa39d89f8794b0b",
+    "file": "dd829e14b3c196a624357af6716b36346beccdc5a363d3d5a2920c322625f1b4"
+  },
+  {
+    "uid": "arrow:14:up",
+    "row": {
+      "uid": "arrow:14:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-14-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:14",
+    "box": [
+      156,
+      242,
+      215,
+      301
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "56492e5c4c8855cdae4de310628aeff85b878da7efe5a4668faf343670f9956c",
+    "file": "04f3666beb48a9c36364658eb90565f81883173cee46f689c465f1a2fe68d94d"
+  },
+  {
+    "uid": "arrow:14:down",
+    "row": {
+      "uid": "arrow:14:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-14-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:14",
+    "box": [
+      156,
+      242,
+      215,
+      301
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "54e6b6bfef8bedfbd16668f0802a39651215a58f08f448eee5baa87f08e45f23",
+    "file": "6c54e1f1ec1b43c84a0876bf235125563640a78cf84df55a6185c465eb81d40e"
+  },
+  {
+    "uid": "arrow:15:up",
+    "row": {
+      "uid": "arrow:15:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-15-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:15",
+    "box": [
+      155,
+      231,
+      200,
+      276
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "30c88f2a0f31e08386fb9ad03cdad1b30f14241f6385d3ff34e87735e9e215f1",
+    "file": "f093870b994b1d0314469094899c9e0033659b23b3bc350dbc4914f707e86868"
+  },
+  {
+    "uid": "arrow:15:down",
+    "row": {
+      "uid": "arrow:15:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-15-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:15",
+    "box": [
+      155,
+      231,
+      200,
+      276
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "fea581c3cca574eafcadc2d7fab9c3b01439d252b41b47c8037927518ffa2066",
+    "file": "1b6ed9073da41020e57d39d64fc05331647bff0dd96a6cf34711dc694f80e76d"
+  },
+  {
+    "uid": "arrow:16:up",
+    "row": {
+      "uid": "arrow:16:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-16-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:16",
+    "box": [
+      324,
+      253,
+      387,
+      316
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "5414410db1c5f63d375f00abf1727cef5b7875665c81f0bb45a9a26f8de3eae0",
+    "file": "b0ca546df3e591069aed3b4e3b233273150326a38afcda1b3b49a620f6ddb015"
+  },
+  {
+    "uid": "arrow:16:down",
+    "row": {
+      "uid": "arrow:16:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-16-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:16",
+    "box": [
+      324,
+      253,
+      387,
+      316
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "39912c2d43fdb4e21a8b58e7a8d2acc5fcb476f45f269f6e8ed02f02dd7a1c82",
+    "file": "def08e6bb1bd50ceedd1211779713961a42efd439c458c6dd9395c695f990299"
+  },
+  {
+    "uid": "arrow:17:up",
+    "row": {
+      "uid": "arrow:17:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-17-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:17",
+    "box": [
+      125,
+      299,
+      176,
+      350
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "0a06942b93a6ed93ae9a82b056fac6973b8782ebe67f3c1c7128c01e045bbd6a",
+    "file": "6285724a040c9298e70072f5792dae9db36c87f23349607d44fb84b1b7b99820"
+  },
+  {
+    "uid": "arrow:17:down",
+    "row": {
+      "uid": "arrow:17:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-17-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:17",
+    "box": [
+      125,
+      299,
+      176,
+      350
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "644093ee69af3bd6e260a5598cc32727be3736a09e13b5a71b2e0b43e68216f1",
+    "file": "e7a1cea766cd950ae1667d91baf4854d7bed52c89c7ff6ef4d565fac61ac4d40"
+  },
+  {
+    "uid": "arrow:18:up",
+    "row": {
+      "uid": "arrow:18:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-18-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:18",
+    "box": [
+      235,
+      271,
+      281,
+      317
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "6b43799ff2ae20c9a5fec28f4d92a76a53623c7dd9305c37f1d2628426d395ca",
+    "file": "74dcaf16571621e1a687c7a8a9c212708a7765c405ea31ba94cb3d16b6be8fc1"
+  },
+  {
+    "uid": "arrow:18:down",
+    "row": {
+      "uid": "arrow:18:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-18-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:18",
+    "box": [
+      235,
+      271,
+      281,
+      317
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "6091502560f014f2cd7f5e1f4a3b7d05a2d6d6c72f6a42bc8f093d696d5a9242",
+    "file": "d24ce2aa0fa0be3257b0e1419d71dd1e759c6704e0cb5f48f03d65ef76dd8095"
+  },
+  {
+    "uid": "arrow:19:up",
+    "row": {
+      "uid": "arrow:19:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-19-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:19",
+    "box": [
+      288,
+      129,
+      348,
+      189
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "93c21a6df91e50c4db1f2204c6c4a928b6007f09a00896847f68e688e3d6c442",
+    "file": "2bbb76996a97a7668b2edfd45249c4f49cf482eb16ba3fe6add416ab608a5cd8"
+  },
+  {
+    "uid": "arrow:19:down",
+    "row": {
+      "uid": "arrow:19:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-19-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:19",
+    "box": [
+      288,
+      129,
+      348,
+      189
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "b443f2e1f7e4a3387abd4d36171e46cb8447c635264e98eeb3c605575fb82013",
+    "file": "e49fde1a128e0652ed9b70c825e8e28709e5d91213dd5e8eb842c6aa899f029b"
+  },
+  {
+    "uid": "arrow:20:up",
+    "row": {
+      "uid": "arrow:20:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-20-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:20",
+    "box": [
+      229,
+      174,
+      279,
+      224
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "bc87addab1063d6c45b787fc406281af3fda40f0dbe136049a56e263abf88036",
+    "file": "7258f8bcc20ddeaf3068484eb2f9d58abaca23f94be50b4ecdc8dfb76aea7043"
+  },
+  {
+    "uid": "arrow:20:down",
+    "row": {
+      "uid": "arrow:20:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-20-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:20",
+    "box": [
+      229,
+      174,
+      279,
+      224
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "8be3d90f7dca2cd20e9542a672e0cd49bc02ec898d4ec5c004897dac82668f95",
+    "file": "2a8b3367de52bd651a93ee74f5991a1d42d82e9e7d07054bf277bcefba43a0a8"
+  },
+  {
+    "uid": "arrow:21:up",
+    "row": {
+      "uid": "arrow:21:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-21-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:21",
+    "box": [
+      173,
+      168,
+      227,
+      222
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "4cff4e26b5ca44a9982c07f4a945b34c5544867eeecffd8e4f2e6319031b1167",
+    "file": "41aedb0a1b5eb935f3a82f96ed4e0449ea3d8f4013cfd6b51268177c823c4c34"
+  },
+  {
+    "uid": "arrow:21:down",
+    "row": {
+      "uid": "arrow:21:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-21-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:21",
+    "box": [
+      173,
+      168,
+      227,
+      222
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "b6d02a45c4af2f5e73f15ddf8950f0d62e96078362fdd58fed1f15c9058c71b4",
+    "file": "fc23df8985a7f0c842875c5a46e63cd8935bc32625af90dcb1d7a3868614cb45"
+  },
+  {
+    "uid": "arrow:22:up",
+    "row": {
+      "uid": "arrow:22:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-22-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:22",
+    "box": [
+      193,
+      244,
+      260,
+      311
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "dbdff831beb9dd68c6be71c2813de820d87ce2d33161b9ebf821c7499ea439dc",
+    "file": "199aa0a490f6fd06890d1d04ab7768dd1b7e63487c098f6736c9f5c09bba2dd3"
+  },
+  {
+    "uid": "arrow:22:down",
+    "row": {
+      "uid": "arrow:22:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-22-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:22",
+    "box": [
+      193,
+      244,
+      260,
+      311
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "5dbb6817e5d89d6b447f6f74d0b3566db946c061b03e0c1a5c743171587ada28",
+    "file": "6e0e681c0f4ef57eb3aa34f678198ac605dfb58f3717182e4d8f66d6de8cc9fd"
+  },
+  {
+    "uid": "arrow:23:up",
+    "row": {
+      "uid": "arrow:23:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-23-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:23",
+    "box": [
+      242,
+      320,
+      292,
+      370
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "f982a50e96315ab7c9e5e9d405f05b705685339f6a848eb6925a135e060876ed",
+    "file": "b783503bee5115d642cdaeb0ea45b6000af2ea2597307adb682c1a0f3d533191"
+  },
+  {
+    "uid": "arrow:23:down",
+    "row": {
+      "uid": "arrow:23:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-23-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:23",
+    "box": [
+      242,
+      320,
+      292,
+      370
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "b9599ea08ad6b2c37d83f18a7de9e3821c1ff7da8ef63e95736368b4cda16d53",
+    "file": "fd47a9afca29bee115b38ce972867697727a0218fcd6f0cc62dfc459dd48dd57"
+  },
+  {
+    "uid": "arrow:24:up",
+    "row": {
+      "uid": "arrow:24:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-24-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:24",
+    "box": [
+      134,
+      208,
+      198,
+      272
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "c28c7a7eb32e132ff0c939c189f30ecf464cdb7b6617b89a9f08f26e6afcf760",
+    "file": "1dc2d64a29336f52947bf2976e988d8db5dd98b132963f9978bdb785326d9484"
+  },
+  {
+    "uid": "arrow:24:down",
+    "row": {
+      "uid": "arrow:24:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-24-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:24",
+    "box": [
+      134,
+      208,
+      198,
+      272
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "b68b35b5d92bfe8b07d0ad74dfb964cd7fcecdd1cd23a6cb11daddd1da8e7d57",
+    "file": "0268eb81a3ebd02f599361a6cc4c54716b23848a692a385c711bf20fda8cfc36"
+  },
+  {
+    "uid": "arrow:25:up",
+    "row": {
+      "uid": "arrow:25:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-25-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:25",
+    "box": [
+      262,
+      164,
+      320,
+      222
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "aa56f416885fbd967dfa0ccbb917cf5a7fbfb39718d6a62aca027803eac8e554",
+    "file": "287e30c6e18536429ff3c2ef6ea3227c8a353fd44a3a9a2500ac77cd396a7a9c"
+  },
+  {
+    "uid": "arrow:25:down",
+    "row": {
+      "uid": "arrow:25:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-25-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:25",
+    "box": [
+      262,
+      164,
+      320,
+      222
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "7dbd7dc680e35ab29fa4179d403c1c11bd826ff3d390ead0a997536af77a825f",
+    "file": "11373b638cb3425dd76573c6af7e9dbc2a7e604f4838d9c8ac12415630f847f9"
+  },
+  {
+    "uid": "arrow:26:up",
+    "row": {
+      "uid": "arrow:26:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-26-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:26",
+    "box": [
+      149,
+      241,
+      209,
+      301
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "f63fd9976d2c11d96e5f94ff5b24541795ddb7393d25426c5522b5f5b5dce65e",
+    "file": "05e6b4d19e84682cf651d248d4f5bcc1b73a13b9202e6cada3fe2900e18af464"
+  },
+  {
+    "uid": "arrow:26:down",
+    "row": {
+      "uid": "arrow:26:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-26-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:26",
+    "box": [
+      149,
+      241,
+      209,
+      301
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "a1f9d134780e4fa8ff46095ce55d8bf5b989a36ca0faab2b991db54caee8d7a8",
+    "file": "f08f107044163d117adb968c24359fffa9bac304adff3b614d6b04e7254ed97d"
+  },
+  {
+    "uid": "arrow:27:up",
+    "row": {
+      "uid": "arrow:27:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-27-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:27",
+    "box": [
+      188,
+      148,
+      252,
+      212
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "2886470304457db3784c7e58127318d509ecc606c4a8ebc166a555b847bbb9e8",
+    "file": "5930aee297e749cb5d813d1c6111536e66f7b3279435c5ab1417eab2be9738b6"
+  },
+  {
+    "uid": "arrow:27:down",
+    "row": {
+      "uid": "arrow:27:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-27-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:27",
+    "box": [
+      188,
+      148,
+      252,
+      212
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "e33fa4be587f43bb6961848e8a89e95b8efa76f7eb2557c4a5da6cb477fc3b61",
+    "file": "ea14a82cc8308e01e556166b1a7378f787e2d1f95e5b49672448d89afe7cad41"
+  },
+  {
+    "uid": "arrow:28:up",
+    "row": {
+      "uid": "arrow:28:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-28-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:28",
+    "box": [
+      268,
+      145,
+      316,
+      193
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "9d7c0329c96396430fa43fbd1b7beeacc583cc89b50cb69ae57eeff8893b9451",
+    "file": "593cc15aee95b25789f4f9a467b639427ff9571b06fe66c0df3299b1a1def85e"
+  },
+  {
+    "uid": "arrow:28:down",
+    "row": {
+      "uid": "arrow:28:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-28-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:28",
+    "box": [
+      268,
+      145,
+      316,
+      193
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "55d207656b89ebc570b61c7f0a1ef26ccc37db54b4550e76e0aa18328813afc0",
+    "file": "899e5bbbe267fe30c837cb13ad6a98f3204abe224e98eb5c2f806d28f25856da"
+  },
+  {
+    "uid": "arrow:29:up",
+    "row": {
+      "uid": "arrow:29:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-29-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:29",
+    "box": [
+      120,
+      206,
+      179,
+      265
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "0a7f299e6173a6b53f96318e886de6f6bf7b7153db18ebe0e8dfbb3a02e60596",
+    "file": "45396a2c4c35a61321045f6be849d08d0ca6a6b729eb8b2049cb1b10ea92cef2"
+  },
+  {
+    "uid": "arrow:29:down",
+    "row": {
+      "uid": "arrow:29:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-29-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:29",
+    "box": [
+      120,
+      206,
+      179,
+      265
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "376d84b4e0667a0baa7abf803231d9e7c497b4464e6b73584a2846e6c1d7b480",
+    "file": "108e5a7fb8add25b75d709c272dd1ac1a2372ec211f3bcd94ea0239c036015d0"
+  },
+  {
+    "uid": "arrow:30:up",
+    "row": {
+      "uid": "arrow:30:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-30-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:30",
+    "box": [
+      130,
+      166,
+      195,
+      231
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "fe42cf93b16963757a00fb36fe78e7c8ba2a1840dfbf0883bcf49e083a8812d0",
+    "file": "7a77ab2a9b694edbdddcb2c483286daf44e8282f2e0395590227984e9dbb3f85"
+  },
+  {
+    "uid": "arrow:30:down",
+    "row": {
+      "uid": "arrow:30:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-30-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:30",
+    "box": [
+      130,
+      166,
+      195,
+      231
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "e6e5cd7bea4b26a225610b8298cbb87ad0ce004289fbdcfb374718f7d59c2b62",
+    "file": "93f6556bd23f00f8a4f6089c07ac8103ebbad3b2f0e9de75a94c491651ebb3b0"
+  },
+  {
+    "uid": "arrow:31:up",
+    "row": {
+      "uid": "arrow:31:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-31-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:31",
+    "box": [
+      213,
+      148,
+      260,
+      195
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "9a880ebc1ce67938de9c9ae0163e34e49abff3178d66c82b43b4954d0fc2cf1b",
+    "file": "7b3ad0f27a1b272f4ff4496b0c65344ab4ac051366e4dcb0371d7de810abd49b"
+  },
+  {
+    "uid": "arrow:31:down",
+    "row": {
+      "uid": "arrow:31:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-31-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:31",
+    "box": [
+      213,
+      148,
+      260,
+      195
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "aa9be15ce5952320f5c8a1bf176565637d6d98585500056f33e1a5b34abb54ef",
+    "file": "5a748d623cedd0ca86c6c2ae46c221cc14828ecbb45cef4470d14128f59df9da"
+  },
+  {
+    "uid": "arrow:32:up",
+    "row": {
+      "uid": "arrow:32:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-32-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:32",
+    "box": [
+      144,
+      200,
+      204,
+      260
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "1ba3bd6b14792db54a5be655a45c59aebe453d313a532abba1fca4faaab986a3",
+    "file": "18833b90149a534d273c2a6f1a5bcf186e38b410c8c5db11c302c4ddf5838d60"
+  },
+  {
+    "uid": "arrow:32:down",
+    "row": {
+      "uid": "arrow:32:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-32-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:32",
+    "box": [
+      144,
+      200,
+      204,
+      260
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "20fe02aa4111cd65a1e374e2d3175481a6d3ce88d0f668d21acb52b25ac98523",
+    "file": "8036373b9872205012fa7241670f9bb13ddccb692893ae7c48aa79d060aeff8f"
+  },
+  {
+    "uid": "arrow:33:up",
+    "row": {
+      "uid": "arrow:33:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-33-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:33",
+    "box": [
+      169,
+      204,
+      216,
+      251
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "c14337aabc9aed2c69e2c7dd76fe4cb6fd4dfa70e92dea2a48af691aa7380c89",
+    "file": "b01caf66ecba7b3744ed6de8418c45644e0575a5b2fc643def185839d9a13abd"
+  },
+  {
+    "uid": "arrow:33:down",
+    "row": {
+      "uid": "arrow:33:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-33-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:33",
+    "box": [
+      169,
+      204,
+      216,
+      251
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "1a72b42146ca1df5283008d7bdab9608683946e4994e83e422459cd1da450404",
+    "file": "35c73c077eaf242c33d95ec364155cfd2a0eed2b664033ba2c4ee4976d0db6e5"
+  },
+  {
+    "uid": "arrow:34:up",
+    "row": {
+      "uid": "arrow:34:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-34-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:34",
+    "box": [
+      247,
+      161,
+      304,
+      218
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "2169a555962ee5e73fd24ccad80545180679a8663e71b3c60fe2881c4ee013bd",
+    "file": "3c36e94e74adb3378a2eb0bdad985a4430881757f1cdee800cc378e630344711"
+  },
+  {
+    "uid": "arrow:34:down",
+    "row": {
+      "uid": "arrow:34:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-34-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:34",
+    "box": [
+      247,
+      161,
+      304,
+      218
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "36ed974cd5efbee6c66a05d81465ec180edd153a6335604d16f7eef860423fee",
+    "file": "2cbf284e0071a7d9e1e6dd36a2a287b3f5b1f48770422255aa6c6fe398d95518"
+  },
+  {
+    "uid": "arrow:35:up",
+    "row": {
+      "uid": "arrow:35:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-35-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:35",
+    "box": [
+      137,
+      266,
+      205,
+      334
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "0808dbe0b54ca1819664e5f8193b0d695f6e0c11f47e89bbdbb6b33638b5cdab",
+    "file": "f4bddabcb85eb297cec95b786ecfbfb38135513058e9b5be4ddabf255ce7b984"
+  },
+  {
+    "uid": "arrow:35:down",
+    "row": {
+      "uid": "arrow:35:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-35-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:35",
+    "box": [
+      137,
+      266,
+      205,
+      334
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "b3bf85caf9640f706468a92c058bdfc2447f69c64232117c00982ab927229782",
+    "file": "7461498374884171b8ccf012b11ce9f736e3b6e4f2e863da55548ae026c16f60"
+  },
+  {
+    "uid": "arrow:36:up",
+    "row": {
+      "uid": "arrow:36:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-36-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:36",
+    "box": [
+      223,
+      245,
+      270,
+      292
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "c8c212af7ee2ce031d168a6d3ca9048e3dc2bfaa4ff6e4e964511313e8b4b512",
+    "file": "c0b919d4c4aef96b24f45833a23233cde5deb4a7009d73670fe7c908c739458a"
+  },
+  {
+    "uid": "arrow:36:down",
+    "row": {
+      "uid": "arrow:36:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-36-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:36",
+    "box": [
+      223,
+      245,
+      270,
+      292
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "2e8e2879049ef073081f619545e84b634f9e225d4e2620924351786c27b8a215",
+    "file": "0eef0e9b1d4114f1012321712e269554655ce27295cc12e641754efdbf9af3a6"
+  },
+  {
+    "uid": "arrow:37:up",
+    "row": {
+      "uid": "arrow:37:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-37-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:37",
+    "box": [
+      175,
+      253,
+      232,
+      310
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "f6a5181e970811bf430b4a2ad64f861ac3887a308d13266d4b4079cb40b27dda",
+    "file": "9e56d806381696b2cfd5801bad20def72df070ff472b0c5a9f545c194d23c165"
+  },
+  {
+    "uid": "arrow:37:down",
+    "row": {
+      "uid": "arrow:37:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-37-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:37",
+    "box": [
+      175,
+      253,
+      232,
+      310
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "7b9288c5b3980ac1c8e92654bf31909ac55db3e68bff56d7e3f946865885fff1",
+    "file": "f9229d2347fbefb2d3e833610aee50f2f440f855afdd00a272950cb95d81bbef"
+  },
+  {
+    "uid": "arrow:38:up",
+    "row": {
+      "uid": "arrow:38:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-38-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:38",
+    "box": [
+      225,
+      166,
+      286,
+      227
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "2474ae2f34663c195a1d136793cdd90f989a8d9fc6da97b54620e6ba3710e997",
+    "file": "567e12e3c0026d4373a896ac3b65c6c0f1fa43342e86baa7dab01373d61d8a99"
+  },
+  {
+    "uid": "arrow:38:down",
+    "row": {
+      "uid": "arrow:38:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-38-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:38",
+    "box": [
+      225,
+      166,
+      286,
+      227
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "2ac57ecb746d9c92c4522556a9d665b22f7f0c8c54d818d6f4982584a2b7677a",
+    "file": "277dbe245ac3003304cbeee81c13fd4ce8a02fce39d1e0eb886155698c99689d"
+  },
+  {
+    "uid": "arrow:39:up",
+    "row": {
+      "uid": "arrow:39:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-39-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:39",
+    "box": [
+      242,
+      271,
+      295,
+      324
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "454f5c4b86f4674ecf58b52dcefae309164182810a393459a2b182b3eb3d0ad8",
+    "file": "21114e6d3a35a1deb8fa03ad57bf063f27893ff8b225a240e26426da15833cf6"
+  },
+  {
+    "uid": "arrow:39:down",
+    "row": {
+      "uid": "arrow:39:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-39-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:39",
+    "box": [
+      242,
+      271,
+      295,
+      324
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "9b44ff14e255f2b92391aaf5f5ed8b4e55e123f23054373373ad0db492496fbb",
+    "file": "3b5cc2eed33f232c0a791de927d0ec7ace7bd5593598e08d2cecaf448165c3e3"
+  },
+  {
+    "uid": "arrow:40:up",
+    "row": {
+      "uid": "arrow:40:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-40-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:40",
+    "box": [
+      288,
+      252,
+      352,
+      316
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "fd2242977ee7e663d75cdac2c9d1185bd4e8a704ee75706d6fb101e75265cf79",
+    "file": "a81890234c992f90527818f2170187c56fc9a783451ba6d83cc3a490a48b9ae2"
+  },
+  {
+    "uid": "arrow:40:down",
+    "row": {
+      "uid": "arrow:40:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-40-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:40",
+    "box": [
+      288,
+      252,
+      352,
+      316
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "6730898f4b694d21301831030a0f2fb18be3c320a4615d4062e51568b10adb34",
+    "file": "85788b94352dccc53527d9e7309322451e0e22745884f987d125b6bf3f0cad7d"
+  },
+  {
+    "uid": "arrow:41:up",
+    "row": {
+      "uid": "arrow:41:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-41-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:41",
+    "box": [
+      120,
+      199,
+      180,
+      259
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "f389d0074ecdaf60e668faace500b3ea94066d84578b1944fdc5812decf4ba39",
+    "file": "b714e2fa09b7b3896b167603ffcf8777cef711eb405ffce17ed23b85e8fa4935"
+  },
+  {
+    "uid": "arrow:41:down",
+    "row": {
+      "uid": "arrow:41:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-41-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:41",
+    "box": [
+      120,
+      199,
+      180,
+      259
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "f64fbafdb83f4245faa0e451fdfb6c85d46bf63ebc28e2a23e79d82103b1d3a9",
+    "file": "909cb1973246b8efaa40926eb5dcda2fd9c7db7fb2916a9bb636215e4af869a9"
+  },
+  {
+    "uid": "arrow:42:up",
+    "row": {
+      "uid": "arrow:42:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-42-up.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:42",
+    "box": [
+      209,
+      134,
+      267,
+      192
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "1e6746aa5d260d6ceaf18c35b7adf2697246b7f2e3e157ea71d16d697fbc2170",
+    "file": "1f84faf67a84db3f78113e262f5b75ebc8dac59fc6850bab91968966cfd63419"
+  },
+  {
+    "uid": "arrow:42:down",
+    "row": {
+      "uid": "arrow:42:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-42-down.png"
+      ],
+      "candidates": [
+        "down",
+        "up"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:42",
+    "box": [
+      209,
+      134,
+      267,
+      192
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "4ed5b74e63fd9ecac875d47c25215b25529b1a0cc779a7192a4843a8522b1f5c",
+    "file": "7bbc86e8a1e2892607c80b85850b18ab25c1d6dee766e1706122670d93ee62b6"
+  },
+  {
+    "uid": "arrow:43:up",
+    "row": {
+      "uid": "arrow:43:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-43-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:43",
+    "box": [
+      236,
+      135,
+      299,
+      198
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "3743749018b7a607a74bafeca00c638562fb4eebb8ba550e42b5fcd7cf8c01f5",
+    "file": "2abd1d5935442af546de892faa58f0f35a5111a3fd8de45d7293a072d9918ff4"
+  },
+  {
+    "uid": "arrow:43:down",
+    "row": {
+      "uid": "arrow:43:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-43-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:43",
+    "box": [
+      236,
+      135,
+      299,
+      198
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "42d36ded886b2cbce143fadef78df5151a6736a2e91022fddca0bb5aecef7ddc",
+    "file": "4af3560f6484439f20c4a18e0dd0f1a5f672f94f468c32c32f2103a06f2ae2a6"
+  },
+  {
+    "uid": "arrow:44:up",
+    "row": {
+      "uid": "arrow:44:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-44-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:44",
+    "box": [
+      210,
+      304,
+      277,
+      371
+    ],
+    "direction": "up",
+    "clutter": false,
+    "rgb": "33c0383f84d155a7ab61e0a09671083f857717a9eca4a8f6b4f9186eac8f48ff",
+    "file": "65b970a79f6b8f31b59a37c3f8a0f2909fd8f34d11450770d79d3fb5575a8ae2"
+  },
+  {
+    "uid": "arrow:44:down",
+    "row": {
+      "uid": "arrow:44:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-44-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:44",
+    "box": [
+      210,
+      304,
+      277,
+      371
+    ],
+    "direction": "down",
+    "clutter": false,
+    "rgb": "16d2e56c1d9065284ec088592fd231fc28d93f9b7583fabc5f20666c850622a8",
+    "file": "903faed9a677e400e7ee829c86d483a636b9d10f3d53361956f15af0b94960d3"
+  },
+  {
+    "uid": "arrow:45:up",
+    "row": {
+      "uid": "arrow:45:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-45-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:45",
+    "box": [
+      242,
+      207,
+      306,
+      271
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "7c9206ca7cf1c174cc3a927fc672630106af40c7be9a5aa1e9ab708199ea395f",
+    "file": "315083ee0f7771015e8a768882a8710c10e3622868cc3cac4e760f0e7dc5508a"
+  },
+  {
+    "uid": "arrow:45:down",
+    "row": {
+      "uid": "arrow:45:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-45-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:45",
+    "box": [
+      242,
+      207,
+      306,
+      271
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "c24801fbf4cd6f20d9774d7e7f83216945c425d2e92a27c215f166c0c6a93424",
+    "file": "3c11eb2610b4a6d98fdeb055a30bca75fa721ef64cb5b5e95ee0c2eaac0be92a"
+  },
+  {
+    "uid": "arrow:46:up",
+    "row": {
+      "uid": "arrow:46:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-46-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:46",
+    "box": [
+      306,
+      188,
+      367,
+      249
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "2cff4dd6c682855ae349cb0bf05d82ced26b6bd788903b5141ec66a04b9f6004",
+    "file": "267fbccb0ca39d5441f5019f8bea21cb037ebf7339ee363b2f96328ff9b1a16b"
+  },
+  {
+    "uid": "arrow:46:down",
+    "row": {
+      "uid": "arrow:46:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-46-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:46",
+    "box": [
+      306,
+      188,
+      367,
+      249
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "5050b51686070fc2f60bbbbb7f30b02ac3a0cae78b88d0a405166ad4b5c6bff2",
+    "file": "e4a0b081e895b0888653db04148b71902317207a993a413eb058bb65377d442f"
+  },
+  {
+    "uid": "arrow:47:up",
+    "row": {
+      "uid": "arrow:47:up",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-47-up.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 0,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:47",
+    "box": [
+      191,
+      241,
+      257,
+      307
+    ],
+    "direction": "up",
+    "clutter": true,
+    "rgb": "b78b699372524aafb167d035c14751a1628370b09d716048b6925eb1806ca32c",
+    "file": "53e1457dfdbbef9399d63744d21e6127cde83929dde8a89cb9139de5e39e5706"
+  },
+  {
+    "uid": "arrow:47:down",
+    "row": {
+      "uid": "arrow:47:down",
+      "dataset": "arrow_orientation",
+      "images": [
+        "arrow-47-down.png"
+      ],
+      "candidates": [
+        "up",
+        "down"
+      ],
+      "label": 1,
+      "question": "Which way does the arrow inside the black square point?",
+      "metadata": {},
+      "reference_answers": [],
+      "source_split": "test"
+    },
+    "scene": "arrow:47",
+    "box": [
+      191,
+      241,
+      257,
+      307
+    ],
+    "direction": "down",
+    "clutter": true,
+    "rgb": "21ac1fe80bf26bcea244e820d387b61839160a7ed5314ae85a7bb39bdd5fd89b",
+    "file": "2cc858ba93b5df2fdc1ba55640cce22cb5d5018398b90b1c8aa5f8096ca312a1"
+  }
+]
