@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "N": 48,
+  "checkpoint_sha256": "2025d3eacf01fd7a70bbc77361878dfd63bd225d8b22a2877fc9009efddd576c",
+  "optimizer_steps": 0,
+  "receiver": {
+    "live_lora_equal_published": true,
+    "live_head_equal_published": true,
+    "fully_resident": true,
+    "hidden_dim": 5120,
+    "load_seconds": 19.332976289093494,
+    "temperature": 2.5343690298472983,
+    "layers": 64,
+    "model": "27b",
+    "single_resident_language_copy": true,
+    "same_official_language_object": true,
+    "live_vision_equal_base_BF16": true,
+    "vision_tensors_checked": 333,
+    "native_vision_class": "Qwen3_5VisionModel",
+    "published_text_max_length": 4096,
+    "benchmark_total_max_length": 2048,
+    "size": {
+      "shortest_edge": 65536,
+      "longest_edge": 262144
+    },
+    "optimizer_updates": 0
+  }
+}

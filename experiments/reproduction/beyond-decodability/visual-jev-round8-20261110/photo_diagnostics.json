@@ -1,0 +1,23 @@
+{
+  "N": 256,
+  "top_agreement": 0.22265625,
+  "mean_spearman": -0.09921875000000002,
+  "matched_accuracy": 0.26171875,
+  "image_permutation": {
+    "average_accuracy": 0.2694453125,
+    "prediction_change": 0.539265625,
+    "randomization_range": [
+      0.2265625,
+      0.3125
+    ]
+  },
+  "question_permutation": {
+    "average_accuracy": 0.2439375,
+    "prediction_change": 0.4931328125,
+    "randomization_range": [
+      0.19921875,
+      0.28515625
+    ]
+  },
+  "scope": "500 test re-pairings per modality with frozen learned kernel coefficients, train-only projection. Mismatched inputs keep original labels to measure sensitivity."
+}

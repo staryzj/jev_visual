@@ -1,0 +1,207 @@
+{
+  "routes": {
+    "llava": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "2025d3eacf01fd7a70bbc77361878dfd63bd225d8b22a2877fc9009efddd576c",
+      "tap": "projected"
+    },
+    "internvl": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "045f2b6f308dea7d3e66b082a85d029da52b07a5889826aa6589f287ff1c15f2",
+      "tap": "raw"
+    },
+    "qwen": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+      "tap": "native"
+    },
+    "siglip2": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "beaecade641b9e504e34a24a8819d19c3c4f026ed0b66990daf59d0f31b41ba7",
+      "tap": "raw"
+    }
+  },
+  "inputs": {
+    "00_prepare.py": "e19358b5ee41de2ce9aaf6787c4d6d690a119c4c0d718d0c9d29e3a90455f6f9",
+    "01_worker.py": "4a3affaf445b2123aea920b04ad474ce5cfe6d3869a78c9ace3fca93f762445b",
+    "02_fresh.json": "e3e55184a2064c750bb5f2794b2a5555c4e84b80e21d08c1d5f4b87a6111d44d",
+    "03_fit.py": "9b19b0c407d2fd878db4954c977a1b6eccf40f596b618f3f6374d6c680f29ee7",
+    "04_synthetic.json": "19839bb973464c3761b1841d34c35324b770ee0e84aefc264caf36c16c9a5fa7",
+    "05_ood.json": "8c02a3c4505649bd7a5e0a28871bba9f11c91335c4b5427e300497568a02d7f1",
+    "06_interventions.json": "e07d041f148b9bbcbb191fbf3a8efa9cf2bec0cafcedb248e5e34b6ad76de294",
+    "07_plan.json": "49e7ced4e2653a41978d2f29773b4aa91dcd21694228e1fa2f94a1cae4ac5db3"
+  },
+  "dimensions": [
+    64,
+    128,
+    256
+  ],
+  "projection_seeds": [
+    107,
+    211,
+    503
+  ],
+  "partitions": [
+    {
+      "name": "original",
+      "fit": [
+        "train:00",
+        "train:01",
+        "train:02",
+        "train:03",
+        "train:04",
+        "train:05",
+        "train:06",
+        "train:07",
+        "train:08",
+        "train:09",
+        "train:10",
+        "train:11",
+        "train:12",
+        "train:13",
+        "train:14",
+        "train:15",
+        "train:16",
+        "train:17"
+      ],
+      "validation": [
+        "calibration:00",
+        "calibration:01",
+        "calibration:02",
+        "calibration:03",
+        "calibration:04",
+        "calibration:05",
+        "calibration:06",
+        "calibration:07",
+        "calibration:08"
+      ]
+    },
+    {
+      "name": "1287",
+      "fit": [
+        "calibration:05",
+        "train:15",
+        "train:13",
+        "calibration:00",
+        "calibration:04",
+        "calibration:01",
+        "calibration:06",
+        "train:16",
+        "train:12",
+        "train:09",
+        "calibration:02",
+        "train:06",
+        "train:05",
+        "train:11",
+        "train:10",
+        "calibration:08",
+        "train:08",
+        "train:07"
+      ],
+      "validation": [
+        "train:02",
+        "calibration:07",
+        "train:14",
+        "train:03",
+        "train:00",
+        "calibration:03",
+        "train:01",
+        "train:17",
+        "train:04"
+      ]
+    },
+    {
+      "name": "2399",
+      "fit": [
+        "train:13",
+        "train:11",
+        "train:08",
+        "train:01",
+        "train:10",
+        "calibration:07",
+        "calibration:06",
+        "train:09",
+        "calibration:03",
+        "train:02",
+        "train:12",
+        "train:14",
+        "calibration:02",
+        "calibration:04",
+        "train:05",
+        "train:06",
+        "train:00",
+        "calibration:05"
+      ],
+      "validation": [
+        "train:16",
+        "train:03",
+        "calibration:01",
+        "train:17",
+        "train:04",
+        "train:07",
+        "calibration:00",
+        "calibration:08",
+        "train:15"
+      ]
+    },
+    {
+      "name": "4127",
+      "fit": [
+        "train:08",
+        "train:10",
+        "train:14",
+        "calibration:00",
+        "train:06",
+        "train:03",
+        "train:15",
+        "train:05",
+        "train:16",
+        "train:09",
+        "train:04",
+        "calibration:02",
+        "train:07",
+        "calibration:01",
+        "calibration:04",
+        "calibration:06",
+        "train:00",
+        "calibration:08"
+      ],
+      "validation": [
+        "calibration:03",
+        "calibration:05",
+        "train:17",
+        "train:12",
+        "train:02",
+        "train:01",
+        "train:13",
+        "train:11",
+        "calibration:07"
+      ]
+    }
+  ],
+  "probe_families": [
+    "linear",
+    "kernel",
+    "mlp",
+    "attention"
+  ],
+  "neural_seeds": [
+    13,
+    37,
+    73
+  ],
+  "ridge_grid": [
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "decay_grid": [
+    0.001,
+    0.01
+  ],
+  "epochs": 120,
+  "selection": "Minimum validation cross entropy over families and regularizers, with family name breaking ties.",
+  "study": "Both visual stages. Same 18/9 budget. Old test cohort and new independent render with locked model selection. All configurations reported.",
+  "patch": "Original and target-covered version of each same-size image. Restore or replace the same number of slots at the covered region or at a nearby background control. Fixed weights and scoring context."
+}

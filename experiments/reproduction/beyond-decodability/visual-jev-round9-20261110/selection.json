@@ -1,0 +1,4703 @@
+{
+  "routes": {
+    "llava": {
+      "source": {
+        "changes": 0,
+        "ce_frequency": {
+          "mlp": 35,
+          "attention": 1
+        },
+        "accuracy_frequency": {
+          "mlp": 35,
+          "attention": 1
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 1.0,
+            "accuracy": 1.0,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.6244212962962963,
+            "accuracy": 0.6244212962962963,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.6614583333333334,
+            "accuracy": 0.6614583333333334,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      },
+      "slots": {
+        "changes": 0,
+        "ce_frequency": {
+          "mlp": 35,
+          "attention": 1
+        },
+        "accuracy_frequency": {
+          "mlp": 35,
+          "attention": 1
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 1.0,
+            "accuracy": 1.0,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.7719907407407407,
+            "accuracy": 0.7719907407407407,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.6875,
+            "accuracy": 0.6875,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      }
+    },
+    "internvl": {
+      "source": {
+        "changes": 0,
+        "ce_frequency": {
+          "mlp": 10,
+          "attention": 26
+        },
+        "accuracy_frequency": {
+          "mlp": 10,
+          "attention": 26
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 1.0,
+            "accuracy": 1.0,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.6076388888888888,
+            "accuracy": 0.6076388888888888,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.6157407407407407,
+            "accuracy": 0.6157407407407407,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      },
+      "slots": {
+        "changes": 0,
+        "ce_frequency": {
+          "attention": 5,
+          "mlp": 31
+        },
+        "accuracy_frequency": {
+          "attention": 5,
+          "mlp": 31
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 1.0,
+            "accuracy": 1.0,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.7245370370370371,
+            "accuracy": 0.7245370370370371,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.7054398148148148,
+            "accuracy": 0.7054398148148148,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      }
+    },
+    "siglip2": {
+      "source": {
+        "changes": 0,
+        "ce_frequency": {
+          "mlp": 21,
+          "attention": 15
+        },
+        "accuracy_frequency": {
+          "mlp": 21,
+          "attention": 15
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 0.9994212962962963,
+            "accuracy": 0.9994212962962963,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.765625,
+            "accuracy": 0.765625,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.7876157407407407,
+            "accuracy": 0.7876157407407407,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      },
+      "slots": {
+        "changes": 0,
+        "ce_frequency": {
+          "mlp": 35,
+          "attention": 1
+        },
+        "accuracy_frequency": {
+          "mlp": 35,
+          "attention": 1
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 1.0,
+            "accuracy": 1.0,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.6464120370370371,
+            "accuracy": 0.6464120370370371,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.6944444444444444,
+            "accuracy": 0.6944444444444444,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      }
+    },
+    "qwen": {
+      "source": {
+        "changes": 0,
+        "ce_frequency": {
+          "mlp": 23,
+          "attention": 13
+        },
+        "accuracy_frequency": {
+          "mlp": 23,
+          "attention": 13
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 1.0,
+            "accuracy": 1.0,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.5729166666666666,
+            "accuracy": 0.5729166666666666,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.5891203703703703,
+            "accuracy": 0.5891203703703703,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      },
+      "slots": {
+        "changes": 0,
+        "ce_frequency": {
+          "attention": 11,
+          "mlp": 25
+        },
+        "accuracy_frequency": {
+          "attention": 11,
+          "mlp": 25
+        },
+        "metrics": {
+          "original_test": {
+            "ce": 0.9994212962962963,
+            "accuracy": 0.9994212962962963,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "prior_equal": {
+            "ce": 0.5931712962962963,
+            "accuracy": 0.5931712962962963,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          },
+          "fresh_equal": {
+            "ce": 0.5758101851851852,
+            "accuracy": 0.5758101851851852,
+            "delta": 0.0,
+            "CI": [
+              0.0,
+              0.0
+            ],
+            "configurations": 36,
+            "scenes": 24
+          }
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "llava",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 0.9722222222222222,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 0.9722222222222222,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 0.9722222222222222,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "internvl",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 0.9444444444444444,
+        "kernel": 0.9444444444444444,
+        "mlp": 0.9722222222222222,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "siglip2",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 0.9722222222222222
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 0.9722222222222222
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "source",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 107,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 211,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "attention",
+      "accuracy_choice": "attention",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 0.9722222222222222,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 64,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 128,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "original",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "1287",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "2399",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    },
+    {
+      "encoder": "qwen",
+      "stage": "slots",
+      "width": 256,
+      "seed": 503,
+      "partition": "4127",
+      "ce_choice": "mlp",
+      "accuracy_choice": "mlp",
+      "validation_accuracy": {
+        "linear": 1.0,
+        "kernel": 1.0,
+        "mlp": 1.0,
+        "attention": 1.0
+      }
+    }
+  ],
+  "policy": "Within-family regularization remains as previously fitted. Re-rank families by validation accuracy, then cross entropy and family name. No test labels enter the choice."
+}

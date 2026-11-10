@@ -1,0 +1,649 @@
+{
+  "status": "complete",
+  "N": 96,
+  "choices": 72,
+  "replay": [
+    {
+      "config": "source_64_107_original",
+      "family": "linear",
+      "max_abs_replay": 2.979886060128223e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_107_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_107_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_107_1287",
+      "family": "linear",
+      "max_abs_replay": 2.963763612306991e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_107_2399",
+      "family": "linear",
+      "max_abs_replay": 2.979021118676428e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_107_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_107_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_original",
+      "family": "linear",
+      "max_abs_replay": 5.373054001722721e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_107_4127",
+      "family": "linear",
+      "max_abs_replay": 2.9770780285431897e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_107_4127",
+      "family": "linear",
+      "max_abs_replay": 2.9782279975520964e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_1287",
+      "family": "linear",
+      "max_abs_replay": 3.4029206563701564e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_2399",
+      "family": "linear",
+      "max_abs_replay": 2.9373885102046415e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_4127",
+      "family": "linear",
+      "max_abs_replay": 2.9501593612479837e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_211_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_original",
+      "family": "linear",
+      "max_abs_replay": 4.790225460737929e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_1287",
+      "family": "linear",
+      "max_abs_replay": 2.9783232768920698e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_2399",
+      "family": "linear",
+      "max_abs_replay": 2.9678870472338303e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_4127",
+      "family": "linear",
+      "max_abs_replay": 2.9794693379159298e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_211_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_original",
+      "family": "linear",
+      "max_abs_replay": 2.955974509610826e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_1287",
+      "family": "linear",
+      "max_abs_replay": 2.955117905933946e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_2399",
+      "family": "linear",
+      "max_abs_replay": 2.9672272416902956e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_4127",
+      "family": "linear",
+      "max_abs_replay": 2.965545586874896e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_211_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_503_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_503_1287",
+      "family": "linear",
+      "max_abs_replay": 2.947808686037945e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_503_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_503_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_503_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_64_503_4127",
+      "family": "linear",
+      "max_abs_replay": 3.359196432128897e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_503_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_503_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_503_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_503_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_128_503_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_503_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_503_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_503_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_503_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_503_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "source_256_503_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_107_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_107_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_107_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_107_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_107_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_107_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_107_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_107_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_107_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_107_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_211_original",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_211_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_211_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_211_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_211_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_211_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_211_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_211_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_211_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_211_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_211_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_211_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_503_original",
+      "family": "linear",
+      "max_abs_replay": 5.03719432831673e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_503_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_503_1287",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_503_2399",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_503_4127",
+      "family": "attention",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_64_503_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_503_original",
+      "family": "linear",
+      "max_abs_replay": 2.976921376074415e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_503_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_503_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_503_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_503_4127",
+      "family": "linear",
+      "max_abs_replay": 4.839033929115999e-08,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_128_503_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_503_original",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_503_1287",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_503_2399",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    },
+    {
+      "config": "slots_256_503_4127",
+      "family": "mlp",
+      "max_abs_replay": 0.0,
+      "old_argmax_disagreement": 0
+    }
+  ]
+}

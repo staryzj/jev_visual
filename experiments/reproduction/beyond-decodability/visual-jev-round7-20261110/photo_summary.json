@@ -1,0 +1,782 @@
+{
+  "original": {
+    "routes": {
+      "raw": {
+        "N": 128,
+        "correct": 64,
+        "acc": 0.5,
+        "pred": [
+          50,
+          19,
+          47,
+          12
+        ],
+        "correct_by_class": [
+          27,
+          8,
+          18,
+          11
+        ]
+      },
+      "bias": {
+        "N": 128,
+        "correct": 65,
+        "acc": 0.5078125,
+        "pred": [
+          49,
+          26,
+          37,
+          16
+        ],
+        "correct_by_class": [
+          26,
+          11,
+          16,
+          12
+        ]
+      },
+      "cue": {
+        "N": 128,
+        "correct": 33,
+        "acc": 0.2578125,
+        "pred": [
+          36,
+          26,
+          21,
+          45
+        ],
+        "correct_by_class": [
+          10,
+          7,
+          3,
+          13
+        ]
+      },
+      "image": {
+        "N": 128,
+        "correct": 35,
+        "acc": 0.2734375,
+        "pred": [
+          33,
+          7,
+          36,
+          52
+        ],
+        "correct_by_class": [
+          9,
+          2,
+          8,
+          16
+        ]
+      },
+      "question": {
+        "N": 128,
+        "correct": 34,
+        "acc": 0.265625,
+        "pred": [
+          37,
+          36,
+          23,
+          32
+        ],
+        "correct_by_class": [
+          10,
+          9,
+          6,
+          9
+        ]
+      },
+      "fusion": {
+        "N": 128,
+        "correct": 65,
+        "acc": 0.5078125,
+        "pred": [
+          49,
+          26,
+          37,
+          16
+        ],
+        "correct_by_class": [
+          26,
+          11,
+          16,
+          12
+        ]
+      }
+    },
+    "bias_vs_cue": {
+      "gains": 46,
+      "losses": 14,
+      "N": 128,
+      "clusters": 128,
+      "delta": 0.25,
+      "CI": [
+        0.140625,
+        0.359375
+      ]
+    },
+    "mixture_vs_bias": {
+      "gains": 0,
+      "losses": 0,
+      "N": 128,
+      "clusters": 128,
+      "delta": 0.0,
+      "CI": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "original_unique": {
+    "routes": {
+      "raw": {
+        "N": 116,
+        "correct": 57,
+        "acc": 0.49137931034482757,
+        "pred": [
+          44,
+          17,
+          45,
+          10
+        ],
+        "correct_by_class": [
+          22,
+          7,
+          18,
+          10
+        ]
+      },
+      "bias": {
+        "N": 116,
+        "correct": 57,
+        "acc": 0.49137931034482757,
+        "pred": [
+          44,
+          23,
+          37,
+          12
+        ],
+        "correct_by_class": [
+          21,
+          9,
+          16,
+          11
+        ]
+      },
+      "cue": {
+        "N": 116,
+        "correct": 33,
+        "acc": 0.28448275862068967,
+        "pred": [
+          32,
+          25,
+          17,
+          42
+        ],
+        "correct_by_class": [
+          10,
+          7,
+          3,
+          13
+        ]
+      },
+      "image": {
+        "N": 116,
+        "correct": 33,
+        "acc": 0.28448275862068967,
+        "pred": [
+          33,
+          5,
+          30,
+          48
+        ],
+        "correct_by_class": [
+          9,
+          1,
+          7,
+          16
+        ]
+      },
+      "question": {
+        "N": 116,
+        "correct": 31,
+        "acc": 0.2672413793103448,
+        "pred": [
+          27,
+          36,
+          23,
+          30
+        ],
+        "correct_by_class": [
+          7,
+          9,
+          6,
+          9
+        ]
+      },
+      "fusion": {
+        "N": 116,
+        "correct": 57,
+        "acc": 0.49137931034482757,
+        "pred": [
+          44,
+          23,
+          37,
+          12
+        ],
+        "correct_by_class": [
+          21,
+          9,
+          16,
+          11
+        ]
+      }
+    },
+    "bias_vs_cue": {
+      "gains": 38,
+      "losses": 14,
+      "N": 116,
+      "clusters": 116,
+      "delta": 0.20689655172413793,
+      "CI": [
+        0.09482758620689655,
+        0.31896551724137934
+      ]
+    },
+    "mixture_vs_bias": {
+      "gains": 0,
+      "losses": 0,
+      "N": 116,
+      "clusters": 116,
+      "delta": 0.0,
+      "CI": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "new": {
+    "routes": {
+      "raw": {
+        "N": 256,
+        "correct": 108,
+        "acc": 0.421875,
+        "pred": [
+          92,
+          46,
+          69,
+          49
+        ],
+        "correct_by_class": [
+          41,
+          19,
+          24,
+          24
+        ]
+      },
+      "bias": {
+        "N": 256,
+        "correct": 114,
+        "acc": 0.4453125,
+        "pred": [
+          86,
+          60,
+          54,
+          56
+        ],
+        "correct_by_class": [
+          39,
+          24,
+          24,
+          27
+        ]
+      },
+      "cue": {
+        "N": 256,
+        "correct": 67,
+        "acc": 0.26171875,
+        "pred": [
+          81,
+          36,
+          52,
+          87
+        ],
+        "correct_by_class": [
+          24,
+          7,
+          10,
+          26
+        ]
+      },
+      "image": {
+        "N": 256,
+        "correct": 63,
+        "acc": 0.24609375,
+        "pred": [
+          81,
+          16,
+          65,
+          94
+        ],
+        "correct_by_class": [
+          21,
+          6,
+          12,
+          24
+        ]
+      },
+      "question": {
+        "N": 256,
+        "correct": 71,
+        "acc": 0.27734375,
+        "pred": [
+          84,
+          62,
+          55,
+          55
+        ],
+        "correct_by_class": [
+          22,
+          16,
+          16,
+          17
+        ]
+      },
+      "fusion": {
+        "N": 256,
+        "correct": 114,
+        "acc": 0.4453125,
+        "pred": [
+          86,
+          60,
+          54,
+          56
+        ],
+        "correct_by_class": [
+          39,
+          24,
+          24,
+          27
+        ]
+      }
+    },
+    "bias_vs_cue": {
+      "gains": 86,
+      "losses": 39,
+      "N": 256,
+      "clusters": 256,
+      "delta": 0.18359375,
+      "CI": [
+        0.1015625,
+        0.265625
+      ]
+    },
+    "mixture_vs_bias": {
+      "gains": 0,
+      "losses": 0,
+      "N": 256,
+      "clusters": 256,
+      "delta": 0.0,
+      "CI": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "new_simple": {
+    "routes": {
+      "raw": {
+        "N": 128,
+        "correct": 60,
+        "acc": 0.46875,
+        "pred": [
+          39,
+          26,
+          31,
+          32
+        ],
+        "correct_by_class": [
+          20,
+          10,
+          12,
+          18
+        ]
+      },
+      "bias": {
+        "N": 128,
+        "correct": 61,
+        "acc": 0.4765625,
+        "pred": [
+          37,
+          30,
+          24,
+          37
+        ],
+        "correct_by_class": [
+          18,
+          11,
+          12,
+          20
+        ]
+      },
+      "cue": {
+        "N": 128,
+        "correct": 40,
+        "acc": 0.3125,
+        "pred": [
+          45,
+          13,
+          37,
+          33
+        ],
+        "correct_by_class": [
+          17,
+          5,
+          7,
+          11
+        ]
+      },
+      "image": {
+        "N": 128,
+        "correct": 36,
+        "acc": 0.28125,
+        "pred": [
+          40,
+          10,
+          36,
+          42
+        ],
+        "correct_by_class": [
+          13,
+          5,
+          6,
+          12
+        ]
+      },
+      "question": {
+        "N": 128,
+        "correct": 37,
+        "acc": 0.2890625,
+        "pred": [
+          55,
+          27,
+          28,
+          18
+        ],
+        "correct_by_class": [
+          16,
+          8,
+          9,
+          4
+        ]
+      },
+      "fusion": {
+        "N": 128,
+        "correct": 61,
+        "acc": 0.4765625,
+        "pred": [
+          37,
+          30,
+          24,
+          37
+        ],
+        "correct_by_class": [
+          18,
+          11,
+          12,
+          20
+        ]
+      }
+    },
+    "bias_vs_cue": {
+      "gains": 43,
+      "losses": 22,
+      "N": 128,
+      "clusters": 128,
+      "delta": 0.1640625,
+      "CI": [
+        0.0390625,
+        0.2890625
+      ]
+    },
+    "mixture_vs_bias": {
+      "gains": 0,
+      "losses": 0,
+      "N": 128,
+      "clusters": 128,
+      "delta": 0.0,
+      "CI": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "new_complex": {
+    "routes": {
+      "raw": {
+        "N": 128,
+        "correct": 48,
+        "acc": 0.375,
+        "pred": [
+          53,
+          20,
+          38,
+          17
+        ],
+        "correct_by_class": [
+          21,
+          9,
+          12,
+          6
+        ]
+      },
+      "bias": {
+        "N": 128,
+        "correct": 53,
+        "acc": 0.4140625,
+        "pred": [
+          49,
+          30,
+          30,
+          19
+        ],
+        "correct_by_class": [
+          21,
+          13,
+          12,
+          7
+        ]
+      },
+      "cue": {
+        "N": 128,
+        "correct": 27,
+        "acc": 0.2109375,
+        "pred": [
+          36,
+          23,
+          15,
+          54
+        ],
+        "correct_by_class": [
+          7,
+          2,
+          3,
+          15
+        ]
+      },
+      "image": {
+        "N": 128,
+        "correct": 27,
+        "acc": 0.2109375,
+        "pred": [
+          41,
+          6,
+          29,
+          52
+        ],
+        "correct_by_class": [
+          8,
+          1,
+          6,
+          12
+        ]
+      },
+      "question": {
+        "N": 128,
+        "correct": 34,
+        "acc": 0.265625,
+        "pred": [
+          29,
+          35,
+          27,
+          37
+        ],
+        "correct_by_class": [
+          6,
+          8,
+          7,
+          13
+        ]
+      },
+      "fusion": {
+        "N": 128,
+        "correct": 53,
+        "acc": 0.4140625,
+        "pred": [
+          49,
+          30,
+          30,
+          19
+        ],
+        "correct_by_class": [
+          21,
+          13,
+          12,
+          7
+        ]
+      }
+    },
+    "bias_vs_cue": {
+      "gains": 43,
+      "losses": 17,
+      "N": 128,
+      "clusters": 128,
+      "delta": 0.203125,
+      "CI": [
+        0.0859375,
+        0.3203125
+      ]
+    },
+    "mixture_vs_bias": {
+      "gains": 0,
+      "losses": 0,
+      "N": 128,
+      "clusters": 128,
+      "delta": 0.0,
+      "CI": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "alpha": 0,
+  "pair_audit": {
+    "image_pair": {
+      "all": {
+        "raw": {
+          "N": 24,
+          "positive": 21,
+          "both": 8
+        },
+        "bias": {
+          "N": 24,
+          "positive": 21,
+          "both": 8
+        },
+        "cue": {
+          "N": 24,
+          "positive": 14,
+          "both": 1
+        },
+        "image": {
+          "N": 24,
+          "positive": 15,
+          "both": 3
+        },
+        "question": {
+          "N": 24,
+          "positive": 0,
+          "both": 0
+        },
+        "fusion": {
+          "N": 24,
+          "positive": 21,
+          "both": 8
+        }
+      },
+      "unique": {
+        "raw": {
+          "N": 22,
+          "positive": 19,
+          "both": 8
+        },
+        "bias": {
+          "N": 22,
+          "positive": 19,
+          "both": 8
+        },
+        "cue": {
+          "N": 22,
+          "positive": 13,
+          "both": 1
+        },
+        "image": {
+          "N": 22,
+          "positive": 14,
+          "both": 3
+        },
+        "question": {
+          "N": 22,
+          "positive": 0,
+          "both": 0
+        },
+        "fusion": {
+          "N": 22,
+          "positive": 19,
+          "both": 8
+        }
+      }
+    },
+    "question_pair": {
+      "all": {
+        "raw": {
+          "N": 24,
+          "positive": 23,
+          "both": 6
+        },
+        "bias": {
+          "N": 24,
+          "positive": 23,
+          "both": 4
+        },
+        "cue": {
+          "N": 24,
+          "positive": 13,
+          "both": 2
+        },
+        "image": {
+          "N": 24,
+          "positive": 0,
+          "both": 0
+        },
+        "question": {
+          "N": 24,
+          "positive": 14,
+          "both": 4
+        },
+        "fusion": {
+          "N": 24,
+          "positive": 23,
+          "both": 4
+        }
+      },
+      "unique": {
+        "raw": {
+          "N": 24,
+          "positive": 23,
+          "both": 6
+        },
+        "bias": {
+          "N": 24,
+          "positive": 23,
+          "both": 4
+        },
+        "cue": {
+          "N": 24,
+          "positive": 13,
+          "both": 2
+        },
+        "image": {
+          "N": 24,
+          "positive": 0,
+          "both": 0
+        },
+        "question": {
+          "N": 24,
+          "positive": 14,
+          "both": 4
+        },
+        "fusion": {
+          "N": 24,
+          "positive": 23,
+          "both": 4
+        }
+      }
+    }
+  },
+  "traceability": {
+    "fresh": 116,
+    "image_pair": 46,
+    "question_pair": 48
+  }
+}

@@ -1,0 +1,5186 @@
+[
+  {
+    "uid": "official_train:20062759",
+    "row": {
+      "uid": "official_train:20062759",
+      "dataset": "tallyqa",
+      "question": "How many people are in this photo?",
+      "images": [
+        "COCO_train2014_000000147105.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "aa31a3cfa27033e33a7c998a4c0c404aba19db4ab873a075377d732b630c8568",
+    "file": "8c7cbe0c71c1a645c3c644ff5866caab95ce572855e345bf2e1b475891c6297f",
+    "original_image_id": 147105,
+    "official_source": "train2014/COCO_train2014_000000147105.jpg"
+  },
+  {
+    "uid": "official_train:20058317",
+    "row": {
+      "uid": "official_train:20058317",
+      "dataset": "tallyqa",
+      "question": "How many men are in the picture?",
+      "images": [
+        "COCO_train2014_000000081676.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "e253c8d0176acd13374efb2da5e28bdcdf0f60778d99a50e95ff28dd80511706",
+    "file": "5735935050b661638ec714e4331c71c8b0b77e909d2f6c4742174eb600ad3ccd",
+    "original_image_id": 81676,
+    "official_source": "train2014/COCO_train2014_000000081676.jpg"
+  },
+  {
+    "uid": "official_train:10295387",
+    "row": {
+      "uid": "official_train:10295387",
+      "dataset": "tallyqa",
+      "question": "How many chairs can you see?",
+      "images": [
+        "COCO_train2014_000000187897.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "b007c69c09aee0fc8001dd3088110b0a32e5dc888ca15be17862727e8b8b40bd",
+    "file": "53a589525dd9e9f0921af0e27b0059db4c89effbbb03bc7c3bfda6ba01e1d063",
+    "original_image_id": 187897,
+    "official_source": "train2014/COCO_train2014_000000187897.jpg"
+  },
+  {
+    "uid": "official_train:10030323",
+    "row": {
+      "uid": "official_train:10030323",
+      "dataset": "tallyqa",
+      "question": "How many cars are there?",
+      "images": [
+        "COCO_train2014_000000268123.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "5a5f2ccff0e4e511e6e73b12adb8c10da0c722aedb4c1660f6f9ef9867eec65c",
+    "file": "a505ce7e6a3fb8cd266b25115764b1fb12d458fa108f83655131ff7af5f2ca34",
+    "original_image_id": 268123,
+    "official_source": "train2014/COCO_train2014_000000268123.jpg"
+  },
+  {
+    "uid": "official_train:10267851",
+    "row": {
+      "uid": "official_train:10267851",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000313709.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "9aff80df76d16f4aa39bb3601d5099892d200c5eaf04176c35a8d05fd460854a",
+    "file": "b6212e3419f3a549d66370a1a7c1f5da7a50642826aecf4cd3000b82cee92f87",
+    "original_image_id": 313709,
+    "official_source": "train2014/COCO_train2014_000000313709.jpg"
+  },
+  {
+    "uid": "official_train:20018054",
+    "row": {
+      "uid": "official_train:20018054",
+      "dataset": "tallyqa",
+      "question": "How many candles are lit?",
+      "images": [
+        "COCO_train2014_000000079116.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "052668db839e64efe9fa238dcfd0c07d344af3f3cca029681f37a8d12e370b8a",
+    "file": "834ee44ddffdcb2aa809282edd8e96a50e91a698f611e4c8a43a5f88b4906847",
+    "original_image_id": 79116,
+    "official_source": "train2014/COCO_train2014_000000079116.jpg"
+  },
+  {
+    "uid": "official_train:10576628",
+    "row": {
+      "uid": "official_train:10576628",
+      "dataset": "tallyqa",
+      "question": "How many wine glasses are in the picture?",
+      "images": [
+        "COCO_train2014_000000116882.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "605eb8e3884dd3c676c140c4e354ce3c3ec74fc87cf4c796ffad1c98e45cea50",
+    "file": "619d25d723cc939ecd138cda2ea16761284e6aba238af89fd3ac087fd40378e0",
+    "original_image_id": 116882,
+    "official_source": "train2014/COCO_train2014_000000116882.jpg"
+  },
+  {
+    "uid": "official_train:20004386",
+    "row": {
+      "uid": "official_train:20004386",
+      "dataset": "tallyqa",
+      "question": "How many screens?",
+      "images": [
+        "COCO_train2014_000000405838.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "88b6ec87d75040134c7b524e2769aa1ca6b1855ab4a117247a3edb922e8f4355",
+    "file": "a4f7342c49efd9d54cc2148bd3c04e2155cfce0a638fc3fe08c4f11d1d8d00a5",
+    "original_image_id": 405838,
+    "official_source": "train2014/COCO_train2014_000000405838.jpg"
+  },
+  {
+    "uid": "official_train:10414001",
+    "row": {
+      "uid": "official_train:10414001",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "COCO_train2014_000000212963.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "42c7a2747200d8de0a68c4dccb835d3349df53869ebb55659bcafe176cb4f22e",
+    "file": "1536aa6de4c0e83bbdf62335328f730346f33e49c2a87363fd19af3c4c3df8a0",
+    "original_image_id": 212963,
+    "official_source": "train2014/COCO_train2014_000000212963.jpg"
+  },
+  {
+    "uid": "official_train:10299500",
+    "row": {
+      "uid": "official_train:10299500",
+      "dataset": "tallyqa",
+      "question": "How many chairs can be seen?",
+      "images": [
+        "COCO_train2014_000000057673.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "0911afacd120f0832e13ae1216666485423966eedc3ce43fc3b81d7f22c25f36",
+    "file": "bd270b8301712a9e731f1e580e549f340c65d6003097200e4c3f6fb036909e4b",
+    "original_image_id": 57673,
+    "official_source": "train2014/COCO_train2014_000000057673.jpg"
+  },
+  {
+    "uid": "official_train:10428331",
+    "row": {
+      "uid": "official_train:10428331",
+      "dataset": "tallyqa",
+      "question": "How many horses can you see?",
+      "images": [
+        "COCO_train2014_000000085030.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "4b7a5d3cfd7bc6c377d83de22cd642df7b2cbd94f2fbaa7edb596e1120795f14",
+    "file": "c90b97bb26c36d4386fe2a6ee0383bbca221a89e4b1defbcc2741a9e92b40c9c",
+    "original_image_id": 85030,
+    "official_source": "train2014/COCO_train2014_000000085030.jpg"
+  },
+  {
+    "uid": "official_train:10319447",
+    "row": {
+      "uid": "official_train:10319447",
+      "dataset": "tallyqa",
+      "question": "How many handbags are in the photo?",
+      "images": [
+        "COCO_train2014_000000250630.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "b393eb119610148eaee4462f19278f4131490aae3235f4694e02a57ba7ad5eec",
+    "file": "3314fe00a84893ae4679e211bb78270e0a0bf4a7e23d63d4008db09f231deae9",
+    "original_image_id": 250630,
+    "official_source": "train2014/COCO_train2014_000000250630.jpg"
+  },
+  {
+    "uid": "official_train:10110008",
+    "row": {
+      "uid": "official_train:10110008",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000222026.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "4665d906f20e8b56650598544ea62e2d0601789d9ae02ee3545f3453098d5786",
+    "file": "3101733c97ad0fcdad1bdc8d0e296b565e1f2364d6184cf89588e1acb701b9a6",
+    "original_image_id": 222026,
+    "official_source": "train2014/COCO_train2014_000000222026.jpg"
+  },
+  {
+    "uid": "official_train:20002395",
+    "row": {
+      "uid": "official_train:20002395",
+      "dataset": "tallyqa",
+      "question": "How many people could fit on this bench?",
+      "images": [
+        "COCO_train2014_000000482472.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "2d69f19639b23446f4d85214ff4c98d532c9858e237fee06a80ade50bc4cd07c",
+    "file": "3b3c6e2eeb51074576a17a831ed5978054138170a1d9dac2f81041e76d6ecd67",
+    "original_image_id": 482472,
+    "official_source": "train2014/COCO_train2014_000000482472.jpg"
+  },
+  {
+    "uid": "official_train:10085253",
+    "row": {
+      "uid": "official_train:10085253",
+      "dataset": "tallyqa",
+      "question": "How many couches are in the photo?",
+      "images": [
+        "COCO_train2014_000000540872.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "30bc66c77437c9f39b11186de20ae4ed02582fdb24e007ba64e526dc1199e588",
+    "file": "bd3d66323dc97c9b6ba2a6491315f767f8ea9a0bf071b71240ce6b407b075e62",
+    "original_image_id": 540872,
+    "official_source": "train2014/COCO_train2014_000000540872.jpg"
+  },
+  {
+    "uid": "official_train:10487725",
+    "row": {
+      "uid": "official_train:10487725",
+      "dataset": "tallyqa",
+      "question": "How many pizzas are there?",
+      "images": [
+        "COCO_train2014_000000382971.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "126797e68060772235f78bdedf79bd0ea0b6c77156c41c67a31248fcb6c18de1",
+    "file": "172c8575f2c94f56e097668e2d6a34d04e7939960b4cd8e41570eba2a30264c9",
+    "original_image_id": 382971,
+    "official_source": "train2014/COCO_train2014_000000382971.jpg"
+  },
+  {
+    "uid": "official_train:20004430",
+    "row": {
+      "uid": "official_train:20004430",
+      "dataset": "tallyqa",
+      "question": "How many people sit alone?",
+      "images": [
+        "COCO_train2014_000000324823.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "945a3bd795faf304766069063dc7991d1e81491f7e649b640e17ae49c4419544",
+    "file": "efaffbf1e4a0256d65310c315294bd54b3072c4bcfbff99dfe58d134a22a7dff",
+    "original_image_id": 324823,
+    "official_source": "train2014/COCO_train2014_000000324823.jpg"
+  },
+  {
+    "uid": "official_train:10123351",
+    "row": {
+      "uid": "official_train:10123351",
+      "dataset": "tallyqa",
+      "question": "How many dining tables are visible?",
+      "images": [
+        "COCO_train2014_000000417171.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "287792007b3a6b59e508f4cf8619dcef95f8645d0eb1aad9ac475c16754ebf01",
+    "file": "97c2208bb147d3772569b78fcc3182d4b331c3dc307441a89aa21beee025251f",
+    "original_image_id": 417171,
+    "official_source": "train2014/COCO_train2014_000000417171.jpg"
+  },
+  {
+    "uid": "official_train:20000114",
+    "row": {
+      "uid": "official_train:20000114",
+      "dataset": "tallyqa",
+      "question": "How many suitcases are shown?",
+      "images": [
+        "COCO_train2014_000000222426.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "7b87143b6061f379b07d9948fc06c8d544918ced5f4566d01993172ac2eb91bd",
+    "file": "24328f5e33341af46eb17cfa5bd95d9ad84f3a959bc35be679adda61f2ff6cb5",
+    "original_image_id": 222426,
+    "official_source": "train2014/COCO_train2014_000000222426.jpg"
+  },
+  {
+    "uid": "official_train:10176621",
+    "row": {
+      "uid": "official_train:10176621",
+      "dataset": "tallyqa",
+      "question": "How many cats can be seen?",
+      "images": [
+        "COCO_train2014_000000427344.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "612eb24aa5354a844d2c68bdc76230b9fecc165cfe97cc386ab9ff91f77b6995",
+    "file": "73c4ef8045caa725ecf1a3d1019af0e77bd9db055e68c2fa5b833835cb3decc4",
+    "original_image_id": 427344,
+    "official_source": "train2014/COCO_train2014_000000427344.jpg"
+  },
+  {
+    "uid": "official_train:10627387",
+    "row": {
+      "uid": "official_train:10627387",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000258774.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "bb921f14d92dbc6bad8a3fa72c1af3537d5dd30f58de8a045fb005d6d34a9c6c",
+    "file": "3bcae8ac49a039c749111a4ec80dd1b99142d1c8b44d01a128052d6968c51a03",
+    "original_image_id": 258774,
+    "official_source": "train2014/COCO_train2014_000000258774.jpg"
+  },
+  {
+    "uid": "official_train:10204001",
+    "row": {
+      "uid": "official_train:10204001",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000170398.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "c22a95a16de668c44193112695a681adf4883ae6788f34a2017a1fa3468c101f",
+    "file": "95801a39d7b970a77dda36f2e5f7beff1e2fe0344f31f8ae81be3d04edb83d0f",
+    "original_image_id": 170398,
+    "official_source": "train2014/COCO_train2014_000000170398.jpg"
+  },
+  {
+    "uid": "official_train:10098423",
+    "row": {
+      "uid": "official_train:10098423",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "COCO_train2014_000000135937.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "1f3c2fc625831b8484b36ff100300fe170f2fbfaf7e18603302232d1a428f089",
+    "file": "8c9739955fcd2eaf55f97092526d309a48a86e87d8315472d0b9c7aa04fc99a7",
+    "original_image_id": 135937,
+    "official_source": "train2014/COCO_train2014_000000135937.jpg"
+  },
+  {
+    "uid": "official_train:10053364",
+    "row": {
+      "uid": "official_train:10053364",
+      "dataset": "tallyqa",
+      "question": "How many couches are there?",
+      "images": [
+        "COCO_train2014_000000534690.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "9e39e19b1d000ad9a146cc00613438382a3c4b4d8fabbbedc42b1bdbb5c3904a",
+    "file": "8261a8b1dc05a2948c25ee5bb6e86fcd8eab1b33c7603a17888f804ebb092ef5",
+    "original_image_id": 534690,
+    "official_source": "train2014/COCO_train2014_000000534690.jpg"
+  },
+  {
+    "uid": "official_train:10277011",
+    "row": {
+      "uid": "official_train:10277011",
+      "dataset": "tallyqa",
+      "question": "How many boats can you see?",
+      "images": [
+        "COCO_train2014_000000402097.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "9da87b6bada6a2f26b9bb477d93d60e57bab5a657e37207e0cd244d69986a5de",
+    "file": "bc9371d51035d9845eb6ed98cd0d49e2172aa5f2856d87490dcd9f18b7c0ae12",
+    "original_image_id": 402097,
+    "official_source": "train2014/COCO_train2014_000000402097.jpg"
+  },
+  {
+    "uid": "official_train:10252995",
+    "row": {
+      "uid": "official_train:10252995",
+      "dataset": "tallyqa",
+      "question": "How many benches are visible?",
+      "images": [
+        "COCO_train2014_000000573062.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "a4431f9caa32a230c741841a4191d41eeb1b8523c45f922e0dfa713cd3c09a3d",
+    "file": "3c589983c24ccc2205e03663e28f3bdd36c48676b7bf1c8ec2b20a4e155be1c3",
+    "original_image_id": 573062,
+    "official_source": "train2014/COCO_train2014_000000573062.jpg"
+  },
+  {
+    "uid": "official_train:20034242",
+    "row": {
+      "uid": "official_train:20034242",
+      "dataset": "tallyqa",
+      "question": "How many pillows are there?",
+      "images": [
+        "COCO_train2014_000000530187.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "6d916e0236dd4ef28cc2b5a5be74bac126de7558c556ca41c875817cfaf21442",
+    "file": "c79624b99ef81a77131f5fd4ca62575d1cbc63093cdf9ed133c75072147cd295",
+    "original_image_id": 530187,
+    "official_source": "train2014/COCO_train2014_000000530187.jpg"
+  },
+  {
+    "uid": "official_train:10548273",
+    "row": {
+      "uid": "official_train:10548273",
+      "dataset": "tallyqa",
+      "question": "How many couches are visible?",
+      "images": [
+        "COCO_train2014_000000241785.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "6a7e025926b5099f417c8699bc6c2192e4f6a2cc1133a65d01ac98e2a91d7fa8",
+    "file": "3be44b3e11d61a4c40f9fb8b9a22309feeb4326c9caedd14d683423df44591cb",
+    "original_image_id": 241785,
+    "official_source": "train2014/COCO_train2014_000000241785.jpg"
+  },
+  {
+    "uid": "official_train:10000657",
+    "row": {
+      "uid": "official_train:10000657",
+      "dataset": "tallyqa",
+      "question": "How many sheep are in the picture?",
+      "images": [
+        "COCO_train2014_000000131197.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "54e124a1b1b6327f95742059a9f3ad2e7be47a82d5bb45a8357c3cb539974cf8",
+    "file": "01e45f649e9cd1748c246839d4e2744ba3dac6329422b16c6cdc09f7d595656d",
+    "original_image_id": 131197,
+    "official_source": "train2014/COCO_train2014_000000131197.jpg"
+  },
+  {
+    "uid": "official_train:20017965",
+    "row": {
+      "uid": "official_train:20017965",
+      "dataset": "tallyqa",
+      "question": "How many zebras in the picture?",
+      "images": [
+        "COCO_train2014_000000263147.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "1b919dc5b109d4d8d63eac7b7baa040e17aad7f2b0093092184c4aed85dbf417",
+    "file": "c65cc6ed60bacaee5a16cf8075ee752ad88876ba04282d19b1f39a051900041c",
+    "original_image_id": 263147,
+    "official_source": "train2014/COCO_train2014_000000263147.jpg"
+  },
+  {
+    "uid": "official_train:10404448",
+    "row": {
+      "uid": "official_train:10404448",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen?",
+      "images": [
+        "COCO_train2014_000000100687.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "c757b904a181de90c3c2450c02d28bb330d4752ba0266b354ff90722c444c856",
+    "file": "4d6ef18aa30d8a7d1dbedc7e990b824818388852d16f0e176ff13628f7e3ce0f",
+    "original_image_id": 100687,
+    "official_source": "train2014/COCO_train2014_000000100687.jpg"
+  },
+  {
+    "uid": "official_train:10058717",
+    "row": {
+      "uid": "official_train:10058717",
+      "dataset": "tallyqa",
+      "question": "How many forks are in the picture?",
+      "images": [
+        "COCO_train2014_000000404666.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 2,
+    "split": "fit",
+    "rgb": "32b9661625d39fcd762ac1be7ca087fb85db8c9a9171df89deb5110d777bd967",
+    "file": "1db329494e709e5646f8cd75f8c1f7defc570bb8c75b0c16e187a5ccc1563e61",
+    "original_image_id": 404666,
+    "official_source": "train2014/COCO_train2014_000000404666.jpg"
+  },
+  {
+    "uid": "official_train:20057249",
+    "row": {
+      "uid": "official_train:20057249",
+      "dataset": "tallyqa",
+      "question": "How many people have their feet on the ground?",
+      "images": [
+        "COCO_train2014_000000209046.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "fbad2680e4e635457170bc0255f8e85d0d1d91c225ebbcea3a45445fafefd0ef",
+    "file": "d5dda43dd8a43ae89b82b7f22638f45cb214fee1c683966c5f60c1292059d9a2",
+    "original_image_id": 209046,
+    "official_source": "train2014/COCO_train2014_000000209046.jpg"
+  },
+  {
+    "uid": "official_train:20002218",
+    "row": {
+      "uid": "official_train:20002218",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "COCO_train2014_000000201076.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "32b14cd5af91d46a8e4683bf166ff16edb487546853eb6bf1390ea4f66d2a9c6",
+    "file": "e53fd60fd65714f330a7a835ffa85b5a8f35046653cafb13c42e8d1ce30c8b7b",
+    "original_image_id": 201076,
+    "official_source": "train2014/COCO_train2014_000000201076.jpg"
+  },
+  {
+    "uid": "official_train:10108032",
+    "row": {
+      "uid": "official_train:10108032",
+      "dataset": "tallyqa",
+      "question": "How many toothbrushes can you see?",
+      "images": [
+        "COCO_train2014_000000545325.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "778aa658a6bcc4629faf778704c594c50980acba3516045f55d0e98057970504",
+    "file": "bfd91ae63719ea717f66f1355235ea1108171968ae0ef65ea41084ea2dc7e131",
+    "original_image_id": 545325,
+    "official_source": "train2014/COCO_train2014_000000545325.jpg"
+  },
+  {
+    "uid": "official_train:20020646",
+    "row": {
+      "uid": "official_train:20020646",
+      "dataset": "tallyqa",
+      "question": "How many boys are shown?",
+      "images": [
+        "COCO_train2014_000000182969.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "a4ce82d8ea27e4645ecd4dfd7a7377b1f315a7b2e18bb3a71e9c0afe6dbdfe33",
+    "file": "8ee15c9c3f55e7069e9a29e1691014e33c0cc225d101dd484df2216b14da1105",
+    "original_image_id": 182969,
+    "official_source": "train2014/COCO_train2014_000000182969.jpg"
+  },
+  {
+    "uid": "official_train:10574216",
+    "row": {
+      "uid": "official_train:10574216",
+      "dataset": "tallyqa",
+      "question": "How many tennis rackets are there?",
+      "images": [
+        "COCO_train2014_000000378521.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "2f1c3caf929d9ecaf37821f369077979250399c77981cc68c1404ad66ee504af",
+    "file": "cba594c71d510e2cc71eea068c897e7e0b531761bf2ed3a2666c703800d40c66",
+    "original_image_id": 378521,
+    "official_source": "train2014/COCO_train2014_000000378521.jpg"
+  },
+  {
+    "uid": "official_train:10248456",
+    "row": {
+      "uid": "official_train:10248456",
+      "dataset": "tallyqa",
+      "question": "How many cars are visible?",
+      "images": [
+        "COCO_train2014_000000310042.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "52d089f857d9426f40ea62535950a1720d3cf12754ff0e1709d69d2ec751e882",
+    "file": "6fbaa40145c76679852f8ca1df2d916e4e14b6fea3d707dea3c1b53e1cf8ac4d",
+    "original_image_id": 310042,
+    "official_source": "train2014/COCO_train2014_000000310042.jpg"
+  },
+  {
+    "uid": "official_train:10368674",
+    "row": {
+      "uid": "official_train:10368674",
+      "dataset": "tallyqa",
+      "question": "How many people can you see?",
+      "images": [
+        "COCO_train2014_000000072435.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "2b2ac6a98feed662235e62bf6120f904e4d031dfe193f7fc9c96d6e8be28e8bf",
+    "file": "48d28993656d6fc50a54a41cb6b995915502c463a4af0c41f0f3d99b42bb0e00",
+    "original_image_id": 72435,
+    "official_source": "train2014/COCO_train2014_000000072435.jpg"
+  },
+  {
+    "uid": "official_train:20013332",
+    "row": {
+      "uid": "official_train:20013332",
+      "dataset": "tallyqa",
+      "question": "How many wheels does the vehicle have?",
+      "images": [
+        "COCO_train2014_000000426903.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "f76f8a17c5c8d2caabbdfcdf9fd7439add1bbc7c5a249b0c4d63236d8f8a2b5e",
+    "file": "8996bb3d0d1958ac35317c8cca7cb0e408e9506cbb13711e47ac20c4da1bf910",
+    "original_image_id": 426903,
+    "official_source": "train2014/COCO_train2014_000000426903.jpg"
+  },
+  {
+    "uid": "official_train:10033659",
+    "row": {
+      "uid": "official_train:10033659",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000530903.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "898a61821ec4fc7ca41d7da3ad4bca3761878760cb59c1024470964fd090b0af",
+    "file": "46552231a03963cba4b209be6456b222623f6f39ade1942034ad773dc6b55d2b",
+    "original_image_id": 530903,
+    "official_source": "train2014/COCO_train2014_000000530903.jpg"
+  },
+  {
+    "uid": "official_train:20017771",
+    "row": {
+      "uid": "official_train:20017771",
+      "dataset": "tallyqa",
+      "question": "How many champagne flutes are there?",
+      "images": [
+        "COCO_train2014_000000382469.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "417c7cbeece6a5c7b9c24e50b4b78563350b5e7f097c81424caea592bfba8895",
+    "file": "d19b20fa2dc26ae14240bab26a0b3566bd3d5c7b2e2577dfd42a64e58edf6f7e",
+    "original_image_id": 382469,
+    "official_source": "train2014/COCO_train2014_000000382469.jpg"
+  },
+  {
+    "uid": "official_train:10501066",
+    "row": {
+      "uid": "official_train:10501066",
+      "dataset": "tallyqa",
+      "question": "How many oranges are there?",
+      "images": [
+        "COCO_train2014_000000000670.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "249ae02e5e8aff94375ff0af2443c0e85bfecd498e677a4928bf8c328eeaee9d",
+    "file": "4afcbe5f2fc1476465554ecbd2249784156fbd05afc38505af2610468198dcd0",
+    "original_image_id": 670,
+    "official_source": "train2014/COCO_train2014_000000000670.jpg"
+  },
+  {
+    "uid": "official_train:10576053",
+    "row": {
+      "uid": "official_train:10576053",
+      "dataset": "tallyqa",
+      "question": "How many pizzas are there?",
+      "images": [
+        "COCO_train2014_000000132585.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "dbc0bc37a05d392ee0420f8b77c7dcea35afced2f151d159aedfbe286e9f03b2",
+    "file": "6799c02a82062f465b517ca277629a1629fafc1acc57c5d9f30e222f178b9ec1",
+    "original_image_id": 132585,
+    "official_source": "train2014/COCO_train2014_000000132585.jpg"
+  },
+  {
+    "uid": "official_train:10274713",
+    "row": {
+      "uid": "official_train:10274713",
+      "dataset": "tallyqa",
+      "question": "How many people can you see?",
+      "images": [
+        "COCO_train2014_000000052847.jpg"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "6bf243c85faec5b45c114a1c0a0d20ae9d09bd099ac40f5d4d905f81aa1fe980",
+    "file": "5439dd90870baea73cf4deab8d8f93872abf461928ca8f0533038ea28ebf00d1",
+    "original_image_id": 52847,
+    "official_source": "train2014/COCO_train2014_000000052847.jpg"
+  },
+  {
+    "uid": "official_train:20006799",
+    "row": {
+      "uid": "official_train:20006799",
+      "dataset": "tallyqa",
+      "question": "How many jars are there?",
+      "images": [
+        "COCO_train2014_000000275339.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "13f5b29e0b7b0cae1c0c3a4a8cd94aefab18c78f842e552b6d2f776921b05cae",
+    "file": "62cdd7e324ea0238f0e06d45749038e9ebe6e4127be262afb871f339ea67a8a7",
+    "original_image_id": 275339,
+    "official_source": "train2014/COCO_train2014_000000275339.jpg"
+  },
+  {
+    "uid": "official_train:10389010",
+    "row": {
+      "uid": "official_train:10389010",
+      "dataset": "tallyqa",
+      "question": "How many cups can be seen?",
+      "images": [
+        "COCO_train2014_000000233871.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "14a2042f14d8b4e765c1e2a63bb627e81927ce540d8b6384ac6345fd0f3beded",
+    "file": "a62584a16128884d07cd205a160f0f00298c954639d7d3c29d284e674a054539",
+    "original_image_id": 233871,
+    "official_source": "train2014/COCO_train2014_000000233871.jpg"
+  },
+  {
+    "uid": "official_train:20042620",
+    "row": {
+      "uid": "official_train:20042620",
+      "dataset": "tallyqa",
+      "question": "How many floors are there in this building?",
+      "images": [
+        "COCO_train2014_000000425150.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "1ebe807a398b9ad27938576f57c41a5d13e77fdfa6891a52953e195fa7359174",
+    "file": "6b5df3472fb67d3c58a6818394cb8e14b5ed685f9e92c5bfdb6676f3f6359c38",
+    "original_image_id": 425150,
+    "official_source": "train2014/COCO_train2014_000000425150.jpg"
+  },
+  {
+    "uid": "official_train:10017542",
+    "row": {
+      "uid": "official_train:10017542",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen?",
+      "images": [
+        "COCO_train2014_000000134586.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "72fb8aa43acda3633a9397ab2d9a9ab42a11bad1f371a3b35b0998c51862d981",
+    "file": "0a968cd180ac967b316b94726c825c9c0fccd9cb10f29057fba9d6dd16747a66",
+    "original_image_id": 134586,
+    "official_source": "train2014/COCO_train2014_000000134586.jpg"
+  },
+  {
+    "uid": "official_train:10191499",
+    "row": {
+      "uid": "official_train:10191499",
+      "dataset": "tallyqa",
+      "question": "How many potted plants are in the photo?",
+      "images": [
+        "COCO_train2014_000000430166.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "51716c41c0f8ac447527ac31c5cfa721ad35c51c2d4d371ac7b6dbd505fb0704",
+    "file": "593cd09076f83ddd702e2bfc508b645f80cc608de983c62f1ee09cb0743ffd4b",
+    "original_image_id": 430166,
+    "official_source": "train2014/COCO_train2014_000000430166.jpg"
+  },
+  {
+    "uid": "official_train:10245077",
+    "row": {
+      "uid": "official_train:10245077",
+      "dataset": "tallyqa",
+      "question": "How many cars are there?",
+      "images": [
+        "COCO_train2014_000000440460.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "63eba478dd8f2be2e8ed8c7217a23f972e24dd7342de89863061b6a9da260dc5",
+    "file": "cb4f7704ca6c20cd403f0cef11eff32d5638e2915c3a0d6a294c21c07eb75612",
+    "original_image_id": 440460,
+    "official_source": "train2014/COCO_train2014_000000440460.jpg"
+  },
+  {
+    "uid": "official_train:10335321",
+    "row": {
+      "uid": "official_train:10335321",
+      "dataset": "tallyqa",
+      "question": "How many motorcycles are in the picture?",
+      "images": [
+        "COCO_train2014_000000458505.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "dbf7f5acfb592e06690b57252b9c004483f6a0f6ba1433f62c243c7b703769fd",
+    "file": "45918299f41c4cbff652d41b1fd2329397569eccd89de8d108e3a41f430b8aa5",
+    "original_image_id": 458505,
+    "official_source": "train2014/COCO_train2014_000000458505.jpg"
+  },
+  {
+    "uid": "official_train:10412768",
+    "row": {
+      "uid": "official_train:10412768",
+      "dataset": "tallyqa",
+      "question": "How many laptops can you see?",
+      "images": [
+        "COCO_train2014_000000474847.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "aa5c62eb8bddc9181867b9c77b6fadb291ab5d4a1b1e6b35d86d1462cd1ffed0",
+    "file": "95384d32d8d683acf6c0ce97e056d103adaa50c2a02b4ad219c38d91cdd89643",
+    "original_image_id": 474847,
+    "official_source": "train2014/COCO_train2014_000000474847.jpg"
+  },
+  {
+    "uid": "official_train:10552391",
+    "row": {
+      "uid": "official_train:10552391",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000258893.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "0794a65478cb7a11b8a59036ea8382e453311ce2745a7ec2cc5dfd6ec590627b",
+    "file": "84378ee18c78b7298b4994400899f206f40ad6ef96192b845d2a29d0d8320acf",
+    "original_image_id": 258893,
+    "official_source": "train2014/COCO_train2014_000000258893.jpg"
+  },
+  {
+    "uid": "official_train:20012309",
+    "row": {
+      "uid": "official_train:20012309",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000335366.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "d29a6a011d24411f9e2db8f2bcc9cf88d0aa68f21508556fc33647d39b716f55",
+    "file": "6276ec32b8af8112541a8e948bc5b40e880f2f0c91e7b12dcf642329fa2b75ac",
+    "original_image_id": 335366,
+    "official_source": "train2014/COCO_train2014_000000335366.jpg"
+  },
+  {
+    "uid": "official_train:10460704",
+    "row": {
+      "uid": "official_train:10460704",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000124571.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "8f4e63495c6a47d987956dd72942346af501dd38f39298b6bac1087a58b4349d",
+    "file": "2d30a92abf914ba00c60aeccf13c5b0818c53ca95cdc74b043f5c04081cca527",
+    "original_image_id": 124571,
+    "official_source": "train2014/COCO_train2014_000000124571.jpg"
+  },
+  {
+    "uid": "official_train:10358474",
+    "row": {
+      "uid": "official_train:10358474",
+      "dataset": "tallyqa",
+      "question": "How many airplanes can be seen?",
+      "images": [
+        "COCO_train2014_000000011707.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "33e30a56b8122c02f3efc20581e3ef029f2770aba86aa5852140a13f7bde4c34",
+    "file": "5b317c71329db48a4bc5edf211a4a29249bf5931e9b888c066113c5da7517760",
+    "original_image_id": 11707,
+    "official_source": "train2014/COCO_train2014_000000011707.jpg"
+  },
+  {
+    "uid": "official_train:10582517",
+    "row": {
+      "uid": "official_train:10582517",
+      "dataset": "tallyqa",
+      "question": "How many pizzas can be seen?",
+      "images": [
+        "COCO_train2014_000000380279.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "24a9f0c8b6e94a6ed82d7714513b947ccb962af900fc90da8fe46aec029c0011",
+    "file": "f246e13b1740607e42f98fc17a9411ae684b6eae98b184f0d8856fee29ba6861",
+    "original_image_id": 380279,
+    "official_source": "train2014/COCO_train2014_000000380279.jpg"
+  },
+  {
+    "uid": "official_train:10097063",
+    "row": {
+      "uid": "official_train:10097063",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000149961.jpg"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "0f73e108b11a9942506ece6e4538506c61b410dd7793ad4b34835ee205d7f68d",
+    "file": "1b4dd099fd5c8539598f34b487ba1ad5c16f36f848a7e824f79a5b3223b84d71",
+    "original_image_id": 149961,
+    "official_source": "train2014/COCO_train2014_000000149961.jpg"
+  },
+  {
+    "uid": "official_train:10258458",
+    "row": {
+      "uid": "official_train:10258458",
+      "dataset": "tallyqa",
+      "question": "How many bottles can be seen?",
+      "images": [
+        "COCO_train2014_000000574132.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "b33b6e44924736e7a6a6cfaee6df7f5c245a8a19eaa2002dfb66e71c1e4898fa",
+    "file": "20a98b278f12fcb37a64c3f2b43752e38b45aad7b2a158c7f56568ab08cae3ec",
+    "original_image_id": 574132,
+    "official_source": "train2014/COCO_train2014_000000574132.jpg"
+  },
+  {
+    "uid": "official_train:10228955",
+    "row": {
+      "uid": "official_train:10228955",
+      "dataset": "tallyqa",
+      "question": "How many cows are there?",
+      "images": [
+        "COCO_train2014_000000306284.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "0b1495130003385a5a67c826077215006289d681f70647f9278c9b69bacd51e6",
+    "file": "2fdcf2cd68ec15d389e2cdabae5683e2e4cb18b93b71093d994ad2c9b053e1a1",
+    "original_image_id": 306284,
+    "official_source": "train2014/COCO_train2014_000000306284.jpg"
+  },
+  {
+    "uid": "official_train:20011129",
+    "row": {
+      "uid": "official_train:20011129",
+      "dataset": "tallyqa",
+      "question": "How many people are shown on the sidewalk?",
+      "images": [
+        "COCO_train2014_000000421556.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "ce7a9310c9e0dc7395768a0b7bfae21d82df2d9275ddf1cd7670d39bfb9d5474",
+    "file": "0d879dc466b588624e84dfce8187600edbc80853c1cb5fc6fdad0fd682473f22",
+    "original_image_id": 421556,
+    "official_source": "train2014/COCO_train2014_000000421556.jpg"
+  },
+  {
+    "uid": "official_train:20007435",
+    "row": {
+      "uid": "official_train:20007435",
+      "dataset": "tallyqa",
+      "question": "How many large rocks do you see?",
+      "images": [
+        "COCO_train2014_000000287496.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "b4cd07a268a96d0d35871302c61657ee57bc66729c79d49bdd29511c1b747bdb",
+    "file": "7dc259b26dad03338ee28b4cff55b6fd45dba48e017957cfa3c1bca6a518f68c",
+    "original_image_id": 287496,
+    "official_source": "train2014/COCO_train2014_000000287496.jpg"
+  },
+  {
+    "uid": "official_train:10505101",
+    "row": {
+      "uid": "official_train:10505101",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000101503.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 3,
+    "split": "fit",
+    "rgb": "82379070a9d0b08c2af01f96035e9318f2f6ed880a545dfa9751505914ef19ce",
+    "file": "69bdfc1d311862185e0afd6544e714a55f1b108c322cc01994c0f6316a4db22c",
+    "original_image_id": 101503,
+    "official_source": "train2014/COCO_train2014_000000101503.jpg"
+  },
+  {
+    "uid": "official_train:10567504",
+    "row": {
+      "uid": "official_train:10567504",
+      "dataset": "tallyqa",
+      "question": "How many cars are in the photo?",
+      "images": [
+        "COCO_train2014_000000508140.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "11cae10214d35f211e351a64b743aa1bc8a07857082e080bb9e368c56926173f",
+    "file": "9f091b2e03175ad7ea6475cc3f4b19bba6d688351ec8ae5b252158e5c21fc922",
+    "original_image_id": 508140,
+    "official_source": "train2014/COCO_train2014_000000508140.jpg"
+  },
+  {
+    "uid": "official_train:10365336",
+    "row": {
+      "uid": "official_train:10365336",
+      "dataset": "tallyqa",
+      "question": "How many donuts are in the photo?",
+      "images": [
+        "COCO_train2014_000000071716.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "d32b90cdb7cdba424106df85e312fe608b59c411f857ce634afe63091c692408",
+    "file": "eb7493d3dc6e2c34528a79a180922555f3a8474e1808333ace5ef413115e67ba",
+    "original_image_id": 71716,
+    "official_source": "train2014/COCO_train2014_000000071716.jpg"
+  },
+  {
+    "uid": "official_train:10011377",
+    "row": {
+      "uid": "official_train:10011377",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000109602.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "0fd9a81e6f1a1e9d432631860f3914954aea42ed4e42102c8fef3a037beab0c7",
+    "file": "39f2dee6d46939030fd8c93f05ad927528607cb15127863b5db770f416eaf85c",
+    "original_image_id": 109602,
+    "official_source": "train2014/COCO_train2014_000000109602.jpg"
+  },
+  {
+    "uid": "official_train:10080284",
+    "row": {
+      "uid": "official_train:10080284",
+      "dataset": "tallyqa",
+      "question": "How many horses can you see?",
+      "images": [
+        "COCO_train2014_000000408846.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "2ea0be31785900dd5b993b22430ae15525127071610d03ba5c11018180f17089",
+    "file": "136f439dde21421232e704f392070de18bc22500c7f7a883690d70ea19e9c731",
+    "original_image_id": 408846,
+    "official_source": "train2014/COCO_train2014_000000408846.jpg"
+  },
+  {
+    "uid": "official_train:10141568",
+    "row": {
+      "uid": "official_train:10141568",
+      "dataset": "tallyqa",
+      "question": "How many bananas can be seen?",
+      "images": [
+        "COCO_train2014_000000419907.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "6f80690c6f5704ca9e2137ee9c3e14824daf0e7a55469612c45fd437551c71b3",
+    "file": "2f59fbe610355c67495bb3ec43dcaafd8a0203353b8f6c13b3aca36b1feebd2c",
+    "original_image_id": 419907,
+    "official_source": "train2014/COCO_train2014_000000419907.jpg"
+  },
+  {
+    "uid": "official_train:20056175",
+    "row": {
+      "uid": "official_train:20056175",
+      "dataset": "tallyqa",
+      "question": "How many roses are in the vase?",
+      "images": [
+        "COCO_train2014_000000259745.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "fe1348ffad338f99dbddbfe5f8f873d88133c3661eaea9a545bdfaf35939b8bc",
+    "file": "48aac8da86ba5e6124bfb0726b7043d355e7b9319fdb0dcec1c991c4741edae0",
+    "original_image_id": 259745,
+    "official_source": "train2014/COCO_train2014_000000259745.jpg"
+  },
+  {
+    "uid": "official_train:10525128",
+    "row": {
+      "uid": "official_train:10525128",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000126856.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "8d944588550c755f397bbb7e8c435af011469a3d357df6dc38dfddbfe19e076a",
+    "file": "2ba1e9137785e614cb49f1053648e37095b8bad7893cf8bd798cbbe9d4fadcaf",
+    "original_image_id": 126856,
+    "official_source": "train2014/COCO_train2014_000000126856.jpg"
+  },
+  {
+    "uid": "official_train:10175883",
+    "row": {
+      "uid": "official_train:10175883",
+      "dataset": "tallyqa",
+      "question": "How many people can you see?",
+      "images": [
+        "COCO_train2014_000000165063.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "a9859e1c6b19587825a0c177e0da390d6a1dad58dfea7a1e8cb34825240b5acf",
+    "file": "1cb95eb2076abaf8840abd473c09b5ae7626751edf56130f888e72e31997ddae",
+    "original_image_id": 165063,
+    "official_source": "train2014/COCO_train2014_000000165063.jpg"
+  },
+  {
+    "uid": "official_train:20004815",
+    "row": {
+      "uid": "official_train:20004815",
+      "dataset": "tallyqa",
+      "question": "How many wheels are on the skateboard?",
+      "images": [
+        "COCO_train2014_000000020491.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "16da93c56571237a30c60d0e0256d93552f1552f919f7821e0a614d583d165bd",
+    "file": "ccfc728eafe336c628493a08ddda6c56810eb49c3c5df57494e53e63b57a7a2b",
+    "original_image_id": 20491,
+    "official_source": "train2014/COCO_train2014_000000020491.jpg"
+  },
+  {
+    "uid": "official_train:20054093",
+    "row": {
+      "uid": "official_train:20054093",
+      "dataset": "tallyqa",
+      "question": "How many white lines are there?",
+      "images": [
+        "COCO_train2014_000000329592.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "91c9369554d4a1ba1825712e193fa96024cba361426f5510021f04752bfdc0ac",
+    "file": "b9d80a30eb11d896e2c1f3d1f77b983f078c2f40d824218792c496a70be47f31",
+    "original_image_id": 329592,
+    "official_source": "train2014/COCO_train2014_000000329592.jpg"
+  },
+  {
+    "uid": "official_train:10030285",
+    "row": {
+      "uid": "official_train:10030285",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000388641.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "e07116a934de5788b91d3f2090f3f061ce571c81d13680465ac46e72240db446",
+    "file": "1317dc32b66598eb6bbb882d8b537514beeaaa42b4ff209791d3bcad226665b4",
+    "original_image_id": 388641,
+    "official_source": "train2014/COCO_train2014_000000388641.jpg"
+  },
+  {
+    "uid": "official_train:10326559",
+    "row": {
+      "uid": "official_train:10326559",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000456699.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "271f1aee19c1de44b5f8fb3d6acb53e2750147afac9143b93ea34b69cfa26a6d",
+    "file": "ea17b85e018561a75faafff6e6edea4b54e627b999058c739cdd5564225fc058",
+    "original_image_id": 456699,
+    "official_source": "train2014/COCO_train2014_000000456699.jpg"
+  },
+  {
+    "uid": "official_train:10055770",
+    "row": {
+      "uid": "official_train:10055770",
+      "dataset": "tallyqa",
+      "question": "How many chairs can you see?",
+      "images": [
+        "COCO_train2014_000000010870.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "ec7428cafb5583c35c11858dbe67b0f93b37dbd3e17d6ae1a327f5041407b50e",
+    "file": "a325cce0e30dd95de74f0cc921ea0c7f4e87024d4e0e80c4a1f61359381e69fc",
+    "original_image_id": 10870,
+    "official_source": "train2014/COCO_train2014_000000010870.jpg"
+  },
+  {
+    "uid": "official_train:10131502",
+    "row": {
+      "uid": "official_train:10131502",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000156593.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "7601778103188e5072f13a44a6f40b3b3bfec1285696cce282b5e0275a87d5b9",
+    "file": "6f38355561f6978f16293fa106f8217577111678c79c583ca3f0ef4f2fd80be6",
+    "original_image_id": 156593,
+    "official_source": "train2014/COCO_train2014_000000156593.jpg"
+  },
+  {
+    "uid": "official_train:10030255",
+    "row": {
+      "uid": "official_train:10030255",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000113676.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "f8f100b49d97f191c5f7e2f171b616884412b041346318b2f97f8ebcb005df8d",
+    "file": "427d6c23857fe1099babc097844577fa01d11610c60a5e13befbe7e886d6adee",
+    "original_image_id": 113676,
+    "official_source": "train2014/COCO_train2014_000000113676.jpg"
+  },
+  {
+    "uid": "official_train:20020885",
+    "row": {
+      "uid": "official_train:20020885",
+      "dataset": "tallyqa",
+      "question": "How many animals can be seen?",
+      "images": [
+        "COCO_train2014_000000269206.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "099befb9037543525052619310a340d5cd99eb7c0e958bffab1a6418da5911cb",
+    "file": "1fa2923121053769067ede8eb02bcb74e7faa48208d4684bcb5bb1346a4e9d0c",
+    "original_image_id": 269206,
+    "official_source": "train2014/COCO_train2014_000000269206.jpg"
+  },
+  {
+    "uid": "official_train:10242669",
+    "row": {
+      "uid": "official_train:10242669",
+      "dataset": "tallyqa",
+      "question": "How many cups are there?",
+      "images": [
+        "COCO_train2014_000000046764.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "2a62beaef559cd848138604b7b5f8760d3a7986c9b19a183e6f2f9a4afb9bd51",
+    "file": "91b7b048a830d7af60a32fadf00ba2eff828acfbebd206de1d9b1dc200dce588",
+    "original_image_id": 46764,
+    "official_source": "train2014/COCO_train2014_000000046764.jpg"
+  },
+  {
+    "uid": "official_train:10161999",
+    "row": {
+      "uid": "official_train:10161999",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000031335.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "7a423f329f93f674fe73e6b676f8740f9fdd743ec771507c54f779deda399a42",
+    "file": "c720f25762e4fbb3d6718a5841c48a6546e140d79a0d4e81a17021fb6731fdcd",
+    "original_image_id": 31335,
+    "official_source": "train2014/COCO_train2014_000000031335.jpg"
+  },
+  {
+    "uid": "official_train:20016888",
+    "row": {
+      "uid": "official_train:20016888",
+      "dataset": "tallyqa",
+      "question": "How many animals are there?",
+      "images": [
+        "COCO_train2014_000000053369.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "59a2489fa008b8b51df3f1b83ee28876e02703e64951c3723cc85d1fcd22dd58",
+    "file": "6db61d1143220922365f756026b85de54fe8d44b4e6ba7221f3ee490b900209e",
+    "original_image_id": 53369,
+    "official_source": "train2014/COCO_train2014_000000053369.jpg"
+  },
+  {
+    "uid": "official_train:20042841",
+    "row": {
+      "uid": "official_train:20042841",
+      "dataset": "tallyqa",
+      "question": "How many train tracks do you see?",
+      "images": [
+        "COCO_train2014_000000556903.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "002f483cb6cd1d26ab06421a1741b70b3e7c8e723cd7190d3cbc665253bd11fd",
+    "file": "e8c664e91fe1f44ad6f22dbbf0867031a65c50ce3a7a3e8914414a68e7be313e",
+    "original_image_id": 556903,
+    "official_source": "train2014/COCO_train2014_000000556903.jpg"
+  },
+  {
+    "uid": "official_train:10450955",
+    "row": {
+      "uid": "official_train:10450955",
+      "dataset": "tallyqa",
+      "question": "How many horses are in the photo?",
+      "images": [
+        "COCO_train2014_000000089905.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "0791a76a3e715608df15c7f9099e1dbb27e2aaa1ee5df263aef53241051f0f9d",
+    "file": "402d9deb2aee5afbba66afd7be976f0154fc2a4b2f8ab7383f95f4ee9efdfc55",
+    "original_image_id": 89905,
+    "official_source": "train2014/COCO_train2014_000000089905.jpg"
+  },
+  {
+    "uid": "official_train:10591931",
+    "row": {
+      "uid": "official_train:10591931",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen?",
+      "images": [
+        "COCO_train2014_000000194777.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "aee4d24a3e528b7b89fe26124a6101ec16c46f9b782b9b8fb96e1692bb686d9e",
+    "file": "35821f57e96d5114250a642226261fe491ba386e4659a5b68c0933cac17cbbe5",
+    "original_image_id": 194777,
+    "official_source": "train2014/COCO_train2014_000000194777.jpg"
+  },
+  {
+    "uid": "official_train:20045739",
+    "row": {
+      "uid": "official_train:20045739",
+      "dataset": "tallyqa",
+      "question": "How many cars in the photo?",
+      "images": [
+        "COCO_train2014_000000252544.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "d45c9b34e9ea72fbab777a5b831bc61247d895e1371fcfa511eb780f37c1e9ee",
+    "file": "68bac7b9a9605030a4cc6d9c3c37b64405dedeb963e150fcdb2b10f8d14e7bdb",
+    "original_image_id": 252544,
+    "official_source": "train2014/COCO_train2014_000000252544.jpg"
+  },
+  {
+    "uid": "official_train:10162559",
+    "row": {
+      "uid": "official_train:10162559",
+      "dataset": "tallyqa",
+      "question": "How many sheep can be seen?",
+      "images": [
+        "COCO_train2014_000000555738.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "6fbb1470d38eddab918c8caba39041b1aba1579757ea69ffd845d6b45c281ea8",
+    "file": "7d7913f82fe013401c95d9b0729724e8c738b1217835e860c627cfb9c5a0f009",
+    "original_image_id": 555738,
+    "official_source": "train2014/COCO_train2014_000000555738.jpg"
+  },
+  {
+    "uid": "official_train:10581833",
+    "row": {
+      "uid": "official_train:10581833",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "COCO_train2014_000000117993.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "cecafee62b5133f8afb309980d8fe9eb015c92f487a2f16dc352d10ba07e0296",
+    "file": "5370cc23dec1f9433f082d1f69fcb289252a3087ea4c8f047c508c3f700d026f",
+    "original_image_id": 117993,
+    "official_source": "train2014/COCO_train2014_000000117993.jpg"
+  },
+  {
+    "uid": "official_train:20058150",
+    "row": {
+      "uid": "official_train:20058150",
+      "dataset": "tallyqa",
+      "question": "How many umbrellas can be seen?",
+      "images": [
+        "COCO_train2014_000000212070.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "cd169e759d6ca7ff7bb48b6b52d637ac752bedd648d898e7d480b946a22cc5bb",
+    "file": "a96b3e7755c4bf218876ee476750afdb5b9f46d896f75bfbaad927e4e0d79d36",
+    "original_image_id": 212070,
+    "official_source": "train2014/COCO_train2014_000000212070.jpg"
+  },
+  {
+    "uid": "official_train:10474131",
+    "row": {
+      "uid": "official_train:10474131",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000356972.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "cf707a73725cf78c523bf4789f07b7e445c9f70bed435fb3e67d3b8a3471761f",
+    "file": "adac836ab3260bc29e5c4d292d728dfd9abc19b398dec0168090ebeac0abd40f",
+    "original_image_id": 356972,
+    "official_source": "train2014/COCO_train2014_000000356972.jpg"
+  },
+  {
+    "uid": "official_train:10069369",
+    "row": {
+      "uid": "official_train:10069369",
+      "dataset": "tallyqa",
+      "question": "How many people can you see?",
+      "images": [
+        "COCO_train2014_000000537774.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "922cf25ef4bb948fac93f40bd7898c08e518a3d28feec31a2398d6b5f27be4d5",
+    "file": "3452e8b85a3a3e3a0b93c0114ebd7ac364fe5490a9573f5e797b92744bfc1210",
+    "original_image_id": 537774,
+    "official_source": "train2014/COCO_train2014_000000537774.jpg"
+  },
+  {
+    "uid": "official_train:20005400",
+    "row": {
+      "uid": "official_train:20005400",
+      "dataset": "tallyqa",
+      "question": "How many kids are there?",
+      "images": [
+        "COCO_train2014_000000422593.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "bb7251ed3eb26d75cfd835b3fb2b8ca6cfe41991dfee5fc318adbda5ab177f7d",
+    "file": "bd0c09c9e470d65e7d22ec4232b53f89213ac591e923fcc588dd8b9b3f4f806e",
+    "original_image_id": 422593,
+    "official_source": "train2014/COCO_train2014_000000422593.jpg"
+  },
+  {
+    "uid": "official_train:20058569",
+    "row": {
+      "uid": "official_train:20058569",
+      "dataset": "tallyqa",
+      "question": "How many animals shown?",
+      "images": [
+        "COCO_train2014_000000014477.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "70df036d6ff11042971c786d2265303ced06e470310899a69dff37640ab6727b",
+    "file": "09fa5bc91c442fd1775150438b7c148d86b14965ae9e78451628358aa3ddbaa5",
+    "original_image_id": 14477,
+    "official_source": "train2014/COCO_train2014_000000014477.jpg"
+  },
+  {
+    "uid": "official_train:20009930",
+    "row": {
+      "uid": "official_train:20009930",
+      "dataset": "tallyqa",
+      "question": "How many people are in the boat?",
+      "images": [
+        "COCO_train2014_000000450776.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "bed706c0e6d8408b1c538ef028f84134184056755f2ec49770cf04ae1a962226",
+    "file": "5fbe279091e2f341733f22af83036954ea2f5a4940be974c242748ea4e4e1fab",
+    "original_image_id": 450776,
+    "official_source": "train2014/COCO_train2014_000000450776.jpg"
+  },
+  {
+    "uid": "official_train:10186844",
+    "row": {
+      "uid": "official_train:10186844",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000429289.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 4,
+    "split": "fit",
+    "rgb": "701c07cf758f75156600590a842ef4d8c3f9d30deda03f598c21fe3b59200c84",
+    "file": "74b0da597fd11a07ee0cd76ba17023f9bc38861df8e5b5345122e835b4a0483b",
+    "original_image_id": 429289,
+    "official_source": "train2014/COCO_train2014_000000429289.jpg"
+  },
+  {
+    "uid": "official_train:10252040",
+    "row": {
+      "uid": "official_train:10252040",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000179672.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "f8b83931f6496744bd7b82ec8da0d9daab2ae85b308e18fe2b2547183f112223",
+    "file": "44b46e91231629d4dc158765f9509a87ad1c75230f54c7bb32413d6996e051d8",
+    "original_image_id": 179672,
+    "official_source": "train2014/COCO_train2014_000000179672.jpg"
+  },
+  {
+    "uid": "official_train:20019748",
+    "row": {
+      "uid": "official_train:20019748",
+      "dataset": "tallyqa",
+      "question": "How many doors are open?",
+      "images": [
+        "COCO_train2014_000000128858.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "6ad5a64a77917d150a1c6194838e04de9f70e63b537b3132c1777284f4f18a4e",
+    "file": "ddca071a3126afe516e84cd5cccffb3102446b270054fcc0ff0f6b9a2c039ac6",
+    "original_image_id": 128858,
+    "official_source": "train2014/COCO_train2014_000000128858.jpg"
+  },
+  {
+    "uid": "official_train:10461013",
+    "row": {
+      "uid": "official_train:10461013",
+      "dataset": "tallyqa",
+      "question": "How many pizzas can you see?",
+      "images": [
+        "COCO_train2014_000000168274.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "c38da604d026bce907153750a91122aea27fde04dfe0a1fdc60dbb447b72c7d0",
+    "file": "d87eb6431f438df00a88efdff86a34b5fc6fac2e2b06946626a22222c76a1e39",
+    "original_image_id": 168274,
+    "official_source": "train2014/COCO_train2014_000000168274.jpg"
+  },
+  {
+    "uid": "official_train:10276656",
+    "row": {
+      "uid": "official_train:10276656",
+      "dataset": "tallyqa",
+      "question": "How many chairs are there?",
+      "images": [
+        "COCO_train2014_000000315374.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "526700c8bc721586f9d01cfeda03a750b4d4d54f71c2cbf46b8e0641bcb5bb5c",
+    "file": "09dfc3531f6ca5d2accf8a3daf9226da01e02a8b0cfc83f776783c3f13676c58",
+    "original_image_id": 315374,
+    "official_source": "train2014/COCO_train2014_000000315374.jpg"
+  },
+  {
+    "uid": "official_train:20013587",
+    "row": {
+      "uid": "official_train:20013587",
+      "dataset": "tallyqa",
+      "question": "How many planes are there?",
+      "images": [
+        "COCO_train2014_000000481129.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "1e3a6f4be993c05f02a1f403423acdbc7756e26ff5f7ccdc46f504cbf7d3bb64",
+    "file": "12998906e5f343109435c3f68d31a1d1e57ac229f03d963fa66ecb8dbe443753",
+    "original_image_id": 481129,
+    "official_source": "train2014/COCO_train2014_000000481129.jpg"
+  },
+  {
+    "uid": "official_train:20038212",
+    "row": {
+      "uid": "official_train:20038212",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "COCO_train2014_000000411238.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "fa34c5ea3bd6f634771daa29f201ea7fa37900408e10f9f70b8178bfc2dd1a46",
+    "file": "28d9af2260fb94e6e418869fc2d165d3a0e8e7778e16818524d7b0c84758512c",
+    "original_image_id": 411238,
+    "official_source": "train2014/COCO_train2014_000000411238.jpg"
+  },
+  {
+    "uid": "official_train:10478643",
+    "row": {
+      "uid": "official_train:10478643",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "COCO_train2014_000000518410.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "4a9d9238c45d28998d157ea09284a2238ac99bb0db414e1f53124092b68f4b54",
+    "file": "e42f4f15dcad245158d1da2290c784e61a181d9e0426876f8d3ec2dca52ab75c",
+    "original_image_id": 518410,
+    "official_source": "train2014/COCO_train2014_000000518410.jpg"
+  },
+  {
+    "uid": "official_train:20063347",
+    "row": {
+      "uid": "official_train:20063347",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "COCO_train2014_000000360412.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "3eeaf47deb42c05b8e1a03fa128aaff719c96c5a102340aa6ea968c3fe409a3b",
+    "file": "2eaaec4ad93dfd290152f7ac833ba1a7177346695acb429de4629701d71de649",
+    "original_image_id": 360412,
+    "official_source": "train2014/COCO_train2014_000000360412.jpg"
+  },
+  {
+    "uid": "official_train:10282524",
+    "row": {
+      "uid": "official_train:10282524",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000447573.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "2cf230c1cd35072d5ef5b824268eeeabc65ecfbfd7ae1a8d054ca091aa912cfb",
+    "file": "4c9b234e1695ec219062ebceb44ef5eb845a81b178bfbbe051c1478d299744d7",
+    "original_image_id": 447573,
+    "official_source": "train2014/COCO_train2014_000000447573.jpg"
+  },
+  {
+    "uid": "official_train:20045037",
+    "row": {
+      "uid": "official_train:20045037",
+      "dataset": "tallyqa",
+      "question": "How many cars are on this train?",
+      "images": [
+        "COCO_train2014_000000053684.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "91cde53b828579e222534377a4536827ef90cd9646c85abecebc344bdd39db71",
+    "file": "4e54988a3186906b6ac9ebcc17ec8460a6cc502acacab9bc641e12d544e903ed",
+    "original_image_id": 53684,
+    "official_source": "train2014/COCO_train2014_000000053684.jpg"
+  },
+  {
+    "uid": "official_train:10386497",
+    "row": {
+      "uid": "official_train:10386497",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000469248.jpg"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "9ddc0689160aa81abc7f1b5c7e1159827d3a91fa0203dc6b946852ce8bafd27d",
+    "file": "3175e4119a61fcf025d5c68dd5573d242058578a51a9516906fcdf671dfed9a2",
+    "original_image_id": 469248,
+    "official_source": "train2014/COCO_train2014_000000469248.jpg"
+  },
+  {
+    "uid": "official_train:10439317",
+    "row": {
+      "uid": "official_train:10439317",
+      "dataset": "tallyqa",
+      "question": "How many motorcycles are in the photo?",
+      "images": [
+        "COCO_train2014_000000087443.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "06c5920a537907287c7da2ad27470ea692223275b4e5682d14a28e61f817f81c",
+    "file": "87ed81f1c1f75e35f5bf963e56e9ea644f1f27d5baa8cc56f242fc89327c6f19",
+    "original_image_id": 87443,
+    "official_source": "train2014/COCO_train2014_000000087443.jpg"
+  },
+  {
+    "uid": "official_train:10348894",
+    "row": {
+      "uid": "official_train:10348894",
+      "dataset": "tallyqa",
+      "question": "How many birds are in the photo?",
+      "images": [
+        "COCO_train2014_000000461336.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "b501944f5054b3df79a04eca92433e4ff7b50d276ab5c5b66bd58f40887b858e",
+    "file": "1f3cb737d2c7acf9f08cf06ddaa01c1128fcee6b666a70c7eba77435a4eb767d",
+    "original_image_id": 461336,
+    "official_source": "train2014/COCO_train2014_000000461336.jpg"
+  },
+  {
+    "uid": "official_train:10081777",
+    "row": {
+      "uid": "official_train:10081777",
+      "dataset": "tallyqa",
+      "question": "How many teddy bears can be seen?",
+      "images": [
+        "COCO_train2014_000000278078.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "97cdccd2a3eb74c3a7ee91a44139a94b2f6eee16658a0e62cdbf942697125aff",
+    "file": "cbb678311f44f914ae85fa63590eff863ab72d7f52eb97d5a8b76778e92ad80f",
+    "original_image_id": 278078,
+    "official_source": "train2014/COCO_train2014_000000278078.jpg"
+  },
+  {
+    "uid": "official_train:10008281",
+    "row": {
+      "uid": "official_train:10008281",
+      "dataset": "tallyqa",
+      "question": "How many beds can you see?",
+      "images": [
+        "COCO_train2014_000000349791.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "fdcd9212d1612a25c023e5bfe10a271006c3fb9026838499c9142f066305092e",
+    "file": "e16a52cbe506dec406ac627c4a596f13c25229a9261b6ff7584fc0572ec73a84",
+    "original_image_id": 349791,
+    "official_source": "train2014/COCO_train2014_000000349791.jpg"
+  },
+  {
+    "uid": "official_train:20018460",
+    "row": {
+      "uid": "official_train:20018460",
+      "dataset": "tallyqa",
+      "question": "How many strawberries are on the plate?",
+      "images": [
+        "COCO_train2014_000000245978.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "38214f5e26228e6eb96df0ac66bdc94f9bebce4472ea36689c5856de3ca42589",
+    "file": "4f87002491870c12c06f7c8dc5bd4352ad65e693f043c3e8c14e191be44ca696",
+    "original_image_id": 245978,
+    "official_source": "train2014/COCO_train2014_000000245978.jpg"
+  },
+  {
+    "uid": "official_train:10461867",
+    "row": {
+      "uid": "official_train:10461867",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000102765.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "eb9ef621fbedcf3f03dbf1ed8e5ba2b647c5f40ff8e4c4fe7d4be031b2fa739b",
+    "file": "297e1941ce606182cb76926ef7420e2c6bb72f7dedda76a521dfe8b2b95611c1",
+    "original_image_id": 102765,
+    "official_source": "train2014/COCO_train2014_000000102765.jpg"
+  },
+  {
+    "uid": "official_train:10329871",
+    "row": {
+      "uid": "official_train:10329871",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen?",
+      "images": [
+        "COCO_train2014_000000457383.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "a84e0e7e6fa01494a7664a83df3b794ef265d6807a08f5fd4a82535d8cbb0e20",
+    "file": "3875fbdb609613e8a5a8ccc13e37bc8e9c10faadf91f89307b6422bf766b0a2b",
+    "original_image_id": 457383,
+    "official_source": "train2014/COCO_train2014_000000457383.jpg"
+  },
+  {
+    "uid": "official_train:20003549",
+    "row": {
+      "uid": "official_train:20003549",
+      "dataset": "tallyqa",
+      "question": "How many buoy's are in view?",
+      "images": [
+        "COCO_train2014_000000570602.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "e8fef78f1e52e144727b0166a5a2440baa84e39944229b535e097badb8c77117",
+    "file": "9a449cfd1f211469128ab2523890dcc8a1bfb4bc6db4ae43757a78fcccaf99d2",
+    "original_image_id": 570602,
+    "official_source": "train2014/COCO_train2014_000000570602.jpg"
+  },
+  {
+    "uid": "official_train:20050398",
+    "row": {
+      "uid": "official_train:20050398",
+      "dataset": "tallyqa",
+      "question": "How many stories is the tallest part of the building?",
+      "images": [
+        "COCO_train2014_000000448842.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "d907696822b3dde68881f6af147626c8d86437e3bc6e379d082656a9c32e0696",
+    "file": "faa714eea86629e0d7c984aa61f42e3b4abec5e8896c0f237e32821b8902e0f5",
+    "original_image_id": 448842,
+    "official_source": "train2014/COCO_train2014_000000448842.jpg"
+  },
+  {
+    "uid": "official_train:10428158",
+    "row": {
+      "uid": "official_train:10428158",
+      "dataset": "tallyqa",
+      "question": "How many broccolis are in the picture?",
+      "images": [
+        "COCO_train2014_000000216072.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "4ec79436bb5795ad27cd2362065d01d89473d632733f1e0424a018f48be3c917",
+    "file": "b305848d6391a3d54c65217fd32ac423e505c34268353b373c33bc8e58e973ce",
+    "original_image_id": 216072,
+    "official_source": "train2014/COCO_train2014_000000216072.jpg"
+  },
+  {
+    "uid": "official_train:20004677",
+    "row": {
+      "uid": "official_train:20004677",
+      "dataset": "tallyqa",
+      "question": "How many yellow umbrellas are standing?",
+      "images": [
+        "COCO_train2014_000000356029.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "71bb08bdbe3aa77abe3d2f96c33186832db128b61704f6705f344d4cc8b287c7",
+    "file": "eb3825bc1d3cc4b8f82a3b1695bd30d1eee77bfe6b37e7fba90ccf3e99a7357d",
+    "original_image_id": 356029,
+    "official_source": "train2014/COCO_train2014_000000356029.jpg"
+  },
+  {
+    "uid": "official_train:10598140",
+    "row": {
+      "uid": "official_train:10598140",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000252576.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "0a3f997c2943d88500e729b0075f782612284003b0891f1fab4ebfae72f77b51",
+    "file": "9c73e7af6c9825e5f7ada4b83501aba251e1bba1c6d7424539e4fd8069dcb4ac",
+    "original_image_id": 252576,
+    "official_source": "train2014/COCO_train2014_000000252576.jpg"
+  },
+  {
+    "uid": "official_train:20006163",
+    "row": {
+      "uid": "official_train:20006163",
+      "dataset": "tallyqa",
+      "question": "How many people are in the reflection?",
+      "images": [
+        "COCO_train2014_000000535852.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "7dc440cb4cf032d48afb037ef5bdeeb67a744904c455c6ff17f055e66da2fadd",
+    "file": "7a39e35540d4e992b3e11122c65237dd156c75395ba7040b8a96c9776e8477a3",
+    "original_image_id": 535852,
+    "official_source": "train2014/COCO_train2014_000000535852.jpg"
+  },
+  {
+    "uid": "official_train:10390691",
+    "row": {
+      "uid": "official_train:10390691",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000209433.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "dc9c2412c599e080ae17ab03337c25640ccb7a9afb0237cf161db4ff08f77f25",
+    "file": "d9f1441f615acff61938940c209b586fd55ec21efab5fb208e5c70e21a23e509",
+    "original_image_id": 209433,
+    "official_source": "train2014/COCO_train2014_000000209433.jpg"
+  },
+  {
+    "uid": "official_train:20009877",
+    "row": {
+      "uid": "official_train:20009877",
+      "dataset": "tallyqa",
+      "question": "How many oranges are in the bowl?",
+      "images": [
+        "COCO_train2014_000000531391.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "6fc9ed57b7ef811063e0092af7d048b0070b7e9562eb9008993b8beaf971c4e1",
+    "file": "ca34ae88829a2a43113cf74c9420c2b4b8d19def430546bcb618b5e9c6a2b5ca",
+    "original_image_id": 531391,
+    "official_source": "train2014/COCO_train2014_000000531391.jpg"
+  },
+  {
+    "uid": "official_train:10486450",
+    "row": {
+      "uid": "official_train:10486450",
+      "dataset": "tallyqa",
+      "question": "How many birds are visible?",
+      "images": [
+        "COCO_train2014_000000322091.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "04c90770c2cfe5ddac643293ddd5915399ee4673d2e8f9224064b0394c315feb",
+    "file": "5984f94082fef43b6897a26f9e7001fdd5d21503f8d0859857e52f9b96a72d65",
+    "original_image_id": 322091,
+    "official_source": "train2014/COCO_train2014_000000322091.jpg"
+  },
+  {
+    "uid": "official_train:10200480",
+    "row": {
+      "uid": "official_train:10200480",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000442103.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "b46326742a12667b86d9a2c4711c3c87d190f0f915a277700b2e82bad21e2cd4",
+    "file": "fd7aed98063934624794e1ced8bd1fff45c57332aaf6debae76e9eea245c63c1",
+    "original_image_id": 442103,
+    "official_source": "train2014/COCO_train2014_000000442103.jpg"
+  },
+  {
+    "uid": "official_train:10287458",
+    "row": {
+      "uid": "official_train:10287458",
+      "dataset": "tallyqa",
+      "question": "How many horses are visible?",
+      "images": [
+        "COCO_train2014_000000448547.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "aae51c42af8858973b0f3a10a83007e1936077bebf61948e9ebbbdb0048a45e4",
+    "file": "f28e44ff03def17153ba2a3b2b053b819dbe564963ca8172ad40c38429648d77",
+    "original_image_id": 448547,
+    "official_source": "train2014/COCO_train2014_000000448547.jpg"
+  },
+  {
+    "uid": "official_train:10173141",
+    "row": {
+      "uid": "official_train:10173141",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000557746.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "24686a6e3e26004c4875076b1f7e69a38784857900a12a13b2c440b37ee8040d",
+    "file": "a86b8febedaae5a486a3ed0d6e53a70e20f297604a8aa1eecc1f96e0bb3706ea",
+    "original_image_id": 557746,
+    "official_source": "train2014/COCO_train2014_000000557746.jpg"
+  },
+  {
+    "uid": "official_train:10635188",
+    "row": {
+      "uid": "official_train:10635188",
+      "dataset": "tallyqa",
+      "question": "How many broccolis are visible?",
+      "images": [
+        "COCO_train2014_000000129293.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "fdb093d03b50b4023d40a2ea912f6032370998bec8ee02786dd59e6185842c0e",
+    "file": "97c8ab693c6434b992978a28bb1818f2bc72fb080011cd2e11c0587eb17787c1",
+    "original_image_id": 129293,
+    "official_source": "train2014/COCO_train2014_000000129293.jpg"
+  },
+  {
+    "uid": "official_train:10003565",
+    "row": {
+      "uid": "official_train:10003565",
+      "dataset": "tallyqa",
+      "question": "How many surfboards can you see?",
+      "images": [
+        "COCO_train2014_000000000673.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fit"
+    },
+    "count": 5,
+    "split": "fit",
+    "rgb": "e792a7b710d5098c477a03f22e76b87f0dd5c1b3374fccf8e2c61c912f29a3c9",
+    "file": "dcad656327df00a4fd189b1cc6b967f299e1f0924531dc0f98bed960c027c3fc",
+    "original_image_id": 673,
+    "official_source": "train2014/COCO_train2014_000000000673.jpg"
+  },
+  {
+    "uid": "official_train:10439181",
+    "row": {
+      "uid": "official_train:10439181",
+      "dataset": "tallyqa",
+      "question": "How many birds can you see?",
+      "images": [
+        "COCO_train2014_000000349561.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "eff4cc9d950237e8f76da8a554b393f521d0de3aa453671251b4c918add4c3e1",
+    "file": "f88872c23d803b5a90a2113e1fe750539dec68cc24dd39a28a4ec9cbce41de42",
+    "original_image_id": 349561,
+    "official_source": "train2014/COCO_train2014_000000349561.jpg"
+  },
+  {
+    "uid": "official_train:10570651",
+    "row": {
+      "uid": "official_train:10570651",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000084803.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "761091aac4c82481d696e09a2d294d0881c49fe704c205d25bb284926348bcbb",
+    "file": "cb60fec06440582ab7c84f364dcc47cfe9a09e50c4d0929df70588379f0ea3a5",
+    "original_image_id": 84803,
+    "official_source": "train2014/COCO_train2014_000000084803.jpg"
+  },
+  {
+    "uid": "official_train:10004767",
+    "row": {
+      "uid": "official_train:10004767",
+      "dataset": "tallyqa",
+      "question": "How many tvs are there?",
+      "images": [
+        "COCO_train2014_000000000909.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "5d66e987fc28505cea957b7cdfb89b8b8750217ef8babb1b4e73a1b1c8fe37ae",
+    "file": "6f69228b4ad8744707f7fd3dbeccb951f2ea5c394ff01f2a9ba1d06cc71c5787",
+    "original_image_id": 909,
+    "official_source": "train2014/COCO_train2014_000000000909.jpg"
+  },
+  {
+    "uid": "official_train:10297442",
+    "row": {
+      "uid": "official_train:10297442",
+      "dataset": "tallyqa",
+      "question": "How many cars are there?",
+      "images": [
+        "COCO_train2014_000000450471.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "db2b5ff215b14d47c18f41fc9b978b5b864f56d6994bb154326cbcc1e14dedab",
+    "file": "93a2f5eea573a754e7247c85d9e139092938fff517f50aa4a711d003b0421634",
+    "original_image_id": 450471,
+    "official_source": "train2014/COCO_train2014_000000450471.jpg"
+  },
+  {
+    "uid": "official_train:10426214",
+    "row": {
+      "uid": "official_train:10426214",
+      "dataset": "tallyqa",
+      "question": "How many chairs are there?",
+      "images": [
+        "COCO_train2014_000000477797.jpg"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "fbe0c39c20e7003cb036e765b7bf22fe8f741f1a11e79f5b0397ca4b3869425c",
+    "file": "e61d1ae46de01794c796982a0d01fd5d5ffae2ea931750d5f6e53214a67effa6",
+    "original_image_id": 477797,
+    "official_source": "train2014/COCO_train2014_000000477797.jpg"
+  },
+  {
+    "uid": "official_train:20035392",
+    "row": {
+      "uid": "official_train:20035392",
+      "dataset": "tallyqa",
+      "question": "How many animals are eating?",
+      "images": [
+        "COCO_train2014_000000533803.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "f56f33c41cb13aea48e8ce704de44be99f78627dd5dec2103809eaa180e86e1b",
+    "file": "e12fd5edb397c2c492b08d8eb76123fdb8bcdd421344ef09a208372bc91b3a55",
+    "original_image_id": 533803,
+    "official_source": "train2014/COCO_train2014_000000533803.jpg"
+  },
+  {
+    "uid": "official_train:20054009",
+    "row": {
+      "uid": "official_train:20054009",
+      "dataset": "tallyqa",
+      "question": "How many members of the blue team are shown?",
+      "images": [
+        "COCO_train2014_000000579179.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "17c9e65768bb1465ed841aeeb3134f37dc6f9f31546bda5660f9febabc41f104",
+    "file": "e6f06326430a024051d2020dee026abdc85092b7648507b897c6a4a6c64f5e2d",
+    "original_image_id": 579179,
+    "official_source": "train2014/COCO_train2014_000000579179.jpg"
+  },
+  {
+    "uid": "official_train:20040531",
+    "row": {
+      "uid": "official_train:20040531",
+      "dataset": "tallyqa",
+      "question": "How many people are shown?",
+      "images": [
+        "COCO_train2014_000000025232.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "383699afec615685c75ee0feab4313e1e04d47d00f073fe7ffaff589cbd6b6b5",
+    "file": "b98e7b566a6d68610dace2fe75a72ea77f898faeca766c51a61fef611d42a037",
+    "original_image_id": 25232,
+    "official_source": "train2014/COCO_train2014_000000025232.jpg"
+  },
+  {
+    "uid": "official_train:20019668",
+    "row": {
+      "uid": "official_train:20019668",
+      "dataset": "tallyqa",
+      "question": "How many elephants are there?",
+      "images": [
+        "COCO_train2014_000000551873.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "51905f3f67cb3d9be6375d6bfefafb769e2663d4c6b6a9b8de74b2fb5ac26bb7",
+    "file": "2dd174f3e1d9ba77da3fc723d49b2bef5d43a823b99196c53e3f7f76cfc99b68",
+    "original_image_id": 551873,
+    "official_source": "train2014/COCO_train2014_000000551873.jpg"
+  },
+  {
+    "uid": "official_train:10377484",
+    "row": {
+      "uid": "official_train:10377484",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000285059.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "73b8853c78ecccea508671ce3bb4794594481e34f30dd7d5adc35c30eaec159d",
+    "file": "1acf43aa470ff40ea7954d297ab331dbae44433ef0cb54fd5895d66c4be79f74",
+    "original_image_id": 285059,
+    "official_source": "train2014/COCO_train2014_000000285059.jpg"
+  },
+  {
+    "uid": "official_train:10597421",
+    "row": {
+      "uid": "official_train:10597421",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000252407.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "4ce05afb56d851b9fb7789e671698a4a13c47d3cf5f67c17b7a4d4521bf7aaba",
+    "file": "8cfedf5c93fe1c03dc3a218ae9f2d84aba2b7bda441371c634eacd8b4cf20667",
+    "original_image_id": 252407,
+    "official_source": "train2014/COCO_train2014_000000252407.jpg"
+  },
+  {
+    "uid": "official_train:10400595",
+    "row": {
+      "uid": "official_train:10400595",
+      "dataset": "tallyqa",
+      "question": "How many chairs are in the photo?",
+      "images": [
+        "COCO_train2014_000000472258.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "c53f77cc820c89cb205ece2e3eee95bbc173c14bab733405335b1925fc53e28d",
+    "file": "698313c1be9d3c26db2752c63cf6dd75a8750a6428f7d22924eca2fa3d7eb5b5",
+    "original_image_id": 472258,
+    "official_source": "train2014/COCO_train2014_000000472258.jpg"
+  },
+  {
+    "uid": "official_train:20014388",
+    "row": {
+      "uid": "official_train:20014388",
+      "dataset": "tallyqa",
+      "question": "How many bikes are driving down the street?",
+      "images": [
+        "COCO_train2014_000000072987.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "9707fa5b23640c04c8666a5e97d853670e15280d9c17b3704620fa3278e9edc8",
+    "file": "f61f832b284f263cf2c1410f0a3a84fb04cadd2d246edc9ca0fc889ac834681c",
+    "original_image_id": 72987,
+    "official_source": "train2014/COCO_train2014_000000072987.jpg"
+  },
+  {
+    "uid": "official_train:20071554",
+    "row": {
+      "uid": "official_train:20071554",
+      "dataset": "tallyqa",
+      "question": "How many tracks are there?",
+      "images": [
+        "COCO_train2014_000000266023.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "e94a71dc1f92fd7fdd4b93100c434beced078823c519e4042fb4c0549ff9b4ed",
+    "file": "5bc418563360fe0151d627163e17b757422196bf2fac0cc7c213ee80f7d316f5",
+    "original_image_id": 266023,
+    "official_source": "train2014/COCO_train2014_000000266023.jpg"
+  },
+  {
+    "uid": "official_train:10173464",
+    "row": {
+      "uid": "official_train:10173464",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000557804.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "28e07da99b167d9224c3c4c07e7ec8dc9ae124e909f554b9a0ef8ea678aadeb6",
+    "file": "218afbc76dc16b83ac4dc75a58c1cc0e8d3e7dd5cfbd16c9d55efbe12eb4a177",
+    "original_image_id": 557804,
+    "official_source": "train2014/COCO_train2014_000000557804.jpg"
+  },
+  {
+    "uid": "official_train:20018370",
+    "row": {
+      "uid": "official_train:20018370",
+      "dataset": "tallyqa",
+      "question": "How many wheels visible?",
+      "images": [
+        "COCO_train2014_000000135237.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 2,
+    "split": "calibration",
+    "rgb": "117e937900bd1dccaad96dff508107244b2249d3e973eb98f9f1ffdc10838db9",
+    "file": "37e62b6b2174aaeecca3ca67c637dc66ffda188efddbb5fe098655ed42d0fc1a",
+    "original_image_id": 135237,
+    "official_source": "train2014/COCO_train2014_000000135237.jpg"
+  },
+  {
+    "uid": "official_train:20062562",
+    "row": {
+      "uid": "official_train:20062562",
+      "dataset": "tallyqa",
+      "question": "How many toppings are on the pizza?",
+      "images": [
+        "COCO_train2014_000000226595.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "9b018996276ed017ac209727e87cf8a1cc40e36b48b388f1c512ea4da638d79b",
+    "file": "04d3e610ca8710980566a53e474d808993ec69a1edb6dedece977b3c1ec06ec1",
+    "original_image_id": 226595,
+    "official_source": "train2014/COCO_train2014_000000226595.jpg"
+  },
+  {
+    "uid": "official_train:20020660",
+    "row": {
+      "uid": "official_train:20020660",
+      "dataset": "tallyqa",
+      "question": "How many vehicles are there?",
+      "images": [
+        "COCO_train2014_000000397173.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "b77e3ce08af353e6baf1e42f41828a51bcbe440993ec8d860761fee2fac84dfb",
+    "file": "d4eaa6c985c7f1337a5ec5867bf9a80ac189a39305ed0ef25a465d4a818d4148",
+    "original_image_id": 397173,
+    "official_source": "train2014/COCO_train2014_000000397173.jpg"
+  },
+  {
+    "uid": "official_train:10633649",
+    "row": {
+      "uid": "official_train:10633649",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000522221.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "9d88ac9eee46731385f53b8688082ab13859f45523676f0fa69340fefd52f85b",
+    "file": "770a49185d7cbd749434ef548fef226bd9dddbbef20b7c5ec86411bfab3b0294",
+    "original_image_id": 522221,
+    "official_source": "train2014/COCO_train2014_000000522221.jpg"
+  },
+  {
+    "uid": "official_train:10314795",
+    "row": {
+      "uid": "official_train:10314795",
+      "dataset": "tallyqa",
+      "question": "How many dining tables are in the photo?",
+      "images": [
+        "COCO_train2014_000000323129.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "819f18ef3ee5354a10c96ae7aa43e9f560d8cbcd5f3c4d3785346dd0d6ce9fef",
+    "file": "022b5039dab9e94106d7c438e96c8d5c6bd10e1ccebe7580ce4f876336438efa",
+    "original_image_id": 323129,
+    "official_source": "train2014/COCO_train2014_000000323129.jpg"
+  },
+  {
+    "uid": "official_train:20004127",
+    "row": {
+      "uid": "official_train:20004127",
+      "dataset": "tallyqa",
+      "question": "How many different kinds of food are there?",
+      "images": [
+        "COCO_train2014_000000300264.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "12ee5db65f1b3c3320d29932b5254c3adae5ea0f4034cb33e5640cc5bf3a7fa2",
+    "file": "67a2060914c9fb2a1cfe6beb670eaa027483f0de33cb8e5221a0e36ce7b178ff",
+    "original_image_id": 300264,
+    "official_source": "train2014/COCO_train2014_000000300264.jpg"
+  },
+  {
+    "uid": "official_train:10010390",
+    "row": {
+      "uid": "official_train:10010390",
+      "dataset": "tallyqa",
+      "question": "How many cars can be seen?",
+      "images": [
+        "COCO_train2014_000000264197.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "4ed88bb9f36fceff6b769bdf5cff39ec81d980bf82d85ae5c434847a7e3290c2",
+    "file": "630335a06d321fa19b87083eb97c0ac8ba5f04a6e00eb0800dca8a9b7d440aa3",
+    "original_image_id": 264197,
+    "official_source": "train2014/COCO_train2014_000000264197.jpg"
+  },
+  {
+    "uid": "official_train:10520327",
+    "row": {
+      "uid": "official_train:10520327",
+      "dataset": "tallyqa",
+      "question": "How many giraffes are in the photo?",
+      "images": [
+        "COCO_train2014_000000497953.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "f85c8eef15917e3135b2700a1571f95aa41e10b6a369c3a811df21c71d00ea7f",
+    "file": "5b9b81eba29e78c0b19c65819eb1fa9d3c9714c00b6544a1224aa223202709ba",
+    "original_image_id": 497953,
+    "official_source": "train2014/COCO_train2014_000000497953.jpg"
+  },
+  {
+    "uid": "official_train:10004274",
+    "row": {
+      "uid": "official_train:10004274",
+      "dataset": "tallyqa",
+      "question": "How many birds are in the photo?",
+      "images": [
+        "COCO_train2014_000000000813.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "d238c1e2d4cc7e87b1e65606f11c0d6eed7b7f14ab797b0e8a6f8090862eab4a",
+    "file": "e38c81b44441b5e314cf5f40a791a4c5869d4830b07f0c9783d75177fc05a4d5",
+    "original_image_id": 813,
+    "official_source": "train2014/COCO_train2014_000000000813.jpg"
+  },
+  {
+    "uid": "official_train:20032364",
+    "row": {
+      "uid": "official_train:20032364",
+      "dataset": "tallyqa",
+      "question": "How many birds are there?",
+      "images": [
+        "COCO_train2014_000000436929.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "961fcc623f3bc5be057b7b1eba84a4bf2c7b336bc382377f8a963c4a9c3cdde8",
+    "file": "9e2e5b05f3399db3beb79daf6454c7763c577d27dad94705027a56cf30c142ac",
+    "original_image_id": 436929,
+    "official_source": "train2014/COCO_train2014_000000436929.jpg"
+  },
+  {
+    "uid": "official_train:10606601",
+    "row": {
+      "uid": "official_train:10606601",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000254396.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "ba6e02cdf1bc33e8e855eec231b4e899519d643efa29755f71b9259120ae73e4",
+    "file": "40f7b8789c78e5e65c1cdc799c8898d1b63eea108b9eb67197583b250d9f7592",
+    "original_image_id": 254396,
+    "official_source": "train2014/COCO_train2014_000000254396.jpg"
+  },
+  {
+    "uid": "official_train:10101512",
+    "row": {
+      "uid": "official_train:10101512",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000544032.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "745cc5f21cd2f33bb9b1f3c45784d60b05af84f5cbe8c65864e74f79cb95a911",
+    "file": "9338cf838aeb6020a58b5009cbc3b307781efab01747a819d553aa5ab0441e56",
+    "original_image_id": 544032,
+    "official_source": "train2014/COCO_train2014_000000544032.jpg"
+  },
+  {
+    "uid": "official_train:10351504",
+    "row": {
+      "uid": "official_train:10351504",
+      "dataset": "tallyqa",
+      "question": "How many teddy bears are visible?",
+      "images": [
+        "COCO_train2014_000000068697.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "02d40a8e2fa1945aea1bd47c616552c6c87e350d0cd97771ace77609cb73667c",
+    "file": "fcd7ededafcfa8e820e5239e9655b15ddec0a274cbaec814a2e9b15c43927abc",
+    "original_image_id": 68697,
+    "official_source": "train2014/COCO_train2014_000000068697.jpg"
+  },
+  {
+    "uid": "official_train:10399864",
+    "row": {
+      "uid": "official_train:10399864",
+      "dataset": "tallyqa",
+      "question": "How many giraffes are visible?",
+      "images": [
+        "COCO_train2014_000000231596.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "62d6fcfb68de875382bd24d5a7508708271e2ffdbc688688a62c7c955d139087",
+    "file": "dc1444d2c06505476c8202c75a561f4fd426de5cff24295806f9efae746468e7",
+    "original_image_id": 231596,
+    "official_source": "train2014/COCO_train2014_000000231596.jpg"
+  },
+  {
+    "uid": "official_train:20039351",
+    "row": {
+      "uid": "official_train:20039351",
+      "dataset": "tallyqa",
+      "question": "How many vehicles are waiting?",
+      "images": [
+        "COCO_train2014_000000069117.jpg"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "b6c5525eb605c77ec195196dbab9135ee9c5616bb225d3b07c37a7dbdbc6ea4e",
+    "file": "e951451a6845235b1ff732e991953d1b55d2f21d0e2560d46702e3599f0e2df9",
+    "original_image_id": 69117,
+    "official_source": "train2014/COCO_train2014_000000069117.jpg"
+  },
+  {
+    "uid": "official_train:10176699",
+    "row": {
+      "uid": "official_train:10176699",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000427362.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "6e0bfaa02acb8869a7ec4bbe54fbca47e22b83ed9825dce22a3a6c736d81d973",
+    "file": "f5aef130fd8e494f6bbd7e6ed6dab9a0027fbb54724643bcd35418c9c0f0c25e",
+    "original_image_id": 427362,
+    "official_source": "train2014/COCO_train2014_000000427362.jpg"
+  },
+  {
+    "uid": "official_train:20070175",
+    "row": {
+      "uid": "official_train:20070175",
+      "dataset": "tallyqa",
+      "question": "How many hands are in the picture?",
+      "images": [
+        "COCO_train2014_000000383768.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 3,
+    "split": "calibration",
+    "rgb": "4ac64e08072b92f28a99a49a8780bab8759fe830f89fdb3304536b7695a215f3",
+    "file": "37ba19e301e0cdc7796db4387cad69e47792223a989875b9483e91a98f307973",
+    "original_image_id": 383768,
+    "official_source": "train2014/COCO_train2014_000000383768.jpg"
+  },
+  {
+    "uid": "official_train:10233486",
+    "row": {
+      "uid": "official_train:10233486",
+      "dataset": "tallyqa",
+      "question": "How many sheep can be seen?",
+      "images": [
+        "COCO_train2014_000000438200.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "e3644c136ff92e00052c9c89267cf422313579f256bc75a4d13fe56aa09cff95",
+    "file": "84898e7aadcd21b6fe3407fac0f6489065767c298023ca3b105235d140f3d7bf",
+    "original_image_id": 438200,
+    "official_source": "train2014/COCO_train2014_000000438200.jpg"
+  },
+  {
+    "uid": "official_train:10360653",
+    "row": {
+      "uid": "official_train:10360653",
+      "dataset": "tallyqa",
+      "question": "How many cows are there?",
+      "images": [
+        "COCO_train2014_000000463892.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "19ecfe93f47bbe7a63dac724f6aa074e662f6ea2d435393931b9825dfe71da39",
+    "file": "ba7d3300ccca2746c130972c452efda1f322c5869f39ebb97eb895c05c99eac8",
+    "original_image_id": 463892,
+    "official_source": "train2014/COCO_train2014_000000463892.jpg"
+  },
+  {
+    "uid": "official_train:10391993",
+    "row": {
+      "uid": "official_train:10391993",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000449780.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "42058d20ad453419a48945dfc6c25e538eefcc7b6f32afba0856bdb83e1747b6",
+    "file": "4437fab6d3ea44a25f8ad64a292f3736f20d50a57785ab6a74866775bad40c9d",
+    "original_image_id": 449780,
+    "official_source": "train2014/COCO_train2014_000000449780.jpg"
+  },
+  {
+    "uid": "official_train:10186221",
+    "row": {
+      "uid": "official_train:10186221",
+      "dataset": "tallyqa",
+      "question": "How many motorcycles can be seen?",
+      "images": [
+        "COCO_train2014_000000560270.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "7bc394f2bc3226449637260dbfad0253f18cbf63497bd20aefd0db996e2644c3",
+    "file": "3b52dfd9ab53c64efeb35408ea20adcac2c3ba4b798b887b7f88422614cb1cbd",
+    "original_image_id": 560270,
+    "official_source": "train2014/COCO_train2014_000000560270.jpg"
+  },
+  {
+    "uid": "official_train:20036002",
+    "row": {
+      "uid": "official_train:20036002",
+      "dataset": "tallyqa",
+      "question": "How many tracks are there?",
+      "images": [
+        "COCO_train2014_000000022195.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "6d32063bf8ed712a4848efc7a623b726b9baedbfa390b5a6bd6819d5efde3279",
+    "file": "169440931c0c469ffeab43c2e5c731422724e020c7d19a417c6363327b7bec62",
+    "original_image_id": 22195,
+    "official_source": "train2014/COCO_train2014_000000022195.jpg"
+  },
+  {
+    "uid": "official_train:20039207",
+    "row": {
+      "uid": "official_train:20039207",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "COCO_train2014_000000020971.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "81220fc6207ebfa67f75f9ad445c3f90c15b785ed53e0098445c02465baf0c62",
+    "file": "44083e60ed8507cb07056dc1e3f77326c9ac8011f569fc89dbc71f06343be488",
+    "original_image_id": 20971,
+    "official_source": "train2014/COCO_train2014_000000020971.jpg"
+  },
+  {
+    "uid": "official_train:20055493",
+    "row": {
+      "uid": "official_train:20055493",
+      "dataset": "tallyqa",
+      "question": "How many children are in the photo?",
+      "images": [
+        "COCO_train2014_000000334220.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "0fbcd6d9b549a9d3fea2efd8d1db8c5b57a2aac2c3e152b46187828b6ad73d8d",
+    "file": "cbeff18e23f7d6ed6d18865cb741cd63bd2b2124a07b7178bb024089bb892943",
+    "original_image_id": 334220,
+    "official_source": "train2014/COCO_train2014_000000334220.jpg"
+  },
+  {
+    "uid": "official_train:10045130",
+    "row": {
+      "uid": "official_train:10045130",
+      "dataset": "tallyqa",
+      "question": "How many chairs are in the picture?",
+      "images": [
+        "COCO_train2014_000000139887.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "3b6c59d380f2017247a38ffda9022e2699f5edfe4dc550ae653b02f14201ef1e",
+    "file": "e2257bf3fe39a12f64e0e16215683e2b058a157fb608960118be2b2e657c5068",
+    "original_image_id": 139887,
+    "official_source": "train2014/COCO_train2014_000000139887.jpg"
+  },
+  {
+    "uid": "official_train:10177799",
+    "row": {
+      "uid": "official_train:10177799",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000427573.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "f3691bce441407e684588d071bc9eba34ceb4bdd16274735662d34bb1667740a",
+    "file": "4d47511c68a1ea9a52b3deabc3a36efb5d850d9555097301835d635d7efa0c17",
+    "original_image_id": 427573,
+    "official_source": "train2014/COCO_train2014_000000427573.jpg"
+  },
+  {
+    "uid": "official_train:20007074",
+    "row": {
+      "uid": "official_train:20007074",
+      "dataset": "tallyqa",
+      "question": "How many cabinet spaces?",
+      "images": [
+        "COCO_train2014_000000241821.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "3fd28ecba6a666f9383296ec7c3ff2a7b942ee9b326e0ce9c6e49c3a84180784",
+    "file": "dc3aa0b37bc9e0cdcc2e624d592c0f572400ed85786a64567915f5b286d532b2",
+    "original_image_id": 241821,
+    "official_source": "train2014/COCO_train2014_000000241821.jpg"
+  },
+  {
+    "uid": "official_train:10526891",
+    "row": {
+      "uid": "official_train:10526891",
+      "dataset": "tallyqa",
+      "question": "How many people can you see?",
+      "images": [
+        "COCO_train2014_000000499357.jpg"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "23ceb098238e15547438f11db25c176cbcea1360f6dc07020ab2110d13809435",
+    "file": "ae0c0593736edadd8d1ba13bbd950684f3a6a5bb31944ce90fd05aaa9fd81385",
+    "original_image_id": 499357,
+    "official_source": "train2014/COCO_train2014_000000499357.jpg"
+  },
+  {
+    "uid": "official_train:10121767",
+    "row": {
+      "uid": "official_train:10121767",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen?",
+      "images": [
+        "COCO_train2014_000000154693.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "4cca78266be71f9578c9c01098b94aa02ca17cbffdada15277fef0c4395e03c5",
+    "file": "b1c129bb28a83f12c802315d51d2c863c04337cd6a34ac07f5ddbb5fd6c630f5",
+    "original_image_id": 154693,
+    "official_source": "train2014/COCO_train2014_000000154693.jpg"
+  },
+  {
+    "uid": "official_train:10440696",
+    "row": {
+      "uid": "official_train:10440696",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen?",
+      "images": [
+        "COCO_train2014_000000480947.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "4e3d987dbade42f49472e74a3ad5356ae673f1a676c5dc12de3bb86f2b6260fc",
+    "file": "5a0e2f1b30f5f820ae97e68a82e0cc95dd37f1b943a5f341f351470011139011",
+    "original_image_id": 480947,
+    "official_source": "train2014/COCO_train2014_000000480947.jpg"
+  },
+  {
+    "uid": "official_train:20044569",
+    "row": {
+      "uid": "official_train:20044569",
+      "dataset": "tallyqa",
+      "question": "How many cars are there?",
+      "images": [
+        "COCO_train2014_000000037864.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "037d0c0d3cdb99d58314677a40a548cadff7087862967f76669de2e3e215a66e",
+    "file": "811bc39014923c4c5724d4f69323ad511130dd92c8874db9f9795725b8cf6a60",
+    "original_image_id": 37864,
+    "official_source": "train2014/COCO_train2014_000000037864.jpg"
+  },
+  {
+    "uid": "official_train:10169459",
+    "row": {
+      "uid": "official_train:10169459",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000294942.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "1a4234a3b0683547ee522af7daccdd004ea8e7a0efd1afc2e75bdceddb48478a",
+    "file": "e379ea9ebc642534dd0fb9c16e12a98eeb1b9ee70513966ce8b4c4755131fdf1",
+    "original_image_id": 294942,
+    "official_source": "train2014/COCO_train2014_000000294942.jpg"
+  },
+  {
+    "uid": "official_train:10392007",
+    "row": {
+      "uid": "official_train:10392007",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "COCO_train2014_000000362399.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 4,
+    "split": "calibration",
+    "rgb": "36b3c65e73a856ad08f02ff3f5b0e99c4096b66ef9b6f03acb5924c0c3fedcf8",
+    "file": "10e7897e1c5f57e3bea6ca7bceeb36e2a6d99c57a0293400bce6f5c87174d139",
+    "original_image_id": 362399,
+    "official_source": "train2014/COCO_train2014_000000362399.jpg"
+  },
+  {
+    "uid": "official_train:10075002",
+    "row": {
+      "uid": "official_train:10075002",
+      "dataset": "tallyqa",
+      "question": "How many bicycles are there?",
+      "images": [
+        "COCO_train2014_000000276721.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "a17e29f51ad978d04281faffda68b98f8ca188f218f3d6f2e21ac0d61096d4ba",
+    "file": "40e33afbace8f14810b3a0a68ca2dfc17355c27d25331e70424c7cdb5c87c1ca",
+    "original_image_id": 276721,
+    "official_source": "train2014/COCO_train2014_000000276721.jpg"
+  },
+  {
+    "uid": "official_train:10415264",
+    "row": {
+      "uid": "official_train:10415264",
+      "dataset": "tallyqa",
+      "question": "How many horses are visible?",
+      "images": [
+        "COCO_train2014_000000344319.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "7a7de1324ca56a17ed4a0b1a81f48aa0d9860a6921c53744edcd4641c5b80cba",
+    "file": "72482b20d56383e21396fc8f8b954045a9d50fac45f1ebacc83bba3caa74ca2e",
+    "original_image_id": 344319,
+    "official_source": "train2014/COCO_train2014_000000344319.jpg"
+  },
+  {
+    "uid": "official_train:20000400",
+    "row": {
+      "uid": "official_train:20000400",
+      "dataset": "tallyqa",
+      "question": "How many men are there in this picture?",
+      "images": [
+        "COCO_train2014_000000278461.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "ec263002f628d1e6bf0831561df11a776c422ae8d2818cf483645beebb1e8bfa",
+    "file": "df851c82993c6bc85e4b198aad3657bf5d143ad5e00d3137c9ed11aef7b426b8",
+    "original_image_id": 278461,
+    "official_source": "train2014/COCO_train2014_000000278461.jpg"
+  },
+  {
+    "uid": "official_train:20038998",
+    "row": {
+      "uid": "official_train:20038998",
+      "dataset": "tallyqa",
+      "question": "How many traffic lights?",
+      "images": [
+        "COCO_train2014_000000090777.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "61f52256c7132e71d32c1b2cd0a7f012c3676f863441b7c29fa9c75fd04a8456",
+    "file": "efd4ca0c25c6c64455448f21a2295f875f7097d7133593582e993cfe5a4cb4ed",
+    "original_image_id": 90777,
+    "official_source": "train2014/COCO_train2014_000000090777.jpg"
+  },
+  {
+    "uid": "official_train:10083643",
+    "row": {
+      "uid": "official_train:10083643",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000540575.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "8a5e6e15b00ecaa1bd8a67c0a56e984a8cef22e302cb3c34e674b50866222aec",
+    "file": "d042456dbef3a4b3f7091b88e374f80e29729cd3af30ff5687dbce601eb4103f",
+    "original_image_id": 540575,
+    "official_source": "train2014/COCO_train2014_000000540575.jpg"
+  },
+  {
+    "uid": "official_train:20012895",
+    "row": {
+      "uid": "official_train:20012895",
+      "dataset": "tallyqa",
+      "question": "How many suitcases are there?",
+      "images": [
+        "COCO_train2014_000000142426.jpg"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "2b24c0f94e643e5669eeac8af1f3e4f148c85d51050576b36676955d5177c9cb",
+    "file": "60deeac15a257919b002aa346b568f61805d6bbc21ecc54664ed365d4eb82fdd",
+    "original_image_id": 142426,
+    "official_source": "train2014/COCO_train2014_000000142426.jpg"
+  },
+  {
+    "uid": "official_train:20020532",
+    "row": {
+      "uid": "official_train:20020532",
+      "dataset": "tallyqa",
+      "question": "How many different toppings are on the pizza?",
+      "images": [
+        "COCO_train2014_000000352917.jpg"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "62df5bf7f2c12d9008d4b1cb4ea72e28bd943ca4782d82595a0ba5a60c8a0b1c",
+    "file": "0a602ee485e2b598dd220417f6deb0a5ba709d036532da76535e46dc5d29e253",
+    "original_image_id": 352917,
+    "official_source": "train2014/COCO_train2014_000000352917.jpg"
+  },
+  {
+    "uid": "official_train:10402463",
+    "row": {
+      "uid": "official_train:10402463",
+      "dataset": "tallyqa",
+      "question": "How many broccolis are there?",
+      "images": [
+        "COCO_train2014_000000428299.jpg"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "2424683bc820ec4eed9281bd0d543c4a2e19b77eec70c3f595dc956144b48543",
+    "file": "d81c47fd9fc97e3f3fd40c05e9ca49588604146c8b0289eb68651607822056c6",
+    "original_image_id": 428299,
+    "official_source": "train2014/COCO_train2014_000000428299.jpg"
+  },
+  {
+    "uid": "official_train:20041650",
+    "row": {
+      "uid": "official_train:20041650",
+      "dataset": "tallyqa",
+      "question": "How many pillows are there?",
+      "images": [
+        "COCO_train2014_000000553192.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "3ce504173031a31d6a3fa40b2382c9e94b9363e4d95cff8616e9607b663caca8",
+    "file": "0075d95ceeede0712984093153aebb2e8ab4cde1658de432990e6cd7fd5b6d3d",
+    "original_image_id": 553192,
+    "official_source": "train2014/COCO_train2014_000000553192.jpg"
+  },
+  {
+    "uid": "official_train:10461122",
+    "row": {
+      "uid": "official_train:10461122",
+      "dataset": "tallyqa",
+      "question": "How many apples can be seen?",
+      "images": [
+        "COCO_train2014_000000485374.jpg"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "9fac49965e678627773f294b1004a7c09f29f505490e8db44bdcb347c72d9e09",
+    "file": "46c71d3c7d86aab4ee8d6108c9c6de1ffd850a691005af94d2569d0b09721647",
+    "original_image_id": 485374,
+    "official_source": "train2014/COCO_train2014_000000485374.jpg"
+  },
+  {
+    "uid": "official_train:10159901",
+    "row": {
+      "uid": "official_train:10159901",
+      "dataset": "tallyqa",
+      "question": "How many boats are in the photo?",
+      "images": [
+        "COCO_train2014_000000293086.jpg"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "8a8157f83a033dc5764bf6b67efe622b1f9f19d8e8c6590aed1b03475b3ffaec",
+    "file": "77f82f590903ac6f4a2c4e5faa0ba870b229e117deb5611ca043895a93acaf84",
+    "original_image_id": 293086,
+    "official_source": "train2014/COCO_train2014_000000293086.jpg"
+  },
+  {
+    "uid": "official_train:20009922",
+    "row": {
+      "uid": "official_train:20009922",
+      "dataset": "tallyqa",
+      "question": "How many tires are visible here?",
+      "images": [
+        "COCO_train2014_000000227484.jpg"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "fb5dd026efcef75e0ca37fc18f0b8d860b69d46b8c9bcdb8eb28b52b61a504c6",
+    "file": "95a19ac1347452480150567b0d98a1e86a3191bfe2cff252718be831366ff58a",
+    "original_image_id": 227484,
+    "official_source": "train2014/COCO_train2014_000000227484.jpg"
+  },
+  {
+    "uid": "official_train:10450387",
+    "row": {
+      "uid": "official_train:10450387",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000220850.jpg"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "a515d8cefd1d4627a42846a83b78d20c59aebba36b46967dd5a4545bd7df6a94",
+    "file": "d8d1899e8806cf2572eb365df3c4f5b7ebdc0c7c37d61a8177d75a79defd253a",
+    "original_image_id": 220850,
+    "official_source": "train2014/COCO_train2014_000000220850.jpg"
+  },
+  {
+    "uid": "official_train:10242040",
+    "row": {
+      "uid": "official_train:10242040",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000313609.jpg"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "99305f6898dc8524d6cd7434f2b5a59865d36008cf566b03da6d39d76d8b8b26",
+    "file": "4e8128e6621cfc3abfc94428ca269a2e09e9b8f4dcc033df78c411033137c3ff",
+    "original_image_id": 313609,
+    "official_source": "train2014/COCO_train2014_000000313609.jpg"
+  },
+  {
+    "uid": "official_train:10494246",
+    "row": {
+      "uid": "official_train:10494246",
+      "dataset": "tallyqa",
+      "question": "How many trucks are there?",
+      "images": [
+        "COCO_train2014_000000016531.jpg"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "090a75e2b6f08df17b3535aa0eac99fd6ea2ecdd64a1caad751288aaf768f9a2",
+    "file": "e681cf82c15be1825983f43776b79eedaa7c1379f88b60d9622250efb8372a09",
+    "original_image_id": 16531,
+    "official_source": "train2014/COCO_train2014_000000016531.jpg"
+  },
+  {
+    "uid": "official_train:10075387",
+    "row": {
+      "uid": "official_train:10075387",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "COCO_train2014_000000145718.jpg"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "calibration"
+    },
+    "count": 5,
+    "split": "calibration",
+    "rgb": "30e8273514b7c297b67b3db5fb9de0ccf403469ca04e940b35162101e37889e9",
+    "file": "374b2c82ae16b14d3b621a0726a21ef427180e2d3e21e8d10b428de634e3a14d",
+    "original_image_id": 145718,
+    "official_source": "train2014/COCO_train2014_000000145718.jpg"
+  }
+]

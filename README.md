@@ -45,6 +45,10 @@ See [the full-study reproduction protocol](docs/FULL_STUDY_PAPER_EVIDENCE.md).
 The two older sections below are historical experiments with different
 checkpoint/training provenance, not the current cross-backbone main results.
 
+## Visual-JEV diagnostic reproduction
+
+[Evaluation and analysis records](experiments/reproduction/beyond-decodability/README.md) cover validation-only probe selection, the matched arrow intervention, and the held-out confirmation scenes.
+
 ## Repository layout
 
 | Folder | Contents |

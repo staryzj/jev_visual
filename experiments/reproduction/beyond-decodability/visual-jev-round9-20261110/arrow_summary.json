@@ -1,0 +1,697 @@
+{
+  "routes": {
+    "llava": {
+      "all": {
+        "scenes": 48,
+        "clean_accuracy": 1.0,
+        "clean_both": 48,
+        "local_donor_both": 41,
+        "background_donor_both": 0,
+        "local_flips": 89,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 12.99900196499099,
+          "CI": [
+            11.997010139687912,
+            13.992886887316702
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.9270833333333334,
+          "CI": [
+            0.875,
+            0.96875
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          6,
+          16,
+          4,
+          9,
+          4,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          6,
+          9,
+          4,
+          4,
+          6,
+          6,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          4,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "plain": {
+        "scenes": 24,
+        "clean_accuracy": 1.0,
+        "clean_both": 24,
+        "local_donor_both": 19,
+        "background_donor_both": 0,
+        "local_flips": 43,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 12.768796008208787,
+          "CI": [
+            11.404471606482426,
+            14.129987016552391
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.8958333333333334,
+          "CI": [
+            0.8125,
+            0.9791666666666666
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          9,
+          4,
+          6,
+          9,
+          9,
+          6,
+          4,
+          6,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9
+        ]
+      },
+      "clutter": {
+        "scenes": 24,
+        "clean_accuracy": 1.0,
+        "clean_both": 24,
+        "local_donor_both": 22,
+        "background_donor_both": 0,
+        "local_flips": 46,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 13.229207921773195,
+          "CI": [
+            11.797498162890163,
+            14.724635371907302
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.9583333333333334,
+          "CI": [
+            0.8958333333333334,
+            1.0
+          ]
+        },
+        "slot_count": [
+          6,
+          16,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          4,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    "internvl": {
+      "all": {
+        "scenes": 48,
+        "clean_accuracy": 0.9895833333333334,
+        "clean_both": 47,
+        "local_donor_both": 37,
+        "background_donor_both": 0,
+        "local_flips": 84,
+        "background_flips": 1,
+        "paired_margin": {
+          "mean": 9.151816894151125,
+          "CI": [
+            8.408733410010548,
+            9.899080635440077
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.8645833333333334,
+          "CI": [
+            0.78125,
+            0.9375
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          6,
+          16,
+          4,
+          9,
+          4,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          6,
+          9,
+          4,
+          4,
+          6,
+          6,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          4,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "plain": {
+        "scenes": 24,
+        "clean_accuracy": 1.0,
+        "clean_both": 24,
+        "local_donor_both": 22,
+        "background_donor_both": 0,
+        "local_flips": 46,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 9.309594574015742,
+          "CI": [
+            8.226908401629286,
+            10.406854745968788
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.9583333333333334,
+          "CI": [
+            0.8958333333333334,
+            1.0
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          9,
+          4,
+          6,
+          9,
+          9,
+          6,
+          4,
+          6,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9
+        ]
+      },
+      "clutter": {
+        "scenes": 24,
+        "clean_accuracy": 0.9791666666666666,
+        "clean_both": 23,
+        "local_donor_both": 15,
+        "background_donor_both": 0,
+        "local_flips": 38,
+        "background_flips": 1,
+        "paired_margin": {
+          "mean": 8.994039214286508,
+          "CI": [
+            7.969885442443895,
+            10.030821127829464
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.7708333333333334,
+          "CI": [
+            0.6458333333333334,
+            0.8958333333333334
+          ]
+        },
+        "slot_count": [
+          6,
+          16,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          4,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    "siglip2": {
+      "all": {
+        "scenes": 48,
+        "clean_accuracy": 0.9479166666666666,
+        "clean_both": 43,
+        "local_donor_both": 28,
+        "background_donor_both": 0,
+        "local_flips": 70,
+        "background_flips": 2,
+        "paired_margin": {
+          "mean": 5.574246692204421,
+          "CI": [
+            4.682740607562786,
+            6.4832129002551175
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.7083333333333334,
+          "CI": [
+            0.6041666666666666,
+            0.8020833333333334
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          6,
+          16,
+          4,
+          9,
+          4,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          6,
+          9,
+          4,
+          4,
+          6,
+          6,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          4,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "plain": {
+        "scenes": 24,
+        "clean_accuracy": 1.0,
+        "clean_both": 24,
+        "local_donor_both": 18,
+        "background_donor_both": 0,
+        "local_flips": 42,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 7.110351286886726,
+          "CI": [
+            6.033783756910513,
+            8.188067739583493
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.875,
+          "CI": [
+            0.7916666666666666,
+            0.9583333333333334
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          9,
+          4,
+          6,
+          9,
+          9,
+          6,
+          4,
+          6,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9
+        ]
+      },
+      "clutter": {
+        "scenes": 24,
+        "clean_accuracy": 0.8958333333333334,
+        "clean_both": 19,
+        "local_donor_both": 10,
+        "background_donor_both": 0,
+        "local_flips": 28,
+        "background_flips": 2,
+        "paired_margin": {
+          "mean": 4.038142097522116,
+          "CI": [
+            2.9985510830786857,
+            5.2405822688623935
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.5416666666666666,
+          "CI": [
+            0.3958333333333333,
+            0.6875
+          ]
+        },
+        "slot_count": [
+          6,
+          16,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          4,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    "qwen": {
+      "all": {
+        "scenes": 48,
+        "clean_accuracy": 1.0,
+        "clean_both": 48,
+        "local_donor_both": 3,
+        "background_donor_both": 0,
+        "local_flips": 12,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 4.360496851143883,
+          "CI": [
+            3.478732981507104,
+            5.2240745457398585
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.125,
+          "CI": [
+            0.052083333333333336,
+            0.20833333333333334
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          6,
+          16,
+          4,
+          9,
+          4,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          6,
+          9,
+          4,
+          4,
+          6,
+          6,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          4,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "plain": {
+        "scenes": 24,
+        "clean_accuracy": 1.0,
+        "clean_both": 24,
+        "local_donor_both": 0,
+        "background_donor_both": 0,
+        "local_flips": 3,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 3.6459079484144845,
+          "CI": [
+            2.63865107310315,
+            4.690113745319347
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.0625,
+          "CI": [
+            0.0,
+            0.14583333333333334
+          ]
+        },
+        "slot_count": [
+          6,
+          9,
+          9,
+          9,
+          4,
+          6,
+          9,
+          9,
+          6,
+          4,
+          6,
+          6,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9
+        ]
+      },
+      "clutter": {
+        "scenes": 24,
+        "clean_accuracy": 1.0,
+        "clean_both": 24,
+        "local_donor_both": 3,
+        "background_donor_both": 0,
+        "local_flips": 9,
+        "background_flips": 0,
+        "paired_margin": {
+          "mean": 5.075085753873282,
+          "CI": [
+            3.67468397714559,
+            6.361962304405279
+          ]
+        },
+        "paired_flip": {
+          "mean": 0.1875,
+          "CI": [
+            0.0625,
+            0.3333333333333333
+          ]
+        },
+        "slot_count": [
+          6,
+          16,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          4,
+          6,
+          12,
+          6,
+          9,
+          6,
+          9,
+          4,
+          9,
+          9,
+          9,
+          6,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    }
+  },
+  "primary": "Local minus background patch. Positive margin points to the donor answer, averaged over two swaps per scene. Pointwise paired intervals resample scenes."
+}

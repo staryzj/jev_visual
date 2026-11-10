@@ -1,0 +1,6050 @@
+[
+  {
+    "uid": "tallyqa:19781:1",
+    "row": {
+      "uid": "tallyqa:19781:1",
+      "dataset": "tallyqa",
+      "question": "How many people in the photo are not wearing glasses?",
+      "images": [
+        "19781.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "7331d54f3c050c210879e7a6f17797dc9e2b319358ca46cc18905cd6766cdede",
+    "file": "9dda7ee9518c386a9cf8fe1508a018334f94d6e052bbc33c125db88c9feb01eb",
+    "pair": "tallyqa:19781:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:3148:1",
+    "row": {
+      "uid": "tallyqa:3148:1",
+      "dataset": "tallyqa",
+      "question": "How many orange cones are there?",
+      "images": [
+        "3148.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "6dc1b158101dc6f3aaaa6a25d883cdec710d569bc15b6d08300cbc67d91ec637",
+    "file": "31476a310180b883fa14f4f45f615010b70e9fcda7d30fe84cc1aea65810c12a",
+    "pair": "tallyqa:3148:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:7799:1",
+    "row": {
+      "uid": "tallyqa:7799:1",
+      "dataset": "tallyqa",
+      "question": "How many of the players are on the pitchers mound?",
+      "images": [
+        "7799.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "a2542cb0924dd13ade5724187539a175556007e48344aa6f75847e6d7a20fc20",
+    "file": "344a1132693fc3ff8060d2734306cc6dfa287375608efea741e53f216b937005",
+    "pair": "tallyqa:7799:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:22057:0",
+    "row": {
+      "uid": "tallyqa:22057:0",
+      "dataset": "tallyqa",
+      "question": "How many people are touching the lamb?",
+      "images": [
+        "22057.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "0069b9905471aea027776cd655abb7a25e7b39ac036172ba33151cfd090af532",
+    "file": "80e5e179dc2cb09f69c7c9491e9a9d0dc89db49e69f891d914c6f3cc011568ba",
+    "pair": "tallyqa:22057:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25541:0",
+    "row": {
+      "uid": "tallyqa:25541:0",
+      "dataset": "tallyqa",
+      "question": "How many numbers are on the white of the bus and not on the sign?",
+      "images": [
+        "25541.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "1eea57348a4024bdfc38f2af8ee86c453431eb4b693f506c1c40c5b755f08a61",
+    "file": "8010425ed9ccd5e6a856a5e7325f92c1b0e81370aed4f23636f9c87c502bafda",
+    "pair": "tallyqa:25541:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:19859:0",
+    "row": {
+      "uid": "tallyqa:19859:0",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing a red shirt?",
+      "images": [
+        "19859.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "4b507619cd8abeacac52bd2f150d42eae9e5b2067b4490c9072681a5c055d7a4",
+    "file": "170fc4479c86c4289638fe09c6439a2ea189247de4ce9733f8393bfe4cad4e46",
+    "pair": "tallyqa:19859:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:22077:0",
+    "row": {
+      "uid": "tallyqa:22077:0",
+      "dataset": "tallyqa",
+      "question": "How many train tracks are in the image?",
+      "images": [
+        "22077.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "c1e0153f3d489df283998ba96b28144ec3b765786705d7536cc3bb347d6556d9",
+    "file": "bcf66cacf57ffcd0bab8420301808e14289a9c0a19ba74006b7749a16d6c7eca",
+    "pair": "tallyqa:22077:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:21772:0",
+    "row": {
+      "uid": "tallyqa:21772:0",
+      "dataset": "tallyqa",
+      "question": "How many red parts are on the umbrella?",
+      "images": [
+        "21772.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "29b067af6ea498adc25af0e7d2d6161b1e03caa3b358737994c16a4a1c6ebb1e",
+    "file": "2074b8827b2b9a9c48a567fc63a0a55e250593fab6392029f3b3759c17462e36",
+    "pair": "tallyqa:21772:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:19724:5",
+    "row": {
+      "uid": "tallyqa:19724:5",
+      "dataset": "tallyqa",
+      "question": "How many bicycles are touching the water?",
+      "images": [
+        "19724.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "52676591d2b807fa6531f86598fd2cac3f68ee581a6a00bca773b44273891cf5",
+    "file": "f223d888246df22332d18239c12af8061b8cfdb737b00d6257e096743e37622e",
+    "pair": "tallyqa:19724:5",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:3190:1",
+    "row": {
+      "uid": "tallyqa:3190:1",
+      "dataset": "tallyqa",
+      "question": "How many empty plates are in the picture?",
+      "images": [
+        "3190.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "486b52d94f242b52a0c178fad685211a62b92149ce1813a07fc0bd9d9808e597",
+    "file": "c69938d363df208de022bcb5ccab123a16652579408a295c04d0ca6b723e00fc",
+    "pair": "tallyqa:3190:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:2232:1",
+    "row": {
+      "uid": "tallyqa:2232:1",
+      "dataset": "tallyqa",
+      "question": "How many people in the painting to the right of the bed are adults?",
+      "images": [
+        "2232.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "3d735bb3c0b062577223fa36ad9d5ba3b90233a0f71119ce0d8aea76b0670b11",
+    "file": "d711277d4f6046f52fa74b5eaa7e1df90fc986d0c1c7e4526cc889114770d31f",
+    "pair": "tallyqa:2232:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:11013:1",
+    "row": {
+      "uid": "tallyqa:11013:1",
+      "dataset": "tallyqa",
+      "question": "How many sheep are laying next to the tree?",
+      "images": [
+        "11013.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "95f05e55e718015da40a70373a170e2dc1e6e3abc86732810d6bae206e92225a",
+    "file": "fd5836a64c251b8c9f97c0681793a6c94d5ff0fca6fa7c0e194ac90a9ca9671c",
+    "pair": "tallyqa:11013:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:15768:1",
+    "row": {
+      "uid": "tallyqa:15768:1",
+      "dataset": "tallyqa",
+      "question": "How many lamp are in white color?",
+      "images": [
+        "15768.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "67f9cfffd7d5f7637a353560b568012ed72202650d861bfa57e2d659f28de3c5",
+    "file": "5535e8a61fbd461f9276af33da013596865a6f926cc743224e1aab1d13d38660",
+    "pair": "tallyqa:15768:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:19759:1",
+    "row": {
+      "uid": "tallyqa:19759:1",
+      "dataset": "tallyqa",
+      "question": "How many zebras are lying on the ground?",
+      "images": [
+        "19759.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "4874accf053cd020c86e0cbb9fdc5ef42ef9112f320af7bf81fd6e0034df61cc",
+    "file": "e6b4f8a4ce12843f793626a465dc15d08a67889a89aedb3be364f77443d4d307",
+    "pair": "tallyqa:19759:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:19274:0",
+    "row": {
+      "uid": "tallyqa:19274:0",
+      "dataset": "tallyqa",
+      "question": "How many heads are hanging out the window?",
+      "images": [
+        "19274.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "edbd8046b338147572f88f73ce32bf6f6385280d7e1299008516944493a8e81f",
+    "file": "d4c1883a32b2656e0ba1fe7ce6f1bde16174fecd2d9489568e7141c0f50ae742",
+    "pair": "tallyqa:19274:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:22485:1",
+    "row": {
+      "uid": "tallyqa:22485:1",
+      "dataset": "tallyqa",
+      "question": "How many giraffes in this image are completely untouched by shadows?",
+      "images": [
+        "22485.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "96c9b70ca97588784d87602637cae48b7a0548610a01f8167a26e35583e434c6",
+    "file": "e3251b39c6178c9bcdfc2765db6d2cee8653c45d67a1af2dfb17b7c9b661780d",
+    "pair": "tallyqa:22485:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:2286:0",
+    "row": {
+      "uid": "tallyqa:2286:0",
+      "dataset": "tallyqa",
+      "question": "How many vehicle cars are pictured?",
+      "images": [
+        "2286.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "46f9c494a7c2c2e5e995a82ff908ea84bb3c957fd285cee06f8c060837cfbe7f",
+    "file": "c1854d4dfcf55d705999023239fa7039e0f17c36c8eb8f6cd4e8d83cf8a3086e",
+    "pair": "tallyqa:2286:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:16486:0",
+    "row": {
+      "uid": "tallyqa:16486:0",
+      "dataset": "tallyqa",
+      "question": "How many pancakes are there?",
+      "images": [
+        "16486.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "ec3778a40d740676610232419309f51c71052ba3f3183255f2560a419dd6cbb9",
+    "file": "662fd8687942b8e7d6f39d56a3a2e468b5ad6068cffdc246c1943626243a7b1a",
+    "pair": "tallyqa:16486:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:11993:2",
+    "row": {
+      "uid": "tallyqa:11993:2",
+      "dataset": "tallyqa",
+      "question": "How many utensils are on the table?",
+      "images": [
+        "11993.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "8d64b9b308dba696db0a6cc615f918a50f08620f5e7fa4837e205b3ed58f0fae",
+    "file": "4c3a5bbc028839fadca3aaacc6535f1a281828136607450e9b3e7dfefa9d2391",
+    "pair": "tallyqa:11993:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:15494:0",
+    "row": {
+      "uid": "tallyqa:15494:0",
+      "dataset": "tallyqa",
+      "question": "How many tech screens are in this picture?",
+      "images": [
+        "15494.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "e814ff0adeb567d26920babcd8d7ddba2289d832c7f4553705ccad167e0997b8",
+    "file": "cefeb25488190b0e7e6d0da5a04fc239960e278e218a3f898dfee4917222c2f8",
+    "pair": "tallyqa:15494:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:15005:0",
+    "row": {
+      "uid": "tallyqa:15005:0",
+      "dataset": "tallyqa",
+      "question": "How many speakers are on the table?",
+      "images": [
+        "15005.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "0536703dd9adbb3a6c08abb18fe6f898a961ad0c1267060ddf5aef3b21e94f4a",
+    "file": "8f8d4d466f4b747d0310f7adeb42111e04292774302b15769a41e88e20ac7635",
+    "pair": "tallyqa:15005:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:94:1",
+    "row": {
+      "uid": "tallyqa:94:1",
+      "dataset": "tallyqa",
+      "question": "How many clocks are on the tower?",
+      "images": [
+        "94.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "cf67b9a6a960a24e69041b0b7e5bd273554a9e9145767716d22e560711ae080e",
+    "file": "378fa048428bef80191b62a30cedce5304ed5dcf0d5056b7ca2e619bd807b486",
+    "pair": "tallyqa:94:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12690:0",
+    "row": {
+      "uid": "tallyqa:12690:0",
+      "dataset": "tallyqa",
+      "question": "How many items are there?",
+      "images": [
+        "12690.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "a36532832317c994c3135ae855ec9bed888e48f26064410e2f2314f3c9a7ca4f",
+    "file": "2478d31ed6973d278418764f8911823b5ea5550e27dca9dbb203c079481cc77b",
+    "pair": "tallyqa:12690:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3033:0",
+    "row": {
+      "uid": "tallyqa:3033:0",
+      "dataset": "tallyqa",
+      "question": "How many people in the photo?",
+      "images": [
+        "3033.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "b45977e04ef3799d3df1b99d945fe04e4e16745351eb3802e1e16e985ce6b0ee",
+    "file": "5e1d7b58bd8a3feeeaea438ca2a85e7034d942fbe3ba8114378f6039e306629c",
+    "pair": "tallyqa:3033:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8983:0",
+    "row": {
+      "uid": "tallyqa:8983:0",
+      "dataset": "tallyqa",
+      "question": "How many zebras are in the foreground?",
+      "images": [
+        "8983.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "92a1f466ce9986df27dc279aff445e14c4d8cd6bd9227c806ffbc7a4946a4786",
+    "file": "d40b9be465934b4a35473f218d7d8bc0428f46b101f2804d42a70f439453f8ed",
+    "pair": "tallyqa:8983:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9792:0",
+    "row": {
+      "uid": "tallyqa:9792:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are in this picture?",
+      "images": [
+        "9792.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "2dbd859677ea4dbc2d202d900dc24fa6183dc920a2c42eab073b75d35e17a811",
+    "file": "550ebed217f518de94c26ca7db6a50ad9b6054a6420a49ab5b1be8948eb70087",
+    "pair": "tallyqa:9792:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17955:0",
+    "row": {
+      "uid": "tallyqa:17955:0",
+      "dataset": "tallyqa",
+      "question": "How many computer monitors are on the table?",
+      "images": [
+        "17955.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "4212bcfe83d25f8ffdc7eeff2d82dedc4de5d9b3738dd4cb42fd452cea0dd3cf",
+    "file": "ce551c3ef42426a0071fcd1c64c08321f25c94f705267b393210b222bc0bacc3",
+    "pair": "tallyqa:17955:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9535:1",
+    "row": {
+      "uid": "tallyqa:9535:1",
+      "dataset": "tallyqa",
+      "question": "How many plants can be seen?",
+      "images": [
+        "9535.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "72c8a3f58118791e0dae7f505b9b46d2fbc017bb157835400c3809996ca303c5",
+    "file": "174faf3ae0ab07c0be65e39ee52463cbba5ce7e1032286047d5473aae84a3558",
+    "pair": "tallyqa:9535:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8883:0",
+    "row": {
+      "uid": "tallyqa:8883:0",
+      "dataset": "tallyqa",
+      "question": "How many busses are there?",
+      "images": [
+        "8883.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "3472c32341bdbd8ebd8a3b9ff242e90e61d897bc913f7f1e2adeb13f2e5bd900",
+    "file": "a94030d737f3c9671175c56470c5dd5ace6f831d634dd144e3cab062dcffd562",
+    "pair": "tallyqa:8883:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:16573:1",
+    "row": {
+      "uid": "tallyqa:16573:1",
+      "dataset": "tallyqa",
+      "question": "How many cakes are there?",
+      "images": [
+        "16573.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "eb9de56fdd732862718a7ab0e7333e621819be722755c1d615c6810b521b46b8",
+    "file": "dddb7d4299a584304c5be9f5e09c520438f45af9051dfa5f0909f35ce8c99893",
+    "pair": "tallyqa:16573:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12380:0",
+    "row": {
+      "uid": "tallyqa:12380:0",
+      "dataset": "tallyqa",
+      "question": "How many trains on the train tracks?",
+      "images": [
+        "12380.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "961834ab6417c8d36f8070217511d25fa7e55c8806ba953feba92bc705a94fc8",
+    "file": "32a860776310d24ba4aecde11bb089972ef7d2f88a21a49f02e70fbfd50df3ff",
+    "pair": "tallyqa:12380:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1291:1",
+    "row": {
+      "uid": "tallyqa:1291:1",
+      "dataset": "tallyqa",
+      "question": "How many cows are visible?",
+      "images": [
+        "1291.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 2,
+    "split": "fresh",
+    "rgb": "ab702f61e3423c650c86da261d65948984fbd03c6dff10a21026c5f621ee9664",
+    "file": "20c5ccc56dba0fb069966b86d2b0bb572c018a35b804c32d8bc69e58ac377cdb",
+    "pair": "tallyqa:1291:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12956:1",
+    "row": {
+      "uid": "tallyqa:12956:1",
+      "dataset": "tallyqa",
+      "question": "How many toppings are on the pizza?",
+      "images": [
+        "12956.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "b09cf6453ae8680ea37e5d4bce805df665552777f8eb7029a7a9b2f28663c671",
+    "file": "34b944d285c51c33ef8edce7ad3f6abd93e5d603353b18e9b78d97baafa00d2b",
+    "pair": "tallyqa:12956:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:20941:0",
+    "row": {
+      "uid": "tallyqa:20941:0",
+      "dataset": "tallyqa",
+      "question": "How many people are standing sitting near the man and his bike?",
+      "images": [
+        "20941.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "c13373813fa83160e0a19e9495ec4960eaa7e831e767349a980535363d900515",
+    "file": "6ca52137b46f0c93a75fef09cb7f8c71e405214831c06525b97201e87f22a029",
+    "pair": "tallyqa:20941:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:217:1",
+    "row": {
+      "uid": "tallyqa:217:1",
+      "dataset": "tallyqa",
+      "question": "How many of the bench's legs are visible to the camera?",
+      "images": [
+        "217.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "68797b61267566e366c2fa7951ee70ad2894e31fc7622604b071d5758f752b66",
+    "file": "4154473a8e28ea85d0d84e2489131e92caa78941cca88a9328b87f9ce9fd1080",
+    "pair": "tallyqa:217:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:8721:1",
+    "row": {
+      "uid": "tallyqa:8721:1",
+      "dataset": "tallyqa",
+      "question": "How many green vases are there?",
+      "images": [
+        "8721.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "7cf06f80730261d98b81e35b35dadda7b6b207fc1ad4f744eeb9036f8a62f572",
+    "file": "5e5361786c7d212dcb027c69098edd54308c41c7f09a30614ec6a27d803eb15e",
+    "pair": "tallyqa:8721:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24481:1",
+    "row": {
+      "uid": "tallyqa:24481:1",
+      "dataset": "tallyqa",
+      "question": "How many zebras are in the water?",
+      "images": [
+        "24481.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "de976bc1e2187750093e42948476bc8d69a0e09ea870cb15bb4f75e7bef5a5e9",
+    "file": "d9bbdc6081264da6b7cc3e8f5c6a9c85431222d7026aef358ef384c2e93b57f6",
+    "pair": "tallyqa:24481:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:17180:1",
+    "row": {
+      "uid": "tallyqa:17180:1",
+      "dataset": "tallyqa",
+      "question": "How many stacks of bowls are on the first shelf that are beige colored?",
+      "images": [
+        "17180.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "fd1fb3ee808f313621cd968d9b5be20903ab1febeab5634809a11c988ac1ab71",
+    "file": "748c643d52707551259d3abd6bfd921b3eda8d9eba8a51ba6dc8fe4a2e5bf4c9",
+    "pair": "tallyqa:17180:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:10959:1",
+    "row": {
+      "uid": "tallyqa:10959:1",
+      "dataset": "tallyqa",
+      "question": "How many sitting man front off the standing person ?",
+      "images": [
+        "10959.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "d310b477233b8ecd660db185e2c7a319c2fc076fca5527a9a43080183e7a8cef",
+    "file": "22c6b0272316a542851889c75478cd4c2e1fadd0139206fc18403bd47f0d3d05",
+    "pair": "tallyqa:10959:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:15141:1",
+    "row": {
+      "uid": "tallyqa:15141:1",
+      "dataset": "tallyqa",
+      "question": "How many floor tiles are damaged?",
+      "images": [
+        "15141.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "5818bdcaaf3d456cc5a3fbf7ead58f6dee380c07c24197fb176b404c1eab82d6",
+    "file": "56e37445fd40be32f8b939cdfa0d5123ca00fade654445ce313348fcfd320d2c",
+    "pair": "tallyqa:15141:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:9385:1",
+    "row": {
+      "uid": "tallyqa:9385:1",
+      "dataset": "tallyqa",
+      "question": "How many potted plants are sitting on the white table against the back wall?",
+      "images": [
+        "9385.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "286dcc40290ac90aa7e3854c78aa6933b8bff54ff3fa80960141509e3107ace8",
+    "file": "03481af3d7d26b9c0ab16b4eeaf7840152e10f4b8537de2cc4266271eccfddd3",
+    "pair": "tallyqa:9385:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:17962:1",
+    "row": {
+      "uid": "tallyqa:17962:1",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing a hat?",
+      "images": [
+        "17962.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "2873ea4b32f423f396d8d2ec8ba4b125186b6a82f5adc884b1f5ff7fb07e6826",
+    "file": "934c7171e6461e91db467f56201efda93a39ed598063726fe333440d9f65d837",
+    "pair": "tallyqa:17962:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:19218:0",
+    "row": {
+      "uid": "tallyqa:19218:0",
+      "dataset": "tallyqa",
+      "question": "How many arches with a blocked view are in the image?",
+      "images": [
+        "19218.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "b1665a01a20dafc45ff599f867f1ba6485da22e1997ea0486454608a475cf2dd",
+    "file": "5358ed17d791fdc7c66dc2cecd851cab6e27da830bf1f2667e4d080364b3c73c",
+    "pair": "tallyqa:19218:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:22394:0",
+    "row": {
+      "uid": "tallyqa:22394:0",
+      "dataset": "tallyqa",
+      "question": "How many apples have red on them?",
+      "images": [
+        "22394.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "a1d3331db260426a0c28a95cca282a1e6310d9ea7573ccbef066d253a677722f",
+    "file": "56ffa76684730f06f81498307a8a79ab4d994b89861ab84e6ec25427f9028c82",
+    "pair": "tallyqa:22394:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:22927:0",
+    "row": {
+      "uid": "tallyqa:22927:0",
+      "dataset": "tallyqa",
+      "question": "How many cars are parked in the image?",
+      "images": [
+        "22927.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "88660ed0411a2fb3b68ef25b65d11f951d10744adb3daaf1031aee188e93fa68",
+    "file": "ea42b1af6ae37d8086c68e073e7663934f236ac71501b144f83a2beaf1338609",
+    "pair": "tallyqa:22927:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24941:0",
+    "row": {
+      "uid": "tallyqa:24941:0",
+      "dataset": "tallyqa",
+      "question": "How many players on the field are wearing red uniforms?",
+      "images": [
+        "24941.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "236895c8e05e5de4293825c10254f6fe0b213937369b92377c0934a3762740c8",
+    "file": "b63aeae3e5356edb08910c34fd7b53976a03321f85572aac23599c29c728f75c",
+    "pair": "tallyqa:24941:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24097:0",
+    "row": {
+      "uid": "tallyqa:24097:0",
+      "dataset": "tallyqa",
+      "question": "How many people are to the left of the person holding the frisbee?",
+      "images": [
+        "24097.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "2955b927cea8f1d94506f0eeee9632c5f569d53b7df0ac491fd04fa2cbe7cc72",
+    "file": "60e11ca44abd99ecfb20dcb2100d93935657356c85e307cc27620aea391d896a",
+    "pair": "tallyqa:24097:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25423:0",
+    "row": {
+      "uid": "tallyqa:25423:0",
+      "dataset": "tallyqa",
+      "question": "How many letters are to the left of the numbers on the license plate?",
+      "images": [
+        "25423.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "275b0a9896f5810fd70bd2e4fc2d3dbcd6ba4801bddb1baba747315f6bee81d4",
+    "file": "f2d2f58b64380090e66657857888970e9cbd653d2394bbe79cfdbd0b1147b63e",
+    "pair": "tallyqa:25423:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:8354:0",
+    "row": {
+      "uid": "tallyqa:8354:0",
+      "dataset": "tallyqa",
+      "question": "How many street lights are there?",
+      "images": [
+        "8354.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "4ea140c83d0c500dd472822f2929dd07c9067cbfe71d176835229af6b3af4fc3",
+    "file": "b8226d1a9a2a1a0835eede3c210e3391f591ad8b69789da21907b2e0ba11dab3",
+    "pair": "tallyqa:8354:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12811:0",
+    "row": {
+      "uid": "tallyqa:12811:0",
+      "dataset": "tallyqa",
+      "question": "How many men are there?",
+      "images": [
+        "12811.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "387c39f1b82d4cb8f9cb54a1b51d0c782f85b39300e801fa8dace58a9f9fde9f",
+    "file": "01afd91cd6d01d4f23cdc638c858487bf624f468239e58f062efcbde6f7286a1",
+    "pair": "tallyqa:12811:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17575:0",
+    "row": {
+      "uid": "tallyqa:17575:0",
+      "dataset": "tallyqa",
+      "question": "How many manhole covers are shown?",
+      "images": [
+        "17575.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "a420a06f7f5d835aba5bbb6b0a9556add27534ec91b1708f33b0ff102ac6566a",
+    "file": "13fabe7d68238f8c47e0bfaf6a1afac6d5dd56caddad5789b899be5a199afaa3",
+    "pair": "tallyqa:17575:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:932:3",
+    "row": {
+      "uid": "tallyqa:932:3",
+      "dataset": "tallyqa",
+      "question": "How many tracks are there?",
+      "images": [
+        "932.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "afec8d8905d32ae3215354d4722fd147afeda8721fde3fe7fd02bff54ad7d3ac",
+    "file": "d44b12438e4ad80e97dea6cbca27850dfc6dfb63db7c21f5112fe2598cbc7068",
+    "pair": "tallyqa:932:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1490:0",
+    "row": {
+      "uid": "tallyqa:1490:0",
+      "dataset": "tallyqa",
+      "question": "How many traffic lights can be seen?",
+      "images": [
+        "1490.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "3107876712e797fa131b9272b5b53166cdeee6a7961eb1ec62afca36b2e679e5",
+    "file": "26fc6914133454a2c8892de7dc712edd27bc2562944691f364525d74be30d234",
+    "pair": "tallyqa:1490:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:13775:0",
+    "row": {
+      "uid": "tallyqa:13775:0",
+      "dataset": "tallyqa",
+      "question": "How many vehicles are there?",
+      "images": [
+        "13775.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "5253fe6dc570f328790ecd3153adda6c7f0e0abef4f7b1fa71f20387fe157c72",
+    "file": "44e46357ee906d7f770bff765b0424488f135816c64c889acf19fd7f4a97482d",
+    "pair": "tallyqa:13775:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7630:1",
+    "row": {
+      "uid": "tallyqa:7630:1",
+      "dataset": "tallyqa",
+      "question": "How many benches are there?",
+      "images": [
+        "7630.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "33a682b5d6dfd82742ad6059c4f12d591ec6c43750871447204b19e2cb0fa988",
+    "file": "b1dc1fd8d45e3dbe6d8cd1bf5df32cb307364cf8211b5131fa83bc19192249fe",
+    "pair": "tallyqa:7630:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:956:0",
+    "row": {
+      "uid": "tallyqa:956:0",
+      "dataset": "tallyqa",
+      "question": "How many urinals are there?",
+      "images": [
+        "956.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "42ebfd9f9b95a84ea901f2e1dcc1c522e3c4226dbcb85d620c179e032e98a614",
+    "file": "9773701d9e00156dd35a50babb1350227e448e1d452fd2d31b26593ea23406c1",
+    "pair": "tallyqa:956:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12303:1",
+    "row": {
+      "uid": "tallyqa:12303:1",
+      "dataset": "tallyqa",
+      "question": "How many ice cubes are in the wine glass?",
+      "images": [
+        "12303.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "46377429176d6e342bb9c2e2ca896b02f85667fb2d9ba29157bc6a7a5446a528",
+    "file": "23236dde61d2af3957e4985bc229104bba97db722bc69e47c6c40a7497021095",
+    "pair": "tallyqa:12303:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8939:0",
+    "row": {
+      "uid": "tallyqa:8939:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "8939.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "59dc53305915ddba632264e5da140b75c71fa4a8689d5a0961e382a2f3fac6c2",
+    "file": "221bf8092b257b28ec440d6922f0a8e065edc2a66fe609112ae85be0869b6d83",
+    "pair": "tallyqa:8939:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:6927:0",
+    "row": {
+      "uid": "tallyqa:6927:0",
+      "dataset": "tallyqa",
+      "question": "How many people are on the elephant?",
+      "images": [
+        "6927.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "1c42beea2652f6c77d7259b924124ea0bf5b2073e7087d2ba4099f485ecc864b",
+    "file": "0ccd6c214fdc5462e5bf816d55909bfe70a3189909408b3eb85b07e5d7ed896d",
+    "pair": "tallyqa:6927:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9281:0",
+    "row": {
+      "uid": "tallyqa:9281:0",
+      "dataset": "tallyqa",
+      "question": "How many people do you see in the photo?",
+      "images": [
+        "9281.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "94d174b353494b99e250a11f665910d4a09cec279e15d283ad509bc0e4af23b3",
+    "file": "8a20acd07dc1592bb03860659ccdb77b9d9253f332ba4a079ed6631e8118a9ce",
+    "pair": "tallyqa:9281:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17566:0",
+    "row": {
+      "uid": "tallyqa:17566:0",
+      "dataset": "tallyqa",
+      "question": "How many elephants are in this picture?",
+      "images": [
+        "17566.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "4b56791bd6941610db766761dca9f867cf82409c4f14d212b9a0d4f1e161565f",
+    "file": "e3a03806ad012ceb4fa44d11b9e535f1ca2e93c9e81a047431779ed99ed6eac7",
+    "pair": "tallyqa:17566:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9188:1",
+    "row": {
+      "uid": "tallyqa:9188:1",
+      "dataset": "tallyqa",
+      "question": "How many cars.can be seen?",
+      "images": [
+        "9188.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "890b2291e0d9a0348f8d99a1c8ff4e1d884da5fa3d74489aa64d78d9ccec7b27",
+    "file": "be5c9cfc4dc840d8bbff7535388ffbb3e5033e1fe57f438e34222af805d71fc7",
+    "pair": "tallyqa:9188:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:2254:0",
+    "row": {
+      "uid": "tallyqa:2254:0",
+      "dataset": "tallyqa",
+      "question": "How many computers are there?",
+      "images": [
+        "2254.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "c505976cce1494caadd911e5a625f4950225b3ef0dcfa9fe004aa814070db994",
+    "file": "50d9d7407b362bd15a94dd1cc47406cc49ed4e0a09d9cf346eae06817eecc2be",
+    "pair": "tallyqa:2254:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12142:0",
+    "row": {
+      "uid": "tallyqa:12142:0",
+      "dataset": "tallyqa",
+      "question": "How many people are pictured?",
+      "images": [
+        "12142.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 3,
+    "split": "fresh",
+    "rgb": "aa7821b36cdb25c6ff73fb6e653e7a5a58fdb28595882ce2bab4cd7db7f422e5",
+    "file": "4d3bedf992fdacf783be92609ee7851c23eb2e8ebd5ef8eb67e991bd28d8197f",
+    "pair": "tallyqa:12142:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:24813:0",
+    "row": {
+      "uid": "tallyqa:24813:0",
+      "dataset": "tallyqa",
+      "question": "How many adults are holding video game controllers?",
+      "images": [
+        "24813.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "6918b042d9fceade51942b312af19cf9fca7371982a26dd8305a7f1404c25e59",
+    "file": "4ee2fc7a2605123919bbb82149d0951f5864f8d1c78e2a6bb343cdcbeca0f8a6",
+    "pair": "tallyqa:24813:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:20018:0",
+    "row": {
+      "uid": "tallyqa:20018:0",
+      "dataset": "tallyqa",
+      "question": "How many segments of the bus's ceiling are blue tarp?",
+      "images": [
+        "20018.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "3418d13ce560a99103ae3b804b03f9a40511b15988424d6b0847b7513c0eeea0",
+    "file": "8f54938b047608616ff9b4ef5aafe4bcf93ad8b5b5b6e5e2fdc5b1123e22e7d7",
+    "pair": "tallyqa:20018:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:2136:1",
+    "row": {
+      "uid": "tallyqa:2136:1",
+      "dataset": "tallyqa",
+      "question": "How many keys are shown in the top row of the keyboard?",
+      "images": [
+        "2136.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "b1faef7d05f43c17f2ac76cf7931cdf6f1899afa7d338164849be4347663bd13",
+    "file": "1703c5901e0d33fe4dea5b6a6ba50b3e26916324cb5d3739795c641820468a07",
+    "pair": "tallyqa:2136:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25924:0",
+    "row": {
+      "uid": "tallyqa:25924:0",
+      "dataset": "tallyqa",
+      "question": "How many children are wearing coats with hoods?",
+      "images": [
+        "25924.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "4436048d8fb2f9b4467013ddc4de5081c0acef58ee8d47d5b367675ad6b2f1ab",
+    "file": "4f126ce162a41571cce89abbb4ae32d7f5243dab7c2999b65424116e7880fd8d",
+    "pair": "tallyqa:25924:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24253:0",
+    "row": {
+      "uid": "tallyqa:24253:0",
+      "dataset": "tallyqa",
+      "question": "How many people are carrying a bag?",
+      "images": [
+        "24253.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "13c45257eb78d87681aff5c16587cb557e93a3f4d503269c98246ac8d3d72b81",
+    "file": "e84e23d3a3e9a400c3e14bc6aa5efb1a557f38b9dae7580b8b82ecaf6476aa75",
+    "pair": "tallyqa:24253:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24631:0",
+    "row": {
+      "uid": "tallyqa:24631:0",
+      "dataset": "tallyqa",
+      "question": "How many people are holding camera?",
+      "images": [
+        "24631.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "353aa03204c138c9ca3f480c6e07e90927a80978282c8f02b2a8aef75fb84cd4",
+    "file": "f14eb44d7a4ad93c50551c8c83e93f8edd30666eea0a865f8b900d504e14ff40",
+    "pair": "tallyqa:24631:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:22548:0",
+    "row": {
+      "uid": "tallyqa:22548:0",
+      "dataset": "tallyqa",
+      "question": "How many of the glowing letters in the image are common vowels?",
+      "images": [
+        "22548.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "50b79ac9872da0e954ce466ad0652ba846e1578f8820d910c8f2c7a1ffc25525",
+    "file": "f41167270dbbc5a149f0a8c15608d6735b450910a64252b0cead78a02cb9e7ac",
+    "pair": "tallyqa:22548:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:9673:1",
+    "row": {
+      "uid": "tallyqa:9673:1",
+      "dataset": "tallyqa",
+      "question": "How many people are not wearing a yellow construction hardhat?",
+      "images": [
+        "9673.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "50c08909bdee6a16ca4010c2832a5618b83f76506487620caf15ebdbf6eba124",
+    "file": "5cee659cbced2c33e74dd1bc9dedd252de2e1061327788b202ff9c18e6ecb8eb",
+    "pair": "tallyqa:9673:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:10897:1",
+    "row": {
+      "uid": "tallyqa:10897:1",
+      "dataset": "tallyqa",
+      "question": "How many rows of sausage are below the row of hot dogs?",
+      "images": [
+        "10897.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "59eefee669bbf36bc7644de304a459aaae5e6aeafdf0de9c78d78b5afdb1a815",
+    "file": "235bbc973405590d67c483d93a1e5f71ce71ae7dcb90d2398dc0d9151936429f",
+    "pair": "tallyqa:10897:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:3057:2",
+    "row": {
+      "uid": "tallyqa:3057:2",
+      "dataset": "tallyqa",
+      "question": "How many metal tubs are in the picture?",
+      "images": [
+        "3057.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "623e5a47856400c795e0a59c334d7ef004d20abea6f38288a4d2a9d179edc3e6",
+    "file": "0e9235e5a1e6b00d5e129bc65e7fbbf4e047cf2569a711cf2e74ae2827b17c1d",
+    "pair": "tallyqa:3057:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:20314:0",
+    "row": {
+      "uid": "tallyqa:20314:0",
+      "dataset": "tallyqa",
+      "question": "How many signs say \"do not enter\"?",
+      "images": [
+        "20314.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "8146af008a9603954b725a7bb13906d68dd48fdc4a74ce8d3c7160879d1c9982",
+    "file": "698556bcf12a26fbc4b9da00e16ea36f7dde9be60a83fc1b4529e137c242feda",
+    "pair": "tallyqa:20314:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25989:0",
+    "row": {
+      "uid": "tallyqa:25989:0",
+      "dataset": "tallyqa",
+      "question": "How many of the skateboard wheels are off the ground?",
+      "images": [
+        "25989.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "737df75a90b40d767a5ff8fab4f800e78589703dc1f026b388af968e62bc7c94",
+    "file": "682ce6b01826ccfc41f06cee4fc6780608502abbe028d1581745010bbfea4ca9",
+    "pair": "tallyqa:25989:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:21072:0",
+    "row": {
+      "uid": "tallyqa:21072:0",
+      "dataset": "tallyqa",
+      "question": "How many letters in the white sign are blue?",
+      "images": [
+        "21072.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "5c55d90a04a0c179c2b4b2808913c405488c37ca3c3602146445da409c456639",
+    "file": "f6e20557fb0b0528b3ddab3bd00500ba472e4e652cb37ce13d8aacce1bca1ac3",
+    "pair": "tallyqa:21072:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:18501:0",
+    "row": {
+      "uid": "tallyqa:18501:0",
+      "dataset": "tallyqa",
+      "question": "How many boats have blue on them?",
+      "images": [
+        "18501.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "d83c48a902d3a95056a27db946c970528f47f0049d73ea63018acafa6ff1ea8d",
+    "file": "bd6b3acf3f2e99c9494f4b5126320ce4aecd57be0ed8c97266b6c1bbd30d2f7d",
+    "pair": "tallyqa:18501:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:23745:0",
+    "row": {
+      "uid": "tallyqa:23745:0",
+      "dataset": "tallyqa",
+      "question": "How many parked planes are there?",
+      "images": [
+        "23745.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "305bbb9586803ca41a0c884da4f276021f573e09238182243f462fbb986be261",
+    "file": "6b3d83aeb63c0542f877727d09d22c1aef2c658015b6c07daf66e313c3692172",
+    "pair": "tallyqa:23745:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:8026:1",
+    "row": {
+      "uid": "tallyqa:8026:1",
+      "dataset": "tallyqa",
+      "question": "How many trees are right of the sign?",
+      "images": [
+        "8026.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "453a80e4def310423b348e35e0a4343d29de56fcc84949b545089fa08fb5b9a4",
+    "file": "805a3c12e70e9b200e958c74cbe76291955c80bacd26d7f6e7fbf9010a50d4b7",
+    "pair": "tallyqa:8026:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:7896:0",
+    "row": {
+      "uid": "tallyqa:7896:0",
+      "dataset": "tallyqa",
+      "question": "How many lights are on the train engine?",
+      "images": [
+        "7896.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "4b7af7a6c330b3f68c959eab218c145988dedef52d2c7e11c17b8d74d2308f24",
+    "file": "aaa16056ec7a4c8b4072f138d1b41ddeda04c406a05c6ea378acedcfaa3ebca1",
+    "pair": "tallyqa:7896:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:6577:1",
+    "row": {
+      "uid": "tallyqa:6577:1",
+      "dataset": "tallyqa",
+      "question": "How many skis are there?",
+      "images": [
+        "6577.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "c994f1e901a6517a9285ab6b2e1ee54ab849a731f22dd78b71764996094b37be",
+    "file": "936e9a030d16603ec76c711d76b3e4800a7ee97515c2e3d69639fd14ee1c6131",
+    "pair": "tallyqa:6577:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:2268:0",
+    "row": {
+      "uid": "tallyqa:2268:0",
+      "dataset": "tallyqa",
+      "question": "How many children are visible?",
+      "images": [
+        "2268.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "b7b6248cbe2b1b7308be1c26ff4a83c7b48e7fcfa6ef0a71d094519692746f77",
+    "file": "029e2ab8d1026c1e437225a7e5c646d17b797459e5c7ac50c9750d9e2c229307",
+    "pair": "tallyqa:2268:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:14556:0",
+    "row": {
+      "uid": "tallyqa:14556:0",
+      "dataset": "tallyqa",
+      "question": "How many cones can be seen?",
+      "images": [
+        "14556.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "965f8ae3c5c9a04fd3cc9fc726e02a0c4a4702efeaa97e90c3fafb186fe1d927",
+    "file": "1ae22de0512265e0fbc2db64c237e8cf761785fd94644de84342296136b5ad15",
+    "pair": "tallyqa:14556:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:4940:1",
+    "row": {
+      "uid": "tallyqa:4940:1",
+      "dataset": "tallyqa",
+      "question": "How many shelves are on the tv stand?",
+      "images": [
+        "4940.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "236bc4c29a8d8f42c669e1a77f215ba386193fd42744d43766b1da9eecf27c6a",
+    "file": "e63c1a2c53934261744b28a4a8fa07413912c50afd0815e9a31c47d0cddaf8ba",
+    "pair": "tallyqa:4940:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:14963:0",
+    "row": {
+      "uid": "tallyqa:14963:0",
+      "dataset": "tallyqa",
+      "question": "How many skaters are there?",
+      "images": [
+        "14963.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "2234514927967ab2eb41d8aaa07c899a5676983037ccbd8998fb3fa9c2595627",
+    "file": "a08aff2c22484f15b447b1a6f62d862f08ed204cb8fc925dde7d083c8f2da6ec",
+    "pair": "tallyqa:14963:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17704:0",
+    "row": {
+      "uid": "tallyqa:17704:0",
+      "dataset": "tallyqa",
+      "question": "How many sheep are there?",
+      "images": [
+        "17704.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "9c40c04815f34950abe23ec636caccc6a4b3f221852068312f45634d02262ecb",
+    "file": "6221d952af9e8f2851cc60576055461d1c70112336ea81cdc062beb59b0346a3",
+    "pair": "tallyqa:17704:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8878:0",
+    "row": {
+      "uid": "tallyqa:8878:0",
+      "dataset": "tallyqa",
+      "question": "How many street signs are there?",
+      "images": [
+        "8878.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "10611825a32ebe35ecfcfc749688157e80fcbaa78159c3fc6c116b3915253f50",
+    "file": "94e18110cd78cc96c5b1e4ee3aee9371ecda7319e5a0ed9115aef0cfb8a24749",
+    "pair": "tallyqa:8878:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:11170:0",
+    "row": {
+      "uid": "tallyqa:11170:0",
+      "dataset": "tallyqa",
+      "question": "How many airplanes are there?",
+      "images": [
+        "11170.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "60034e6339e84876f6704af47ec0744f81f4318ac6dae2a0013940ec4f845649",
+    "file": "288e4ac8feaae4b0720d2ac0ec63bef0c15045bfc7ac24cd6add1bad23d597b8",
+    "pair": "tallyqa:11170:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1545:4",
+    "row": {
+      "uid": "tallyqa:1545:4",
+      "dataset": "tallyqa",
+      "question": "How many ears are visible?",
+      "images": [
+        "1545.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "10dba70980101876715f37a3d7338ec425345019334653a97a13510b3d20b15e",
+    "file": "20d41666db16c17c0860ca1d8f06b715301024785c694125034e8e8a7341c3e1",
+    "pair": "tallyqa:1545:4",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:13297:0",
+    "row": {
+      "uid": "tallyqa:13297:0",
+      "dataset": "tallyqa",
+      "question": "How many zebras are there?",
+      "images": [
+        "13297.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "fcbee89741ae57a6067d662dbd1606c2cdf5ed519757a1e4ab9e606df2d7199c",
+    "file": "b66ea162b9df90cd55b03ba159ec96413ef2704b9002c2715d7c0b422af190e9",
+    "pair": "tallyqa:13297:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3901:0",
+    "row": {
+      "uid": "tallyqa:3901:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "3901.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "6543c79515a9fdfd2936ffc41ac9ed39477b77a57dd9f5170313d288fb66322c",
+    "file": "c30c8e8991bee4567b3fde38d4b54cb771ef7cd8eb78436d96d07bf5a636f880",
+    "pair": "tallyqa:3901:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17655:0",
+    "row": {
+      "uid": "tallyqa:17655:0",
+      "dataset": "tallyqa",
+      "question": "How many people are shown?",
+      "images": [
+        "17655.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "47936dc73bf744296a2ba0d41b56fe6b82f5fa5e40208bf0a7f552d03c84051f",
+    "file": "5e1c4cc49f3d629fb87576ce138eabbe515ffd9efef893ce86b17917f9e8d2cd",
+    "pair": "tallyqa:17655:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:4663:0",
+    "row": {
+      "uid": "tallyqa:4663:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "4663.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "b57390b8569aac78fd6341c11d3f45a1471ebc4d4be24a43207ae02d391544cc",
+    "file": "3c2dfa454d632b774cd38eb0356d6777aff72748c3a53a7b8739f1c73b18a68a",
+    "pair": "tallyqa:4663:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:6660:0",
+    "row": {
+      "uid": "tallyqa:6660:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "6660.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "5f8f4742db153c731265deb154bc501ce70a1539069b8f0f4948538c9c72adc9",
+    "file": "aef2ad722da23aebb0b6844da22465fd79b9818251d339974719cd0802e5cd44",
+    "pair": "tallyqa:6660:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1707:4",
+    "row": {
+      "uid": "tallyqa:1707:4",
+      "dataset": "tallyqa",
+      "question": "How many protrusions on the knob?",
+      "images": [
+        "1707.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 4,
+    "split": "fresh",
+    "rgb": "d4cf02e486c36f5d5502f88df9c2d915c6c054895dcc838c257f55512ffc5af6",
+    "file": "922f99eed4ece83d1f9a5a5bf19e6e44bb05176d2ce86a9cd8be2ca1fc519288",
+    "pair": "tallyqa:1707:4",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:20759:0",
+    "row": {
+      "uid": "tallyqa:20759:0",
+      "dataset": "tallyqa",
+      "question": "How many blue pillows are in the image?",
+      "images": [
+        "20759.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "f8356ba3351fd7c9d28fd527274f147395bb6bc2eb6f9f25c7314296eb5ea430",
+    "file": "4b3308cf97381d8febf9855fdaf30edff49bfe51b5a525f3ea0aa225a077c561",
+    "pair": "tallyqa:20759:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:17748:2",
+    "row": {
+      "uid": "tallyqa:17748:2",
+      "dataset": "tallyqa",
+      "question": "How many bicycles are parked behind the scooter?",
+      "images": [
+        "17748.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "aed92f32ea66cad71bcb1ece485bad4c7ec11b98b7fd9bfb158da60f7a987f3d",
+    "file": "3236e244f38ba76e8c54d6796a1f30079a3ff32e70a1ed2fbde327b526a09f88",
+    "pair": "tallyqa:17748:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:12947:1",
+    "row": {
+      "uid": "tallyqa:12947:1",
+      "dataset": "tallyqa",
+      "question": "How many windows are between the tires?",
+      "images": [
+        "12947.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "a002cd61d547a40fc9697c8ee039f6182a8239a734482107bdd2c7413c4d1981",
+    "file": "27247e122871b16b9850d75cb01c222aed3262b50c0cd406f4d905cdbb4a42e4",
+    "pair": "tallyqa:12947:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:11488:1",
+    "row": {
+      "uid": "tallyqa:11488:1",
+      "dataset": "tallyqa",
+      "question": "How many signs have white backgrounds?",
+      "images": [
+        "11488.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "504c4e6935a35abf5b753ea7fc6ff08c84659ea491b7a8922dd95aac2f171c72",
+    "file": "fb12c1e24ecd5f5294df77394bba2860e54ac31edffb1dcf929588d20a66c598",
+    "pair": "tallyqa:11488:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24136:0",
+    "row": {
+      "uid": "tallyqa:24136:0",
+      "dataset": "tallyqa",
+      "question": "How many cows are in the field?",
+      "images": [
+        "24136.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "d20161170c208ab547326b22c2977e2f3687b214329a980382ee6d650e59e598",
+    "file": "69878607a3bd7926843d0997e109c7454bb1f516fbdbe754439c69a44b0afdba",
+    "pair": "tallyqa:24136:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:12760:1",
+    "row": {
+      "uid": "tallyqa:12760:1",
+      "dataset": "tallyqa",
+      "question": "How many black stripes does the pole have?",
+      "images": [
+        "12760.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "a0f657bed68379f59c6bc74b0bcd85c4539fab20377a97bc0f2ec918f3dff65f",
+    "file": "3ec95e359e8a801ff318cbfaa07ca79e520460f863bd9a8e4cbd54d1bbc3fee5",
+    "pair": "tallyqa:12760:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:24880:0",
+    "row": {
+      "uid": "tallyqa:24880:0",
+      "dataset": "tallyqa",
+      "question": "How many white characters on the blue sign are small case letters?",
+      "images": [
+        "24880.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "d2ac9e88d69dfd5235d4ba48229bc8aa676591d4694682a5cd75d3a6b571f6a4",
+    "file": "089b0f307cde7f3b899fce786a57243bcb3fc28e49144f87d5cdfd478ade6285",
+    "pair": "tallyqa:24880:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25146:0",
+    "row": {
+      "uid": "tallyqa:25146:0",
+      "dataset": "tallyqa",
+      "question": "How many kites are in the air?",
+      "images": [
+        "25146.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "17c7a33836494a257ccfc6ce48d8aa29792ab47d3fc01f307559086b6a124411",
+    "file": "600fb7124dcdf9680d107848d172bb6ac21fd4253559ee68f75dd9aba908b3a0",
+    "pair": "tallyqa:25146:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:9698:2",
+    "row": {
+      "uid": "tallyqa:9698:2",
+      "dataset": "tallyqa",
+      "question": "How many of the cans are beer cans?",
+      "images": [
+        "9698.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "862264be71f2ddd8c54a283ff7295d6720ca2e7c09d0bf5edac650bb492a38e9",
+    "file": "db92276d26407edf6b7dd7c2a336420f3de31c173b56ab4c6d0a3e7c98b689af",
+    "pair": "tallyqa:9698:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:3250:1",
+    "row": {
+      "uid": "tallyqa:3250:1",
+      "dataset": "tallyqa",
+      "question": "How many people fly?",
+      "images": [
+        "3250.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "2772cb4f780e4f1f5e55e498e283c7f2ab8d0d56c48a6bb83dd84e036e7b1c84",
+    "file": "3d0324d4984289fec36c667a3e650457092adf4f937d2f54188747584f1b0a4f",
+    "pair": "tallyqa:3250:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:21714:0",
+    "row": {
+      "uid": "tallyqa:21714:0",
+      "dataset": "tallyqa",
+      "question": "How many green grapes do you see?",
+      "images": [
+        "21714.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "03811cee3f0fa8922b4520a715cb1fbbdf4d2e9873f9fda26320b3f4713a851c",
+    "file": "39e9ec0558d78e67c2e784070d7feab9aac4a4547941656928716594b1fa3ca8",
+    "pair": "tallyqa:21714:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:6414:1",
+    "row": {
+      "uid": "tallyqa:6414:1",
+      "dataset": "tallyqa",
+      "question": "How many times do you see the letter a?",
+      "images": [
+        "6414.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "two",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "5590c13039366bdea6a4e2f9cb965a7fd850440def87d3a69b49f396d3933466",
+    "file": "6747242df08c757c7d87158f30e51c1acee024b9c5d76c1efe70bbfcc5999e99",
+    "pair": "tallyqa:6414:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25941:0",
+    "row": {
+      "uid": "tallyqa:25941:0",
+      "dataset": "tallyqa",
+      "question": "How many complete orange tiles show in the mirror?",
+      "images": [
+        "25941.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "3aa99d2ab84a85c18cdf0ef7c488f5827d9b3deea075da894f7090e40be8f779",
+    "file": "13864a6a414dc759f98a39e4dd1db9d9f5c46e95f748d87ea90b1e876012a49e",
+    "pair": "tallyqa:25941:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:17882:4",
+    "row": {
+      "uid": "tallyqa:17882:4",
+      "dataset": "tallyqa",
+      "question": "How many people are standing on top of the truck?",
+      "images": [
+        "17882.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "9ecbe6bb9efb85d807f48f684125d674709942947c69efed51a7619adcefc582",
+    "file": "fcb78b05990b6658a43e5200bab8968029c25cadcdbe3fe8ac2a3c342b04630e",
+    "pair": "tallyqa:17882:4",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:11148:2",
+    "row": {
+      "uid": "tallyqa:11148:2",
+      "dataset": "tallyqa",
+      "question": "How many windows are on the front of the train?",
+      "images": [
+        "11148.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "2b84adbd9f1f361a5484b269e323f87cc12cbdfb860ebf98262679da48cee46b",
+    "file": "5efd241f185f4cff2d0f4c9838a2a8b26c4546163ef6a186b70431dd732461f4",
+    "pair": "tallyqa:11148:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:20470:0",
+    "row": {
+      "uid": "tallyqa:20470:0",
+      "dataset": "tallyqa",
+      "question": "How many sweets have animals on them?",
+      "images": [
+        "20470.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "332b07460e03e69a10428bd9f8cc774603e853617d1683c5acdc14b5ff436d5f",
+    "file": "ce328bee8d9c0185510e067712de6eaec611819a4052c31422fcf64fa24054be",
+    "pair": "tallyqa:20470:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:10249:0",
+    "row": {
+      "uid": "tallyqa:10249:0",
+      "dataset": "tallyqa",
+      "question": "How many clocks are there?",
+      "images": [
+        "10249.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "4f1ce5d6a844b3f5fa54c62050959225a6bdb09d31ae2c7aaa472f80a7faecab",
+    "file": "4fcfdc94d37c6c5f1ac9723a64530ce823a5ab87af007f8863b877b148a679b2",
+    "pair": "tallyqa:10249:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12854:0",
+    "row": {
+      "uid": "tallyqa:12854:0",
+      "dataset": "tallyqa",
+      "question": "How many cars are shown in the background?",
+      "images": [
+        "12854.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "bd0c7de2d5d2e434c0651806723cc701319089ccd3eaf50a3ec92ce77aea78b9",
+    "file": "2f5bc8d3c8682d3e11de4e7bd887584193f515304d6875528e11bd33e772ac05",
+    "pair": "tallyqa:12854:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:6114:0",
+    "row": {
+      "uid": "tallyqa:6114:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "6114.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "fe2307fcf27513ab1a216d841736719681054ddac0a01ee72538f152c4d48782",
+    "file": "3726471079ce92db66f91ad0ae1eeedb02bd407d2c757c1005f34e120937ffd4",
+    "pair": "tallyqa:6114:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:10807:0",
+    "row": {
+      "uid": "tallyqa:10807:0",
+      "dataset": "tallyqa",
+      "question": "How many cans are in this picture?",
+      "images": [
+        "10807.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "c3cd587aab809df285d5377b30378654b4f59dac1be9c528c100a02763a05777",
+    "file": "4a053b6ae2260849ee3ee247e04b13f8048e9248cf1e07de3c4f1770461ac241",
+    "pair": "tallyqa:10807:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1329:0",
+    "row": {
+      "uid": "tallyqa:1329:0",
+      "dataset": "tallyqa",
+      "question": "How many lights on the train?",
+      "images": [
+        "1329.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "2adf41208ec50817c5916b1185f663591b8961586647a3c75b16bb07e4ff5e1f",
+    "file": "f9db7cc22218f0a4855305c050cc14c7c49ae966d2aaaba04b32812ef7511919",
+    "pair": "tallyqa:1329:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8968:0",
+    "row": {
+      "uid": "tallyqa:8968:0",
+      "dataset": "tallyqa",
+      "question": "How many horses can you see?",
+      "images": [
+        "8968.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "0fc5e787622411b9529234a7d6af407aed2bdcc7fcd53088963920de61d6d4a3",
+    "file": "0c900b8841b5b84edf30e1b854b3315207a2a35036a74de4e71fc90c344301a7",
+    "pair": "tallyqa:8968:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7855:0",
+    "row": {
+      "uid": "tallyqa:7855:0",
+      "dataset": "tallyqa",
+      "question": "How many appliances are there?",
+      "images": [
+        "7855.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "8b63e4f61e512c965198d916100af7a3a85c510d89a5b77b3dd7a0db7530074b",
+    "file": "1ae3c2ec5fc605d11d0c1dd0161153fb5bdd0bf2be39aee4845946b47568ac01",
+    "pair": "tallyqa:7855:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3640:0",
+    "row": {
+      "uid": "tallyqa:3640:0",
+      "dataset": "tallyqa",
+      "question": "How many motorcycles are there?",
+      "images": [
+        "3640.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "cc24732ded038e2509be946055e30b6a2abf69b37b0a188ba3c021c33250ef15",
+    "file": "57628c455157424a14f76ad29dd42d01a840b8ee415a3da123b398dc51adc4e7",
+    "pair": "tallyqa:3640:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:11795:0",
+    "row": {
+      "uid": "tallyqa:11795:0",
+      "dataset": "tallyqa",
+      "question": "How many players are in the photograph?",
+      "images": [
+        "11795.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "f8cc772c6053bcb2233501ae4d2f2021d7407746b0f10bd6cf58bf620b76840e",
+    "file": "99828e7f9ece3fd7820b03ef66de456bd96ca23bf55b979643dbb35a95522def",
+    "pair": "tallyqa:11795:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1029:1",
+    "row": {
+      "uid": "tallyqa:1029:1",
+      "dataset": "tallyqa",
+      "question": "How many zebras are shown?",
+      "images": [
+        "1029.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "c2cc7620622f126f56b108155d787fed172122eee797a1cee6ca3b24d0cf1bb3",
+    "file": "ec361293e0907e82358ea3baa0c487c06160cb362d7a50f556a971cf75c1eb1b",
+    "pair": "tallyqa:1029:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:2722:0",
+    "row": {
+      "uid": "tallyqa:2722:0",
+      "dataset": "tallyqa",
+      "question": "How many giraffes are there?",
+      "images": [
+        "2722.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "a74637d6c8d4ed76acf96fe4ac1a3c3c2996c86cc8ece6f0e4c756481e32e78e",
+    "file": "c1ba9fc3af0b970cfd346a4193bda00d5a88431d83af9100aaf12a30c13213ba",
+    "pair": "tallyqa:2722:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:6232:2",
+    "row": {
+      "uid": "tallyqa:6232:2",
+      "dataset": "tallyqa",
+      "question": "How many strawberries are on the plate?",
+      "images": [
+        "6232.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "e290dd2b857e2d60e917295b59b388cf767c8c136053a1e7386974d6ea9d5434",
+    "file": "615f0fe5b6d4859dc1a4d0065df28c8f18ea6f24ca61d97c6f0e6759203c2148",
+    "pair": "tallyqa:6232:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:14248:0",
+    "row": {
+      "uid": "tallyqa:14248:0",
+      "dataset": "tallyqa",
+      "question": "How many beds are pictured?",
+      "images": [
+        "14248.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "4f8d9a1eb9959381c6a230481f3aa0de75c4d5329b715f45c5958dec77607e71",
+    "file": "219af1af79b33f8f3f7baa14f3b7525c76c09ecdefa317e4ef43088d4487ad96",
+    "pair": "tallyqa:14248:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17402:1",
+    "row": {
+      "uid": "tallyqa:17402:1",
+      "dataset": "tallyqa",
+      "question": "How many humans?",
+      "images": [
+        "17402.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "ec135f4b9405d4873764033000212702357eea99c29ab21154d4371a2c70df5c",
+    "file": "5534cb081c18a57e17a474bcb2cdbd09429cdf8d73c0acaf9b31937e8fda678b",
+    "pair": "tallyqa:17402:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9169:0",
+    "row": {
+      "uid": "tallyqa:9169:0",
+      "dataset": "tallyqa",
+      "question": "How many giraffes are shown?",
+      "images": [
+        "9169.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "39b7ca84b351bb842878a883150df5160eb023dec72042971b9fa1cb4a471132",
+    "file": "badd027f8107ff9539627d4e3b0da40175052412e7ed38ea758f5cc235c102f1",
+    "pair": "tallyqa:9169:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7196:0",
+    "row": {
+      "uid": "tallyqa:7196:0",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "7196.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "fresh"
+    },
+    "count": 5,
+    "split": "fresh",
+    "rgb": "2bc207bd9bf1189b62e5bcad1ba26f1821da8dc96b694ebb58b203ad6c9ae61a",
+    "file": "9fe04a614d84655586afa8a4d0c5776c0ade12f2c939dc3d3f263b8217e8afa9",
+    "pair": "tallyqa:7196:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1071:1",
+    "row": {
+      "uid": "tallyqa:1071:1",
+      "dataset": "tallyqa",
+      "question": "How many laptops are in the photo?",
+      "images": [
+        "1071.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "c6f891576f1aa9ecf1887a061152f3fbb49a673499f9658c3e7f9e1c3e0c5525",
+    "file": "c9a1adf64b7c3d572eaaeee1e51266b8e84595f12d8ec4468209da0d4741183b",
+    "pair": "image_pair:2:3:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:15860:0",
+    "row": {
+      "uid": "tallyqa:15860:0",
+      "dataset": "tallyqa",
+      "question": "How many laptops are in the photo?",
+      "images": [
+        "15860.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "a01123ae62e8621ebefad6fde0d7743806d50aff515c01b2287ba91026fd0adf",
+    "file": "24c2e04ccd1012f6b0c96d590d3b1b4b6d3187b6dcdd26031a7747ae6941fa01",
+    "pair": "image_pair:2:3:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:484:0",
+    "row": {
+      "uid": "tallyqa:484:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are pictured?",
+      "images": [
+        "484.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "dad8b58214ebd5670983d451fae5920618ccbe2840956b2d02005210c8c15bb5",
+    "file": "ac49663b87d68c94b19a91f3eabb92936e8b40b81e160656c121b4f73a57b945",
+    "pair": "image_pair:2:3:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5011:1",
+    "row": {
+      "uid": "tallyqa:5011:1",
+      "dataset": "tallyqa",
+      "question": "How many animals are pictured?",
+      "images": [
+        "5011.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "a19301cbd46fa43fec5649d85eddac7abdab36bc3e51ffcbcc5394dad976b013",
+    "file": "cacea4805fcaaf195aa260383133da691053f23e6fdd57b5024f6c45bbfe3fe8",
+    "pair": "image_pair:2:3:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7451:0",
+    "row": {
+      "uid": "tallyqa:7451:0",
+      "dataset": "tallyqa",
+      "question": "How many planters are there?",
+      "images": [
+        "7451.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "8befb383f8505f91cdd07f07c54b9ae1ac04d776722239134efd0c45d65bbd17",
+    "file": "51e81c96be952cefb5a6fd89778422b496cd850c372f4ab860dd89917a77ef9a",
+    "pair": "image_pair:2:3:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5952:0",
+    "row": {
+      "uid": "tallyqa:5952:0",
+      "dataset": "tallyqa",
+      "question": "How many planters are there?",
+      "images": [
+        "5952.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "9ba492bcb7a2f824c3f79b517242e82e74b17b4bf52cfe3ca0b2366c106c3e76",
+    "file": "c264dc47cf7959b0df37c55af37dfeca195b751b6b9042f7082d9af843d2daff",
+    "pair": "image_pair:2:3:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:629:0",
+    "row": {
+      "uid": "tallyqa:629:0",
+      "dataset": "tallyqa",
+      "question": "How many plants are there?",
+      "images": [
+        "629.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "1e43fd7b4772b3a0304523ce5a0d2a4919c375d3fe34dfe09f23af659586edd0",
+    "file": "d0c7ae4071cf36e1d4fb88d735724fd65403aed0a10c4080da05a698a58bcfb4",
+    "pair": "image_pair:2:3:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1599:0",
+    "row": {
+      "uid": "tallyqa:1599:0",
+      "dataset": "tallyqa",
+      "question": "How many plants are there?",
+      "images": [
+        "1599.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "f2578b88fce76754d1ddcc817ec6e18ce6745b9a891503dbe24640029d3bc68b",
+    "file": "f9821865bb3ea411c153ea2b4818111ad5ceb3ec5e59ebc0c62b974579b49bc9",
+    "pair": "image_pair:2:3:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12036:2",
+    "row": {
+      "uid": "tallyqa:12036:2",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing sunglasses?",
+      "images": [
+        "12036.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "42c6aa24e87526af24e58c45fdafb660cb6c84bb742ec654704acc141bc8b85c",
+    "file": "62fe347b1dc439ea59ebad81e4274efefaaaed29912559f2f9d6a4d6528a5df2",
+    "pair": "image_pair:2:4:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:26123:0",
+    "row": {
+      "uid": "tallyqa:26123:0",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing sunglasses?",
+      "images": [
+        "26123.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "b9e9f4bb8f81f78655dc2c0d842900bc2c61feb4876e4ba0d2315b7f5e933e26",
+    "file": "ea3c28fecf3a4a2aeeb7398611955bd02a2d8a6868af22cb545a09aee9ec730c",
+    "pair": "image_pair:2:4:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:611:1",
+    "row": {
+      "uid": "tallyqa:611:1",
+      "dataset": "tallyqa",
+      "question": "How many snowboarders are there?",
+      "images": [
+        "611.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "a7849d658621cbdbe67b827c3ea60c9996783a17a174454aa561d562a7331fde",
+    "file": "e1679d204b9b64659bea7f20c06a95bd77ef960b53f8286d27333420284f57d9",
+    "pair": "image_pair:2:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:234:0",
+    "row": {
+      "uid": "tallyqa:234:0",
+      "dataset": "tallyqa",
+      "question": "How many snowboarders are there?",
+      "images": [
+        "234.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "e04510b6c6ce9eb8d665474bc8fc1732166d2a2c01388da19f4dddc0b5175e68",
+    "file": "9bfe51a54be3219e3cf197192585f51531f3ff696c5779780c9d9ee4d228125d",
+    "pair": "image_pair:2:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3416:0",
+    "row": {
+      "uid": "tallyqa:3416:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are pictured?",
+      "images": [
+        "3416.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "966a7e93628c0f99242d675c97d06f7c552a5a0de82a581f761eead216a3963c",
+    "file": "2222bcee1b306259adcbc1719fd114f207dbfbdd3adf30acf43bbfa7f34a446f",
+    "pair": "image_pair:2:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:2702:0",
+    "row": {
+      "uid": "tallyqa:2702:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are pictured?",
+      "images": [
+        "2702.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "b4b3aef9485e89ae65fd7a0a2c321fbe45c56b9b3c1274e3bfcaebba1e2df2ed",
+    "file": "daf0cc4817854c043255ce20a8fa76c8f832de8c579a9c797a68752f8ca8607e",
+    "pair": "image_pair:2:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:763:0",
+    "row": {
+      "uid": "tallyqa:763:0",
+      "dataset": "tallyqa",
+      "question": "How many pictures are on the wall?",
+      "images": [
+        "763.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "2308880d60ba222979ce36be1941c1d8047b72ce8d597bafeca6a2992573446c",
+    "file": "2161ccadde8e102b81df47f1d9224a6e73ad5cc8a0859a5a91707211ab657fb7",
+    "pair": "image_pair:2:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9829:1",
+    "row": {
+      "uid": "tallyqa:9829:1",
+      "dataset": "tallyqa",
+      "question": "How many pictures are on the wall?",
+      "images": [
+        "9829.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "465437418dce1f6f769539a7ae63dcde9711c7269608e01e3fd325237bf7abd6",
+    "file": "6dcb7104c5f1e3803b42c9869612512bf810b7420c2609b52d622e1959b1b7dc",
+    "pair": "image_pair:2:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:6990:0",
+    "row": {
+      "uid": "tallyqa:6990:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are pictured?",
+      "images": [
+        "6990.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "92ab863a828a523b28baee1ba1b3701531e0a65d19fbd5246105eabe9c86c7ee",
+    "file": "f96a008fa962fceb129047165f1d41925624805dd0f52ff2f4f39008705b1764",
+    "pair": "image_pair:2:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:155:1",
+    "row": {
+      "uid": "tallyqa:155:1",
+      "dataset": "tallyqa",
+      "question": "How many animals are pictured?",
+      "images": [
+        "155.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "bcec97b5e03ca5a4ae08061aaec818e00c6a281f45041256c7d2a731227e08c1",
+    "file": "1309508bda28a09d6f4e4968e6d50d6552077e6537f3508740055cf7e9f1ef6f",
+    "pair": "image_pair:2:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:15309:1",
+    "row": {
+      "uid": "tallyqa:15309:1",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen in the photo?",
+      "images": [
+        "15309.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "6a7287bdc5b2bf23f7b8ac3dbd4486f4e0d255a41072e8dfa3387cabf3480977",
+    "file": "dd0bd8726672c891bd17ce165176fc798dd0dbc325c1716bfeebe8cae5b6dbca",
+    "pair": "image_pair:2:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12275:1",
+    "row": {
+      "uid": "tallyqa:12275:1",
+      "dataset": "tallyqa",
+      "question": "How many people can be seen in the photo?",
+      "images": [
+        "12275.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "29f9f93c2dd9b07c5dd03fd6ea77933a03c25b502f4811992f82a067e5bcc300",
+    "file": "8f0f606ab3ffa7bff251b78b09c665f3e3292a6ee5be45ab3d1dc726fddf636f",
+    "pair": "image_pair:2:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8803:0",
+    "row": {
+      "uid": "tallyqa:8803:0",
+      "dataset": "tallyqa",
+      "question": "How many children are shown?",
+      "images": [
+        "8803.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "dc3e10d53ddc5ee97d48f7a7af532b6aa14af50a6ebd32dcdc73ae7bfe2e6e70",
+    "file": "f4880a19687bb257b024f45c923bc4ab7c005e2dc2fe9494ae19a090a37f6f13",
+    "pair": "image_pair:2:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:2916:0",
+    "row": {
+      "uid": "tallyqa:2916:0",
+      "dataset": "tallyqa",
+      "question": "How many children are shown?",
+      "images": [
+        "2916.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "2f8c674f6249c5e7ee25b058d3a1824b11708418103c90a3f9e479a85425d585",
+    "file": "33aee179af91f75e182df4f52b57893cbfa481ef00e178edcf8061c45f2ceab9",
+    "pair": "image_pair:2:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:534:4",
+    "row": {
+      "uid": "tallyqa:534:4",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "534.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 2,
+    "split": "image_pair",
+    "rgb": "a7711bde0424847b62160ced1e07d8af5f4b0659a6d17d59f19c5f5ac28e077b",
+    "file": "d4bc5749796740710a8a479a7026868d05e41e194a60912d8ee4dcd0eed8cb80",
+    "pair": "image_pair:2:5:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:10043:0",
+    "row": {
+      "uid": "tallyqa:10043:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "10043.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "b308f088f7ebd2fc0f74faa03001c1a50569eb6cd499ee36aad607283b5fda01",
+    "file": "9a4045e9877aba2d20836f80efaa98add9cef402fb00319eae14681c3ad65952",
+    "pair": "image_pair:2:5:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1100:1",
+    "row": {
+      "uid": "tallyqa:1100:1",
+      "dataset": "tallyqa",
+      "question": "How many players are there?",
+      "images": [
+        "1100.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "62f46268a5dbf3d2dc1ee23c13a2dd2963b6de241107741e75357a0f440c022b",
+    "file": "f46a7e13db3df5b1860f89f0a5189cdc79b8256fce236d191d9c9cb67e57c6dd",
+    "pair": "image_pair:3:4:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3152:0",
+    "row": {
+      "uid": "tallyqa:3152:0",
+      "dataset": "tallyqa",
+      "question": "How many players are there?",
+      "images": [
+        "3152.png"
+      ],
+      "candidates": [
+        "three",
+        "five",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "6b4d1ca7a97c9b05e12a7ea860fb1dbc1b61e9c31926c134e42da9ad4a1a4513",
+    "file": "2ffe33d92bd32e1426be05cb4327b459bad7381de9da87033eff096f5930207a",
+    "pair": "image_pair:3:4:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17247:0",
+    "row": {
+      "uid": "tallyqa:17247:0",
+      "dataset": "tallyqa",
+      "question": "How many frisbees are visible?",
+      "images": [
+        "17247.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "d9c9d7b8b61e41872a008b14f38c7fbc1166b410f2749a565e1fc5ddddbce729",
+    "file": "f20aa4ba8d036a61126034b7cdfa4dcd0c86b50ce560bcafbe128e68cd9161c2",
+    "pair": "image_pair:3:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:14815:0",
+    "row": {
+      "uid": "tallyqa:14815:0",
+      "dataset": "tallyqa",
+      "question": "How many frisbees are visible?",
+      "images": [
+        "14815.png"
+      ],
+      "candidates": [
+        "two",
+        "three",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "18d2736b26d7f112936e471b43eb67acd4db44fc26c467d1e1e0845aebbdd74f",
+    "file": "53e38392cb099fa8e9b2ad5ede7e2db0598ede4cc37383fe0c1c2888d0afccc0",
+    "pair": "image_pair:3:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1520:1",
+    "row": {
+      "uid": "tallyqa:1520:1",
+      "dataset": "tallyqa",
+      "question": "How many wheels are visible?",
+      "images": [
+        "1520.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "54dc2e35dfa2db2261c81ebd92823e001a696f0b85b6af3d62732bb17f5ab07d",
+    "file": "8a542a4a0965c6369f1ef1adddf4a27c00795ea400b162eabf212f09c4604344",
+    "pair": "image_pair:3:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1618:0",
+    "row": {
+      "uid": "tallyqa:1618:0",
+      "dataset": "tallyqa",
+      "question": "How many wheels are visible?",
+      "images": [
+        "1618.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "four",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "7c8448c21cdea79844351d2fe8a5d3aec9de7535be6d619a427ce5998bfe2b53",
+    "file": "9a5e6234ecd99f1f7f9bb0c74eb210d9291f7a5c6dfe64ebae0b75d832986d96",
+    "pair": "image_pair:3:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:693:0",
+    "row": {
+      "uid": "tallyqa:693:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "693.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "0bb7756dffd94c09b23df178590eb58da40c8cf7b84e50c389e3ffcd0bdbb364",
+    "file": "aea124ecb0f41415a8d99415fc52be52c28061465b5551bd2174df0c1c8f7289",
+    "pair": "image_pair:3:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5334:0",
+    "row": {
+      "uid": "tallyqa:5334:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "5334.png"
+      ],
+      "candidates": [
+        "five",
+        "three",
+        "four",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "7cae081fd174fdc6159851b5127f41374e7a34da43dbc16df3258f71d876a7e4",
+    "file": "b17c9151e5c37cab5051b05dfd07f057e28987ef3489a3dd87ded5145fd3bcbd",
+    "pair": "image_pair:3:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:844:0",
+    "row": {
+      "uid": "tallyqa:844:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "844.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "dc57370691c5f5fdf13ef598867a0772bec74feafc24a523d0507003cafd45c1",
+    "file": "fbb27f2f5838d3ba306c3b6ce0e19f28bf3f2795e5d841e884224d063c3c62b6",
+    "pair": "image_pair:3:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:14926:0",
+    "row": {
+      "uid": "tallyqa:14926:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in this picture?",
+      "images": [
+        "14926.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "c23893558874cb6d3784b4992d38eb9ef19febf0a76dc50aa9ce2897cc57ef54",
+    "file": "e006635abb4e3b28608f0b1e931f85fa80177f7a294f18fca6cf669e46c16cf8",
+    "pair": "image_pair:3:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:540:0",
+    "row": {
+      "uid": "tallyqa:540:0",
+      "dataset": "tallyqa",
+      "question": "How many sandwiches are there?",
+      "images": [
+        "540.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "7a4e66d14bb26fb0fe7ff64d3450175e8fcaedc6170ffd6bac902de878ea0f07",
+    "file": "0a7c872f3182eb6e7a947bc1b45a078d587873a09e359313198eb1a99f9a4fff",
+    "pair": "image_pair:3:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:4591:1",
+    "row": {
+      "uid": "tallyqa:4591:1",
+      "dataset": "tallyqa",
+      "question": "How many sandwiches are there?",
+      "images": [
+        "4591.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "51c37708c0d2b0a34d5e982fcf42ef46961cfbd8a415ff767da03283cd5becaa",
+    "file": "b295e5489a99395a78a9a312ff205966ce4ba7b57a70a7eaac141a55e01fb453",
+    "pair": "image_pair:3:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:19524:0",
+    "row": {
+      "uid": "tallyqa:19524:0",
+      "dataset": "tallyqa",
+      "question": "How many people are standing on the field?",
+      "images": [
+        "19524.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "6dea6a0dcc9df44b310e58513d2283db66f846e462eab363d7aefae1af6d283d",
+    "file": "c1c2220e8fe872424f795d9ddc4e4b6be77d2dbdc777645f105e31cdf0d52738",
+    "pair": "image_pair:3:5:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:25582:0",
+    "row": {
+      "uid": "tallyqa:25582:0",
+      "dataset": "tallyqa",
+      "question": "How many people are standing on the field?",
+      "images": [
+        "25582.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "3d3a251f88223b7b67b769f550f19880cdeaf2ba08202401929e4684f7d670b9",
+    "file": "ab46cea21a13692b4e11fcb424e3a4c5b41a582e4c7e0010bd7865bc3d200438",
+    "pair": "image_pair:3:5:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:8566:3",
+    "row": {
+      "uid": "tallyqa:8566:3",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing glasses?",
+      "images": [
+        "8566.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 3,
+    "split": "image_pair",
+    "rgb": "785fb801f72ff079208a3fd83c7e28a90e760ab76d8892ebb5b44fe591b21bfe",
+    "file": "4c59035dc968e3e4dfaa270f44ab1dd45b6886392c13b24e5e1cfd9436729c30",
+    "pair": "image_pair:3:5:3",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:3692:1",
+    "row": {
+      "uid": "tallyqa:3692:1",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing glasses?",
+      "images": [
+        "3692.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "7be7716d7994df9b49d1b87978a14c3e1774a7c19de2e6f693c78c423ef166e4",
+    "file": "e976b060a07a308ba49fbfc1e072469081311efe9148a1cca0b237a73333e24c",
+    "pair": "image_pair:3:5:3",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:3093:0",
+    "row": {
+      "uid": "tallyqa:3093:0",
+      "dataset": "tallyqa",
+      "question": "How many players are in the picture?",
+      "images": [
+        "3093.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "fffdea77c15ca239e0d154a39647a799d866ed4adfb95280329bf5ab65e627b7",
+    "file": "20b5d1cffb02d270f7654b2fb34f09af217bd2faaf0c07770f668fb7ceb82560",
+    "pair": "image_pair:4:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:14124:0",
+    "row": {
+      "uid": "tallyqa:14124:0",
+      "dataset": "tallyqa",
+      "question": "How many players are in the picture?",
+      "images": [
+        "14124.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "1b4b5b9c55446f1e3df3afcfc59e382359ddbd89e68e881562d3b41735b85f11",
+    "file": "dc3e967cd327fa5a2cee1c1b89deb1d17014982e7540cc44ce397aaf4436ad5e",
+    "pair": "image_pair:4:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:10203:0",
+    "row": {
+      "uid": "tallyqa:10203:0",
+      "dataset": "tallyqa",
+      "question": "How many cupcakes are there?",
+      "images": [
+        "10203.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "a7f2a7cd8a524bb0c8aee46a50bbb61f2d88d867732417dac84c9fcecea98fcf",
+    "file": "0ab8e0887aa7ee64130fd3281c22eae5a86ae01c4c02b63eda7f67cc2f4fb61b",
+    "pair": "image_pair:4:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17594:6",
+    "row": {
+      "uid": "tallyqa:17594:6",
+      "dataset": "tallyqa",
+      "question": "How many cupcakes are there?",
+      "images": [
+        "17594.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "1468c2048d488b6b3d25eb4904953da001de9cbae0e0cd34e804ee69c15dc8f9",
+    "file": "ff187356eb2ab85d399876d23b1645013d5abfc1b803edb7ff50359e3fdf827a",
+    "pair": "image_pair:4:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5499:0",
+    "row": {
+      "uid": "tallyqa:5499:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are visible?",
+      "images": [
+        "5499.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "3af577deae1670b393a1338c654a7e2e5c85a1f6a4755b770b914a1404e388ed",
+    "file": "1b56e94f8b87557489f832884f3dc874169b560b4106c4a58f67b11ae64b71f9",
+    "pair": "image_pair:4:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:12555:0",
+    "row": {
+      "uid": "tallyqa:12555:0",
+      "dataset": "tallyqa",
+      "question": "How many animals are visible?",
+      "images": [
+        "12555.png"
+      ],
+      "candidates": [
+        "five",
+        "four",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "492b0a23aee172135a51f2124941677ee3dd1e87321b1576844dbe1facd5b2f6",
+    "file": "5bb0aae2ebcc09fd99ed2dcd055fb7af21bb4decd75bf39382d91d066035b49c",
+    "pair": "image_pair:4:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:19207:1",
+    "row": {
+      "uid": "tallyqa:19207:1",
+      "dataset": "tallyqa",
+      "question": "How many girl are there in the image?",
+      "images": [
+        "19207.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 4,
+    "split": "image_pair",
+    "rgb": "f73bc684cefff53ca90f81e648873a1965b3f7985e68e873f6295d5fa5cc82ca",
+    "file": "b64754bd5814f23bbcdf314fa565cb6867d6daf84c70c8b2e54a2bb3e65a0951",
+    "pair": "image_pair:4:5:3",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:19680:0",
+    "row": {
+      "uid": "tallyqa:19680:0",
+      "dataset": "tallyqa",
+      "question": "How many girl are there in the image?",
+      "images": [
+        "19680.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "two",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "image_pair"
+    },
+    "count": 5,
+    "split": "image_pair",
+    "rgb": "771af499f281282bd19cd155e8f7cd176d28ac0d0b13fe40d3b947e1c066a481",
+    "file": "d1e40b9a2ef0ee7cc4dbe21912fd550afd04b95ed05edcc002fbf3cc5e26e8cd",
+    "pair": "image_pair:4:5:3",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:7100:0",
+    "row": {
+      "uid": "tallyqa:7100:0",
+      "dataset": "tallyqa",
+      "question": "How many rams are there?",
+      "images": [
+        "7100.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "d4b6739d0394d87e567ce474aebdb817cdecec22afebe919b09039a8d8d152a9",
+    "file": "cce919a2f1f1d09052f046602194c07f770b3a80a421e0e71a004050478a662e",
+    "pair": "question_pair:2:3:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7100:1",
+    "row": {
+      "uid": "tallyqa:7100:1",
+      "dataset": "tallyqa",
+      "question": "How many curly horns do you see in this picture?",
+      "images": [
+        "7100.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "d4b6739d0394d87e567ce474aebdb817cdecec22afebe919b09039a8d8d152a9",
+    "file": "cce919a2f1f1d09052f046602194c07f770b3a80a421e0e71a004050478a662e",
+    "pair": "question_pair:2:3:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:17570:1",
+    "row": {
+      "uid": "tallyqa:17570:1",
+      "dataset": "tallyqa",
+      "question": "How many sinks are pictured?",
+      "images": [
+        "17570.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "7be8421143b84dd33b7a61b5e7ff01ad5087cabfaf1510dd0e3d8e4702cd4a56",
+    "file": "110093a42e7779f89fc367e22a2c2621044957058debaaa1f715ac79f18e1011",
+    "pair": "question_pair:2:3:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17570:2",
+    "row": {
+      "uid": "tallyqa:17570:2",
+      "dataset": "tallyqa",
+      "question": "How many lights are on the mirror?",
+      "images": [
+        "17570.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "7be8421143b84dd33b7a61b5e7ff01ad5087cabfaf1510dd0e3d8e4702cd4a56",
+    "file": "110093a42e7779f89fc367e22a2c2621044957058debaaa1f715ac79f18e1011",
+    "pair": "question_pair:2:3:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17590:1",
+    "row": {
+      "uid": "tallyqa:17590:1",
+      "dataset": "tallyqa",
+      "question": "How many sandwiches halves are there?",
+      "images": [
+        "17590.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "b5c5840178a6367c4579c233e4428b44b4d36a8710f81dd0be8e75d313fc070c",
+    "file": "e56f10748e35c6f10431c902bd5528025a206ac4fcd268b63f0f7ec555e3350e",
+    "pair": "question_pair:2:3:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:17590:0",
+    "row": {
+      "uid": "tallyqa:17590:0",
+      "dataset": "tallyqa",
+      "question": "How many jars are shown?",
+      "images": [
+        "17590.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "b5c5840178a6367c4579c233e4428b44b4d36a8710f81dd0be8e75d313fc070c",
+    "file": "e56f10748e35c6f10431c902bd5528025a206ac4fcd268b63f0f7ec555e3350e",
+    "pair": "question_pair:2:3:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:11647:1",
+    "row": {
+      "uid": "tallyqa:11647:1",
+      "dataset": "tallyqa",
+      "question": "How many adult elephants are there?",
+      "images": [
+        "11647.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "70201eb37e9fbbda2f06fa6306b86266784d54e6db264d4038265d84870912c2",
+    "file": "a89692b0568e3a00eeb5267957ce0e5b6bd5042e6937451b7906abb0015f9f45",
+    "pair": "question_pair:2:3:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:11647:0",
+    "row": {
+      "uid": "tallyqa:11647:0",
+      "dataset": "tallyqa",
+      "question": "How many elephants are there?",
+      "images": [
+        "11647.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "70201eb37e9fbbda2f06fa6306b86266784d54e6db264d4038265d84870912c2",
+    "file": "a89692b0568e3a00eeb5267957ce0e5b6bd5042e6937451b7906abb0015f9f45",
+    "pair": "question_pair:2:3:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:907:0",
+    "row": {
+      "uid": "tallyqa:907:0",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "907.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "9f2108babb2e00628d69cc855af45d1996036aebad2de47f8b36a22fb31e275b",
+    "file": "ffbb9476d27187a296c6b20b1f5ac65fb75271c8141af858bb594c75f0d834e0",
+    "pair": "question_pair:2:4:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:907:1",
+    "row": {
+      "uid": "tallyqa:907:1",
+      "dataset": "tallyqa",
+      "question": "How many pieces are left on the cake?",
+      "images": [
+        "907.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "five",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "9f2108babb2e00628d69cc855af45d1996036aebad2de47f8b36a22fb31e275b",
+    "file": "ffbb9476d27187a296c6b20b1f5ac65fb75271c8141af858bb594c75f0d834e0",
+    "pair": "question_pair:2:4:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:4577:2",
+    "row": {
+      "uid": "tallyqa:4577:2",
+      "dataset": "tallyqa",
+      "question": "How many cabinet handles are seen?",
+      "images": [
+        "4577.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "5de2e5e980137c56a7834623dec69f4efc3482fab03f5bc97e02c74b19013d66",
+    "file": "11fb66ef653d094086d4149b720b8f0c0a7a840ecb54b6b911652e2f58ad60bf",
+    "pair": "question_pair:2:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:4577:1",
+    "row": {
+      "uid": "tallyqa:4577:1",
+      "dataset": "tallyqa",
+      "question": "How many knobs are on the stove?",
+      "images": [
+        "4577.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "5de2e5e980137c56a7834623dec69f4efc3482fab03f5bc97e02c74b19013d66",
+    "file": "11fb66ef653d094086d4149b720b8f0c0a7a840ecb54b6b911652e2f58ad60bf",
+    "pair": "question_pair:2:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:16799:1",
+    "row": {
+      "uid": "tallyqa:16799:1",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing glasses?",
+      "images": [
+        "16799.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "30e291e66e43541ea2f94a50dd20b3ddbfe48f364e75dc7b30eccc4400ebf3bd",
+    "file": "fe4e393066fb6b086a56b9e6a87a4ed9f3cba14dd23bd5a8e17823ed7b8f789d",
+    "pair": "question_pair:2:4:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:16799:0",
+    "row": {
+      "uid": "tallyqa:16799:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "16799.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "30e291e66e43541ea2f94a50dd20b3ddbfe48f364e75dc7b30eccc4400ebf3bd",
+    "file": "fe4e393066fb6b086a56b9e6a87a4ed9f3cba14dd23bd5a8e17823ed7b8f789d",
+    "pair": "question_pair:2:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9434:0",
+    "row": {
+      "uid": "tallyqa:9434:0",
+      "dataset": "tallyqa",
+      "question": "How many giraffes are there?",
+      "images": [
+        "9434.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "14049ddd4c9697658f9eaf03f668f1b04c9516fa7e525e253f413065474d51cc",
+    "file": "e56e7b3fde156fb6392bf3ab039927c966f3ef5c7d57f8d683e31f605f8f9533",
+    "pair": "question_pair:2:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9434:1",
+    "row": {
+      "uid": "tallyqa:9434:1",
+      "dataset": "tallyqa",
+      "question": "How many animals are there?",
+      "images": [
+        "9434.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "14049ddd4c9697658f9eaf03f668f1b04c9516fa7e525e253f413065474d51cc",
+    "file": "e56e7b3fde156fb6392bf3ab039927c966f3ef5c7d57f8d683e31f605f8f9533",
+    "pair": "question_pair:2:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5371:2",
+    "row": {
+      "uid": "tallyqa:5371:2",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing hats?",
+      "images": [
+        "5371.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "56390916d9e426682d827e8d5890e39f6695e9f11a7d4106f8c1ab2ad6068880",
+    "file": "a2dafff054ae00a80384900fdd431de54a9466349e2e4cd2ff18d993302dec9d",
+    "pair": "question_pair:2:5:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:5371:1",
+    "row": {
+      "uid": "tallyqa:5371:1",
+      "dataset": "tallyqa",
+      "question": "How many windows do you see?",
+      "images": [
+        "5371.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "56390916d9e426682d827e8d5890e39f6695e9f11a7d4106f8c1ab2ad6068880",
+    "file": "a2dafff054ae00a80384900fdd431de54a9466349e2e4cd2ff18d993302dec9d",
+    "pair": "question_pair:2:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1850:2",
+    "row": {
+      "uid": "tallyqa:1850:2",
+      "dataset": "tallyqa",
+      "question": "How many children are pictured here?",
+      "images": [
+        "1850.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "8d8ad91985783556fc8b6e4d2cee78453137a23ef8614384559d6c1da0d5e44d",
+    "file": "630577a57467fc0ea7bfe79264d4dc22fec8e33c589869bbda4eefa017c49efd",
+    "pair": "question_pair:2:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1850:1",
+    "row": {
+      "uid": "tallyqa:1850:1",
+      "dataset": "tallyqa",
+      "question": "How many walkway lights can be seen in the picture?",
+      "images": [
+        "1850.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "three",
+        "four"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "8d8ad91985783556fc8b6e4d2cee78453137a23ef8614384559d6c1da0d5e44d",
+    "file": "630577a57467fc0ea7bfe79264d4dc22fec8e33c589869bbda4eefa017c49efd",
+    "pair": "question_pair:2:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:13407:1",
+    "row": {
+      "uid": "tallyqa:13407:1",
+      "dataset": "tallyqa",
+      "question": "How many people are in blue shirts?",
+      "images": [
+        "13407.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "c92787cd777897da2d3342198a87b22f58cfa2a2dbc8d9aba49feffed8fc7fc8",
+    "file": "46c5f1f52c7fa5043102aeb055290d62ef545f8cc5b184871f8dc90c2fc11587",
+    "pair": "question_pair:2:5:2",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:13407:0",
+    "row": {
+      "uid": "tallyqa:13407:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the photo?",
+      "images": [
+        "13407.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "c92787cd777897da2d3342198a87b22f58cfa2a2dbc8d9aba49feffed8fc7fc8",
+    "file": "46c5f1f52c7fa5043102aeb055290d62ef545f8cc5b184871f8dc90c2fc11587",
+    "pair": "question_pair:2:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9294:0",
+    "row": {
+      "uid": "tallyqa:9294:0",
+      "dataset": "tallyqa",
+      "question": "How many ramps are there?",
+      "images": [
+        "9294.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 2,
+    "split": "question_pair",
+    "rgb": "c0baddd5959836ecc87e1d02588c927ada2ad884a7b72f06f5df759e267791fd",
+    "file": "f0336192c568362ead7eca820e18c0152ccf0d079c3dc2047e77d3a4128877cf",
+    "pair": "question_pair:2:5:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:9294:1",
+    "row": {
+      "uid": "tallyqa:9294:1",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing a white shirt?",
+      "images": [
+        "9294.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "c0baddd5959836ecc87e1d02588c927ada2ad884a7b72f06f5df759e267791fd",
+    "file": "f0336192c568362ead7eca820e18c0152ccf0d079c3dc2047e77d3a4128877cf",
+    "pair": "question_pair:2:5:3",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:1165:3",
+    "row": {
+      "uid": "tallyqa:1165:3",
+      "dataset": "tallyqa",
+      "question": "How many people are wearing hats?",
+      "images": [
+        "1165.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "b67e7346f8e85997064563b859cf5bb1f21044bac25c729afe6bd88f90672ecd",
+    "file": "932d478241f95faa1cbf66e45f671bde5cbd59e951224b301ff3942f1b33854d",
+    "pair": "question_pair:3:4:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:1165:0",
+    "row": {
+      "uid": "tallyqa:1165:0",
+      "dataset": "tallyqa",
+      "question": "How many benches are on the picnic table?",
+      "images": [
+        "1165.png"
+      ],
+      "candidates": [
+        "two",
+        "four",
+        "three",
+        "five"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "b67e7346f8e85997064563b859cf5bb1f21044bac25c729afe6bd88f90672ecd",
+    "file": "932d478241f95faa1cbf66e45f671bde5cbd59e951224b301ff3942f1b33854d",
+    "pair": "question_pair:3:4:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8346:1",
+    "row": {
+      "uid": "tallyqa:8346:1",
+      "dataset": "tallyqa",
+      "question": "How many cows are standing on the grass?",
+      "images": [
+        "8346.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "31f000ccb462feb54435fdf4f423be3aaa45062e976c1d22443b6eaeb21dc8a4",
+    "file": "21b0e151274f70849c88473221ab3d8650b98a24cc7f107edb17cf538cc4d9fe",
+    "pair": "question_pair:3:4:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:8346:0",
+    "row": {
+      "uid": "tallyqa:8346:0",
+      "dataset": "tallyqa",
+      "question": "How many cow are there?",
+      "images": [
+        "8346.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "31f000ccb462feb54435fdf4f423be3aaa45062e976c1d22443b6eaeb21dc8a4",
+    "file": "21b0e151274f70849c88473221ab3d8650b98a24cc7f107edb17cf538cc4d9fe",
+    "pair": "question_pair:3:4:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1017:0",
+    "row": {
+      "uid": "tallyqa:1017:0",
+      "dataset": "tallyqa",
+      "question": "How many elephants are in the photo?",
+      "images": [
+        "1017.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "3a9139cff1156bfb9aceb2c8350a72711a5805ee92984bc41d390a328574c25e",
+    "file": "77c06336903d42046a19bdaa81c4c05514dd0f43f594bad816d6062b84014a5a",
+    "pair": "question_pair:3:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:1017:3",
+    "row": {
+      "uid": "tallyqa:1017:3",
+      "dataset": "tallyqa",
+      "question": "How many legs does an elephant have?",
+      "images": [
+        "1017.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "3a9139cff1156bfb9aceb2c8350a72711a5805ee92984bc41d390a328574c25e",
+    "file": "77c06336903d42046a19bdaa81c4c05514dd0f43f594bad816d6062b84014a5a",
+    "pair": "question_pair:3:4:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7468:0",
+    "row": {
+      "uid": "tallyqa:7468:0",
+      "dataset": "tallyqa",
+      "question": "How many people are visible?",
+      "images": [
+        "7468.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "ff86f9c8f3a800ccfffd33cf95125e24257ee5938809ba32d178de1ec9fe682c",
+    "file": "2a6181e2f8e36aa7fe1098d57e7e3f7ddf1f46c237deb7a30ffbebbd16b46e24",
+    "pair": "question_pair:3:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:7468:1",
+    "row": {
+      "uid": "tallyqa:7468:1",
+      "dataset": "tallyqa",
+      "question": "How many lights are seen on?",
+      "images": [
+        "7468.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "ff86f9c8f3a800ccfffd33cf95125e24257ee5938809ba32d178de1ec9fe682c",
+    "file": "2a6181e2f8e36aa7fe1098d57e7e3f7ddf1f46c237deb7a30ffbebbd16b46e24",
+    "pair": "question_pair:3:4:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5465:1",
+    "row": {
+      "uid": "tallyqa:5465:1",
+      "dataset": "tallyqa",
+      "question": "How many trees are there?",
+      "images": [
+        "5465.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "e4e4fd8ba26bad194e8b2579c483e335b8a75e3225b8417cfa491dfe42e3295e",
+    "file": "88117eaba2eaf25fbe7cff5bb03ed90981762954a2870a88d3871ac5008cf664",
+    "pair": "question_pair:3:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5465:0",
+    "row": {
+      "uid": "tallyqa:5465:0",
+      "dataset": "tallyqa",
+      "question": "How many objects are on top?",
+      "images": [
+        "5465.png"
+      ],
+      "candidates": [
+        "three",
+        "two",
+        "five",
+        "four"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "e4e4fd8ba26bad194e8b2579c483e335b8a75e3225b8417cfa491dfe42e3295e",
+    "file": "88117eaba2eaf25fbe7cff5bb03ed90981762954a2870a88d3871ac5008cf664",
+    "pair": "question_pair:3:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8837:0",
+    "row": {
+      "uid": "tallyqa:8837:0",
+      "dataset": "tallyqa",
+      "question": "How many tracks are visible?",
+      "images": [
+        "8837.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "a38efa0ad1e6499cd8b0e66f610b0b306b4a8ffed35d0f4ad13709b9934057e0",
+    "file": "9b4247463235856a28364aabdebe2f639f76970c2d9dfba77d5903183ba2425d",
+    "pair": "question_pair:3:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:8837:1",
+    "row": {
+      "uid": "tallyqa:8837:1",
+      "dataset": "tallyqa",
+      "question": "How many non-numeral characters are written in the orange portions on this train car?",
+      "images": [
+        "8837.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "a38efa0ad1e6499cd8b0e66f610b0b306b4a8ffed35d0f4ad13709b9934057e0",
+    "file": "9b4247463235856a28364aabdebe2f639f76970c2d9dfba77d5903183ba2425d",
+    "pair": "question_pair:3:5:1",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:868:2",
+    "row": {
+      "uid": "tallyqa:868:2",
+      "dataset": "tallyqa",
+      "question": "How many elephants are pictured?",
+      "images": [
+        "868.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "3c07b09c496ac1ec91a3402574ddc48fa93ce199e8108ffbb0f7424a50df76ba",
+    "file": "4a260118fa13b7d0f476fdae33a54a20200425700d28eb842d2692c5350227bc",
+    "pair": "question_pair:3:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:868:0",
+    "row": {
+      "uid": "tallyqa:868:0",
+      "dataset": "tallyqa",
+      "question": "How many animals?",
+      "images": [
+        "868.png"
+      ],
+      "candidates": [
+        "five",
+        "two",
+        "four",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "3c07b09c496ac1ec91a3402574ddc48fa93ce199e8108ffbb0f7424a50df76ba",
+    "file": "4a260118fa13b7d0f476fdae33a54a20200425700d28eb842d2692c5350227bc",
+    "pair": "question_pair:3:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:13512:0",
+    "row": {
+      "uid": "tallyqa:13512:0",
+      "dataset": "tallyqa",
+      "question": "How many containers are there?",
+      "images": [
+        "13512.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 3,
+    "split": "question_pair",
+    "rgb": "c64481911b7987eb0b4f784164b8ea125eb24153863746db9073d3587376941e",
+    "file": "b06d9099b6e28cdca932ef200c22b170857f0004b1a4c350e632ff6b2e519e4e",
+    "pair": "question_pair:3:5:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:13512:1",
+    "row": {
+      "uid": "tallyqa:13512:1",
+      "dataset": "tallyqa",
+      "question": "How many food types are there?",
+      "images": [
+        "13512.png"
+      ],
+      "candidates": [
+        "two",
+        "five",
+        "four",
+        "three"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "c64481911b7987eb0b4f784164b8ea125eb24153863746db9073d3587376941e",
+    "file": "b06d9099b6e28cdca932ef200c22b170857f0004b1a4c350e632ff6b2e519e4e",
+    "pair": "question_pair:3:5:3",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:706:1",
+    "row": {
+      "uid": "tallyqa:706:1",
+      "dataset": "tallyqa",
+      "question": "How many people are far from the camera?",
+      "images": [
+        "706.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "b445c9d6257c948506dda9485ac8c85bb562e7cab401ce5db2ede58a3c4fd511",
+    "file": "fd02c5b33e7eaee539518a7400a3b44a358597b10adb640567ce96254b12285c",
+    "pair": "question_pair:4:5:0",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:706:0",
+    "row": {
+      "uid": "tallyqa:706:0",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "706.png"
+      ],
+      "candidates": [
+        "four",
+        "two",
+        "five",
+        "three"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "b445c9d6257c948506dda9485ac8c85bb562e7cab401ce5db2ede58a3c4fd511",
+    "file": "fd02c5b33e7eaee539518a7400a3b44a358597b10adb640567ce96254b12285c",
+    "pair": "question_pair:4:5:0",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5138:1",
+    "row": {
+      "uid": "tallyqa:5138:1",
+      "dataset": "tallyqa",
+      "question": "How many steps are there?",
+      "images": [
+        "5138.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "d982ee8cc0ef9414ae7746caddb42dbe51e5d0aebe97180f19f03a49312426ae",
+    "file": "7412fd76d1b6452ca3f385c154389165416f26b508eb290cffd6a528dae7f09f",
+    "pair": "question_pair:4:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:5138:0",
+    "row": {
+      "uid": "tallyqa:5138:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in this photo?",
+      "images": [
+        "5138.png"
+      ],
+      "candidates": [
+        "four",
+        "five",
+        "three",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "d982ee8cc0ef9414ae7746caddb42dbe51e5d0aebe97180f19f03a49312426ae",
+    "file": "7412fd76d1b6452ca3f385c154389165416f26b508eb290cffd6a528dae7f09f",
+    "pair": "question_pair:4:5:1",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3245:1",
+    "row": {
+      "uid": "tallyqa:3245:1",
+      "dataset": "tallyqa",
+      "question": "How many people are seated?",
+      "images": [
+        "3245.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 1,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "7f45d1c432e3ebc67685def29627b7b99060a315ab8ae4dc2cb9c5cacbc6d6bd",
+    "file": "61a537e6e07f030e3e1bc411447655e7db90e00a64c8a103b217a343e4ebb72e",
+    "pair": "question_pair:4:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:3245:0",
+    "row": {
+      "uid": "tallyqa:3245:0",
+      "dataset": "tallyqa",
+      "question": "How many people are in the picture?",
+      "images": [
+        "3245.png"
+      ],
+      "candidates": [
+        "three",
+        "four",
+        "five",
+        "two"
+      ],
+      "label": 2,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "7f45d1c432e3ebc67685def29627b7b99060a315ab8ae4dc2cb9c5cacbc6d6bd",
+    "file": "61a537e6e07f030e3e1bc411447655e7db90e00a64c8a103b217a343e4ebb72e",
+    "pair": "question_pair:4:5:2",
+    "simple": true
+  },
+  {
+    "uid": "tallyqa:2405:1",
+    "row": {
+      "uid": "tallyqa:2405:1",
+      "dataset": "tallyqa",
+      "question": "How many people have black shirts?",
+      "images": [
+        "2405.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 0,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 4,
+    "split": "question_pair",
+    "rgb": "293c9ff6e59ab9506f2b343099b2c5b2059b0f44803fb5eb3e6e02fe1e319b43",
+    "file": "d1024362b60992fa374837745b0aab443f26e78d70b4a50b8f4f9801863674c5",
+    "pair": "question_pair:4:5:3",
+    "simple": false
+  },
+  {
+    "uid": "tallyqa:2405:0",
+    "row": {
+      "uid": "tallyqa:2405:0",
+      "dataset": "tallyqa",
+      "question": "How many people are there?",
+      "images": [
+        "2405.png"
+      ],
+      "candidates": [
+        "four",
+        "three",
+        "two",
+        "five"
+      ],
+      "label": 3,
+      "reference_answers": [],
+      "metadata": {},
+      "source_split": "question_pair"
+    },
+    "count": 5,
+    "split": "question_pair",
+    "rgb": "293c9ff6e59ab9506f2b343099b2c5b2059b0f44803fb5eb3e6e02fe1e319b43",
+    "file": "d1024362b60992fa374837745b0aab443f26e78d70b4a50b8f4f9801863674c5",
+    "pair": "question_pair:4:5:3",
+    "simple": true
+  }
+]

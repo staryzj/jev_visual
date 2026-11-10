@@ -1,0 +1,33 @@
+{
+  "routes": {
+    "llava": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "2025d3eacf01fd7a70bbc77361878dfd63bd225d8b22a2877fc9009efddd576c",
+      "tap": "projected"
+    },
+    "internvl": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "045f2b6f308dea7d3e66b082a85d029da52b07a5889826aa6589f287ff1c15f2",
+      "tap": "raw"
+    },
+    "qwen": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+      "tap": "native"
+    },
+    "siglip2": {
+      "checkpoint": "last.pt",
+      "checkpoint_sha256": "beaecade641b9e504e34a24a8819d19c3c4f026ed0b66990daf59d0f31b41ba7",
+      "tap": "raw"
+    }
+  },
+  "seed": 202611109,
+  "N": 96,
+  "inputs": {
+    "00_prepare.py": "bb51d747055ee7023f0726be31ea56e21385b547a4437c73c8cb91d72d748031",
+    "01_worker.py": "9f07ef17dc0b0565c932798476d835c27264210aaf2b4792860313a78653dc81",
+    "02_arrows.json": "ad8cf1e4433e99e3cadd10f4c88f443f965fd623aebc33118ce2185b93b28e30"
+  },
+  "primary": "Paired clean correctness on both labels and label-directed margin for local vs. matched background swapping. Score both directions.",
+  "controlled": "Only arrow pixels inside the target box change. Each pair preserves image dimensions, exact RGB histogram, candidates, prompt, and background."
+}
