@@ -1,0 +1,37 @@
+{
+  "schema": "visual-jev-selected-interfaces-v1",
+  "interfaces": {
+    "llava": {
+      "path": "interfaces/llava.pt",
+      "sha256": "2025d3eacf01fd7a70bbc77361878dfd63bd225d8b22a2877fc9009efddd576c",
+      "bytes": 70914989,
+      "tap": "projected",
+      "receiver": "27b",
+      "format": "original training checkpoint (spec, bridge, optimizer, step)"
+    },
+    "internvl": {
+      "path": "interfaces/internvl.pt",
+      "sha256": "045f2b6f308dea7d3e66b082a85d029da52b07a5889826aa6589f287ff1c15f2",
+      "bytes": 251865005,
+      "tap": "raw",
+      "receiver": "27b",
+      "format": "original training checkpoint (spec, bridge, optimizer, step)"
+    },
+    "qwen": {
+      "path": "interfaces/qwen.pt",
+      "sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+      "bytes": 157456301,
+      "tap": "native",
+      "receiver": "27b",
+      "format": "original training checkpoint (spec, bridge, optimizer, step)"
+    },
+    "siglip2": {
+      "path": "interfaces/siglip2.pt",
+      "sha256": "beaecade641b9e504e34a24a8819d19c3c4f026ed0b66990daf59d0f31b41ba7",
+      "bytes": 65469629,
+      "tap": "raw",
+      "receiver": "27b",
+      "format": "original training checkpoint (spec, bridge, optimizer, step)"
+    }
+  }
+}

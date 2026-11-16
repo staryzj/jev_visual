@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "base_and_source_models_bytes": 89279025616,
+  "base_and_source_models_files_verified": 101,
+  "receiver_packages_bytes": 87820608,
+  "original_interfaces_verified": 4,
+  "total_locked_bytes": 89912552148,
+  "metadata_note": "One server .gitattributes file differed and was replaced locally with the pinned public metadata. All copied model tensors and inference configurations matched the lock."
+}

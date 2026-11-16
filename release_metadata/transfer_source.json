@@ -1,0 +1,64 @@
+{
+  "schema": "visual-jev-transfer-source-v1",
+  "note": "Computational functions retained from the recorded experiments; imports, model paths and devices are made portable.",
+  "files": [
+    {
+      "source_experiment": "visual-jev-unified-bridge-confirm-20261026",
+      "source_file": "u_geometry.py",
+      "source_sha256": "39bb0635e12e6dcc346878d0f31956a6aa963e9dfd66414e6e8c2f7ca36c60de",
+      "exported_file": "visualjev/transfer/geometry.py",
+      "exported_sha256": "6483924b411bf188de045416985aea1d09b4c6f9d634db1b720b143cfd58ec15"
+    },
+    {
+      "source_experiment": "visual-jev-unified-bridge-confirm-20261026",
+      "source_file": "u_connector.py",
+      "source_sha256": "a3c0cffcfdd2ba631ec5e170a9fc4857a4159237cc8add2558f8cb1fdbeef4de",
+      "exported_file": "visualjev/transfer/connector.py",
+      "exported_sha256": "beaf036f20a59708ad868822735530c87857b9271f0d3a1259cb58f16f9fa68a"
+    },
+    {
+      "source_experiment": "data",
+      "source_file": "source_geometry.json",
+      "source_sha256": "36b28a2d28d660e494234e6e952235bc5d9419e5bfa815af353c7d23c15904ba",
+      "exported_file": "visualjev/transfer/data/source_geometry.json",
+      "exported_sha256": "c20214273b29cbfa0537f32a695dcc35b552a54a1195a2e60e35b12955c11a0b"
+    },
+    {
+      "source_experiment": "execution-v2",
+      "source_file": "extract.py",
+      "source_sha256": "2c8ab1ff1505dbeda51436ce914474a77e1c1942b95ba8b06eccacaae00693ff",
+      "exported_file": "visualjev/transfer/extractor.py",
+      "exported_sha256": "ae5ed71477d29fe9a6f76858ec1f9c84c2e558bad0da46a7685732d09ab70d56"
+    },
+    {
+      "source_experiment": "visual-jev-tap-relational-ablation-20261025",
+      "source_file": "extract_taps.py",
+      "source_sha256": "e45e1fe7b5e1ab5c028074acca6e4afe18aeb5cca0e38b7ec7c7b593deb47799",
+      "exported_file": "visualjev/transfer/taps.py",
+      "exported_sha256": "91c1066574ebd6066cf68a897a7860479c28439257dcd2b932dbfe0afb4ef747"
+    },
+    {
+      "source_experiment": "visual-jev-unified-bridge-confirm-20261026",
+      "source_file": "u_encoder.py",
+      "source_sha256": "ca6a8bd8ca01da7ad0aa1e82d17b469ee1809201867251691bd272a8e52587d0",
+      "exported_file": "visualjev/transfer/encoders.py",
+      "exported_sha256": "2c4e5912045b1278ec62587baa47346379dc00546bc76528928ccd2617267be1"
+    },
+    {
+      "source_experiment": "visual-jev-processor-geometry-20261106",
+      "source_file": "compare_geometry.py",
+      "source_sha256": "143989d003ab5619e7488bc92d4bc56383cecbf85e509c5feac872cfbcf167d1",
+      "exported_file": "visualjev/transfer/mapping_controls.py",
+      "exported_sha256": "91c480b5fe3de35aad977f5b733ca36bab58e9a1f388bfbc9b30ace32d121db7",
+      "scope": "target_coordinates and maps unchanged; added fixed-weight selection wrapper"
+    },
+    {
+      "source_experiment": "visual-jev-unified-bridge-confirm-20261026",
+      "source_file": "u_training.py",
+      "source_sha256": "5610d4b55f176aecac3f76605b24a3dd939bc88ca22bdbdc26d3937c4a556efd",
+      "exported_file": "visualjev/transfer/training.py",
+      "exported_sha256": "354ad10563fa13a3a17cf5f9c4e76bc0e8f0d0ed970738e7781725892d3a5e8e",
+      "scope": "Same optimization primitives; relative imports and portable receiver interface"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "synthetic_smoke_test_not_benchmark": true,
+  "receiver": {
+    "live_lora_equal_released": true,
+    "live_head_equal_released": true,
+    "shared_language_object": true,
+    "max_sequence": 2048,
+    "resize_policy": {
+      "shortest_edge": 65536,
+      "longest_edge": 262144
+    },
+    "receiver_hidden_dim": 5120
+  },
+  "encoders": {
+    "llava": {
+      "source_exact_equal": true,
+      "bridge_exact_equal": true,
+      "source_shape": [
+        1458,
+        896
+      ],
+      "receiver_grid": [
+        1,
+        14,
+        22
+      ],
+      "scores": [
+        3.39469313621521,
+        -9.206275939941406
+      ],
+      "mapping_scores": {
+        "flat": [
+          0.6354457139968872,
+          -5.018285274505615
+        ],
+        "crop": [
+          3.403223991394043,
+          -9.373010635375977
+        ],
+        "coordinates": [
+          3.39469313621521,
+          -9.206275939941406
+        ]
+      }
+    },
+    "internvl": {
+      "source_exact_equal": true,
+      "bridge_exact_equal": true,
+      "source_shape": [
+        256,
+        4096
+      ],
+      "receiver_grid": [
+        1,
+        14,
+        22
+      ],
+      "scores": [
+        3.7265779972076416,
+        -9.971450805664062
+      ],
+      "mapping_scores": {
+        "flat": [
+          2.9084537029266357,
+          -8.291853904724121
+        ]
+      }
+    },
+    "qwen": {
+      "source_exact_equal": true,
+      "bridge_exact_equal": true,
+      "source_shape": [
+        77,
+        2560
+      ],
+      "receiver_grid": [
+        1,
+        14,
+        22
+      ],
+      "scores": [
+        3.452791690826416,
+        -9.075387954711914
+      ],
+      "mapping_scores": {
+        "flat": [
+          3.452791690826416,
+          -9.075387954711914
+        ]
+      }
+    },
+    "siglip2": {
+      "source_exact_equal": true,
+      "bridge_exact_equal": true,
+      "source_shape": [
+        196,
+        768
+      ],
+      "receiver_grid": [
+        1,
+        14,
+        22
+      ],
+      "scores": [
+        4.0060954093933105,
+        -10.255094528198242
+      ],
+      "mapping_scores": {
+        "flat": [
+          3.151181697845459,
+          -8.40894603729248
+        ]
+      }
+    }
+  },
+  "text_only_scores": [
+    -4.689716815948486,
+    0.39944562315940857
+  ],
+  "seconds": 53.18990186136216,
+  "cpu_tests": {
+    "passed": 7,
+    "failed": 0,
+    "includes_original_checkpoint_hashes": true
+  },
+  "cli_smoke": {
+    "text_only": "passed",
+    "external_qwen_image": "passed",
+    "scores_equal_direct_api": true
+  }
+}

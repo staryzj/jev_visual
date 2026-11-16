@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "visual-jev-research"
-version = "0.1.0.dev0"
+version = "0.2.0"
 description = "Visual-JEV adapter-only backbone transfer and candidate-choice experiments"
 requires-python = ">=3.10"
 license = "MIT"
@@ -15,11 +15,17 @@ dependencies = ["numpy>=1.26", "pillow>=12", "huggingface-hub>=0.34", "tqdm>=4.6
 train = ["torch>=2.8", "transformers==5.10.2", "peft==0.19.1", "accelerate==1.13.0", "datasets==5.0.0", "safetensors", "tqdm>=4.66"]
 vl = ["torch>=2.8", "torchvision>=0.23", "transformers==5.10.2", "accelerate==1.13.0", "pillow>=12", "qwen-vl-utils>=0.0.14", "modelscope>=1.40"]
 test = ["pytest>=8", "torch>=2.8", "datasets>=5.0"]
+transfer = ["torch>=2.8", "torchvision>=0.23", "transformers==5.10.2", "peft==0.19.1", "accelerate==1.13.0", "safetensors"]
 
 [project.scripts]
 visualjev-train = "scripts.training.train_visual_jev_v3:main"
 visualjev-evaluate = "scripts.evaluation.evaluate_submission_benchmarks:main"
 visualjev-prepare = "scripts.data.submission_benchmarks:main"
+visualjev-download = "visualjev.assets:main"
+visualjev-infer = "visualjev.transfer.infer:main"
 
 [tool.setuptools.packages.find]
 include = ["visualjev*", "scripts*", "jev*"]
+
+[tool.setuptools.package-data]
+"visualjev.transfer" = ["data/*.json"]

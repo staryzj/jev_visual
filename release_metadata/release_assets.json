@@ -1,0 +1,40 @@
+{
+  "tag": "visual-jev-v0.2.0",
+  "files": [
+    {
+      "name": "openjev27-package.zip",
+      "bytes": 57461709,
+      "sha256": "5bb11aee34100e7b1b7b3affd6bf700aad7ae339bc4b3dc9348f52cab0abacc3"
+    },
+    {
+      "name": "openjev9-package.zip",
+      "bytes": 22041438,
+      "sha256": "33802bffb1b01e756196876819bc0020a4c9c65641b370777d0ee49149833ecf"
+    },
+    {
+      "name": "internvl.pt",
+      "bytes": 251865005,
+      "sha256": "045f2b6f308dea7d3e66b082a85d029da52b07a5889826aa6589f287ff1c15f2"
+    },
+    {
+      "name": "llava.pt",
+      "bytes": 70914989,
+      "sha256": "2025d3eacf01fd7a70bbc77361878dfd63bd225d8b22a2877fc9009efddd576c"
+    },
+    {
+      "name": "qwen.pt",
+      "bytes": 157456301,
+      "sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e"
+    },
+    {
+      "name": "siglip2.pt",
+      "bytes": 65469629,
+      "sha256": "beaecade641b9e504e34a24a8819d19c3c4f026ed0b66990daf59d0f31b41ba7"
+    },
+    {
+      "name": "open-jev-source-bd411888.zip",
+      "bytes": 60939411,
+      "sha256": "5d4b818125ef01b9999ad9f7f6e7554cad720bccba92bb151c286af5fc279a2f"
+    }
+  ]
+}

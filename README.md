@@ -1,9 +1,38 @@
-# Visual-JEV: adapting visual backbones to one fixed JEV scorer
+# Visual-JEV: external vision for a frozen decision model
 
 A selected frozen visual backbone maps through its own trainable adapter into the **same frozen external JEV decision scorer**. Alternative backbones are replaceable choices, not parallel ensemble branches. This research project builds on [Open-Jev](https://github.com/Zefan-Cai/Open-Jev); it is not an official Jev release.
 
 
-## Current primary evidence: complete cross-backbone study
+## Frozen-receiver release
+
+The current runtime connects **LLaVA-OneVision 0.5B, InternVL3.5 1B,
+Qwen3-VL 4B or SigLIP2 Base/16-224** to the same frozen 27B receiver.
+It includes the four selected visual-interface checkpoints, their original
+hashes, and the experiment's feature taps and spatial mapping code.
+
+- [Setup and inference](docs/FROZEN_RECEIVER_RELEASE.md)
+- [Weights and model card](docs/MODEL_CARD_VISUAL_JEV.md)
+- [Download release](https://github.com/staryzj/jev_visual/releases/tag/visual-jev-v0.2.0)
+- [Pinned assets](release_metadata/visual_jev_assets.lock.json)
+
+```bash
+python -m pip install -e '.[transfer]'
+python -m visualjev.assets --destination /path/to/assets --assets base27 openjev27 qwen4 interfaces
+python -m visualjev.transfer.infer --assets /path/to/assets --encoder qwen \
+  --input examples/frozen_receiver/questions.jsonl --output /path/to/predictions.jsonl
+```
+
+The Open-Jev runtime source in `third_party/open_jev` is pinned to commit
+`bd4118882f733574a3250a4b65fe4d884130c08b`; the complete upstream source
+archive is included in the release.
+Visual-JEV's additions live in `visualjev/transfer`; the upstream snapshot
+keeps its original license. See [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Historical V3 cross-backbone study
+
+The October 8 study below uses an earlier compact, separately trained
+decision head. Its scores and cached timings describe that architecture;
+the frozen 27B release above uses different receiver weights and readout.
 
 The 2026-10-08 server study trained **27 adapters** (three backbones × three
 seeds × three arms) on all **94,244** declared training rows. Each adapter
