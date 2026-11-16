@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "image_case_comparisons": 20,
+  "text_only_comparisons": 1,
+  "records": [
+    {
+      "encoder": "llava",
+      "uid": "aokvqa:VTaZmd6DdBAihiinbqNMqk",
+      "dataset": "aokvqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "llava",
+      "uid": "scienceqa:356",
+      "dataset": "scienceqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "llava",
+      "uid": "iconqa:12664",
+      "dataset": "iconqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "llava",
+      "uid": "iconqa_choose_img:66098",
+      "dataset": "iconqa_choose_img",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "llava",
+      "uid": "ai2d:2740",
+      "dataset": "ai2d",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "internvl",
+      "uid": "aokvqa:VTaZmd6DdBAihiinbqNMqk",
+      "dataset": "aokvqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "internvl",
+      "uid": "scienceqa:356",
+      "dataset": "scienceqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "internvl",
+      "uid": "iconqa:12664",
+      "dataset": "iconqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "internvl",
+      "uid": "iconqa_choose_img:66098",
+      "dataset": "iconqa_choose_img",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "internvl",
+      "uid": "ai2d:2740",
+      "dataset": "ai2d",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "qwen",
+      "uid": "aokvqa:VTaZmd6DdBAihiinbqNMqk",
+      "dataset": "aokvqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "qwen",
+      "uid": "scienceqa:356",
+      "dataset": "scienceqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "qwen",
+      "uid": "iconqa:12664",
+      "dataset": "iconqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "qwen",
+      "uid": "iconqa_choose_img:66098",
+      "dataset": "iconqa_choose_img",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "qwen",
+      "uid": "ai2d:2740",
+      "dataset": "ai2d",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "siglip2",
+      "uid": "aokvqa:VTaZmd6DdBAihiinbqNMqk",
+      "dataset": "aokvqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "siglip2",
+      "uid": "scienceqa:356",
+      "dataset": "scienceqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "siglip2",
+      "uid": "iconqa:12664",
+      "dataset": "iconqa",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "siglip2",
+      "uid": "iconqa_choose_img:66098",
+      "dataset": "iconqa_choose_img",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    },
+    {
+      "encoder": "siglip2",
+      "uid": "ai2d:2740",
+      "dataset": "ai2d",
+      "prediction_matches": true,
+      "max_abs_logit_difference": 0.0
+    }
+  ],
+  "max_abs_logit_difference": 0.0,
+  "scope": "One image question per task and route plus one shared text-only question; full split accuracy separately verified from archived predictions."
+}

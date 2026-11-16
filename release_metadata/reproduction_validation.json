@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "population_N": 26325,
+  "image_question_N": 24101,
+  "all_image_pixels_verified": true,
+  "reference_routes_recomputed": 9,
+  "qwen_correct_N": 23008,
+  "qwen_overall_accuracy_pct": 87.39981006647673,
+  "release_runtime_packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1+cu130",
+    "transformers": "5.10.2",
+    "peft": "0.19.1",
+    "accelerate": "1.13.0",
+    "safetensors": "0.8.0",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0",
+    "datasets": "5.0.1",
+    "huggingface-hub": "1.33.0"
+  },
+  "python": "3.12.15",
+  "GPU": "NVIDIA H100 80GB",
+  "additional_unit_tests_passed": 4,
+  "official_iconqa_canvas_reconstruction": "pixel-exact sample",
+  "new_full_split_GPU_evaluation": false
+}

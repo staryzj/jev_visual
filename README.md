@@ -5,6 +5,11 @@ A selected frozen visual backbone maps through its own trainable adapter into th
 
 ## Frozen-receiver release
 
+To reproduce the paper's accuracy, follow the
+[paper reproduction guide](docs/REPRODUCE_PAPER.md). It provides the fixed
+26,325-question manifest, pinned dataset preparation, evaluation commands,
+original per-question predictions and experiment source archive.
+
 The current runtime connects **LLaVA-OneVision 0.5B, InternVL3.5 1B,
 Qwen3-VL 4B or SigLIP2 Base/16-224** to the same frozen 27B receiver.
 It includes the four selected visual-interface checkpoints, their original

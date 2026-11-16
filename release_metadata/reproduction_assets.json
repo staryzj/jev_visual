@@ -1,0 +1,18 @@
+{
+  "tag": "paper-reproduction-v0.3.0",
+  "url_prefix": "https://github.com/staryzj/jev_visual/releases/download/paper-reproduction-v0.3.0/",
+  "files": [
+    {
+      "name": "paper-experiment-source-records.tar.gz",
+      "bytes": 185239550,
+      "sha256": "fef23c8c26d54c7d5d29520d18b65eabc6375de3b22267a21596ec0366c74ebb",
+      "role": "source_archive"
+    },
+    {
+      "name": "paper-reproduction-data.zip",
+      "bytes": 35749127,
+      "sha256": "a6621d1250aae2822b6b1c3e25cccfb5b2cd6662a5988652543762d079379456",
+      "role": "benchmark"
+    }
+  ]
+}
