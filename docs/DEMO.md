@@ -91,3 +91,18 @@ candidate templates and BF16 math-attention settings are used for live requests.
 
 Model provenance and licenses are listed in
 [third-party notices](../THIRD_PARTY_NOTICES.md).
+
+## Live timing comparison (Qwen)
+
+The Qwen service also loads the original full Qwen3-VL 4B model on the same
+GPU. Each request runs Visual-JEV, native short-answer generation (64-token
+cap), and native explicit-rationale generation (1,024-token cap) sequentially.
+Both native prompts, generated text, token counts and cap status are exported.
+Two-token generation warm-ups run during startup. All routes use BF16 math
+SDPA and the same source pixel policy. Timing includes prompt preparation and
+model computation; upload, image decoding and model loading are excluded.
+The native model has 4B parameters; the JEV receiver has 27B. These are single
+request timings, not paper benchmark averages. Short answers may be faster
+than JEV; speedup is reported as measured, even when below 1. Other encoders
+currently display JEV results only. Extra memory is needed for the full 4B
+model; the combined Qwen runtime is tested on an 80 GB H100.

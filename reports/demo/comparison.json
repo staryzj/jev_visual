@@ -1,0 +1,59 @@
+{
+  "request_id": "f2151f4a-d034-4264-bd18-8befd8da482b",
+  "question": "Which side of the blue square is the red circle on?",
+  "candidates": [
+    "left",
+    "right"
+  ],
+  "prediction": 0,
+  "answer": "left",
+  "scores": [
+    3.452791690826416,
+    -9.075387954711914
+  ],
+  "probabilities": [
+    0.9999964237213135,
+    3.6230919704394182E-06
+  ],
+  "probabilities_calibrated": [
+    0.9929195046424866,
+    0.007080442737787962
+  ],
+  "temperature": 2.5343690298472983,
+  "encoder": "qwen",
+  "receiver": "Open-Jev 27B v1.1",
+  "mapping": "selected",
+  "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+  "generated_answer_tokens": 0,
+  "image_size": [
+    320,
+    192
+  ],
+  "timing_seconds": {
+    "visual_and_preparation": 0.18352955766022205,
+    "scoring": 0.5620451970025897,
+    "model_total": 0.7455747546628118
+  },
+  "fresh_inference": true,
+  "native_comparison": [
+    {
+      "route": "Short answer",
+      "seconds": 0.1067324485629797,
+      "generated_tokens": 2,
+      "token_cap": 64,
+      "reached_token_cap": false,
+      "output": "A",
+      "instruction": "Return only the letter of the correct option."
+    },
+    {
+      "route": "Explicit rationale",
+      "seconds": 2.8709019189700484,
+      "generated_tokens": 103,
+      "token_cap": 1024,
+      "reached_token_cap": false,
+      "output": "Step 1: Observe the image. There are two shapes on a white background: a red circle on the left and a blue square on the right.\n\nStep 2: Determine the relative positions. The red circle is positioned to the left of the blue square.\n\nStep 3: Answer the question: “Which side of the blue square is the red circle on?” Since the red circle is to the left of the blue square, it is on the left side of the blue square.\n\nAnswer: A",
+      "instruction": "Explain your reasoning step by step, then finish with Answer: followed by the option letter."
+    }
+  ],
+  "comparison_protocol": "Same image, question, candidates, source pixel policy, GPU, BF16 and math SDPA; sequential warmed inference; includes prompt preparation, excludes upload/decode/loading. Native Qwen3-VL 4B versus Visual-JEV frozen 27B. Different output instructions shown per route; demo measurements, not benchmark means."
+}

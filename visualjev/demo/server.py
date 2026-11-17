@@ -65,6 +65,7 @@ class Runtime:
         self.loading = True
         self.receiver = self.bridge = self.encoder = None
         self.load_seconds = None
+        self.native = None
 
     def load(self):
         try:
@@ -86,6 +87,13 @@ class Runtime:
             self.receiver = FrozenReceiver(self.assets / "base27", self.assets / "openjev27/package/checkpoint", self.device)
             self.bridge = from_checkpoint(checkpoint, self.device)
             self.encoder = ExternalEncoder(self.name, self.assets / ("qwen4" if self.name == "qwen" else self.name), self.device)
+            if self.name == "qwen":
+                from transformers import Qwen3VLForConditionalGeneration
+                self.native = Qwen3VLForConditionalGeneration.from_pretrained(
+                    str(self.assets / "qwen4"), local_files_only=True,
+                    dtype=torch.bfloat16, attn_implementation="sdpa").to(self.device).eval().requires_grad_(False)
+                from PIL import Image
+                self.native_answers(Image.new("RGB", (224, 224), "white"), "What color is this?", ["white", "black"], warmup=True)
             torch.cuda.synchronize(self.device)
             self.load_seconds = time.perf_counter() - start
             self.ready.set()
@@ -100,6 +108,37 @@ class Runtime:
         return {"ready": self.ready.is_set(), "loading": self.loading, "busy": self.lock.locked(),
                 "error": self.error, "encoder": self.name, "receiver": "Open-Jev 27B v1.1",
                 "load_seconds": self.load_seconds}
+
+    def native_answers(self, image, question, candidates, warmup=False):
+        if self.native is None:
+            return None
+        import torch
+        from torch.nn.attention import sdpa_kernel, SDPBackend
+        from visualjev.transfer.extractor import SIZE
+        processor = self.encoder.external.processor
+        options = "\n".join(f"{chr(65+i)}. {x}" for i, x in enumerate(candidates))
+        rows = []
+        for route, instruction, cap in [
+            ("Short answer", "Return only the letter of the correct option.", 64),
+            ("Explicit rationale", "Explain your reasoning step by step, then finish with Answer: followed by the option letter.", 1024)]:
+            torch.cuda.synchronize(self.device)
+            started = time.perf_counter()
+            messages = [{"role": "user", "content": [{"type": "image"},
+                {"type": "text", "text": question + "\n" + options + "\n" + instruction}]}]
+            text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+            batch = processor(text=[text], images=[image], size=SIZE, return_tensors="pt").to(self.device)
+            if batch["input_ids"].shape[1] > 2048:
+                raise ValueError("Native comparison prompt exceeds 2,048 tokens.")
+            with torch.inference_mode(), sdpa_kernel(SDPBackend.MATH):
+                output = self.native.generate(**batch, do_sample=False, max_new_tokens=2 if warmup else cap)
+            torch.cuda.synchronize(self.device)
+            elapsed = time.perf_counter() - started
+            tokens = output[0, batch["input_ids"].shape[1]:]
+            rows.append(dict(route=route, seconds=elapsed, generated_tokens=len(tokens),
+                token_cap=2 if warmup else cap, reached_token_cap=len(tokens)>=(2 if warmup else cap),
+                output=processor.decode(tokens, skip_special_tokens=True),
+                instruction=instruction))
+        return rows
 
     def predict(self, payload):
         image, question, candidates = validate(payload)
@@ -125,6 +164,7 @@ class Runtime:
                 finished = time.perf_counter()
                 self.receiver.unchanged()
             choice = int(scores.argmax())
+            native = self.native_answers(image, question, candidates)
             return {"request_id": str(uuid.uuid4()), "question": question, "candidates": candidates,
                     "prediction": choice, "answer": candidates[choice], "scores": scores.tolist(),
                     "probabilities": scores.softmax(-1).tolist(),
@@ -134,7 +174,8 @@ class Runtime:
                     "interface_sha256": self.entry["sha256"], "generated_answer_tokens": 0,
                     "image_size": list(image.size), "timing_seconds": {
                         "visual_and_preparation": visual_done - started, "scoring": finished - visual_done,
-                        "model_total": finished - started}, "fresh_inference": True}
+                        "model_total": finished - started}, "fresh_inference": True, "native_comparison": native,
+                        "comparison_protocol": "Same image, question, candidates, source pixel policy, GPU, BF16 and math SDPA; sequential warmed inference; includes prompt preparation, excludes upload/decode/loading. Native Qwen3-VL 4B versus Visual-JEV frozen 27B. Different output instructions shown per route; demo measurements, not benchmark means."}
         finally:
             self.lock.release()
 
