@@ -106,3 +106,7 @@ request timings, not paper benchmark averages. Short answers may be faster
 than JEV; speedup is reported as measured, even when below 1. Other encoders
 currently display JEV results only. Extra memory is needed for the full 4B
 model; the combined Qwen runtime is tested on an 80 GB H100.
+
+The comparison shows the option selected by each route. Native answers are parsed from the final Answer: letter, or a direct short-answer letter; ambiguous outputs are marked and retained in Details. GPU-server network transfer adds to browser waiting time, while reported inference times exclude network latency. All three routes run sequentially, so page waiting time includes their combined execution.
+
+![Live inference comparison](assets/demo.jpg)

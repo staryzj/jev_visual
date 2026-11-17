@@ -5,6 +5,9 @@ A selected frozen visual backbone maps through its own trainable adapter into th
 
 ## Interactive demo
 
+![Live demo](docs/assets/demo.jpg)
+
+
 Upload an image, enter a question and add your own answer options. The browser
 shows the selected answer and candidate probabilities from live model inference.
 
