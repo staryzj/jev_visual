@@ -5,7 +5,7 @@ A selected frozen visual backbone maps through its own trainable adapter into th
 
 ## Interactive demo
 
-![Live demo](docs/assets/demo.jpg)
+![Live demo](docs/assets/demo1.png)
 
 
 Upload an image, enter a question and add your own answer options. The browser
