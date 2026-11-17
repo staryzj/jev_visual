@@ -110,3 +110,5 @@ model; the combined Qwen runtime is tested on an 80 GB H100.
 The comparison shows the option selected by each route. Native answers are parsed from the final Answer: letter, or a direct short-answer letter; ambiguous outputs are marked and retained in Details. GPU-server network transfer adds to browser waiting time, while reported inference times exclude network latency. All three routes run sequentially, so page waiting time includes their combined execution.
 
 ![Live inference comparison](assets/demo.jpg)
+
+The four buttons above the form run ready-to-use position, color, counting and shape questions on the included scene. Clicking a button fills the image, question and options and starts fresh inference automatically. The custom input form remains editable. Original model result refers to native generation with explicit reasoning; the short-answer route is shown separately.
