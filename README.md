@@ -3,6 +3,22 @@
 A selected frozen visual backbone maps through its own trainable adapter into the **same frozen external JEV decision scorer**. Alternative backbones are replaceable choices, not parallel ensemble branches. This research project builds on [Open-Jev](https://github.com/Zefan-Cai/Open-Jev); it is not an official Jev release.
 
 
+## Interactive demo
+
+Upload an image, enter a question and add your own answer options. The browser
+shows the selected answer and candidate probabilities from live model inference.
+
+```bash
+python -m pip install -e '.[transfer]'
+python -m visualjev.assets --destination ./assets --assets base27 openjev27 qwen4 interfaces
+python -m visualjev.demo --assets ./assets --encoder qwen
+```
+
+Open **http://127.0.0.1:7860** and wait for **Model ready**.
+The GPU runtime was verified on one 80 GB H100; the browser needs no GPU.
+See [demo setup and testing](docs/DEMO.md) for remote access, other encoders
+and hardware requirements.
+
 ## Frozen-receiver release
 
 To reproduce the paper's accuracy, follow the

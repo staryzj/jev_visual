@@ -19,6 +19,7 @@ transfer = ["torch>=2.8", "torchvision>=0.23", "transformers==5.10.2", "peft==0.
 reproduce = ["torch==2.14.1", "torchvision==0.29.1", "datasets==5.0.1", "pillow==12.3.0", "numpy==2.5.3", "safetensors==0.8.0", "huggingface-hub==1.33.0"]
 
 [project.scripts]
+visualjev-demo = "visualjev.demo.server:main"
 visualjev-train = "scripts.training.train_visual_jev_v3:main"
 visualjev-evaluate = "scripts.evaluation.evaluate_submission_benchmarks:main"
 visualjev-prepare = "scripts.data.submission_benchmarks:main"
@@ -31,3 +32,5 @@ include = ["visualjev*", "scripts*", "jev*"]
 
 [tool.setuptools.package-data]
 "visualjev.transfer" = ["data/*.json"]
+
+"visualjev.demo" = ["web/*.html", "examples/*.png"]

@@ -33,3 +33,4 @@ dist/
 *.mp4
 *.zip
 .DS_Store
+!visualjev/demo/examples/scene.png

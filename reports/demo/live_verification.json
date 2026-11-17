@@ -1,0 +1,325 @@
+{
+  "status": "passed",
+  "backend": "real BF16 Qwen visual interface + frozen 27B receiver",
+  "paper_or_cli_score_matches": 6,
+  "records": [
+    {
+      "case": "included scene",
+      "scores_match_archive": true,
+      "result": {
+        "request_id": "f1ecd35d-6649-4466-ba46-40e1f42ebcf2",
+        "question": "Which side of the blue square is the red circle on?",
+        "candidates": [
+          "left",
+          "right"
+        ],
+        "prediction": 0,
+        "answer": "left",
+        "scores": [
+          3.452791690826416,
+          -9.075387954711914
+        ],
+        "probabilities": [
+          0.9999964237213135,
+          3.6230919704394182e-06
+        ],
+        "probabilities_calibrated": [
+          0.9929195046424866,
+          0.007080442737787962
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          320,
+          192
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.11299760825932026,
+          "scoring": 0.7062762882560492,
+          "model_total": 0.8192738965153694
+        },
+        "fresh_inference": true
+      }
+    },
+    {
+      "case": "aokvqa:VTaZmd6DdBAihiinbqNMqk",
+      "dataset": "aokvqa",
+      "scores_match_archive": true,
+      "result": {
+        "request_id": "60335942-b970-4356-a53a-ec909c1d930e",
+        "question": "How many green plants are on the right side of the room?",
+        "candidates": [
+          "three",
+          "five",
+          "ten",
+          "two"
+        ],
+        "prediction": 0,
+        "answer": "three",
+        "scores": [
+          0.22111447155475616,
+          -1.764224648475647,
+          -5.50478982925415,
+          -0.31689274311065674
+        ],
+        "probabilities": [
+          0.5798765420913696,
+          0.07963678240776062,
+          0.0018906311597675085,
+          0.3385961055755615
+        ],
+        "probabilities_calibrated": [
+          0.4219367504119873,
+          0.19276833534240723,
+          0.04406005144119263,
+          0.34123483300209045
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          500,
+          375
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.12893332354724407,
+          "scoring": 1.2961466265842319,
+          "model_total": 1.425079950131476
+        },
+        "fresh_inference": true
+      }
+    },
+    {
+      "case": "scienceqa:356",
+      "dataset": "scienceqa",
+      "scores_match_archive": true,
+      "result": {
+        "request_id": "1c531055-2752-4246-8d88-15acb673cf62",
+        "question": "Which property do these two objects have in common?\nContext: Select the better answer.",
+        "candidates": [
+          "sour",
+          "stretchy"
+        ],
+        "prediction": 0,
+        "answer": "sour",
+        "scores": [
+          -1.3191710710525513,
+          -8.189400672912598
+        ],
+        "probabilities": [
+          0.9989628791809082,
+          0.00103716179728508
+        ],
+        "probabilities_calibrated": [
+          0.9376623630523682,
+          0.062337640672922134
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          364,
+          208
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.11156416870653629,
+          "scoring": 0.5517795728519559,
+          "model_total": 0.6633437415584922
+        },
+        "fresh_inference": true
+      }
+    },
+    {
+      "case": "iconqa:12664",
+      "dataset": "iconqa",
+      "scores_match_archive": true,
+      "result": {
+        "request_id": "371d55f6-2340-4d09-b1bc-34a0c3e65fb5",
+        "question": "Are there enough leaves for every snail?",
+        "candidates": [
+          "no",
+          "yes"
+        ],
+        "prediction": 1,
+        "answer": "yes",
+        "scores": [
+          -5.2950825691223145,
+          4.543631076812744
+        ],
+        "probabilities": [
+          5.3343046602094546e-05,
+          0.9999467134475708
+        ],
+        "probabilities_calibrated": [
+          0.020191099494695663,
+          0.9798088669776917
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          214,
+          226
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.1024251226335764,
+          "scoring": 0.5613933522254229,
+          "model_total": 0.6638184748589993
+        },
+        "fresh_inference": true
+      }
+    },
+    {
+      "case": "iconqa_choose_img:66098",
+      "dataset": "iconqa_choose_img",
+      "scores_match_archive": true,
+      "result": {
+        "request_id": "2381140d-8186-4aad-80f0-9af43a106941",
+        "question": "Which shape is a rhombus?\nThe question diagram is above. All image options are below, numbered left-to-right from 0. Answer with the zero-based option index.",
+        "candidates": [
+          "0",
+          "1"
+        ],
+        "prediction": 1,
+        "answer": "1",
+        "scores": [
+          -7.959712028503418,
+          2.4206621646881104
+        ],
+        "probabilities": [
+          3.103469134657644e-05,
+          0.9999690055847168
+        ],
+        "probabilities_calibrated": [
+          0.01636931672692299,
+          0.9836306571960449
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          354,
+          372
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.11242016311734915,
+          "scoring": 0.7018044050782919,
+          "model_total": 0.814224568195641
+        },
+        "fresh_inference": true
+      }
+    },
+    {
+      "case": "ai2d:2740",
+      "dataset": "ai2d",
+      "scores_match_archive": true,
+      "result": {
+        "request_id": "a13098a7-00a3-4454-9c01-e1dae44bbfca",
+        "question": "Which letter shows the adult stage of the dung beetles life cycle?",
+        "candidates": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "prediction": 3,
+        "answer": "D",
+        "scores": [
+          -5.0501017570495605,
+          -5.5519280433654785,
+          -3.6020748615264893,
+          1.118338704109192
+        ],
+        "probabilities": [
+          0.0020691039972007275,
+          0.0012526852078735828,
+          0.00880343746393919,
+          0.9878748059272766
+        ],
+        "probabilities_calibrated": [
+          0.06669122725725174,
+          0.05471101030707359,
+          0.11808789521455765,
+          0.7605098485946655
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          545,
+          547
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.10623153951019049,
+          "scoring": 1.1899875784292817,
+          "model_total": 1.2962191179394722
+        },
+        "fresh_inference": true
+      }
+    },
+    {
+      "case": "new custom question / 3 options",
+      "result": {
+        "request_id": "63ee13f5-6417-4190-92b7-6209e4b6b5c7",
+        "question": "What is the color of the circle?",
+        "candidates": [
+          "red",
+          "blue",
+          "green"
+        ],
+        "prediction": 0,
+        "answer": "red",
+        "scores": [
+          3.904148578643799,
+          -9.529560089111328,
+          -10.670722961425781
+        ],
+        "probabilities": [
+          0.9999980926513672,
+          1.4649197055405239e-06,
+          4.6796472474852635e-07
+        ],
+        "probabilities_calibrated": [
+          0.991897702217102,
+          0.004948116838932037,
+          0.0031541911885142326
+        ],
+        "temperature": 2.5343690298472983,
+        "encoder": "qwen",
+        "receiver": "Open-Jev 27B v1.1",
+        "mapping": "selected",
+        "interface_sha256": "07e8f896d3e8ab296eda69ec05083648076bcb72f3ad0faee9b5fc83d5e9ba8e",
+        "generated_answer_tokens": 0,
+        "image_size": [
+          320,
+          192
+        ],
+        "timing_seconds": {
+          "visual_and_preparation": 0.05115230102092028,
+          "scoring": 0.7978181773796678,
+          "model_total": 0.848970478400588
+        },
+        "fresh_inference": true
+      }
+    }
+  ]
+}
