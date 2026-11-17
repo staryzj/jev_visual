@@ -1,0 +1,32 @@
+[
+  {
+    "uid": "aokvqa:VTaZmd6DdBAihiinbqNMqk",
+    "dataset": "aokvqa",
+    "label": 3,
+    "image_sha256": "a670691b4386110df6381f0aaba32cdb20a9dc2da44c996d54ec59f030d79e32"
+  },
+  {
+    "uid": "scienceqa:356",
+    "dataset": "scienceqa",
+    "label": 0,
+    "image_sha256": "d188f25401bf0280267578bdb8154b6667f4934f2a000a7f9595b143d6b980e0"
+  },
+  {
+    "uid": "iconqa:12664",
+    "dataset": "iconqa",
+    "label": 1,
+    "image_sha256": "203ee5af443bf27351b3934bb6687bc8445b9a4751a0618c8d561d7050a3f618"
+  },
+  {
+    "uid": "iconqa_choose_img:66098",
+    "dataset": "iconqa_choose_img",
+    "label": 1,
+    "image_sha256": "7f2d2177d21ce8afb093dd2f7104ffb4632974056af0e21d70eb6e0430a5da27"
+  },
+  {
+    "uid": "ai2d:2740",
+    "dataset": "ai2d",
+    "label": 3,
+    "image_sha256": "97e7f9e37c9eaf418c4fc58954983b3494b35a88df9b4bd632ed65b405ce848e"
+  }
+]
